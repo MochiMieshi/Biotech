@@ -1,0 +1,13 @@
+name = "Medieval Buildings [Nether Edition]"
+filename = "medieval_buildings_nether_edition-1.20.1-1.0.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65491261a931606fe19679f736754095e962f5da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7435305
+project-id = 1278431

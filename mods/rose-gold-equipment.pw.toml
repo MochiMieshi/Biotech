@@ -1,0 +1,13 @@
+name = "Rose Gold Equipment"
+filename = "rose-gold-equipment-1.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a31b191c9aae20927be76f17dc3010b5aec4d22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7426337
+project-id = 866610

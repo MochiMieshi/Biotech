@@ -1,0 +1,13 @@
+name = "Serene Shrubbery Refabricated"
+filename = "serene_shrubbery-fabric-1.0.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a87c4d71719b21de515b592f570f9b8e77c0ec3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7646746
+project-id = 1446593

@@ -1,0 +1,13 @@
+name = "Diggus Maximus"
+filename = "diggusmaximus-1.5.9-1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b36c55155d6320287007491818a23bd1c23b2b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597689
+project-id = 341888

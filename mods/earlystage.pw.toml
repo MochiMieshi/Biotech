@@ -1,0 +1,13 @@
+name = "EarlyStage"
+filename = "earlystage-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e90b70de411c9183cac94e99a26b07a5b168f361"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4919561
+project-id = 736803

@@ -1,0 +1,13 @@
+name = "Advancement... No More !!!"
+filename = "anm-fabric-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "509d978aac9a1e0c847ac12b95752e50fe3cc876"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6071531
+project-id = 959354

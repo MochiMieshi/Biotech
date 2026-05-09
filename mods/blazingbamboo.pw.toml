@@ -1,0 +1,13 @@
+name = "Blazing Bamboo"
+filename = "BlazingBamboo-Fabric-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aabf844576d031ad6142607e715b3f537aa6a963"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5394539
+project-id = 1030015

@@ -1,0 +1,13 @@
+name = "Backported Spears"
+filename = "spear-backport-fabric-1.4.6-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f1078a8c15e16ea5cc819e3d51076376caad69d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7695351
+project-id = 1385191

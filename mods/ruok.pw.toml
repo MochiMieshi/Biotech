@@ -1,0 +1,13 @@
+name = "RuOK"
+filename = "ruok-fabric_1.20.1_Pre-Release_6-1.7.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3159e622bed41f0ee80b00bedf40f88c1efbb6e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7637299
+project-id = 910904

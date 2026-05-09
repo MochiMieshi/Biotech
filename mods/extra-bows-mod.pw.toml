@@ -1,0 +1,13 @@
+name = "Extra Bows: Restrung"
+filename = "extra-bows-fabric-1.1.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "894d5e9e21b948c2c327d72b82aaa05816e06f98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7289927
+project-id = 1378994

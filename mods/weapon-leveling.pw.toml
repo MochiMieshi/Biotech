@@ -1,0 +1,13 @@
+name = "Lukas' Weapon Leveling"
+filename = "weaponleveling-1.20.1-2.2.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a759cf1206a14cac53c6a162bbb6bb7c0808b4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5473702
+project-id = 644704

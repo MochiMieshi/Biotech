@@ -1,0 +1,13 @@
+name = "Low Fire Reborn"
+filename = "low-fire-reborn-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f16f1d31fba577397d5efd69201e9cc9cac48340"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5924493
+project-id = 1144421

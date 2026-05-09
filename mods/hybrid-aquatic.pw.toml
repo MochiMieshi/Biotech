@@ -1,0 +1,13 @@
+name = "Hybrid Aquatic"
+filename = "[1.20.1-Fabric] Hybrid Aquatic 1.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5449e902be5d4faf4d94371a398720c9e6cb4224"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7374788
+project-id = 834427

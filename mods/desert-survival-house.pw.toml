@@ -1,0 +1,13 @@
+name = "Desert Survival House"
+filename = "desert_survival_house-1.3.0 fabric 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0be9b6ba3e90dc654b2437dba90b9c47eaf8a4be"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6497272
+project-id = 1055344

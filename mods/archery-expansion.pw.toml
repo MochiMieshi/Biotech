@@ -1,0 +1,13 @@
+name = "Archery Expansion"
+filename = "ArcheryExpansion-fabric-1.20.1-1.0.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0610c27f69762c42bedff6dd2fb71041182f7251"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7170996
+project-id = 1164945

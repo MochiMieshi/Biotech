@@ -1,0 +1,13 @@
+name = "Silk (unofficial)"
+filename = "silk-all-1.10.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db808d34e1a41e0216c3df6b612a4f6c604757a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6364929
+project-id = 1231567

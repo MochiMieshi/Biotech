@@ -1,0 +1,13 @@
+name = "Critters and Companions"
+filename = "crittersandcompanions-fabric-1.20.1-2.3.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57214ad9519ff18de2eb9755b640def48216a302"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7147524
+project-id = 574913

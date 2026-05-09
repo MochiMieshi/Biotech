@@ -1,0 +1,13 @@
+name = "LazyAI"
+filename = "lazy-ai-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4dfa1a799c58e5a99c70d4625b742c5847d8822b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7752538
+project-id = 1359683

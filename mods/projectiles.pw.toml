@@ -1,0 +1,13 @@
+name = "Projectiles"
+filename = "Projectiles-1.0.0-1.20.1-Multi.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "709b6ebba3d7ab12cc86a98f3817df28e5c8732f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5148300
+project-id = 917416
