@@ -1,0 +1,8 @@
+/logs
+/crash-reports
+/saves
+/screenshots
+/.fabric
+/.mixin.out
+/run
+/mods/*.pw.toml
