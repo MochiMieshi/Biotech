@@ -1,0 +1,37 @@
+filename = 'fireworkfrenzy-1.15.0.jar'
+name = 'Firework Frenzy'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.15.0+Fabric'
+
+[download]
+hash = '1dc1ff72fa5acc40f4f62412411b4e2f1201e3a0204572f70677bbf51dc50038f8afda21cb9a0162fbf4698f9961d3dab10510eb7e00f42405a4e622d8f9637e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BMFTOutp/versions/6KiUZrIT/fireworkfrenzy-1.15.0.jar'
+
+[update.modrinth]
+mod-id = 'BMFTOutp'
+version = '6KiUZrIT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'M1953qlQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'K01OU20C'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nf68xfAw'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OSQ8mw2r'
+type = 'OPTIONAL'

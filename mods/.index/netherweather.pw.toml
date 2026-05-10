@@ -1,0 +1,18 @@
+filename = 'netherweather-1.1.2_backport.jar'
+name = 'Nether Weather'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2_backport+mod'
+
+[download]
+hash = '7d9cafb2357bce98833c03a4d9fabfa33ab6b7075be4dbd211c2070e0ed17d5ce30f00784ecb4296b2bda5001f967b10a27acb80363f3f7f70a9b2a32dd53231'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XrxtjryC/versions/TVWCIOa0/netherweather-1.1.2_backport.jar'
+
+[update.modrinth]
+mod-id = 'XrxtjryC'
+version = 'TVWCIOa0'

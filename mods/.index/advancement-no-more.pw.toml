@@ -1,0 +1,18 @@
+filename = 'anm-fabric-2.0.0.jar'
+name = 'Advancement... No More !!!'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = '40183fcaab1ca579967e08808f281b20113f7888f15ec95d207587c8b26ccfe6c7563a5d70fa93495423ec1afb78ac6dd81322e3005f31ceca43de823e803e08'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mQCROijy/versions/DvQc9esG/anm-fabric-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'mQCROijy'
+version = 'DvQc9esG'

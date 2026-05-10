@@ -1,0 +1,33 @@
+filename = 'wakes-0.4.0+1.20.1.jar'
+name = 'Wakes'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4.0+1.20.1'
+
+[download]
+hash = '650618eaec6d09c0b433023a95999ec07e899e2c56e141f67a14a811d54acbd49b92f5460cab5142250a4ad1048aef8508384b4e241948e6cf24e7c4143db7a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dlNu0RQY/versions/hUOdfRBT/wakes-0.4.0%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'dlNu0RQY'
+version = 'hUOdfRBT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRbqPLg4'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'

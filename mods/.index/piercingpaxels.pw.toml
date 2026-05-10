@@ -1,0 +1,25 @@
+filename = 'piercingpaxels-1.0.12.jar'
+name = 'Piercing Paxels ⚒️'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.12'
+
+[download]
+hash = '5647fd3a6820e636a68ba60d8ba9f29b3fe59b50248b5f74a6bdf378fd2598b1191e5a32fa22d92bbacf4bbe96689b3cf43c24dfbb855c902feb9519a5dedc3e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gHkzYDn7/versions/Pw1MWIuM/piercingpaxels-1.0.12.jar'
+
+[update.modrinth]
+mod-id = 'gHkzYDn7'
+version = 'Pw1MWIuM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

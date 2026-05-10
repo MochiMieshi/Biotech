@@ -1,5 +1,5 @@
 {
-  "configVersion": 2,
+  "configVersion": 3,
   "pollRate": 60,
   "chatSettings": {
     "enabled": true,

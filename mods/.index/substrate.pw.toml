@@ -1,0 +1,25 @@
+filename = 'substrate-4.0-hf.jar'
+name = 'Substrate'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0-hf'
+
+[download]
+hash = 'de8c273cea0c43b8466a4d95c3ecde335fef8d96bb7f5a8e3dbc177796156d7f3079b96039f02d019c56b5eb0ece45cbb34bf3c5c77f8ff4d133e8741cf86151'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zNuzb72d/versions/VXMsR7Xy/substrate-4.0-hf.jar'
+
+[update.modrinth]
+mod-id = 'zNuzb72d'
+version = 'VXMsR7Xy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'

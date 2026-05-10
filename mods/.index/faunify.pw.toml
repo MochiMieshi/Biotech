@@ -1,0 +1,18 @@
+filename = 'faunify-fabric-1.20.1-1.3.1.jar'
+name = 'Faunify'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.1'
+
+[download]
+hash = 'f65f114f1df5dd2c6d0208ba15c8155b2b124aab8c5760492dc7975ab4dced708449f1352d0f78244a4acbb13aca38ea91dae6d8ee2863938369cec58c977bce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lqLPTalI/versions/eOKwDHqJ/faunify-fabric-1.20.1-1.3.1.jar'
+
+[update.modrinth]
+mod-id = 'lqLPTalI'
+version = 'eOKwDHqJ'

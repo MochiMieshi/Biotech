@@ -1,0 +1,21 @@
+filename = 'gardens-of-the-dead-fabric-4.0.3.jar'
+name = 'Gardens of the Dead'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.3'
+
+[download]
+hash = '1ff957abbd6813e4559316865ec2a8f1183c0230a142a970a016a1d3b5958f185a9251df390a6256c3af65598c369a68ea13fbf6026d32baebe03df6a2a4dac3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lg1TPRFm/versions/aRehdLNh/gardens-of-the-dead-fabric-4.0.3.jar'
+
+[update.modrinth]
+mod-id = 'lg1TPRFm'
+version = 'aRehdLNh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

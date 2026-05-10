@@ -1,0 +1,21 @@
+filename = 'ExpOre-1.20.1-0.2.jar'
+name = 'Exp Ore'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-0.2'
+
+[download]
+hash = '6f1ac9e2f0fad4bf3af3833be7f3ff5307fdba6ccd3f94e2a11e446201ed2b7733d337e1aaeb429dc5b653c6dcdc98642c5bc54abc79a7b807dbb64c0dda4296'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1HwCh5vX/versions/AjGqxhm2/ExpOre-1.20.1-0.2.jar'
+
+[update.modrinth]
+mod-id = '1HwCh5vX'
+version = 'AjGqxhm2'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

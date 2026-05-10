@@ -1,0 +1,21 @@
+filename = 'Boids-2.0.3+1.20.1.jar'
+name = 'Boids'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.3+1.20.1'
+
+[download]
+hash = '00face5473d2986588401715d4cd48ab7d62eecd1050a0d08d6338bfeaf35239c2164f2a04591f65cf56c38138431151222543e87ba2fe90430c1331e19774aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2OckSy74/versions/MewtMK1Z/Boids-2.0.3%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '2OckSy74'
+version = 'MewtMK1Z'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

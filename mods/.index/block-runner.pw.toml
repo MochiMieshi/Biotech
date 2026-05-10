@@ -1,0 +1,29 @@
+filename = 'BlockRunner-v8.0.4-1.20.1-Fabric.jar'
+name = 'Block Runner'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v8.0.4-1.20.1-Fabric'
+
+[download]
+hash = 'e15276c0bbf2a76bccd9fcd36d61102d3ea4c05450522a94610b4c0dc56c9605e92b3edeb51daf39d935cfa2da974b9eb2e88a3068a919767b6db86f0ec35ff7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1VSGxqkt/versions/Bs0gyy0J/BlockRunner-v8.0.4-1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = '1VSGxqkt'
+version = 'Bs0gyy0J'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'

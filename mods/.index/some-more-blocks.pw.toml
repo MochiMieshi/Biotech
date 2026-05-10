@@ -1,0 +1,21 @@
+filename = 'SomeMoreBlocks@fabric-1.20.1-1.0.7-bp.jar'
+name = 'Some More Blocks'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7-bp'
+
+[download]
+hash = '164a55a7af02880cf8bd7a7095de47499b51074a7ed822fab9517d7ec52d481ddd5049c7bc537a37cd569bd03d6289685eced9ab6362ff693267dd732625eb83'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/R1LxuhQe/versions/dUBsZPUA/SomeMoreBlocks%40fabric-1.20.1-1.0.7-bp.jar'
+
+[update.modrinth]
+mod-id = 'R1LxuhQe'
+version = 'dUBsZPUA'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

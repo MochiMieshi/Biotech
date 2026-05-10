@@ -1,0 +1,25 @@
+filename = 'cullleaves-fabric-4.1.1+1.20.1.jar'
+name = 'Cull Leaves'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.1.1+1.20.1-fabric'
+
+[download]
+hash = 'df0375099ab14fbfa2805f0f791728532ae31c21e7cc2d0037e94edddedf6abd8733060a7649eeda5875e7c947d22fd3acfacb63f6398d0ca7f75e57c98bd20a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GNxdLCoP/versions/jpXb8qLT/cullleaves-fabric-4.1.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'GNxdLCoP'
+version = 'jpXb8qLT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'codAaoxh'
+type = 'REQUIRED'

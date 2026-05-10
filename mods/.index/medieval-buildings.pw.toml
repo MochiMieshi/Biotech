@@ -1,0 +1,18 @@
+filename = 'medieval_buildings-1.20.1-1.1.3-fabric.jar'
+name = 'Medieval Buildings'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3'
+
+[download]
+hash = '7bb21360d1731c707ccc2690d79a8f0a0c7a18881afb6f872af32c5fe7404490e83fc6f3704416ca19ccd177bfb0e237fe50a42833cf2cbc8850d22b15140e8c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sc9lpPiU/versions/1odRAYDt/medieval_buildings-1.20.1-1.1.3-fabric.jar'
+
+[update.modrinth]
+mod-id = 'sc9lpPiU'
+version = '1odRAYDt'

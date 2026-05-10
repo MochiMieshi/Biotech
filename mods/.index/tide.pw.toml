@@ -1,0 +1,21 @@
+filename = 'tide-fabric-1.20.1-2.0.3.jar'
+name = 'Tide 2'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.3'
+
+[download]
+hash = '945f3f4a733362a5764f04f3ee4637224b0ff01d1ba8ee4fc2217777e23d14c69711982b6b1d6d1cb5c89664a10009899ea49417f08f046d9b54797190c281fa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/die1AF7i/versions/ligoZk7e/tide-fabric-1.20.1-2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'die1AF7i'
+version = 'ligoZk7e'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'styled-boss-bar-api-fabric-1.20.1-0.0.4.jar'
+name = 'Styled Boss Bar API'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.4'
+
+[download]
+hash = '370accaad1a1a75105a09c9abf48c9d2e378a74e24a2b70c7261996127feb35ed10cccfa25db8452b936921b71a71db13b7c141ebd63ea837761c3702be2305e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/n7njNCK4/versions/uGCQbnep/styled-boss-bar-api-fabric-1.20.1-0.0.4.jar'
+
+[update.modrinth]
+mod-id = 'n7njNCK4'
+version = 'uGCQbnep'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

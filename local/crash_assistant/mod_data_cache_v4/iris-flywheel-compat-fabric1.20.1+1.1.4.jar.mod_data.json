@@ -1,0 +1,1 @@
+{"jarName":"iris-flywheel-compat-fabric1.20.1+1.1.4.jar","modId":"irisflw","name":"Iris Flywheel Compat","version":"1.1.4","mixinConfigs":["irisflw.mixins.flw.json","irisflw.mixins.iris.json","irisflw.mixins.fabric.json"],"jarJarMods":[],"curseForgeHash":2800379481,"modrinthHash":"3a6a2d277ef215bf6f0b1a81eb2ffce7553d96ce"}

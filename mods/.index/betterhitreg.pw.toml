@@ -1,0 +1,18 @@
+filename = 'BetterHitreg-1.0.5+1.20.1.jar'
+name = 'Better Hitreg'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.5+1.20.1'
+
+[download]
+hash = 'a4c9a1934498eeb25947f091ebe5ee8597af6c83b44cefc18d4a256b9a81f55bc1d4e35ee952dd731e3aa0006900d143116aff1a7f4ec0aa65828bf14fba47d1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MIKwzoiY/versions/OpIctNCK/BetterHitreg-1.0.5%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'MIKwzoiY'
+version = 'OpIctNCK'

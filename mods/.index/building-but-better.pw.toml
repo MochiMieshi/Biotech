@@ -1,0 +1,21 @@
+filename = 'bbb-fabric-2.0pre4.jar'
+name = 'Building But Better'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0pre4'
+
+[download]
+hash = 'afbfec044d5fd70562580e59e7c4e91805df8bdde8fae5905776894d653418a2365010963c01a294a28b7377121d2479e721a42e35085c9ad913999fd49c5307'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OSDpLd82/versions/Of3JR2lP/bbb-fabric-2.0pre4.jar'
+
+[update.modrinth]
+mod-id = 'OSDpLd82'
+version = 'Of3JR2lP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

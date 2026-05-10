@@ -1,0 +1,41 @@
+filename = '3d-armor-0.9.3-mod.jar'
+name = '3D Armor'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.9.3'
+
+[download]
+hash = '29e75b84fcc1ef136e44410e7afbeb99fe93f0a679479423362ea3e83e2aa9e62b7c9b5564bb94cc189b3565abece655af329779122415f681d6ce90dd0b7193'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XhxKIfGG/versions/rHnte31A/3d-armor-0.9.3-mod.jar'
+
+[update.modrinth]
+mod-id = 'XhxKIfGG'
+version = 'rHnte31A'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4I1XuqiY'
+type = 'REQUIRED'

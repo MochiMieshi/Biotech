@@ -1,0 +1,18 @@
+filename = 'chunkumulator-1.1.1+MC1.20.1.jar'
+name = 'Chunkumulator'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1+MC1.20.1'
+
+[download]
+hash = '864a48bdb967a6c4d14307026b4b9bb9cc7e2645d98d361201053947d20138aa017230ba50dd2bcd5e32948a85bcd8eb7dc73e675ec672ecd32b3c103da8bb42'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NdXjQHpc/versions/cUEuylq1/chunkumulator-1.1.1%2BMC1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'NdXjQHpc'
+version = 'cUEuylq1'

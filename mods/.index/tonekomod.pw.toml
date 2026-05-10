@@ -1,0 +1,21 @@
+filename = 'toneko-fabric-1.3.11.jar'
+name = 'toNekoMod'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.11'
+
+[download]
+hash = '59562213e5914edff2f8ee86a562628c20b9eb908988c7111b8385b18eaa873bf7fcf8512f885d4b7b78bfc3b6c564dea4dd82491b00102bc03060627199b90a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QFxgeSVF/versions/HHf2CSVX/toneko-fabric-1.3.11.jar'
+
+[update.modrinth]
+mod-id = 'QFxgeSVF'
+version = 'HHf2CSVX'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

@@ -1,0 +1,33 @@
+filename = 'cataclysm_fabric-1.20.1-0.0.3.jar'
+name = 'Cataclysm (Fabric)'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.3'
+
+[download]
+hash = 'a961c0e4ca883ddf7f5e20bd6975cd32ac11c9c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6354363
+project-id = 1229771
+
+[[x-prismlauncher-dependencies]]
+addonId = '341284'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '547434'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1223966'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

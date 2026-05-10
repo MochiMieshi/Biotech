@@ -1,0 +1,25 @@
+filename = 'mythicmetals-0.19.11+1.20.1.jar'
+name = 'Mythic Metals'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.19.11+1.20.1'
+
+[download]
+hash = 'bbabd3602fb084277270f4963268cb1afbc361700dea2f3d1d50b88de53d48133afb79a1f475b81d9956d6cd06ec4117a955de88ac80e0669d94d103f10f95b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bAWzYNRd/versions/NuKk65QZ/mythicmetals-0.19.11%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'bAWzYNRd'
+version = 'NuKk65QZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jhl28YkY'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

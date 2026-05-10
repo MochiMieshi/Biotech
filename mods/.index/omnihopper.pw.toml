@@ -1,0 +1,25 @@
+filename = 'omnihopper-2.2.4+1.20.jar'
+name = 'Omni-Hopper'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.4+1.20'
+
+[download]
+hash = '702a526309aadb7fb41bf42c32e87f28564cc42b91953f4ce4bf9aff01c99b69d715575bba42ab36a08e24d771e5d974206399a05b7c7905c6886ed66efa085b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i2u9r3li/versions/W5V7JKmn/omnihopper-2.2.4%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'i2u9r3li'
+version = 'W5V7JKmn'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2lfPteTN'
+type = 'REQUIRED'

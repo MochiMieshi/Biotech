@@ -1,0 +1,21 @@
+filename = 'ArcheryExpansion-fabric-1.20.1-1.0.7.3.jar'
+name = 'Archery Expansion'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7.3'
+
+[download]
+hash = 'a5cc6459cf6f325a5a5830b66fd0cfc92b77cdc2080ed0026f5cd5c150d40aa05f64f8164c804637a39bf6066f525d6d1fdda3d3a2220cade21638e4b9646325'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OjmvUYTD/versions/qvHJAXxo/ArcheryExpansion-fabric-1.20.1-1.0.7.3.jar'
+
+[update.modrinth]
+mod-id = 'OjmvUYTD'
+version = 'qvHJAXxo'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

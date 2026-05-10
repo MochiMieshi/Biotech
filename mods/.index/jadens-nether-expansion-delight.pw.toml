@@ -1,0 +1,21 @@
+filename = 'jadensnetherexpansiondelight-1.0.0-1.20.1-fabric.jar'
+name = "Jaden's Nether Expansion Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0-1.20.1-fabric'
+
+[download]
+hash = '4daa73cf84541ce4a3c68a879b0b3de150a3561e09a331d284166461bdc9e460fe8fb294274ba5a1aad904e481beb616bda55aa2c0fceff6a3df1d310b349977'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pYHupcoN/versions/VgpLu02Q/jadensnetherexpansiondelight-1.0.0-1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'pYHupcoN'
+version = 'VgpLu02Q'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'
