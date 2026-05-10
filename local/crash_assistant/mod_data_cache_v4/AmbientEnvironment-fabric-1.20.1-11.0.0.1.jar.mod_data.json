@@ -1,0 +1,1 @@
+{"jarName":"AmbientEnvironment-fabric-1.20.1-11.0.0.1.jar","modId":"ambientenvironment","name":"Ambient Environment","version":"11.0.0.1","mixinConfigs":["ambientenvironment.mixins.json","ambientenvironment.fabric.mixins.json"],"jarJarMods":[],"curseForgeHash":750275080,"modrinthHash":"c1243b45ad28b714f95e9598e5592bdba36340a1"}

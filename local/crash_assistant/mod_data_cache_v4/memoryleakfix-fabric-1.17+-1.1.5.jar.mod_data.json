@@ -1,0 +1,1 @@
+{"jarName":"memoryleakfix-fabric-1.17+-1.1.5.jar","modId":"memoryleakfix","name":"Memory Leak Fix","version":"1.1.5","mixinConfigs":["memoryleakfix.mixins.json","memoryleakfix-fabric.mixins.json","memoryleakfix-16.mixins.json"],"jarJarMods":[],"curseForgeHash":753446388,"modrinthHash":"784bbbe9c64ac9d3d4ad19786c02291e607fcf4e"}

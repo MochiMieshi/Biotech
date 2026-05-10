@@ -1,0 +1,1 @@
+{"jarName":"torch-hit-fabric-1.20.1-7.0.0.jar","modId":"torch_hit","name":"Torch hit!","version":"7.0.0","mixinConfigs":["torch_hit.fabric.mixins.json","torch_hit.mixins.json"],"jarJarMods":[],"curseForgeHash":668119127,"modrinthHash":"3f0c1aab1d73eca5fb68f38644acdd1159fbc80f"}
