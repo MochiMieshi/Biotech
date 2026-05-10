@@ -1,9 +1,9 @@
 {
   "configVersion": 3,
-  "pollRate": 60,
+  "pollRate": 20,
   "chatSettings": {
     "enabled": true,
-    "maxFps": 20,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   },
@@ -15,7 +15,7 @@
   },
   "hotbarSettings": {
     "enabled": true,
-    "maxFps": 20,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   },
@@ -27,7 +27,7 @@
   },
   "healthSettings": {
     "enabled": true,
-    "maxFps": 20,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   },
@@ -39,7 +39,7 @@
   },
   "tablistSettings": {
     "enabled": true,
-    "maxFps": 20,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   },
@@ -50,8 +50,8 @@
     "forceUpdates": false
   },
   "crosshairSettings": {
-    "enabled": false,
-    "maxFps": 20,
+    "enabled": true,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   },
@@ -63,13 +63,13 @@
   },
   "xaerosMinimapSettings": {
     "enabled": true,
-    "maxFps": 30,
+    "maxFps": 5,
     "forceBlend": true,
     "forceUpdates": false
   },
   "paperdollSettings": {
     "enabled": true,
-    "maxFps": 30,
+    "maxFps": 5,
     "forceBlend": false,
     "forceUpdates": false
   }

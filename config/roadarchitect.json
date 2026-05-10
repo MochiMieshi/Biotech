@@ -1557,6 +1557,17 @@
     "roughRangeThreshold": 12,
     "roughPenaltyScale": 15.0
   },
+  "cache": {
+    "runtimeBudgetMb": 128,
+    "snapshotBudgetMb": 32,
+    "persistedBudgetMb": 192,
+    "regionSizeChunks": 32,
+    "enablePrefill": true,
+    "prefillMaxChunks": 2048,
+    "persistHeights": true,
+    "persistStabilities": true,
+    "persistBiomes": true
+  },
   "pathfinding": {
     "preferLandOverWater": true,
     "waterStepPenalty": 200.0,
@@ -1575,6 +1586,11 @@
   },
   "debug": {
     "enableVerboseLogs": false,
-    "enablePipelineProfiler": false
+    "enablePipelineProfiler": false,
+    "enableCacheLogs": false,
+    "showCacheStatsOverlay": false,
+    "showScanningBar": true,
+    "enableDebugMap": true,
+    "asyncThreads": 0
   }
 }

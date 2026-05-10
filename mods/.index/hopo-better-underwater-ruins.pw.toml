@@ -1,0 +1,18 @@
+filename = 'HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar'
+name = 'Hopo Better Underwater Ruins'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.5b'
+
+[download]
+hash = 'bddb2f89e86a552674608c1b389e4d54d971451cf33f7673e31859920aa340fa3de518939cca06c4b60528015c9bb2841bc1634f695a5efdb7264882f7f86e66'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BuWCQzqf/versions/jMf9oQgH/HopoBetterUnderwaterRuins-%5B1.20.1-1.20.4%5D-1.1.5b.jar'
+
+[update.modrinth]
+mod-id = 'BuWCQzqf'
+version = 'jMf9oQgH'

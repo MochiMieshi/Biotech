@@ -50,12 +50,14 @@
 	has_chaparral = true
 	has_snowy_redwood_forest = true
 	has_wooded_drylands = true
+
 [region]
 	terra_solaris_frequency = 4
 	terra_ferax_frequency = 4
 	terra_flava_frequency = 4
 	terra_laeta_frequency = 4
 	terra_mater_frequency = 4
+
 [datapacks]
 	jungle_toggle = true
 	savanna_toggle = true
@@ -68,6 +70,7 @@
 	vanilla_trees_toggle = false
 	badlands_toggle = true
 	dark_forest_toggle = true
+
 [misc]
 	#Toggle the additional creative inventory tab
 	creative_tab = true

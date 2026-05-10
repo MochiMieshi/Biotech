@@ -1,0 +1,25 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-05-10 18:18:11.686 ICT
+Source: Microsoft-Windows-CAPI2
+Event ID: 4176
+Level: Error
+
+Message:
+  PFX operation failed as AuthSafes count doesn't lie in expected range. Maximum permissible value: 200. Erroneous value: 288.
+
+
+Details:
+  - Data[1]: 200
+  - Data[2]: 288
+-----------------------
+

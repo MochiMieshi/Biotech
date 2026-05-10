@@ -23,65 +23,69 @@ no_projectile_immunity = true
 	#VARIABLE: The knockback strength is greater the more precisely the shield block is timed in regards to the attack.
 	#Allowed Values: NONE, CONSTANT, VARIABLE
 	shield_knockback = "VARIABLE"
-	#Amount of ticks after starting to block in which an attacker will be knocked back further than usual when "shield_knockback" is set to VARIABLE.
-	#Range: > 0
-	variable_shield_knockback_delay = 20
-	#Skip 5 tick warm-up delay when activating a shield, so they become effective instantly.
-	remove_shield_delay = true
 	#Arc of available protection depending on what angle the attack is coming from and where the player is looking (means the lower this angle the closer you need to be facing your attacker).
 	#Vanilla protection arc is 180 degrees, which has been reduced to around 100 in combat tests.
 	#This does not change the protection arc for projectiles which remains at 180 degress.
 	#Range: 0.0 ~ 360.0
 	shield_protection_arc = 100.0
+	#Skip 5 tick warm-up delay when activating a shield, so they become effective instantly.
+	remove_shield_delay = true
+	#Amount of ticks after starting to block in which an attacker will be knocked back further than usual when "shield_knockback" is set to VARIABLE.
+	#Range: > 0
+	variable_shield_knockback_delay = 20
+
 [items]
+	#Add a delay of 4 ticks between throwing snowballs or eggs, just like with ender pearls.
+	throwables_delay = true
+	#Eating and drinking both are interrupted if the player is damaged.
+	eating_interruption = true
+	#Increase snowball and egg stack size from 16 to 64, and potion stack size from 1 to 16 (only for potions of the same type of course).
+	increase_stack_size = true
 	#It only takes 20 ticks to drink liquid foods (such as potions, milk, and bottled liquids) instead of 32 or 40.
 	fast_drinking = true
 	#Only damages axes by 1 durability instead of 2 when attacking so they properly be used as weapons.
 	no_axe_attack_penalty = true
-	#Add a delay of 4 ticks between throwing snowballs or eggs, just like with ender pearls.
-	throwables_delay = true
-	#Increase snowball and egg stack size from 16 to 64, and potion stack size from 1 to 16 (only for potions of the same type of course).
-	increase_stack_size = true
-	#Eating and drinking both are interrupted if the player is damaged.
-	eating_interruption = true
+
 [cooldown]
-	#Disable attacking when attack cooldown is below a certain percentage.
-	#Setting this to 0.0 means attacking is possible with any strength as in vanilla.
-	#Range: 0.0 ~ 1.0
-	min_attack_strength = 1.0
 	#Holding down the attack button keeps attacking continuously. No more spam clicking required.
 	hold_attack_button = false
+	#Melee attacks that don't hit a target won't trigger the attack cooldown.
+	retain_energy_on_miss = false
 	#Delay in ticks between attacks when holding the attack button is enabled.
 	#This basically also puts a cap on the max spam clicking speed.
 	#Range: > 0
 	hold_attack_button_delay = 5
+	#Disable attacking when attack cooldown is below a certain percentage.
+	#Setting this to 0.0 means attacking is possible with any strength as in vanilla.
+	#Range: 0.0 ~ 1.0
+	min_attack_strength = 1.0
 	#Attack cooldown is unaffected by switching hotbar items.
 	fast_switching = true
-	#Melee attacks that don't hit a target won't trigger the attack cooldown.
-	retain_energy_on_miss = false
+
 [attributes]
+	#Overrides for setting and balancing attack damage values of items.
+	#As with all items, this value is added on top of the default attack strength of the player (which is 1.0 by default).
+	#Format for every entry is "<namespace>:<path>,<amount>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	attack_damage_overrides = []
 	#Makes it so that swords, hoes, and tridents have an increased reach when attacking.
 	additional_attack_reach = true
+	#Overrides for setting and balancing attack speed values of items.
+	#As with all items, this value is added on top of the default attack speed of the player (which is 4.0 by default).
+	#Format for every entry is "<namespace>:<path>,<amount>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+	attack_speed_overrides = []
 	#Overrides for setting and balancing attack reach values of items.
 	#Takes precedence over any changes made by "additional_attack_reach" option.
 	#As with all items, this value is added on top of the default attack reach of the player (which is 3.0 by default, and has a hard cap at 6.0).
 	#Format for every entry is "<namespace>:<path>,<amount>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 	attack_reach_overrides = []
-	#Overrides for setting and balancing attack speed values of items.
-	#As with all items, this value is added on top of the default attack speed of the player (which is 4.0 by default).
-	#Format for every entry is "<namespace>:<path>,<amount>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
-	attack_speed_overrides = []
-	#Overrides for setting and balancing attack damage values of items.
-	#As with all items, this value is added on top of the default attack strength of the player (which is 1.0 by default).
-	#Format for every entry is "<namespace>:<path>,<amount>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
-	attack_damage_overrides = []
+
 [sweeping]
+	#Do not perform sweep attacks when sneaking.
+	no_sweeping_when_sneaking = false
+	#Only apply half the sweeping damage to indirectly hit mobs for better balancing of the sweeping feature.
+	half_sweeping_damage = true
 	#Is the sweeping edge enchantment required to perform a sweep attack.
 	require_sweeping_edge = true
 	#Allow sweep attack without hitting mobs, just by attacking air basically.
 	#This attack will not work when the attack button is held for continuous attacking.
 	air_sweep_attack = true
-	#Only apply half the sweeping damage to indirectly hit mobs for better balancing of the sweeping feature.
-	half_sweeping_damage = true
-	#Do not perform sweep attacks when sneaking.
-	no_sweeping_when_sneaking = false

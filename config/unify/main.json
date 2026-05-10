@@ -1,0 +1,30 @@
+{
+  "globalSearch": {
+    "pathStartsWith": [
+      "raw_"
+    ],
+    "pathEndsWith": [
+      "_ore",
+      [
+        "_block",
+        "_storage_block"
+      ],
+      "_ingot",
+      "_nugget",
+      "_dust",
+      "_plate",
+      "_rod",
+      "_gear"
+    ],
+    "namespacePriorities": [
+      "techreborn",
+      "modern_industrialization"
+    ],
+    "itemsToIgnore": []
+  },
+  "itemsToUnify": {},
+  "replaceOnUse": true,
+  "generateUnificationRecipes": true,
+  "hideDuplicatesInItemGroups": true,
+  "hideDuplicatesInRecipeViewers": true
+}

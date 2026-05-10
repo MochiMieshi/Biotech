@@ -5,5 +5,5 @@
   "BlockDistance_Far": 256,
   "TemptDelay": "Low",
   "DisableZombieEggStomping": false,
-  "NeverSlowdownDistantMobs": false
+  "EnableVanillaMobTicking": false
 }

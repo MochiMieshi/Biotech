@@ -3,17 +3,17 @@
   "hudrender": false,
   "fogSettings": {
     "persistFogSettings": false,
-    "disableAirFog": false,
-    "disableWaterFog": false,
-    "disableLavaFog": false,
-    "disablePowderedSnowFog": false,
-    "disableThickFog": false,
-    "disableSkyFog": false
+    "disableAirFog": true,
+    "disableWaterFog": true,
+    "disableLavaFog": true,
+    "disablePowderedSnowFog": true,
+    "disableThickFog": true,
+    "disableSkyFog": true
   },
   "destructiveSettings": {
-    "destructiveweatheroptimizations": false,
-    "DestroySky": false,
-    "DestroyWeather": false,
-    "RenderLayerSkips": false
+    "destructiveweatheroptimizations": true,
+    "DestroySky": true,
+    "DestroyWeather": true,
+    "RenderLayerSkips": true
   }
 }

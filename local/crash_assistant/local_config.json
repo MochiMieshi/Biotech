@@ -1,7 +1,8 @@
 {
 	"shown_reasons": {
 		"Create6Addons": true,
-		"MixinApply": true
+		"MixinApply": true,
+		"WasClosedByWindows": true
 	},
 	"analysis": {
 		"jdeps": {

@@ -1,0 +1,21 @@
+filename = 'papi-1.20.1-fabric-1.1.1.jar'
+name = 'Put A Plug In it! (PAPI)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-fabric-1.1.1'
+
+[download]
+hash = '14f810a4b593d9e828a66932d5c123ccacf3bf5a07334a15866ff39be778dae79427868d2faaff00dbe9fd942d1d495150af1e4c6a9a9a72a569c8651266e4ca'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xedaBnSm/versions/QMV2RevU/papi-1.20.1-fabric-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'xedaBnSm'
+version = 'QMV2RevU'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9jxwkYQL'
+type = 'OPTIONAL'

@@ -1,0 +1,18 @@
+filename = 'rabbit-pathfinding-fix-1.0.6.1-legacy+1.20.jar'
+name = 'Rabbit Pathfinding Fixed'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.6.1-legacy+1.20'
+
+[download]
+hash = '592eb382816f941493ed178f3e96879311d3e6a6e5ae48a7374a7142c0cf2e439057a11b9615598eac0be4da43349c91a7afe51973ef4c150c154146a91c2599'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MCMPNRD8/versions/2Thh7tLb/rabbit-pathfinding-fix-1.0.6.1-legacy%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'MCMPNRD8'
+version = '2Thh7tLb'

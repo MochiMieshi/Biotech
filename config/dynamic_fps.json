@@ -1,1 +1,6 @@
-{}
+{
+  "idle": {
+    "timeout": 60,
+    "condition": "none"
+  }
+}

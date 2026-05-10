@@ -1,0 +1,21 @@
+filename = 'potatoptimize-0.0.1-1.20.1.jar'
+name = 'Potatoptimize'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.1-dev1'
+
+[download]
+hash = '7b0332662bee735a2cb591d3d50bd1cd861d575887955d274cc5ffec9327d435b1da5b68e76b4c0adf4a432d21ac8ecd1bd6e95ce287c2146116ce081b11814a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tCUVz9xy/versions/VZRV2ZfU/potatoptimize-0.0.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'tCUVz9xy'
+version = 'VZRV2ZfU'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

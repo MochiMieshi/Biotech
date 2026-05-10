@@ -1,0 +1,9 @@
+{
+  "renderbuffer_depth": true,
+  "fast_math": true,
+  "dsa": "fbo",
+  "dsa_var": "core",
+  "vertex_format_cache": true,
+  "tex_barrier": true,
+  "render_cycle_pool_size": 432
+}

@@ -1,0 +1,12 @@
+enabled = true
+debugInfoEnabled = true
+timeoutMs = 30000
+
+[trigger]
+whenMinimized = true
+whenLostFocus = true
+afterGUITimeout = true
+afterGameTimeout = true
+
+[visual]
+backgroundStyle = "PURE_COLOR"

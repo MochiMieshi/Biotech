@@ -5,6 +5,7 @@
 	drowned_range_debuff = 0.10000000149011612
 	#Range: 0.0 ~ 1.0
 	guardian_range_debuff = 0.10000000149011612
+
 [grappling_hook]
 	#Range: 0.0 ~ 10.0
 	launch_speed = 1.0
@@ -12,7 +13,7 @@
 	max_speed = 4.0
 	#Range: 4.0 ~ 128.0
 	max_distance = 32.0
-[spawn_rates]
+
 	[spawn_rates.dragonfly]
 		#Range: 1 ~ 128
 		min = 1
@@ -20,6 +21,7 @@
 		max = 1
 		#Range: 0 ~ 128
 		weight = 7
+
 	[spawn_rates.leaf_insect]
 		#Range: 1 ~ 128
 		min = 1
@@ -27,6 +29,7 @@
 		max = 1
 		#Range: 0 ~ 128
 		weight = 14
+
 	[spawn_rates.jumping_spider]
 		#Range: 1 ~ 128
 		min = 1
@@ -34,6 +37,7 @@
 		max = 1
 		#Range: 0 ~ 128
 		weight = 2
+
 	[spawn_rates.shima_enaga]
 		#Range: 1 ~ 128
 		min = 2
@@ -41,6 +45,7 @@
 		max = 3
 		#Range: 0 ~ 128
 		weight = 3
+
 	[spawn_rates.koi_fish]
 		#Range: 1 ~ 128
 		min = 2
@@ -48,6 +53,7 @@
 		max = 5
 		#Range: 0 ~ 128
 		weight = 4
+
 	[spawn_rates.dumbo_octopus]
 		#Range: 1 ~ 128
 		min = 1
@@ -55,6 +61,7 @@
 		max = 1
 		#Range: 0 ~ 128
 		weight = 6
+
 	[spawn_rates.ferret]
 		#Range: 1 ~ 128
 		min = 2
@@ -62,6 +69,7 @@
 		max = 3
 		#Range: 0 ~ 128
 		weight = 4
+
 	[spawn_rates.otter]
 		#Range: 1 ~ 128
 		min = 3
@@ -69,6 +77,7 @@
 		max = 5
 		#Range: 0 ~ 128
 		weight = 1
+
 	[spawn_rates.red_panda]
 		#Range: 1 ~ 128
 		min = 1
@@ -76,6 +85,7 @@
 		max = 2
 		#Range: 0 ~ 128
 		weight = 8
+
 	[spawn_rates.sea_bunny]
 		#Range: 1 ~ 128
 		min = 1
