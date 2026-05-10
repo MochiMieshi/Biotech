@@ -5,4 +5,4 @@
 /.fabric
 /.mixin.out
 /run
-/mods/*.pw.toml
+/mods/*.pw.toml".blinkload/" 
