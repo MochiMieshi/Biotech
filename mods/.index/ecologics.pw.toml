@@ -1,0 +1,18 @@
+filename = 'ecologics-fabric-1.20.1-2.2.4.jar'
+name = 'Ecologics'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.4-Fabric'
+
+[download]
+hash = '699d13e96a0644d023945919adb1e19e7c00775ad5a7b7ba38388bef4798acdb3fba84a7fe17139e6f27fe14af4e942058d9c87b17601fbae92f0107dc5a2eef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NCKpPR0Z/versions/76Zti2GN/ecologics-fabric-1.20.1-2.2.4.jar'
+
+[update.modrinth]
+mod-id = 'NCKpPR0Z'
+version = '76Zti2GN'

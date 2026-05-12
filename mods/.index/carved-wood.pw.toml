@@ -1,0 +1,18 @@
+filename = 'Carved Wood-fabric-1.20.1-1.6a.jar'
+name = 'Carved Wood'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6a-1.20.1-fabric'
+
+[download]
+hash = '31d49a3141a7223be877edbf95adff10d6015651a2be368c11c9de24f3d73862ad2de1401154e4494bc48c3b97a7131285880639d79b32456a25e15869d49819'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WuwijfrW/versions/Iz4WvpoQ/Carved Wood-fabric-1.20.1-1.6a.jar'
+
+[update.modrinth]
+mod-id = 'WuwijfrW'
+version = 'Iz4WvpoQ'

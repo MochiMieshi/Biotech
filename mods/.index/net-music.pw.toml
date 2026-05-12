@@ -1,0 +1,18 @@
+filename = 'netmusic-1.5.1-fabric+mc1.20.1.jar'
+name = 'Net Music'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.1-fabric+mc1.20.1'
+
+[download]
+hash = '8bf9e90d21dc9f86bc6d3e00175395e42293ffc769b5f72343857af43e249e6f8475f7011b7ce692ef038d906e2f86e9cc935f938714595206e68f194dded434'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gKNuqaQq/versions/bdyl2jpU/netmusic-1.5.1-fabric%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'gKNuqaQq'
+version = 'bdyl2jpU'

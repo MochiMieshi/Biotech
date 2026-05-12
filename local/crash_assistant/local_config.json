@@ -1,6 +1,7 @@
 {
 	"shown_reasons": {
 		"Create6Addons": true,
+		"AzureLibAddons": true,
 		"MixinApply": true,
 		"WasClosedByWindows": true
 	},

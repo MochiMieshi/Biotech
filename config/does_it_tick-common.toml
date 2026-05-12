@@ -25,12 +25,14 @@
 	LivingEntitiesMaxVerticalTickDistance = 32
 	#If this is enabled, this mod will only work on passive entities.
 	IgnoreHostileEntities = false
+
 ["Item Entities Tick Settings"]
 	#Slow down item entities' ticking speed by 1/4
 	OptimizeItemMovement = false
 	#If you don't want to let a specific item entity in the world to be effected by the optimization, you can write its registry name down here.
 	#Require 'OptimizeItemMovement' to be true
 	ItemWhiteList = ["minecraft:cobblestone"]
+
 [Misc]
 	#If you disable this, entities near player bases may be affected.
 	DisableInActiveChunks = true

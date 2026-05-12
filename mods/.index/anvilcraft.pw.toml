@@ -1,0 +1,33 @@
+filename = 'anvilcraft-fabric-1.20.1-1.4.1+pre-release.2.jar'
+name = 'AnvilCraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.20.1-1.4.1+pre-release.2'
+
+[download]
+hash = '2e5899a37710a08b167cfc5a9d01412edd96290af448907740b48799678997509b62685097ef98004ce35b0a0525e8e750a32c40336322719926fe9973c7224d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vuISAWPc/versions/mm8DL8rN/anvilcraft-fabric-1.20.1-1.4.1%2Bpre-release.2.jar'
+
+[update.modrinth]
+mod-id = 'vuISAWPc'
+version = 'mm8DL8rN'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6AQIaxuO'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Q91mM9VL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
