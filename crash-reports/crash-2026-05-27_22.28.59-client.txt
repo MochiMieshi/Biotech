@@ -1,0 +1,890 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 2026-05-27 22:28:59
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'alloy_forgery' at 'wraith.alloyforgery.client.AlloyForgeryClient'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//net.satisfy.beachparty.client.BeachPartyClient.initClient(BeachPartyClient.java:34)
+		at knot//net.satisfy.beachparty.fabric.client.BeachpartyFabricClient.onInitializeClient(BeachpartyFabricClient.java:24)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]
+		at knot//net.minecraft.class_3929.<clinit>(class_3929.java:101)
+		at knot//wraith.alloyforgery.client.AlloyForgeryClient.onInitializeClient(AlloyForgeryClient.java:13)
+		... 10 more
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//org.betterx.betterend.registry.EndScreens.register(EndScreens.java:9)
+		at knot//org.betterx.betterend.client.BetterEndClient.onInitializeClient(BetterEndClient.java:26)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry.register(ScreenRegistry.java:65)
+		at knot//io.ejekta.bountiful.client.BountifulClient.onInitializeClient(BountifulClient.kt:13)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//earth.terrarium.chipped.client.ChippedClient.init(ChippedClient.java:19)
+		at knot//earth.terrarium.chipped.client.fabric.ChippedClientFabric.onInitializeClient(ChippedClientFabric.java:9)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//moriyashiine.enchancement.client.EnchancementClient.onInitializeClient(EnchancementClient.java:81)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//net.satisfy.farm_and_charm.client.FarmAndCharmClient.onInitializeClient(FarmAndCharmClient.java:45)
+		at knot//net.satisfy.farm_and_charm.fabric.client.FarmAndCharmClientFabric.onInitializeClient(FarmAndCharmClientFabric.java:13)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//vectorwing.farmersdelight.client.FarmersDelightClient.onInitializeClient(FarmersDelightClient.java:38)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//net.satisfy.herbalbrews.client.HerbalbrewsClient.onInitializeClient(HerbalbrewsClient.java:36)
+		at knot//net.satisfy.herbalbrews.fabric.core.client.HerbalbrewsClientFabric.onInitializeClient(HerbalbrewsClientFabric.java:12)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//fuzs.puzzleslib.impl.client.core.context.MenuScreensContextFabricImpl.registerMenuScreen(MenuScreensContextFabricImpl.java:18)
+		at knot//fuzs.hoppergadgetry.client.HopperGadgetryClient.onRegisterMenuScreens(HopperGadgetryClient.java:35)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientModConstructor.construct(FabricClientModConstructor.java:53)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientFactories.constructClientMod(FabricClientFactories.java:18)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.lambda$construct$0(ClientModConstructor.java:62)
+		at knot//fuzs.puzzleslib.impl.core.ModContext.scheduleClientModConstruction(ModContext.java:116)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.construct(ClientModConstructor.java:57)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.construct(ClientModConstructor.java:39)
+		at knot//fuzs.hoppergadgetry.fabric.client.HopperGadgetryFabricClient.onInitializeClient(HopperGadgetryFabricClient.java:12)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//fuzs.illagerinvasion.client.IllagerInvasionClient.onClientSetup(IllagerInvasionClient.java:39)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.onClientSetup(ClientModConstructor.java:90)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientModConstructor.construct(FabricClientModConstructor.java:41)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientFactories.constructClientMod(FabricClientFactories.java:18)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.lambda$construct$0(ClientModConstructor.java:62)
+		at knot//fuzs.puzzleslib.impl.core.ModContext.scheduleClientModConstruction(ModContext.java:116)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.construct(ClientModConstructor.java:57)
+		at knot//fuzs.illagerinvasion.client.IllagerInvasionFabricClient.onInitializeClient(IllagerInvasionFabricClient.java:11)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//aztech.modern_industrialization.ModernIndustrializationClient.setupScreens(ModernIndustrializationClient.java:121)
+		at knot//aztech.modern_industrialization.ModernIndustrializationClient.onInitializeClient(ModernIndustrializationClient.java:81)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//net.mehvahdjukaar.amendments.AmendmentsClient.setup(AmendmentsClient.java:162)
+		at java.base/java.util.concurrent.ConcurrentLinkedQueue.forEachFrom(ConcurrentLinkedQueue.java:1037)
+		at java.base/java.util.concurrent.ConcurrentLinkedQueue.forEach(ConcurrentLinkedQueue.java:1054)
+		at knot//net.mehvahdjukaar.moonlight.fabric.MoonlightFabricClient.onInitializeClient(MoonlightFabricClient.java:30)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//nl.enjarai.omnihopper.client.screen.ModHandledScreens.register(ModHandledScreens.java:11)
+		at knot//nl.enjarai.omnihopper.OmniHopperClient.onInitializeClient(OmniHopperClient.java:9)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry.register(ScreenRegistry.java:65)
+		at knot//slimeknights.tconstruct.smeltery.SmelteryClientEvents.clientSetup(SmelteryClientEvents.java:93)
+		at knot//slimeknights.tconstruct.smeltery.SmelteryClientEvents.init(SmelteryClientEvents.java:38)
+		at knot//slimeknights.tconstruct.shared.TinkerClient.onInitializeClient(TinkerClient.java:64)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//com.tiviacz.travelersbackpack.TravelersBackpackClient.onInitializeClient(TravelersBackpackClient.java:54)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//net.satisfy.vinery.client.VineryClient.registerScreenFactory(VineryClient.java:98)
+		at knot//net.satisfy.vinery.client.VineryClient.onInitializeClient(VineryClient.java:73)
+		at knot//net.satisfy.vinery.fabric.client.VineryClientFabric.onInitializeClient(VineryClientFabric.java:23)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//fuzs.visualworkbench.client.VisualWorkbenchClient.onClientSetup(VisualWorkbenchClient.java:15)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.onClientSetup(ClientModConstructor.java:90)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientModConstructor.construct(FabricClientModConstructor.java:41)
+		at knot//fuzs.puzzleslib.impl.client.core.FabricClientFactories.constructClientMod(FabricClientFactories.java:18)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.lambda$construct$0(ClientModConstructor.java:62)
+		at knot//fuzs.puzzleslib.impl.core.ModContext.scheduleClientModConstruction(ModContext.java:116)
+		at knot//fuzs.puzzleslib.api.client.core.v1.ClientModConstructor.construct(ClientModConstructor.java:57)
+		at knot//fuzs.visualworkbench.client.VisualWorkbenchFabricClient.onInitializeClient(VisualWorkbenchFabricClient.java:11)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry.register(ScreenRegistry.java:65)
+		at knot//net.blay09.mods.balm.fabric.client.screen.FabricBalmScreens.registerScreen(FabricBalmScreens.java:21)
+		at knot//net.blay09.mods.waystones.client.ModScreens.initialize(ModScreens.java:12)
+		at knot//net.blay09.mods.waystones.client.WaystonesClient.initialize(WaystonesClient.java:13)
+		at knot//net.blay09.mods.balm.fabric.client.FabricBalmClientRuntime.initializeMod(FabricBalmClientRuntime.java:100)
+		at knot//net.blay09.mods.balm.api.client.BalmClient.initializeMod(BalmClient.java:60)
+		at knot//net.blay09.mods.balm.api.client.BalmClient.initialize(BalmClient.java:32)
+		at knot//net.blay09.mods.waystones.client.FabricWaystonesClient.onInitializeClient(FabricWaystonesClient.java:11)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//net.satisfy.wildernature.client.WilderNatureClient.onInitializeClient(WilderNatureClient.java:40)
+		at knot//net.satisfy.wildernature.fabric.client.WilderNatureClientFabric.onInitializeClient(WilderNatureClientFabric.java:25)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.class_3929
+		at knot//dev.architectury.registry.menu.fabric.MenuRegistryImpl.registerScreenFactory(MenuRegistryImpl.java:74)
+		at knot//dev.architectury.registry.menu.MenuRegistry.registerScreenFactory(MenuRegistry.java)
+		at knot//com.starfish_studios.yaf.YetAnotherFurnitureClient.init(YetAnotherFurnitureClient.java:50)
+		at knot//com.starfish_studios.yaf.fabric.YetAnotherFurnitureFabricClient.onInitializeClient(YetAnotherFurnitureFabricClient.java:10)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+		... 9 more
+	Caused by: [CIRCULAR REFERENCE: java.lang.ExceptionInInitializerError: Exception java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed [in thread "Render thread"]]
+Caused by: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed
+	at knot//net.minecraft.class_3929.<clinit>(class_3929.java:101)
+	at knot//wraith.alloyforgery.client.AlloyForgeryClient.onInitializeClient(AlloyForgeryClient.java:13)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+	... 9 more
+Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_492 failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 12 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:380)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)
+	... 16 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Callback method accumulateScrolling(ZLcom/llamalad7/mixinextras/sugar/ref/LocalDoubleRef;)Z in controlify.mixins.json:feature.screenop.vanilla.MerchantScreenMixin from mod controlify failed injection check, (0/1) succeeded. Scanned 0 target(s). Using refmap controlify.refmap.json
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:531)
+	at knot//com.llamalad7.mixinextras.injector.MixinExtrasLateInjectionInfo.latePostInject(MixinExtrasLateInjectionInfo.java:57)
+	at knot//com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.doPostInject(InjectorWrapperImpl.java:88)
+	at knot//com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.doPostInject(SugarWrapperImpl.java:88)
+	at knot//com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.latePostInject(WrapperInjectionInfo.java:101)
+	at knot//com.llamalad7.mixinextras.injector.LateInjectionApplicatorExtension.postApply(LateInjectionApplicatorExtension.java:43)
+	at org.spongepowered.asm.mixin.transformer.ext.Extensions.postApply(Extensions.java:167)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.postApply(TargetClassContext.java:448)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:420)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:351)
+	... 19 more
+	Suppressed: com.llamalad7.mixinextras.sugar.impl.SugarApplicationException: Failed to validate sugar @Local(ordinal = 3, argsOnly = true) LocalDoubleRef on method accumulateScrolling(Z)Z from mixin controlify.mixins.json:feature.screenop.vanilla.MerchantScreenMixin from mod controlify in target method net/minecraft/class_492::method_25401(DDD)Z at instruction InjectionNode[MethodInsn [INVOKEVIRTUAL] net/minecraft/class_492::method_20220(I)Z]
+		at knot//com.llamalad7.mixinextras.sugar.impl.SugarInjector.validateApplicators(SugarInjector.java:183)
+		at knot//com.llamalad7.mixinextras.sugar.impl.SugarInjector.prepareSugar(SugarInjector.java:161)
+		at knot//com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:71)
+		at knot//com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)
+		at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1394)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:811)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.lambda$runApplicatorPass$3(MixinApplicatorStandard.java:323)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.processMixins(MixinApplicatorStandard.java:381)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.runApplicatorPass(MixinApplicatorStandard.java:320)
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:240)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+		... 20 more
+	Caused by: com.llamalad7.mixinextras.sugar.impl.SugarApplicationException: Unable to find matching local!
+		at knot//com.llamalad7.mixinextras.sugar.impl.LocalSugarApplicator.validate(LocalSugarApplicator.java:44)
+		at knot//com.llamalad7.mixinextras.sugar.impl.SugarInjector.validateApplicators(SugarInjector.java:179)
+		... 31 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+Mixins in Stacktrace:
+	net.minecraft.class_310:
+		dev.isxander.controlify.mixins.feature.bind.MinecraftMixin (controlify.mixins.json)
+		malte0811.ferritecore.mixin.fabric.MinecraftMixin (ferritecore.fabric.mixin.json)
+		ca.fxco.memoryleakfix.mixin.hugeScreenshotLeak.Minecraft_screenshotMixin (memoryleakfix.mixins.json)
+		io.github.fabricators_of_create.porting_lib.config.mixin.client.MinecraftMixin (porting_lib_config.mixins.json)
+		net.fabricmc.fabric.mixin.networking.client.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		xaero.map.mixin.MixinMinecraftClient (xaeroworldmap.mixins.json)
+		dev.isxander.controlify.mixins.feature.screenop.vanilla.bundle.BundleMouseActionsMixin (controlify.mixins.json)
+		org.embeddedt.modernfix.common.mixin.feature.remove_telemetry.MinecraftMixin_Telemetry (modernfix-common.mixins.json)
+		net.mehvahdjukaar.supplementaries.mixins.MinecraftMixin (supplementaries-common.mixins.json)
+		dev.tr7zw.entityculling.mixin.LivingEntityRendererAccessor (entityculling.mixins.json)
+		io.wispforest.owo.mixin.MinecraftClientMixin (owo.mixins.json)
+		opekope2.optigui.mixin.MinecraftClientMixin (optigui.mixins.json)
+		jerozgen.languagereload.mixin.MinecraftClientAccessor (languagereload.mixins.json)
+		dev.tr7zw.transition.mixin.EntityRenderStateMixin (transition.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_PipelineManagement (mixins.iris.json)
+		xaero.common.mixin.MixinFabricMinecraftClient (xaerohud.fabric.mixins.json)
+		dev.imb11.sounds.mixin.ui.ScreenSoundEffect (sounds.mixins.json)
+		dev.isxander.controlify.mixins.feature.virtualmouse.MinecraftMixin (controlify.mixins.json)
+		org.redlance.dima_dencep.mods.rrls.mixins.MinecraftClientMixin (rrls.mixins.json)
+		dev.isxander.controlify.mixins.feature.rumble.MinecraftMixin (controlify.mixins.json)
+		io.github.tropheusj.dripstone_fluid_lib.mixin.MinecraftClientMixin (dripstone_fluid_lib.mixins.json)
+		ca.fxco.memoryleakfix.mixin.targetEntityLeak.Minecraft_targetClearMixin (memoryleakfix.mixins.json)
+		mezz.jei.fabric.mixin.MinecraftMixin (jei.mixins.json)
+		xaero.common.mixin.MixinMinecraftClient (xaerohud.mixins.json)
+		ca.fxco.moreculling.mixin.blockstates.MinecraftClient_loadBlocksMixin (moreculling.mixins.json)
+		com.illusivesoulworks.spectrelib.mixin.SpectreLibMixinMinecraft (spectrelib.mixins.json)
+		dev.isxander.controlify.mixins.feature.screenop.MinecraftMixin (controlify.mixins.json)
+		com.kingcontaria.fastquit.mixin.MinecraftClientAccessor (fastquit.mixins.json)
+		dev.tr7zw.transition.mixin.MinecraftMixin (transition.mixins.json)
+		survivalblock.enchancement_unbound.mixin.perception.client.MinecraftClientMixinMixin (enchancement_unbound.mixins.json)
+		traben.entity_model_features.mixin.mixins.accessor.MinecraftClientAccessor (entity_model_features.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.dedicated_reload_executor.MinecraftMixin (modernfix-common.mixins.json)
+		dev.isxander.controlify.mixins.feature.input.MinecraftMixin (controlify.mixins.json)
+		me.flashyreese.mods.sodiumextra.mixin.gui.MinecraftClientAccessor (sodium-extra.mixins.json)
+		me.lucko.spark.fabric.mixin.MinecraftClientAccessor (spark.mixins.json)
+		io.github.fabricators_of_create.porting_lib.common.mixin.client.accessor.MinecraftAccessor (porting_lib_common.mixins.json)
+		dynamic_fps.impl.mixin.MinecraftMixin (dynamic_fps-common.mixins.json)
+		traben.entity_texture_features.mixin.mixins.reloading.MixinMinecraftClient (entity_texture_features.mixins.json)
+		org.embeddedt.modernfix.fabric.mixin.core.MCMixin_Fabric (modernfix-fabric.mixins.json)
+		org.embeddedt.modernfix.fabric.mixin.feature.measure_time.MinecraftMixin_Fabric (modernfix-fabric.mixins.json)
+		com.blackgear.vanillabackport.core.mixin.client.MinecraftMixin (vanillabackport.mixins.json)
+		ca.fxco.moreculling.mixin.MinecraftClient_managersMixin (moreculling.mixins.json)
+		com.blackgear.platform.core.mixin.fabric.client.MinecraftMixin (platform.mixins.json)
+		vazkii.patchouli.mixin.client.MixinMinecraft (patchouli_fabric.mixins.json)
+		dev.isxander.yacl3.mixin.MinecraftMixin (yacl.mixins.json)
+		org.embeddedt.modernfix.common.mixin.bugfix.concurrency.MinecraftMixin (modernfix-common.mixins.json)
+		com.kingcontaria.fastquit.mixin.MinecraftClientMixin (fastquit.mixins.json)
+		moriyashiine.enchancement.mixin.torch.client.MinecraftClientMixin (enchancement.mixins.json)
+		com.aizistral.nochatreports.common.mixins.client.MixinMinecraft (mixins/common/nochatreports.mixins.json)
+		shcm.shsupercm.fabric.citresewn.defaults.mixin.types.enchantment.MinecraftClientMixin (citresewn-defaults.mixins.json)
+		slimeknights.mantle.mixin.client.MinecraftMixin (mantle.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.blast_search_trees.MinecraftMixin (modernfix-common.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+		dev.isxander.controlify.mixins.core.MinecraftMixin (controlify.mixins.json)
+		me.jellysquid.mods.sodium.mixin.core.MinecraftClientMixin (sodium.mixins.json)
+		org.betterx.bclib.mixin.client.MinecraftMixin (bclib.mixins.client.json)
+		io.github.fabricators_of_create.porting_lib.mixin.client.MinecraftMixin (porting_lib_base.mixins.json)
+		io.wispforest.owo.mixin.ui.MinecraftClientMixin (owo.mixins.json)
+		dev.architectury.mixin.fabric.client.MixinMinecraft (architectury.mixins.json)
+		traben.entity_model_features.mixin.mixins.MixinResourceReloadStart (entity_model_features.mixins.json)
+		dev.lambdaurora.spruceui.mixin.MinecraftClientMixin (spruceui.mixins.json)
+		draylar.omegaconfig.mixin.ClientMixin (omega-config.mixins.json)
+		io.github.fabricators_of_create.porting_lib.data.mixin.MinecraftMixin (porting_lib_data.mixins.json)
+		fuzs.puzzleslib.mixin.client.accessor.MinecraftFabricAccessor (puzzleslib.fabric.mixins.json)
+		moriyashiine.enchancement.mixin.perception.client.MinecraftClientMixin (enchancement.mixins.json)
+		fuzs.puzzleslib.mixin.client.MinecraftFabricMixin (puzzleslib.fabric.mixins.json)
+		net.raphimc.immediatelyfast.injection.mixins.core.MixinMinecraftClient (immediatelyfast-common.mixins.json)
+		eu.pb4.polymer.core.mixin.client.MinecraftClientMixin (polymer-core.mixins.json)
+		me.ramidzkh.fabrishot.mixins.MinecraftClientMixin (mixins.fabrishot.json)
+		org.embeddedt.modernfix.common.mixin.bugfix.world_leaks.MinecraftMixin (modernfix-common.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_Images (mixins.iris.json)
+		net.satisfy.brewery.core.mixin.rope.PickMixin (brewery-common.mixins.json)
+		org.embeddedt.modernfix.common.mixin.feature.measure_time.MinecraftMixin (modernfix-common.mixins.json)
+		dev.lambdaurora.lambdynlights.mixin.MinecraftClientMixin (lambdynlights.mixins.json)
+		dev.tr7zw.entityculling.mixin.DebugScreenEntriesAccessor (entityculling.mixins.json)
+		dev.isxander.zoomify.mixins.hooks.MinecraftClientMixin (zoomify.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		squeek.appleskin.mixin.MinecraftClientMixin (appleskin.mixins.json)
+		moriyashiine.enchancement.mixin.disarm.client.MinecraftClientMixin (enchancement.mixins.json)
+		com.natamus.collective.fabric.mixin.MinecraftMixin (collective_fabric.mixins.json)
+		net.fabricmc.fabric.mixin.datagen.client.MinecraftClientMixin (fabric-data-generation-api-v1.client.mixins.json)
+		org.betterx.betterend.mixin.client.MinecraftClientMixin (betterend.mixins.client.json)
+		dev.tr7zw.transition.mixin.BlockEntityRenderStateMixin (transition.mixins.json)
+		xaero.map.mixin.MixinFabricMinecraftClient (xaeroworldmap.fabric.mixins.json)
+		com.aizistral.nochatreports.fabric.mixins.client.MixinMinecraft (mixins/fabric/nochatreports-fabric.mixins.json)
+		xaero.lib.mixin.MixinMinecraftClientFabric (xaerolib.fabric.mixins.json)
+		com.blackgear.platform.core.mixin.client.MinecraftMixin (platform-common.mixins.json)
+		com.sonicether.soundphysics.mixin.MinecraftMixin (sound_physics_remastered.mixins.json)
+		net.mehvahdjukaar.supplementaries.mixins.fabric.MinecraftInputMixin (supplementaries.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_Keybinds (mixins.iris.json)
+		io.github.fabricators_of_create.porting_lib.entity.mixin.client.MinecraftMixin (porting_lib_entity.mixins.json)
+		net.blay09.mods.balm.mixin.MinecraftMixin (balm.mixins.json)
+		dev.kostromdan.mods.crash_assistant.common.mixin.MinecraftMixin (crash_assistant.mixins.json)
+		com.teamresourceful.resourcefullib.mixin.fabric.MixinMinecraft (resourcefullib.mixins.json)
+		moriyashiine.enchancement.mixin.vanillachanges.coyotebite.MinecraftClientMixin (enchancement.mixins.json)
+		dev.tr7zw.skinlayers.mixin.SkullModelStateMixin (skinlayers3d.mixins.json)
+		jerozgen.languagereload.mixin.MinecraftClientMixin (languagereload.mixins.json)
+		eu.pb4.polymer.resourcepack.mixin.MinecraftClientMixin (polymer-resource-pack.mixins.json)
+		dev.tr7zw.transition.mixin.EntityRendererMixin (transition.mixins.json)
+		net.mehvahdjukaar.moonlight.core.mixins.MinecraftMixin (moonlight-common.mixins.json)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.26100.3624 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		DWMAPI.DLL:Microsoft Desktop Window Manager API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.26040.7 (8d846dd50fd7adca65beb1b013a5fda76a9ec807):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:Microsoft OLE for Windows:10.0.26100.6725 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:Power Profile Helper DLL:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Application Compatibility Client Library:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Client Service:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 Client:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		fastprox.dll:WMI Custom Marshaller:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.26100.3915 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		hid.dll:Hid User Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		javaw.exe:OpenJDK Platform binary:17.0.15.0:Microsoft
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		jli.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		jna12098149842930273574.dll
+		jna18205573787294673398.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		jvm.dll:OpenJDK 64-Bit server VM:17.0.15.0:Microsoft
+		kernel.appcore.dll:AppModel API Host:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		management.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		management_ext.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		msvcp140.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		nio.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		perfproc.dll:Windows System Process Performance Objects DLL:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+		wbemcomn.dll:WMI:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		wbemprox.dll:WMI:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		wbemsvc.dll:WMI:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		win32u.dll:Win32u:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:17.0.15.0:Microsoft
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+Mixins in Stacktrace: None found
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1447034880 bytes (1380 MiB) / 2642411520 bytes (2520 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz
+	Identifier: Intel64 Family 6 Model 126 Stepping 5
+	Microarchitecture: Ice Lake (Client)
+	Frequency (GHz): 1.50
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Plus Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x8a52
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.2125
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 3.73
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.73
+	Memory slot #1 type: LPDDR4
+	Virtual memory max (MB): 26197.54
+	Virtual memory used (MB): 13688.18
+	Swap memory total (MB): 18419.39
+	Swap memory used (MB): 1785.03
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseZGC -XX:-ZUncommit
+	Fabric Mods: 
+		advancementinfo: AdvancementInfo 1.20-fabric0.83.0-1.4
+		alloy_forgery: Alloy Forgery 2.1.2+1.20
+		almostunified: AlmostUnified 1.20.1-0.11.0
+		amendments: Amendments 1.20-2.2.5
+		animatica: Animatica 0.6.1+1.20.4
+		another_furniture: Another Furniture 1.20.1-3.0.5
+		appleskin: AppleSkin 2.5.2+mc1.20.1
+		aquamirae: Aquamirae 6
+		architectury: Architectury 9.2.14
+		athena: Athena 3.1.2
+		bakery: [Let's Do] Bakery 2.0.6
+		balm: Balm 7.3.38
+			kuma_api: KumaAPI 20.1.12
+		bbb: Building But Better 2.0pre4
+		bclib: BCLib 3.0.14
+			wunderlib: WunderLib 1.1.5
+		beachparty: [Let's Do] Beachparty 2.0.3
+		betterdeserttemples: YUNG's Better Desert Temples 1.20-Fabric-3.0.3
+			org_reflections_reflections: reflections 0.10.2
+		betterdungeons: YUNG's Better Dungeons 1.20-Fabric-4.0.4
+		betterend: Better End 4.0.11
+		betterendisland: YUNG's Better End Island 1.20-Fabric-2.0.6
+		betterfortresses: YUNG's Better Nether Fortresses 1.20-Fabric-2.0.6
+		betterjungletemples: YUNG's Better Jungle Temples 1.20-Fabric-2.0.5
+		bettermineshafts: YUNG's Better Mineshafts 1.20-Fabric-4.0.4
+		bettermounthud: Better Mount HUD 1.2.2
+		betteroceanmonuments: YUNG's Better Ocean Monuments 1.20-Fabric-3.0.4
+		betterstrongholds: YUNG's Better Strongholds 1.20-Fabric-4.0.3
+		betterwitchhuts: YUNG's Better Witch Huts 1.20-Fabric-3.0.3
+		blahaj: Blåhaj 0.3.2
+		blazingbamboo: Blazing Bamboo 1.20.1-1.0.1
+		blockrunner: Block Runner 8.0.4
+		borderlessmining: Borderless Mining 1.1.8+1.20.1
+		bosses_of_mass_destruction: Bosses of Mass Destruction (Beta) 1.7.5-1.20.1
+			maelstrom_library: Maelstrom Library 1.6.1-1.20
+			multipart_entities: MultipartEntities 1.5-1.20
+		bountiful: Bountiful 6.0.4+1.20.1
+		bows: Extra Bows 1.1.1
+		brewery: [Let's Do] Brewery 2.0.6
+		brutes_dropscraps_mr: Brutes Drop Scraps 1.1
+		capes: Capes 1.5.2+1.20
+		cardinal-components: Cardinal Components API 5.2.3
+			cardinal-components-base: Cardinal Components API (base) 5.2.3
+			cardinal-components-block: Cardinal Components API (blocks) 5.2.3
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.2.3
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.3
+			cardinal-components-item: Cardinal Components API (items) 5.2.3
+			cardinal-components-level: Cardinal Components API (world saves) 5.2.3
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.2.3
+			cardinal-components-world: Cardinal Components API (worlds) 5.2.3
+		cherishedworlds: Cherished Worlds 6.1.7+1.20.1
+		chipped: Chipped 3.0.7
+		citresewn: CIT Resewn 1.2.2+1.20.1
+			citresewn-defaults: CIT Resewn: Defaults 1.2.2+1.20.1
+		cloth-config: Cloth Config v11 11.1.136
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 8.22
+		comforts: Comforts 6.4.0+1.20.1
+			spectrelib: SpectreLib 0.13.15+1.20.1
+		continuity: Continuity 3.0.0+1.20.1
+		controlify: Controlify 2.1.2+1.20.1-fabric
+			dev_isxander_libsdl4j: libsdl4j 3.1.9.075c033-66
+			dev_isxander_steamdeck4j: steamdeck4j 1.1.7
+			org_hid4java_hid4java: hid4java 0.8.0
+		cooldown-coordinator: Cooldown Coordinator 0.6.3
+		craftpresence: CraftPresence 2.7.1
+		crash_assistant: Crash Assistant 1.11.9
+		cratedelight: Crate Delight 25.9.22-1.20-fabric
+		creeperoverhaul: Creeper Overhaul 3.0.2
+		ctov: ChoiceTheorem's Overhauled Village 3.4.14
+		debugify: Debugify 1.20.1+2.0
+		diggusmaximus: Diggus Maximus 1.5.9-1.20
+			kyrptconfig: Kyrpt Config 1.5.6-1.20
+		dummmmmmy: MmmMmmMmmMmm 1.20-2.0.12
+		dynamic_fps: Dynamic FPS 3.11.4
+			net_lostluma_battery: battery 2.0.0
+		e4mc: e4mc 6.1.0
+			folk_sisby_kaleido-config: kaleido-config 0.3.3+1.3.2
+		earth-and-water: Earth & Water 1.0.3
+		elytraslot: Elytra Slot 6.4.4+1.20.1
+			mixinsquared: MixinSquared 0.1.2-beta.6
+		enchance: Enchancementos 1.0.4
+		enchancement: Enchancement 1.20-26
+			step-height-entity-attribute: Step Height Entity Attribute 1.2.0
+		enchancement_unbound: Enchancement Unbound 1.0.6+1.20-24+26
+		endermanoverhaul: Enderman Overhaul 1.0.4
+		enhancedblockentities: Enhanced Block Entities 0.9+1.20
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.7
+		entity_model_features: Entity Model Features 3.2.4
+		entity_texture_features: Entity Texture Features 7.1
+		entityculling: EntityCulling 1.10.2
+			transition: TRansition 1.0.19
+			trender: TRender 1.0.13
+		experienced_crops: Experienced Crops 1.20.1-1.1.0
+		extractinator: Extractinator 2.3.0
+		fabric-api: Fabric API 0.92.9+1.20.1
+			fabric-api-base: Fabric API Base 0.4.32+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.37+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.15+93aa238b77
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.12+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.3+924f046a77
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.42+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.3+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.35+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.14+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.52+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.68+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.13+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.6+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.20+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.2+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.9+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.55+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.1+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.6+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.64+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.41+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.29+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.14+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.38+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.36+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.23+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.3+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.47+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.10+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.52+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.4+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.3+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.15+0caff8d077
+			fabric-networking-v0: Fabric Networking (v0) 0.3.55+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.5+e35120df77
+			fabric-particles-v1: Fabric Particles (v1) 1.1.3+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.25+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.4.1+4c0a70e677
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.2+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.3+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.47+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.39+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.29+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.50+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.9+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.9+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.12+fb82e9d777
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.9+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.34+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.14+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.6+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.2+1802ada577
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.11+kotlin.2.3.21
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.3.21
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.3.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.3.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.3.21
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.32.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.7.1
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.9.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.9.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.11.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.11.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.11.0
+		fabricloader: Fabric Loader 0.19.2
+			mixinextras: MixinExtras 0.5.4
+		fabricskyboxes: FabricSkyBoxes 0.7.3+mc1.20.1
+		fabrishot: Fabrishot 1.10.1
+		fadeless: Fadeless 1.0.1
+		fantasy_weapons: Fantasy Weapons 0.3.1-1.20.1
+		farm_and_charm: [Let's Do] Farm & Charm 1.0.14
+		farmersdelight: Farmer's Delight 1.20.1-2.4.1+refabricated
+			mm: Manningham Mills 2.3
+			porting_lib_recipe_book_categories: Porting Lib Recipe Book Categories 2.3.8+1.20.1
+			porting_lib_tags: Porting Lib Tags 3.0
+		fastquit: FastQuit 3.0.0+1.20+
+		faunify: Faunify 1.3.1
+		ferritecore: FerriteCore 6.0.1
+		forgeconfigapiport: Forge Config API Port 8.0.3
+		friendsandfoes: Friends&Foes 3.0.9
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+		fsb-interop: FabricSkyBoxes Interop 1.3.6+mc1.20.1-build.50
+		furniture: [Let's Do] Furniture 1.0.4
+		geckolib: GeckoLib 4 4.8.3
+			com_eliotlash_mclib_mclib: mclib 20
+		golemoverhaul: Golem Overhaul 1.1.0
+		grounded: Grounded 1.20.1-0.1.1
+		handcrafted: Handcrafted 3.0.6
+		hearth_and_home: Hearth & Home 1.20.1-2.0.3
+		hearths: Hearths 1.0.5
+		herbalbrews: [Let's Do] HerbalBrews 1.0.12
+		hopobetterunderwaterruins: Hopo Better Underwater Ruins 1.1.5
+		hoppergadgetry: Hopper Gadgetry 20.1.3
+			extensibleenums: Extensible Enums 20.1.1
+		hybrid-aquatic: Hybrid Aquatic 1.5.4
+		illagerinvasion: Illager Invasion 8.0.7
+		immediatelyfast: ImmediatelyFast 1.5.4+1.20.4
+			net_lenni0451_reflect: Reflect 1.6.1+curseforge
+		immersiveores: ImmersiveOres 1.20.1-0.8
+			playerabilitylib: Pal 1.8.0
+		indium: Indium 1.0.36+mc1.20.1
+		iris: Iris 1.7.6+mc1.20.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		isxander-main-menu-credits: Main Menu Credits 1.1.2
+		jade: Jade 11.13.1+fabric
+		jadensnetherexpansiondelight: Jaden's Nether Expansion Delight 1.0.0-1.20.1-fabric
+		java: OpenJDK 64-Bit Server VM 17
+		jei: Just Enough Items 15.20.0.130
+		kambrik: Kambrik 6.1.1+1.20.1
+		keybind_fix: Keybind Fix 1.0.0
+		lambdynlights: LambDynamicLights 4.4.0+1.20.1
+			lambdynlights_api: LambDynamicLights (API) 4.4.0+1.20.1
+				yumi_commons_collections: Yumi Commons: Collections 1.0.0-beta.4
+				yumi_commons_core: Yumi Commons: Core 1.0.0-beta.4
+				yumi_commons_event: Yumi Commons: Event 1.0.0-beta.4
+			pride: Pride Lib 1.2.0+1.19.4
+			spruceui: SpruceUI 6.2.1+1.20
+		languagereload: Language Reload 1.7.5+1.20.1
+		letsdocompat: [Let's Do Addon] Compat 2.2.4
+		lilis_lucky_lures: Lilis' Lucky Lures 1.0.2
+		lithium: Lithium 0.11.4
+		lithostitched: Lithostitched 1.4.11
+		lootr: Lootr 0.7.35.86
+		low_fire_reborn: Low Fire Reborn 1.0.0
+		mavapi: More Axolotl Variants API 1.1.4
+		mavm: More Axolotl Variants Mod 1.2.6
+		medieval_nether: Medieval Buildings [The End Edition] 1.0.2
+		medievalend: Medieval Buildings [The End Edition] 1.0.1
+		memoryleakfix: Memory Leak Fix 1.1.5
+		mes: MoogsEndStructures 2.0.3
+		minecraft: Minecraft 1.20.1
+		mineralchance: Mineral Chance 3.8
+		mixintrace: MixinTrace 1.1.1+1.17
+		mobcaptains: Mob Captains 3.1.1
+		modelfix: Model Gap Fix 1.15
+		modern_industrialization: Modern Industrialization 1.8.6
+			magna: Magna 1.10.1+1.20.1
+				omega-config: OmegaConfig 1.0.8
+			noindium: No Indium? 1.1.0+1.20
+			patchouli: Patchouli 1.20.1-81-FABRIC
+				fiber: fiber 0.23.0-2
+			team_reborn_energy: Energy 3.0.0
+		modernfix: ModernFix 5.25.2+mc1.20.1
+		modmenu: Mod Menu 7.2.2
+		moogs_paths: Moog's Paths 1.0.0
+		moogs_structures: Moog's Structure Lib 1.1.0-1.20-1.20.4
+		moonlight: Moonlight 1.20-2.16.32
+		morechathistory: More Chat History 1.3.0
+		moreculling: More Culling 1.20.1-0.24.5
+			conditional-mixin: conditional mixin 0.3.2
+		moredelight: More Delight 26.5.7-1.20-fabric
+		moremobvariants: More Mob Variants 1.3.1
+		mousetweaks: Mouse Tweaks 2.26
+		moyai: moyai 1.20-2.0.2
+		mr_netherweather: Nether Weather 1.1.2_backport
+		mr_ore_plus_x2: Ore Plus x2 2.15.41.3
+		mr_qraftys_endvillages: qrafty's End Villages 1
+		mr_tidal_towns: Tidal Towns 1.3.4
+		mr_true_ending: True Ending: Ender Dragon Overhaul 1-v1.1.0c
+		mr_ultimate_bosses: Ultimate Bosses 1.0.4
+		mr_warden_withloot: Warden With Loot 2.2
+		mru: Mineblock's Repeated Utilities 1.0.4+1.20.1+fabric
+		mynethersdelight: My Nether's Delight 1.20.1-1.0.4+1.7.6.refabricated
+		mysticsbiomes: Mystic's Biomes 3.5.2
+		mythicmetals: Mythic Metals 0.19.11+1.20.1
+			additionalentityattributes: Additional Entity Attributes 1.7.3+1.20.0
+		naturalist: Naturalist 5.0pre3
+		naturescompass: Nature's Compass 1.20.1-2.6.0-fabric
+		nears: Nears 2.1.2
+		netherexp: Jaden's Nether Expansion 2.1.3
+		nethervinery: [Let's Do] NetherVinery 1.2.19
+		nochatreports: No Chat Reports 1.20.1-v2.2.2
+		obscure_api: Obscure API 16
+		omnicrossbow: Omni Crossbow 0.2.1+mc1.20.1
+		omnihopper: Omni-Hopper 2.2.4+1.20
+			cicada: CICADA 0.5.2+1.20.1-minus
+		optigui: OptiGUI 2.3.0-beta.9+1.20
+			org_apache_commons_commons-text: commons-text 1.11.0
+			org_ini4j_ini4j: ini4j 0.5.4
+		overweight_farming: Overweight Farming 1.20.1-2.0.3-fabric
+		owo: oωo 0.11.2+1.20
+			blue_endless_jankson: jankson 1.2.2
+		platform: Platform 1.3.3
+		potionsauce: Potion Sauce 1.20-1
+		puzzle: Puzzle 2.3.0
+			midnightlib: MidnightLib 1.9.2
+		puzzleslib: Puzzles Lib 8.1.33
+			puzzlesaccessapi: Puzzles Access Api 20.1.1
+		reeses-sodium-options: Reese's Sodium Options 1.7.2+mc1.20.1-build.101
+		resourcefulconfig: Resourcefulconfig 2.1.3
+		resourcefullib: Resourceful Lib 2.1.29
+			com_teamresourceful_bytecodecs: bytecodecs 1.0.2
+			com_teamresourceful_yabn: yabn 1.0.3
+		respawnablepets: Respawnable Pets 1.20-1
+		rottencreatures: Rotten Creatures 1.1.0
+		rrls: Remove Reloading Screen 4.0.6.1+mc1.20.1-fabric
+		skinlayers3d: 3d-Skin-Layers 1.11.1
+		sodium: Sodium 0.5.13+mc1.20.1
+		sodium-extra: Sodium Extra 0.5.9+mc1.20.1
+			caffeineconfig: CaffeineConfig 1.3.0+1.17
+		somemoreblocks: Some More Blocks 1.0.7-bp
+		sound_physics_remastered: Sound Physics Remastered 1.20.1-1.5.1
+		sounds: Sounds 2.2.1+1.20.1+fabric
+		spark: spark 1.10.53
+		spawn: Spawn 1.0.3-fabric
+		status-effect-bars: Status Effect Bars 1.0.3
+		strongheld: Strongheld 1.20.1
+		supplementaries: Supplementaries 1.20-3.1.43
+		suppsquared: Supplementaries Squared 1.20-1.1.29
+		tconstruct: Hephaestus 1.20.1-3.6.4.305
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			dripstone_fluid_lib: Dripstone Fluid Lib 3.0.1
+			mantle: Mantle 1.20.1-1.9.291
+				star: Star 1.5.2+1.20.1
+			milk: Milk Lib 1.2.58
+			porting_lib_accessors: Porting Lib Accessors 2.3.14+1.20.1
+			porting_lib_attributes: Porting Lib Attributes 2.3.14+1.20.1
+			porting_lib_base: Porting Lib Base 2.3.14+1.20.1
+				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.14+1.20.1
+			porting_lib_brewing: Porting Lib Brewing 2.3.14+1.20.1
+			porting_lib_client_events: Porting Lib Client Events 2.3.14+1.20.1
+			porting_lib_common: Porting Lib Common 2.3.14+1.20.1
+			porting_lib_config: Porting Lib Config 2.3.14+1.20.1
+			porting_lib_core: Porting Lib Core 2.3.14+1.20.1
+			porting_lib_data: Porting Lib Data 2.3.14+1.20.1
+			porting_lib_entity: Porting Lib Entity 2.3.14+1.20.1
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.14+1.20.1
+			porting_lib_extensions: Porting Lib Extensions 2.3.14+1.20.1
+			porting_lib_fluids: Porting Lib Fluids 2.3.14+1.20.1
+			porting_lib_items: Porting Lib Items 2.3.14+1.20.1
+			porting_lib_lazy_registration: Porting Lib Lazy Register 2.3.14+1.20.1
+			porting_lib_loot: Porting Lib Loot 2.3.14+1.20.1
+			porting_lib_model_loader: Porting Lib Model Loader 2.3.14+1.20.1
+			porting_lib_models: Porting Lib Models 2.3.14+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.14+1.20.1
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.14+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.14+1.20.1
+			porting_lib_utility: Porting Lib Utility 2.3.14+1.20.1
+		terrablender: TerraBlender 3.0.1.10
+			com_electronwill_night-config_core: core 3.6.7
+			com_electronwill_night-config_toml: toml 3.6.7
+		tooltipfix: ToolTip Fix 1.1.1-1.20
+		travelersbackpack: Traveler's Backpack 9.1.53
+		trinkets: Trinkets 3.7.2
+		twigs: Twigs 3.1.0
+		unilib: UniLib 1.2.1
+		universal-graves: Universal Graves 3.0.3+1.20.1
+			common-protection-api: Common Protection API 1.0.0
+			fabric-permissions-api-v0: fabric-permissions-api 0.2-SNAPSHOT
+			placeholder-api: Placeholder API 2.1.3+1.20.1
+			polymer-core: Polymer (Core) 0.5.19+1.20.1
+				polymer-networking: Polymer (Networking) 0.5.19+1.20.1
+				polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.5.19+1.20.1
+			polymer-resource-pack: Polymer (Resource Pack) 0.5.19+1.20.1
+			polymer-virtual-entity: Polymer (Virtual Entity) 0.5.19+1.20.1
+				polymer-common: Polymer (Common) 0.5.19+1.20.1
+			predicate-api: Predicate API 0.2.1+1.20.1
+			server_translations_api: Server Translations API 2.0.0+1.20
+				packet_tweaker: Packet Tweaker 0.4.0+1.19.4
+			sgui: sgui 1.2.2+1.20
+		vanillabackport: VanillaBackport 1.1.7.6
+		villager-pickup: Villager Pickup 1.1.2
+		vinery: [Let's Do] Vinery 1.4.41
+		visuality: Visuality 0.7.1+1.20
+		visualworkbench: Visual Workbench 8.0.1
+		waystones: Waystones 14.1.20
+		weaponleveling: Lukas' Weapon Leveling 3.0.1
+		weaponlevelingtransfer: Weapon Leveling Transfer 1.0.3
+		wildernature: [Let's Do] WilderNature 1.0.6
+		xaerominimap: Xaero's Minimap 25.3.12
+			xaerolib: XaeroLib 1.1.15
+		xaeroworldmap: Xaero's World Map 1.40.16
+		yaf: Yet Another Furniture 1.0pre3
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.20.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+		yosbr: YOSBR 0.1.2
+		yungsapi: YUNG's API 1.20-Fabric-4.0.6
+			org_javassist_javassist: javassist 3.29.2-GA
+		yungsbridges: YUNG's Bridges 1.20-Fabric-4.0.3
+		yungscavebiomes: YUNG's Cave Biomes 1.20.1-Fabric-2.0.5
+		zoomify: Zoomify 2.15.2+1.20.1
+			com_akuleshov7_ktoml-core-jvm: ktoml-core-jvm 0.7.1
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

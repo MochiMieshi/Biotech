@@ -1,0 +1,1 @@
+{"jarName":"VanillaBackport-fabric-1.20.1-1.1.7.6.jar","modId":"vanillabackport","name":"VanillaBackport","version":"1.1.7.6","mixinConfigs":["vanillabackport.mixins.json","vanillabackport-fabric.mixins.json"],"jarJarMods":[],"curseForgeHash":458628973,"modrinthHash":"2ed3582d23eb63191ff02f31b0c0f6f8a6c2ea61"}

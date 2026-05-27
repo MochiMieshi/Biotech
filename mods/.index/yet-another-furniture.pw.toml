@@ -1,0 +1,21 @@
+filename = 'yet-another-furniture-1.0pre3+fabric-1.20.1.jar'
+name = 'Yet Another Furniture'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0pre3'
+
+[download]
+hash = '2ed37ea475fdc5fbb395c5b024848c06ef8d149a3eba708d34b21c483ddfa991860b7d6444e599d5718318c7516ad7c735e1b3078a955f83bf14fcb8fe80dd84'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bZfhG8ws/versions/WjEI0Civ/yet-another-furniture-1.0pre3%2Bfabric-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'bZfhG8ws'
+version = 'WjEI0Civ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

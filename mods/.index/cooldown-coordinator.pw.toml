@@ -1,0 +1,18 @@
+filename = 'cooldown-coordinator-0.6.3.jar'
+name = 'Cooldown Coordinator'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.6.3'
+
+[download]
+hash = '82a231b59178fbfce47dead240a0b0d27d59aeba1111544b819f1fed9fbe4d86a3439c02e671bcf2a3dbfcc711a6c99ebcaef930a293478041c7b7a1e346c1fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3.jar'
+
+[update.modrinth]
+mod-id = '2lfPteTN'
+version = 'Q38lLYOE'
