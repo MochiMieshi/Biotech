@@ -1,0 +1,707 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "north"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "south"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "west"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "true",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "true",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "true",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "true",
+			"hanging": "false",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"has_bait": "false",
+			"hanging": "false",
+			"full": "false",
+			"facing": "east"
+		},
+		"Name": "lilis_lucky_lures:fish_trap"
+	}
+]

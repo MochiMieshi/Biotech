@@ -133,7 +133,11 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {},
+    "dynamicIcons": {
+      "gristle-skeleton.ap.e4mc.link": "https://api.mcsrvstat.us/icon/gristle-skeleton.ap.e4mc.link",
+      "bolt-fester.ap.e4mc.link": "https://api.mcsrvstat.us/icon/bolt-fester.ap.e4mc.link",
+      "untoasted-stony.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untoasted-stony.ap.e4mc.link"
+    },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "true",
+			"age": "0"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "true",
+			"age": "1"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "false",
+			"age": "1"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "true",
+			"age": "2"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "false",
+			"age": "2"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "true",
+			"age": "3"
+		},
+		"Name": "nears:near_hang_stem"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"supported": "false",
+			"age": "3"
+		},
+		"Name": "nears:near_hang_stem"
+	}
+]

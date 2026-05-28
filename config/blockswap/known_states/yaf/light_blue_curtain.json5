@@ -1,0 +1,2084 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "bottom_right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_left",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "corner_right",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curtain_top_single",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "vertical_middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "yaf:light_blue_curtain"
+	}
+]

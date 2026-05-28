@@ -1,0 +1,18 @@
+filename = 'YoFPS+High+(Chocapic13+Edit).zip'
+name = 'YoFPS'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.17', '1.17.1', '1.18', '1.18.1', '1.18.2', '1.19', '1.19.1', '1.19.2', '1.19.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0-high'
+
+[download]
+hash = '28d046fad7d88ada978aafd043e1f72ba2515ef5cfdd37b45fe42f54a09a07608a67c3312265cc7222d387236317938efae323e5557c557500b7cbeccc9c83f9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xM96NJmk/versions/hOdwb79n/YoFPS%2BHigh%2B%28Chocapic13%2BEdit%29.zip'
+
+[update.modrinth]
+mod-id = 'xM96NJmk'
+version = 'hOdwb79n'

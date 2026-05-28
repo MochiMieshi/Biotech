@@ -48,6 +48,7 @@
 	unbounded_speed_duration = 10
 	#Soul Soil can be flattened with a shovel to make Soul Paths
 	enable_soul_paths = true
+
 #Item Settings
 [items]
 	#Defines the stack size for all Potions & Antidotes 
@@ -57,6 +58,7 @@
 	#Defines the stack size for Will O' Wisps
 	#Range: 1 ~ 64
 	will_o_wisp_stack_size = 16
+
 #Entity Settings
 [entities]
 	#Magma Cube texture changes depending on it's size so that it's no longer mixels 
@@ -91,6 +93,7 @@
 	wisp_emerging_chance = 50
 	#Wither Skeletons will drop fossil fuel instead of coal
 	wither_skeleton_drops_fossil_fuel = false
+
 #Game Mechanic Settings
 [game_mechanics]
 	#Soul Speed will no longer damage your boots when enabled
@@ -119,6 +122,7 @@
 	ectoplasm_rusts_netherite = true
 	#Defines if Immunity Effect duration reduction is scaled by the incoming effect amplifier
 	amplifier_immunity_reduction = true
+
 #Particle & Sound Settings
 [particles_and_sounds]
 	#Glowstone and Redstone Lamps will produce unique sounds

@@ -1,0 +1,1411 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "true",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "top",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "middle",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "bottom",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "none",
+			"powered": "false",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "furniture:curtain_magenta"
+	}
+]

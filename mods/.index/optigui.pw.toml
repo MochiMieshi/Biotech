@@ -1,6 +1,6 @@
 filename = 'optigui-2.3.0-beta.9+1.20.jar'
 name = 'OptiGUI'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
@@ -17,13 +17,13 @@ mod-id = 'JuksLGBQ'
 version = 'BhkVUqUt'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'PRN43VSY'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'Ha28R6CL'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
 type = 'REQUIRED'

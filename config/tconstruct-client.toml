@@ -40,6 +40,7 @@
 			location = "TOP_LEFT"
 			#If true, the item frame modifier for helmets will render its items. Turning this to false makes the modifier useless.
 			render = true
+
 	#Settings related to compatibility
 	[client.compatibility]
 		#If true and Inventory Tabs is loaded, TConstruct table tabs will be hidden so Inventory Tabs tabs can be used.

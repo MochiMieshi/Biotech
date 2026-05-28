@@ -1,0 +1,437 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "north",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "north",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "north",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "base",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "top",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "middle",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shape": "bottom",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "mysticsbiomes:vanilla_orchid"
+	}
+]
