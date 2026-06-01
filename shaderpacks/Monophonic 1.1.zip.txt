@@ -1,0 +1,7 @@
+#Fri May 29 22:08:43 ICT 2026
+saturation=0.8
+shadowsMode=3
+contrast=0.8
+lightSaturation=2.5
+vibrance=1.2
+shadowSamples=8

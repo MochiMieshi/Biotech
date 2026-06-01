@@ -136,7 +136,22 @@
     "dynamicIcons": {
       "gristle-skeleton.ap.e4mc.link": "https://api.mcsrvstat.us/icon/gristle-skeleton.ap.e4mc.link",
       "bolt-fester.ap.e4mc.link": "https://api.mcsrvstat.us/icon/bolt-fester.ap.e4mc.link",
-      "untoasted-stony.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untoasted-stony.ap.e4mc.link"
+      "untoasted-stony.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untoasted-stony.ap.e4mc.link",
+      "catalyst-album.ap.e4mc.link": "https://api.mcsrvstat.us/icon/catalyst-album.ap.e4mc.link",
+      "stallion-sighing.ap.e4mc.link": "https://api.mcsrvstat.us/icon/stallion-sighing.ap.e4mc.link",
+      "oxidize-poise.sg.e4mc.link": "https://api.mcsrvstat.us/icon/oxidize-poise.sg.e4mc.link",
+      "chute-crawling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/chute-crawling.ap.e4mc.link",
+      "saddling-lapel.ap.e4mc.link": "https://api.mcsrvstat.us/icon/saddling-lapel.ap.e4mc.link",
+      "smugly-fruit.sg.e4mc.link": "https://api.mcsrvstat.us/icon/smugly-fruit.sg.e4mc.link",
+      "slimy-tactless.sg.e4mc.link": "https://api.mcsrvstat.us/icon/slimy-tactless.sg.e4mc.link",
+      "mousiness-failing.ap.e4mc.link": "https://api.mcsrvstat.us/icon/mousiness-failing.ap.e4mc.link",
+      "upgrade-endocrine.ap.e4mc.link": "https://api.mcsrvstat.us/icon/upgrade-endocrine.ap.e4mc.link",
+      "collision-pennant.sg.e4mc.link": "https://api.mcsrvstat.us/icon/collision-pennant.sg.e4mc.link",
+      "100.78.238.84": "https://api.mcsrvstat.us/icon/100.78.238.84",
+      "daycare-fax.ap.e4mc.link": "https://api.mcsrvstat.us/icon/daycare-fax.ap.e4mc.link",
+      "swivel-domain.ap.e4mc.link": "https://api.mcsrvstat.us/icon/swivel-domain.ap.e4mc.link",
+      "musky-mama.sg.e4mc.link": "https://api.mcsrvstat.us/icon/musky-mama.sg.e4mc.link",
+      "runaround-drilling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/runaround-drilling.ap.e4mc.link"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",

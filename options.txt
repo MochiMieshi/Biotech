@@ -28,9 +28,9 @@ fovEffectScale:0.6324555367458368
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
-damageTiltStrength:1.0
+damageTiltStrength:0.30985915492957744
 highContrast:false
-renderDistance:6
+renderDistance:4
 simulationDistance:6
 entityDistanceScaling:1.0
 guiScale:3
@@ -41,9 +41,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"false"
-resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","continuity:default","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip"]
-incompatibleResourcePacks:[]
-lastServer:untoasted-stony.ap.e4mc.link
+resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","continuity:default","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","file/Comforts Modernized - V1.1.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Connected-Paths 26.1 – 26.1.2 v2.1.1.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Nehter\u0027s_Delight_crops_3D_1.3.zip","file/REVIVED_Farmer\u0027s Delight_crops_3D_Refabricated_R1.5.1-universal.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip","file/Unique Dark - Lite - 1.20.2-26.x.zip","file/Alternative Rain Sounds 1.21.9-1.21.11.zip"]
+incompatibleResourcePacks:["file/Comforts Modernized - V1.1.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Connected-Paths 26.1 – 26.1.2 v2.1.1.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip","file/Unique Dark - Lite - 1.20.2-26.x.zip"]
+lastServer:100.78.238.84:55670
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -75,7 +75,7 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
@@ -122,6 +122,28 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.golemoverhaul.netherite_golem_summon:key.keyboard.r
+key_key.effortless.settings.desc:key.keyboard.unknown
+key_key.effortless.build_mode_radial.desc:key.keyboard.left.alt
+key_key.effortless.passive_build_modifier.desc:key.keyboard.unknown
+key_key.effortless.undo.desc:key.keyboard.left.bracket
+key_key.effortless.redo.desc:key.keyboard.right.bracket
+key_key.effortless.toggle_clipboard.desc:key.keyboard.unknown
+key_key.effortless.toggle_pattern.desc:key.keyboard.unknown
+key_key.effortless.toggle_replace.desc:key.keyboard.unknown
+key_key.effortless.edit_clipboard.desc:key.keyboard.unknown
+key_key.effortless.edit_pattern.desc:key.keyboard.unknown
+key_key.effortless.move_left.desc:key.keyboard.left
+key_key.effortless.move_right.desc:key.keyboard.right
+key_key.effortless.move_forward.desc:key.keyboard.up
+key_key.effortless.move_backward.desc:key.keyboard.down
+key_key.effortless.move_up.desc:key.keyboard.page.up
+key_key.effortless.move_down.desc:key.keyboard.page.down
+key_key.effortless.rotate_x.desc:key.keyboard.unknown
+key_key.effortless.rotate_y.desc:key.keyboard.unknown
+key_key.effortless.rotate_z.desc:key.keyboard.unknown
+key_key.effortless.mirror_x.desc:key.keyboard.unknown
+key_key.effortless.mirror_y.desc:key.keyboard.unknown
+key_key.effortless.mirror_z.desc:key.keyboard.unknown
 key_key.enchancement.dash:key.keyboard.left.shift
 key_key.enchancement.slam:key.keyboard.left.control
 key_key.enchancement.slide:key.keyboard.left.control
@@ -234,7 +256,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.0
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

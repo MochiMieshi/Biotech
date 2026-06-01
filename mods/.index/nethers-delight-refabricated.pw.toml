@@ -1,0 +1,37 @@
+filename = 'NethersDelight-Refabricated-1.20.1-4.1.1.jar'
+name = 'Nethers Delight Refabricated'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-4.1.1'
+
+[download]
+hash = 'c347b214f862f1f27efffb8b738935ab4c57e699d71f92e20b5f14b065f78fff6e64657af43d15a32b08b2bf92e9f3b4d8afa4bea428284e5bccbc2dae3de29a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QLPYve8H/versions/ukA6oZlz/NethersDelight-Refabricated-1.20.1-4.1.1.jar'
+
+[update.modrinth]
+mod-id = 'QLPYve8H'
+version = 'ukA6oZlz'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'

@@ -3,15 +3,15 @@
 	#Enable / Disables the ability to throw the eye of ender to locate the stronghold structure
 	#
 	#Default: false
-	throwEyeOfEnder = false
+	throwEyeOfEnder = true
 	#Enable / Disables the ability to use the eye of ender on the end portal frame blocks
 	#
 	#Default: false
-	useEyeOfEnder = false
+	useEyeOfEnder = true
 	#Enable / Disables the ability to activate the nether portal
 	#
 	#Default: false
-	activateNetherPortal = false
+	activateNetherPortal = true
 	#Provide a comma separated list of blocks in the syntax of mod:block
 	#
 	#Default: minecraft:obsidian,securitycraft:reinforced_obsidian

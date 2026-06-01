@@ -1,0 +1,18 @@
+filename = "Nehter's_Delight_crops_3D_1.3.zip"
+name = "Nether's Delight crops 3D"
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3'
+
+[download]
+hash = '229cb31a65b456422cedd4ffc43cf720b8ae92c43cf373dddecc1748e9654e92712b03c1c7e207aced6317f1478ad76f256e3481633c71cf53ef6202072c0d5a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ieu7w8CC/versions/UZwAr4YA/Nehter%27s_Delight_crops_3D_1.3.zip'
+
+[update.modrinth]
+mod-id = 'Ieu7w8CC'
+version = 'UZwAr4YA'

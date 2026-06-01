@@ -1,0 +1,18 @@
+filename = 'coolarmor-1.1.5-1.20.1-fabric.jar'
+name = "Ray's Cool Armor"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.5-1.20.1-fabric'
+
+[download]
+hash = '4094d1328e82cd8c17923fe481b80fc552c0452082a01ede5414b00a0ba0024da7b857de06640ebe10cfcdc059aef4afc82624a4c5ce0e3d87a49c4d89f3081b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/npKkGm4R/versions/6BzhOAux/coolarmor-1.1.5-1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'npKkGm4R'
+version = '6BzhOAux'

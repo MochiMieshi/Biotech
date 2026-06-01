@@ -1,0 +1,2517 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff8aa7b63a1, pid=14432, tid=8616
+#
+# JRE version: OpenJDK Runtime Environment Microsoft-11369865 (17.0.15+6) (build 17.0.15+6-LTS)
+# Java VM: OpenJDK 64-Bit Server VM Microsoft-11369865 (17.0.15+6-LTS, mixed mode, tiered, compressed class ptrs, z gc, windows-amd64)
+# Problematic frame:
+# C  [ig11icd64.dll+0x7163a1]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://aka.ms/minecraftjavacrashes
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Duser.language=en -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseZGC -XX:-ZUncommit -Djava.library.path=C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/instances/BiotechS/natives org.prismlauncher.EntryPoint
+
+Host: Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz, 8 cores, 7G,  Windows 11 , 64 bit Build 26100 (10.0.26100.8328)
+Time: Fri May 29 17:10:02 2026 SE Asia Standard Time elapsed time: 2400.736160 seconds (0d 0h 40m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002326d9c6f90):  JavaThread "Render thread" [_thread_in_native, id=8616, stack(0x000000697ed00000,0x000000697ee00000)]
+
+Stack: [0x000000697ed00000,0x000000697ee00000],  sp=0x000000697edfcc80,  free space=1011k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ig11icd64.dll+0x7163a1]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+J 22358  org.lwjgl.opengl.GL11C.nglTexSubImage2D(IIIIIIIIJ)V (0 bytes) @ 0x0000023208c91735 [0x0000023208c916a0+0x0000000000000095]
+J 25050 c2 org.lwjgl.opengl.GL11.glTexSubImage2D(IIIIIIIIJ)V (18 bytes) @ 0x0000023208835c78 [0x0000023208835c20+0x0000000000000058]
+J 48835 c1 xaero.map.graphics.TextureUpload$SubsequentNormal.upload()V (43 bytes) @ 0x000002320279cd8c [0x000002320279ccc0+0x00000000000000cc]
+J 48099 c1 xaero.map.graphics.TextureUpload.run()V (43 bytes) @ 0x000002320398c9a4 [0x000002320398c760+0x0000000000000244]
+J 48804 c1 xaero.map.region.texture.LeafRegionTexture.uploadNonCache(Lxaero/map/highlight/DimensionHighlighterHandler;Lxaero/map/graphics/TextureUploader;Lxaero/map/region/texture/BranchTextureRenderer;)J (243 bytes) @ 0x000002320354c6e4 [0x000002320354b660+0x0000000000001084]
+J 48060 c1 xaero.map.region.texture.RegionTexture.uploadBufferHelper(Lxaero/map/highlight/DimensionHighlighterHandler;Lxaero/map/graphics/TextureUploader;Lxaero/map/region/LeveledRegion;Lxaero/map/region/texture/BranchTextureRenderer;Z)J (487 bytes) @ 0x000002320258735c [0x0000023202585840+0x0000000000001b1c]
+J 57494 c2 xaero.map.MapProcessor.onRenderProcess(Lnet/minecraft/class_310;)V (1133 bytes) @ 0x000002320afb9ccc [0x000002320afb6c20+0x00000000000030ac]
+J 55401 c2 net.minecraft.class_757.handler$lfd002$xaeroworldmap$onRenderEnd(FJZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V (59 bytes) @ 0x000002320ae18e5c [0x000002320ae18ca0+0x00000000000001bc]
+J 57497 c2 net.minecraft.class_757.method_3192(FJZ)V (1293 bytes) @ 0x000002320afc9fdc [0x000002320afc7cc0+0x000000000000231c]
+J 53672 c2 net.minecraft.class_310.method_1523(Z)V (1179 bytes) @ 0x000002320a1f3858 [0x000002320a1f25c0+0x0000000000001298]
+J 58554% c1 net.minecraft.class_310.method_1514()V (281 bytes) @ 0x000002320349ab44 [0x0000023203499da0+0x0000000000000da4]
+j  net.minecraft.client.main.Main.main([Ljava/lang/String;)V+1545
+j  java.lang.invoke.LambdaForm$DMH+0x00000000800c2400.invokeStaticInit(Ljava/lang/Object;Ljava/lang/Object;)V+10 java.base@17.0.15
+j  java.lang.invoke.LambdaForm$MH+0x00000000800c2c00.invokeExact_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V+19 java.base@17.0.15
+j  net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(Ljava/lang/ClassLoader;)V+74
+j  net.fabricmc.loader.impl.launch.knot.Knot.launch([Ljava/lang/String;Lnet/fabricmc/api/EnvType;)V+40
+j  net.fabricmc.loader.impl.launch.knot.KnotClient.main([Ljava/lang/String;)V+4
+j  java.lang.invoke.LambdaForm$DMH+0x00000000800c2400.invokeStaticInit(Ljava/lang/Object;Ljava/lang/Object;)V+10 java.base@17.0.15
+j  java.lang.invoke.LambdaForm$MH+0x00000000800c2c00.invokeExact_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V+19 java.base@17.0.15
+j  org.prismlauncher.launcher.impl.StandardLauncher.launch()V+326
+j  org.prismlauncher.EntryPoint.listen()Lorg/prismlauncher/EntryPoint$ExitCode;+288
+j  org.prismlauncher.EntryPoint.main([Ljava/lang/String;)V+0
+v  ~StubRoutines::call_stub
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), writing address 0x000002351cc60000
+
+
+Registers:
+RAX=0x000002351cc5ffe0, RBX=0x000000697edfdb70, RCX=0x000002323328bb00, RDX=0x000000697edfdd10
+RSP=0x000000697edfcc80, RBP=0x000000697edfd000, RSI=0x0000000000000000, RDI=0x0000000000000000
+R8 =0x000000000003ffe0, R9 =0x00000232332c12a8, R10=0x000002323328bb00, R11=0x000000697edfcef0
+R12=0x00000232332c0660, R13=0x0000000000000000, R14=0x000002323328bb00, R15=0x00000232332c6030
+RIP=0x00007ff8aa7b63a1, EFLAGS=0x0000000000010202
+
+XMM[0]=0x0000000000000000 0x3f80000000000000
+XMM[1]=0x4280000000000000 0x0000000000000000
+XMM[2]=0x042021000000000b 0x0420210000780000
+XMM[3]=0x0000000000000000 0x0000000000000000
+XMM[4]=0x0000000000000000 0x0000000000000000
+XMM[5]=0x0000000178490001 0x0000000000000000
+XMM[6]=0x0000000000000000 0x000000003e4ccccd
+XMM[7]=0x0000000000000000 0x000000003f000000
+XMM[8]=0x0000000000000000 0xbfe0000000000000
+XMM[9]=0x0000000000000000 0x402000003ef15bb2
+XMM[10]=0x0000000000000000 0xbfe8000000000000
+XMM[11]=0x0000000000000000 0x3fd0000000000000
+XMM[12]=0x0000000000000000 0xbfe8000000000000
+XMM[13]=0x0000000000000000 0x3fd567a533333334
+XMM[14]=0x0000000000000000 0x0000000000000000
+XMM[15]=0x0000000000000000 0x0000000000000000
+  MXCSR=0x00001fbf
+
+
+Register to memory mapping:
+
+RIP=0x00007ff8aa7b63a1 ig11icd64.dll
+RAX=0x000002351cc5ffe0 points into unknown readable memory: 0x4280000042800000 | 00 00 80 42 00 00 80 42
+RBX=0x000000697edfdb70 is pointing into the stack for thread: 0x000002326d9c6f90
+RCX=0x000002323328bb00 points into unknown readable memory: 0x0000023229bec080 | 80 c0 be 29 32 02 00 00
+RDX=0x000000697edfdd10 is pointing into the stack for thread: 0x000002326d9c6f90
+RSP=0x000000697edfcc80 is pointing into the stack for thread: 0x000002326d9c6f90
+RBP=0x000000697edfd000 is pointing into the stack for thread: 0x000002326d9c6f90
+RSI=0x0 is NULL
+RDI=0x0 is NULL
+R8 =0x000000000003ffe0 is an unknown value
+R9 =0x00000232332c12a8 points into unknown readable memory: 0x000000000046f7f4 | f4 f7 46 00 00 00 00 00
+R10=0x000002323328bb00 points into unknown readable memory: 0x0000023229bec080 | 80 c0 be 29 32 02 00 00
+R11=0x000000697edfcef0 is pointing into the stack for thread: 0x000002326d9c6f90
+R12=0x00000232332c0660 points into unknown readable memory: 0x000002320fb99030 | 30 90 b9 0f 32 02 00 00
+R13=0x0 is NULL
+R14=0x000002323328bb00 points into unknown readable memory: 0x0000023229bec080 | 80 c0 be 29 32 02 00 00
+R15=0x00000232332c6030 points into unknown readable memory: 0x0000000300000001 | 01 00 00 00 03 00 00 00
+
+
+Top of Stack: (sp=0x000000697edfcc80)
+0x000000697edfcc80:   0000023233726de0 0000000000000000
+0x000000697edfcc90:   000002320fb99030 00007ff8aa0bb9ef
+0x000000697edfcca0:   0000000000000000 0000000000000000
+0x000000697edfccb0:   000002325d862280 0000000000000000
+0x000000697edfccc0:   0004400000000000 0000000000000000
+0x000000697edfccd0:   0000000000000000 000002351b210000
+0x000000697edfcce0:   000002323328bb00 0000000000000080
+0x000000697edfccf0:   000000697edfd5a0 00000234d6b97f90
+0x000000697edfcd00:   00000232640ddf10 00000232332c6050
+0x000000697edfcd10:   000002323371fc40 000002321e76cb30
+0x000000697edfcd20:   0000000000006000 0000023236260000
+0x000000697edfcd30:   0000000000000002 000002321e76cb30
+0x000000697edfcd40:   000000001f800000 00000232332c10a0
+0x000000697edfcd50:   0000000000000600 000000697edfceb0
+0x000000697edfcd60:   000002321b844660 00007ff8aa0cc452
+0x000000697edfcd70:   0000000000000000 000000000000002e
+0x000000697edfcd80:   0000000000000002 000000001f800000
+0x000000697edfcd90:   ffff800100006000 000000697edfceb0
+0x000000697edfcda0:   000002321e1d7db0 00007ff8aa7b596a
+0x000000697edfcdb0:   000002323328bb00 000002323371fc40
+0x000000697edfcdc0:   0000000020000000 0000000020000000
+0x000000697edfcdd0:   000000000000002e 0000000020000000
+0x000000697edfcde0:   00000000000002c0 0000000000003da8
+0x000000697edfcdf0:   0000000080000100 000000697edfdc10
+0x000000697edfce00:   0000000020000000 0000000020000000
+0x000000697edfce10:   0000000020000000 0000000020000000
+0x000000697edfce20:   000000007820000a 000c000000000000
+0x000000697edfce30:   0000000000000000 00040b061f800007
+0x000000697edfce40:   00000000000000c0 00000000000002c0
+0x000000697edfce50:   0000098478140000 00007ff8aa123e18
+0x000000697edfce60:   00039541780e0000 0000023200000000
+0x000000697edfce70:   41084200784d0000 0000000000000000 
+
+Instructions: (pc=0x00007ff8aa7b63a1)
+0x00007ff8aa7b62a1:   49 8b 81 00 50 03 00 48 8b 48 18 8b 50 28 48 85
+0x00007ff8aa7b62b1:   c9 74 27 48 03 ca 48 81 f9 00 10 00 00 76 17 0f
+0x00007ff8aa7b62c1:   28 05 a9 a5 91 00 0f 11 01 f2 0f 10 0d ae a5 91
+0x00007ff8aa7b62d1:   00 f2 0f 11 49 10 83 40 28 18 49 8b 89 00 50 03
+0x00007ff8aa7b62e1:   00 4d 8b 83 d8 08 00 00 48 03 51 18 49 89 48 18
+0x00007ff8aa7b62f1:   41 c7 40 10 18 00 00 00 49 c7 00 00 00 00 00 4d
+0x00007ff8aa7b6301:   89 83 90 08 00 00 49 89 50 08 49 8b 81 90 88 03
+0x00007ff8aa7b6311:   00 8b 08 49 8b 83 e0 08 00 00 41 89 8b e8 08 00
+0x00007ff8aa7b6321:   00 49 8b 8b d8 08 00 00 49 89 8b e0 08 00 00 49
+0x00007ff8aa7b6331:   89 83 d8 08 00 00 44 88 93 08 48 01 00 48 8b 1c
+0x00007ff8aa7b6341:   24 48 83 c4 08 c3 cc cc cc cc cc cc cc cc cc 48
+0x00007ff8aa7b6351:   81 ec 78 02 00 00 48 8b 05 ba d3 82 00 48 33 c4
+0x00007ff8aa7b6361:   48 89 84 24 60 02 00 00 48 8b 81 70 54 03 00 4c
+0x00007ff8aa7b6371:   8b d1 48 85 c0 74 48 44 8b 81 7c 54 03 00 49 03
+0x00007ff8aa7b6381:   c0 48 3d 00 10 00 00 76 2d 48 85 d2 74 28 0f 10
+0x00007ff8aa7b6391:   02 0f 11 00 0f 10 4a 10 0f 11 48 10 0f 10 42 20
+0x00007ff8aa7b63a1:   0f 11 40 20 0f 10 4a 30 0f 11 48 30 f2 0f 10 42
+0x00007ff8aa7b63b1:   40 f2 0f 11 40 40 83 81 7c 54 03 00 48 eb 03 45
+0x00007ff8aa7b63c1:   33 c0 80 b9 89 c0 02 00 00 74 11 41 8b c0 48 03
+0x00007ff8aa7b63d1:   81 70 54 03 00 48 89 81 b8 c0 02 00 48 8d 54 24
+0x00007ff8aa7b63e1:   40 b9 04 00 00 00 48 8d 05 b2 9c 91 00 66 90 48
+0x00007ff8aa7b63f1:   8d 92 80 00 00 00 0f 10 00 0f 10 48 10 48 8d 80
+0x00007ff8aa7b6401:   80 00 00 00 0f 11 42 80 0f 10 40 a0 0f 11 4a 90
+0x00007ff8aa7b6411:   0f 10 48 b0 0f 11 42 a0 0f 10 40 c0 0f 11 4a b0
+0x00007ff8aa7b6421:   0f 10 48 d0 0f 11 42 c0 0f 10 40 e0 0f 11 4a d0
+0x00007ff8aa7b6431:   0f 10 48 f0 0f 11 42 e0 0f 11 4a f0 48 83 e9 01
+0x00007ff8aa7b6441:   75 ad 8b 48 10 0f 10 00 0f 11 02 89 4a 10 48 8b
+0x00007ff8aa7b6451:   44 24 40 49 8b 8a 00 50 03 00 48 c1 e8 20 25 18
+0x00007ff8aa7b6461:   f0 ff ff c6 44 24 40 03 83 c8 18 44 8b 49 28 89
+0x00007ff8aa7b6471:   44 24 44 48 8b 41 18 48 85 c0 74 1e 49 03 c1 48
+0x00007ff8aa7b6481:   3d 00 10 00 00 76 0f 0f 28 44 24 40 0f 11 00 c7
+0x00007ff8aa7b6491:   40 10 48 00 00 00 83 41 28 14 49 8b 8a 68 54 03 
+
+
+Stack slot to memory mapping:
+stack at sp + 0 slots: 0x0000023233726de0 points into unknown readable memory: 0x0000023229de2400 | 00 24 de 29 32 02 00 00
+stack at sp + 1 slots: 0x0 is NULL
+stack at sp + 2 slots: 0x000002320fb99030 points into unknown readable memory: 0x0000000000000000 | 00 00 00 00 00 00 00 00
+stack at sp + 3 slots: 0x00007ff8aa0bb9ef ig11icd64.dll
+stack at sp + 4 slots: 0x0 is NULL
+stack at sp + 5 slots: 0x0 is NULL
+stack at sp + 6 slots: 0x000002325d862280 points into unknown readable memory: 0x0000000000000000 | 00 00 00 00 00 00 00 00
+stack at sp + 7 slots: 0x0 is NULL
+
+
+Compiled method (n/a) 2401295 22358     n 0       org.lwjgl.opengl.GL11C::nglTexSubImage2D (native)
+ total in heap  [0x0000023208c91510,0x0000023208c91910] = 1024
+ relocation     [0x0000023208c91668,0x0000023208c916a0] = 56
+ main code      [0x0000023208c916a0,0x0000023208c91908] = 616
+ oops           [0x0000023208c91908,0x0000023208c91910] = 8
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Entry Point]
+  # {method} {0x0000023232bd9548} 'nglTexSubImage2D' '(IIIIIIIIJ)V' in 'org/lwjgl/opengl/GL11C'
+  # parm0:    rdx       = int
+  # parm1:    r8        = int
+  # parm2:    r9        = int
+  # parm3:    rdi       = int
+  # parm4:    rsi       = int
+  # parm5:    rcx       = int
+  # parm6:    [sp+0xb0]   = int  (sp of caller)
+  # parm7:    [sp+0xb8]   = int
+  # parm8:    [sp+0xc0]   = long
+  0x0000023208c916a0: 448b 5208 | 493b c20f | 840b 0000 
+
+  0x0000023208c916ac: ;   {runtime_call ic_miss_stub}
+  0x0000023208c916ac: 00e9 cefe | 8efe 660f | 1f44 0000 
+[Verified Entry Point]
+  0x0000023208c916b8: 8984 2400 | 90ff ff55 | 488b ec48 | 81ec a000 | 0000 660f | 1f44 0000 | 4181 7f24 | 0038 0000 
+  0x0000023208c916d8: 0f84 0500 
+
+  0x0000023208c916dc: ;   {runtime_call StubRoutines (2)}
+  0x0000023208c916dc: 0000 e89d | 1b8e fe48 | 8b45 2048 | 8944 2450 | 4863 4518 | 4889 4424 | 4848 6345 | 1048 8944 
+  0x0000023208c916fc: 2440 4889 | 4c24 3848 | 8974 2430 | 4889 7c24 | 284c 894c | 2420 4d8b | c84c 8bc2 
+
+  0x0000023208c91718: ;   {oop(a 'java/lang/Class'{0x000004008ef6e648} = 'org/lwjgl/opengl/GL11C')}
+  0x0000023208c91718: 49be 48e6 | f68e 0004 | 0000 4c89 | b424 8800 | 0000 4c8d | b424 8800 | 0000 498b | d6c5 f877 
+  0x0000023208c91738: ;   {internal_word}
+  0x0000023208c91738: 49ba 3517 | c908 3202 | 0000 4d89 | 97a0 0200 | 0049 89a7 | 9802 0000 
+
+  0x0000023208c91750: ;   {external_word}
+  0x0000023208c91750: 49ba ad37 | 76a7 f87f | 0000 4180 | 3a00 0f84 | 5200 0000 | 5241 5041 
+
+  0x0000023208c91768: ;   {metadata({method} {0x0000023232bd9548} 'nglTexSubImage2D' '(IIIIIIIIJ)V' in 'org/lwjgl/opengl/GL11C')}
+  0x0000023208c91768: 5148 ba40 | 95bd 3232 | 0200 0049 | 8bcf 4883 | ec20 f7c4 | 0f00 0000 | 0f84 1a00 | 0000 4883 
+  0x0000023208c91788: ;   {runtime_call}
+  0x0000023208c91788: ec08 49ba | 90e9 2ba7 | f87f 0000 | 41ff d248 | 83c4 08e9 | 0d00 0000 
+
+  0x0000023208c917a0: ;   {runtime_call}
+  0x0000023208c917a0: 49ba 90e9 | 2ba7 f87f | 0000 41ff | d248 83c4 | 2041 5941 | 585a 498d | 8fb8 0200 | 0041 c787 
+  0x0000023208c917c0: 4003 0000 | 0400 0000 
+
+  0x0000023208c917c8: ;   {runtime_call}
+  0x0000023208c917c8: 49ba 60cd | 65c2 f87f | 0000 41ff | d2c5 f877 | 41c7 8740 | 0300 0005 | 0000 00f0 | 8344 24c0 
+  0x0000023208c917e8: 0049 3baf | 4803 0000 | 0f87 1100 | 0000 4181 | bf30 0300 | 0000 0000 | 000f 8421 | 0000 00c5 
+  0x0000023208c91808: f877 498b | cf4c 8be4 | 4883 ec20 | 4883 e4f0 
+
+  0x0000023208c91818: ;   {runtime_call}
+  0x0000023208c91818: 49ba 90f7 | 3ba7 f87f | 0000 41ff | d249 8be4 | 41c7 8740 | 0300 0008 | 0000 0041 | 81bf b003 
+  0x0000023208c91838: 0000 0200 | 0000 0f84 | 9b00 0000 
+
+  0x0000023208c91844: ;   {external_word}
+  0x0000023208c91844: 49ba ad37 | 76a7 f87f | 0000 4180 | 3a00 0f84 | 4800 0000 
+
+  0x0000023208c91858: ;   {metadata({method} {0x0000023232bd9548} 'nglTexSubImage2D' '(IIIIIIIIJ)V' in 'org/lwjgl/opengl/GL11C')}
+  0x0000023208c91858: 48ba 4095 | bd32 3202 | 0000 498b | cf48 83ec | 20f7 c40f | 0000 000f | 841a 0000 | 0048 83ec 
+  0x0000023208c91878: ;   {runtime_call}
+  0x0000023208c91878: 0849 ba90 | e92b a7f8 | 7f00 0041 | ffd2 4883 | c408 e90d 
+
+  0x0000023208c9188c: ;   {runtime_call}
+  0x0000023208c9188c: 0000 0049 | ba90 e92b | a7f8 7f00 | 0041 ffd2 | 4883 c420 | 49c7 8798 | 0200 0000 | 0000 0049 
+  0x0000023208c918ac: c787 a002 | 0000 0000 | 0000 c5f8 | 7749 8b8f | d800 0000 | c781 0001 | 0000 0000 | 0000 c949 
+  0x0000023208c918cc: 817f 0800 | 0000 000f | 8501 0000 
+
+  0x0000023208c918d8: ;   {runtime_call StubRoutines (1)}
+  0x0000023208c918d8: 00c3 e921 | f689 fec5 | f877 4c8b | e448 83ec | 2048 83e4 
+
+  0x0000023208c918ec: ;   {runtime_call}
+  0x0000023208c918ec: f049 baa0 | 1a2c a7f8 | 7f00 0041 | ffd2 498b | e4e9 42ff | ffff f4f4 | f4f4 f4f4 
+[/MachCode]
+
+
+Compiled method (c2) 2401316 25050       4       org.lwjgl.opengl.GL11::glTexSubImage2D (18 bytes)
+ total in heap  [0x0000023208835a90,0x0000023208835d78] = 744
+ relocation     [0x0000023208835be8,0x0000023208835c08] = 32
+ main code      [0x0000023208835c20,0x0000023208835cc0] = 160
+ stub code      [0x0000023208835cc0,0x0000023208835ce8] = 40
+ oops           [0x0000023208835ce8,0x0000023208835cf0] = 8
+ metadata       [0x0000023208835cf0,0x0000023208835d00] = 16
+ scopes data    [0x0000023208835d00,0x0000023208835d28] = 40
+ scopes pcs     [0x0000023208835d28,0x0000023208835d58] = 48
+ dependencies   [0x0000023208835d58,0x0000023208835d60] = 8
+ handler table  [0x0000023208835d60,0x0000023208835d78] = 24
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x0000023232d5da00} 'glTexSubImage2D' '(IIIIIIIIJ)V' in 'org/lwjgl/opengl/GL11'
+  # parm0:    rdx       = int
+  # parm1:    r8        = int
+  # parm2:    r9        = int
+  # parm3:    rdi       = int
+  # parm4:    rsi       = int
+  # parm5:    rcx       = int
+  # parm6:    [sp+0x40]   = int  (sp of caller)
+  # parm7:    [sp+0x48]   = int
+  # parm8:    [sp+0x50]   = long
+  0x0000023208835c20: 8984 2400 | 90ff ff55 | 4883 ec30 | 0f1f 4000 | 4181 7f24 | 0038 0000 | 0f84 0500 
+
+  0x0000023208835c3c: ;   {runtime_call StubRoutines (2)}
+  0x0000023208835c3c: 0000 e83d | d6d3 fe48 | 8944 24f8 | 8b44 2440 | 8904 2448 | 8b44 24f8 | 4889 4424 | f88b 4424 
+  0x0000023208835c5c: 4889 4424 | 0848 8b44 | 24f8 48ff | 7424 5048 | 8f44 2410 
+
+  0x0000023208835c70: ;   {static_call}
+  0x0000023208835c70: 6666 90e8 
+
+  0x0000023208835c74: ; ImmutableOopMap {}
+                      ;*invokestatic nglTexSubImage2D {reexecute=0 rethrow=0 return_oop=0}
+                      ; - org.lwjgl.opengl.GL11C::glTexSubImage2D@14 (line 2105)
+                      ; - org.lwjgl.opengl.GL11::glTexSubImage2D@14 (line 7365)
+  0x0000023208835c74: 40ba 4500 | 4883 c430 
+
+  0x0000023208835c7c: ;   {poll_return}
+  0x0000023208835c7c: 5d49 3ba7 | 4803 0000 | 0f87 0e00 | 0000 c348 | 8bd0 4883 
+
+  0x0000023208835c90: ;   {runtime_call _rethrow_Java}
+  0x0000023208835c90: c430 5de9 | e888 e0fe 
+
+  0x0000023208835c98: ;   {internal_word}
+  0x0000023208835c98: 49ba 7d5c | 8308 3202 | 0000 4d89 | 9760 0300 
+
+  0x0000023208835ca8: ;   {runtime_call SafepointBlob}
+  0x0000023208835ca8: 00e9 5231 | d5fe f4f4 | f4f4 f4f4 | f4f4 f4f4 | f4f4 f4f4 | f4f4 f4f4 
+[Stub Code]
+  0x0000023208835cc0: ;   {no_reloc}
+  0x0000023208835cc0: 48bb 0000 | 0000 0000 
+
+  0x0000023208835cc8: ;   {runtime_call}
+  0x0000023208835cc8: 0000 e9fb 
+
+  0x0000023208835ccc: ;   {runtime_call ExceptionBlob}
+  0x0000023208835ccc: ffff ffe9 | 2cc7 d6fe 
+[Deopt Handler Code]
+  0x0000023208835cd4: e800 0000 | 0048 832c 
+
+  0x0000023208835cdc: ;   {runtime_call DeoptimizationBlob}
+  0x0000023208835cdc: 2405 e9bd | 45d5 fef4 | f4f4 f4f4 
+[/MachCode]
+
+
+Compiled method (c1) 2401320 48835       3       xaero.map.graphics.TextureUpload$SubsequentNormal::upload (43 bytes)
+ total in heap  [0x000002320279cb10,0x000002320279cfa0] = 1168
+ relocation     [0x000002320279cc68,0x000002320279ccc0] = 88
+ main code      [0x000002320279ccc0,0x000002320279cea0] = 480
+ stub code      [0x000002320279cea0,0x000002320279cef8] = 88
+ oops           [0x000002320279cef8,0x000002320279cf00] = 8
+ metadata       [0x000002320279cf00,0x000002320279cf10] = 16
+ scopes data    [0x000002320279cf10,0x000002320279cf38] = 40
+ scopes pcs     [0x000002320279cf38,0x000002320279cf98] = 96
+ dependencies   [0x000002320279cf98,0x000002320279cfa0] = 8
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Entry Point]
+  # {method} {0x0000023247800ae8} 'upload' '()V' in 'xaero/map/graphics/TextureUpload$SubsequentNormal'
+  #           [sp+0x90]  (sp of caller)
+  0x000002320279ccc0: 448b 5208 
+
+  0x000002320279ccc4: ;   {runtime_call ic_miss_stub}
+  0x000002320279ccc4: 4c3b d00f | 85b3 48de | 0466 6666 | 0f1f 8400 | 0000 0000 | 6666 6690 | 0f1f 4000 
+[Verified Entry Point]
+  0x000002320279cce0: 8984 2400 | 90ff ff55 | 4881 ec80 | 0000 0090 | 4181 7f24 | 0038 0000 | 0f84 0500 
+
+  0x000002320279ccfc: ;   {runtime_call StubRoutines (2)}
+  0x000002320279ccfc: 0000 e87d 
+
+  0x000002320279cd00: ;   {metadata(method data for {method} {0x0000023247800ae8} 'upload' '()V' in 'xaero/map/graphics/TextureUpload$SubsequentNormal')}
+  0x000002320279cd00: 65dd 0449 | b8a8 6b41 | 4932 0200 | 0045 8b88 | cc00 0000 | 4183 c102 | 4589 88cc | 0000 0041 
+  0x000002320279cd20: 81e1 fe07 | 0000 4183 | f900 0f84 | da00 0000 | 448b 421c | 448b 4a20 | 8b7a 408b | 7244 8b4a 
+  0x000002320279cd40: 288b 5a2c | 8b42 3844 | 8b5a 3c4c 
+
+  0x000002320279cd4c: ;   {metadata(method data for {method} {0x0000023247800ae8} 'upload' '()V' in 'xaero/map/graphics/TextureUpload$SubsequentNormal')}
+  0x000002320279cd4c: 8b6a 1048 | baa8 6b41 | 4932 0200 | 0048 8382 | 1001 0000 | 0149 8bd0 | 4d8b c14c | 8bcf 488b 
+  0x000002320279cd6c: fe48 8bf1 | 488b cb89 | 0424 4489 | 5c24 084c | 896c 2410 | 0f1f 8000 
+
+  0x000002320279cd84: ;   {static_call}
+  0x000002320279cd84: 0000 00e8 
+
+  0x000002320279cd88: ; ImmutableOopMap {}
+                      ;*invokestatic glTexSubImage2D {reexecute=0 rethrow=0 return_oop=0}
+                      ; - xaero.map.graphics.TextureUpload$SubsequentNormal::upload@36 (line 151)
+  0x000002320279cd88: 948e 0906 
+
+  0x000002320279cd8c: ;   {metadata(method data for {method} {0x0000023247800ae8} 'upload' '()V' in 'xaero/map/graphics/TextureUpload$SubsequentNormal')}
+  0x000002320279cd8c: 48ba a86b | 4149 3202 | 0000 4883 | 8220 0100 
+
+  0x000002320279cd9c: ;   {metadata(method data for {method} {0x0000023248a7d778} 'checkGLError' '()V' in 'xaero/map/exception/OpenGLException')}
+  0x000002320279cd9c: 0001 48ba | 106d d648 | 3202 0000 | 448b 82cc | 0000 0041 | 83c0 0244 | 8982 cc00 | 0000 4181 
+  0x000002320279cdbc: e0fe ff1f | 0041 83f8 | 000f 8460 
+
+  0x000002320279cdc8: ;   {metadata(method data for {method} {0x0000023248a7d778} 'checkGLError' '()V' in 'xaero/map/exception/OpenGLException')}
+  0x000002320279cdc8: 0000 0048 | ba10 6dd6 | 4832 0200 | 0048 8382 | 1001 0000 | 01ba 0100 
+
+  0x000002320279cde0: ;   {oop(NULL)}
+  0x000002320279cde0: 0000 49b8 | 0000 0000 | 0000 0000 
+
+  0x000002320279cdec: ;   {static_call}
+  0x000002320279cdec: 6666 90e8 
+
+  0x000002320279cdf0: ; ImmutableOopMap {}
+                      ;*invokestatic checkGLError {reexecute=0 rethrow=0 return_oop=0}
+                      ; - xaero.map.exception.OpenGLException::checkGLError@2 (line 15)
+                      ; - xaero.map.graphics.TextureUpload$SubsequentNormal::upload@39 (line 152)
+  0x000002320279cdf0: 2c2e c207 | 4881 c480 | 0000 005d 
+
+  0x000002320279cdfc: ;   {poll_return}
+  0x000002320279cdfc: 493b a748 | 0300 000f | 8740 0000 
+
+  0x000002320279ce08: ;   {metadata({method} {0x0000023247800ae8} 'upload' '()V' in 'xaero/map/graphics/TextureUpload$SubsequentNormal')}
+  0x000002320279ce08: 00c3 49ba | e00a 8047 | 3202 0000 | 4c89 5424 | 0848 c704 | 24ff ffff 
+
+  0x000002320279ce20: ;   {runtime_call counter_overflow Runtime1 stub}
+  0x000002320279ce20: ffe8 daa1 
+
+  0x000002320279ce24: ; ImmutableOopMap {rdx=Oop }
+                      ;*synchronization entry
+                      ; - xaero.map.graphics.TextureUpload$SubsequentNormal::upload@-1 (line 151)
+  0x000002320279ce24: e904 e905 
+
+  0x000002320279ce28: ;   {metadata({method} {0x0000023248a7d778} 'checkGLError' '()V' in 'xaero/map/exception/OpenGLException')}
+  0x000002320279ce28: ffff ff49 | ba70 d7a7 | 4832 0200 | 004c 8954 | 2408 48c7 | 0424 ffff 
+
+  0x000002320279ce40: ;   {runtime_call counter_overflow Runtime1 stub}
+  0x000002320279ce40: ffff e8b9 
+
+  0x000002320279ce44: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - xaero.map.exception.OpenGLException::checkGLError@-1 (line 15)
+                      ; - xaero.map.graphics.TextureUpload$SubsequentNormal::upload@39 (line 152)
+  0x000002320279ce44: a1e9 04eb 
+
+  0x000002320279ce48: ;   {internal_word}
+  0x000002320279ce48: 8249 bafc | cd79 0232 | 0200 004d | 8997 6003 
+
+  0x000002320279ce58: ;   {runtime_call SafepointBlob}
+  0x000002320279ce58: 0000 e9a1 | bfde 0490 | 9049 8b87 | d803 0000 | 49c7 87d8 | 0300 0000 | 0000 0049 | c787 e003 
+  0x000002320279ce78: 0000 0000 | 0000 4881 | c480 0000 
+
+  0x000002320279ce84: ;   {runtime_call unwind_exception Runtime1 stub}
+  0x000002320279ce84: 005d e9f5 | 4ee0 04f4 | f4f4 f4f4 | f4f4 f4f4 | f4f4 f4f4 | f4f4 f4f4 | f4f4 f4f4 
+[Stub Code]
+  0x000002320279cea0: ;   {no_reloc}
+  0x000002320279cea0: 0f1f 4400 
+
+  0x000002320279cea4: ;   {static_stub}
+  0x000002320279cea4: 0048 bb00 | 0000 0000 
+
+  0x000002320279ceac: ;   {runtime_call}
+  0x000002320279ceac: 0000 00e9 | fbff ffff 
+
+  0x000002320279ceb4: ;   {static_stub}
+  0x000002320279ceb4: 9048 bb00 | 0000 0000 
+
+  0x000002320279cebc: ;   {runtime_call}
+  0x000002320279cebc: 0000 00e9 | fbff ffff 
+[Exception Handler]
+  0x000002320279cec4: ;   {runtime_call handle_exception_from_callee Runtime1 stub}
+  0x000002320279cec4: e8b7 64e9 
+
+  0x000002320279cec8: ;   {external_word}
+  0x000002320279cec8: 0448 b920 | 4a50 a7f8 | 7f00 0048 
+
+  0x000002320279ced4: ;   {runtime_call}
+  0x000002320279ced4: 83e4 f049 | baf0 cf18 | a7f8 7f00 | 0041 ffd2 
+
+  0x000002320279cee4: ;   {section_word}
+  0x000002320279cee4: f449 bae5 | ce79 0232 | 0200 0041 
+
+  0x000002320279cef0: ;   {runtime_call DeoptimizationBlob}
+  0x000002320279cef0: 52e9 aad3 | de04 f4f4 
+[/MachCode]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x0000023523d7a790, length=92, elements={
+0x000002326d9c6f90, 0x000002320f174260, 0x000002320f1750c0, 0x000002320f2339d0,
+0x000002320f1e3180, 0x000002320f1e2c70, 0x000002320f1dfee0, 0x000002320f1d3c00,
+0x000002320f1f5fc0, 0x000002320f1df9d0, 0x000002320f1e03f0, 0x000002320f1e1830,
+0x00000232149f1910, 0x00000232149f1400, 0x0000023220c9fce0, 0x0000023220ca1b40,
+0x0000023220ca52f0, 0x0000023220ca4de0, 0x0000023220ca2050, 0x0000023220c9e8a0,
+0x0000023220ca3eb0, 0x0000023220ca43c0, 0x0000023220ca2560, 0x0000023220c47620,
+0x0000023220c466f0, 0x0000023220c47b30, 0x0000023220c48a60, 0x0000023220c48f70,
+0x0000023220c4add0, 0x0000023220c4a3b0, 0x000002321e1d5f50, 0x000002321e1d3be0,
+0x000002321e1d6460, 0x000002321e1d5020, 0x000002321e1d5530, 0x000002321e1d2cb0,
+0x000002321e1d4600, 0x000002321e1d36d0, 0x000002321e1d40f0, 0x000002323c006cc0,
+0x000002325203e7c0, 0x000002323c0020d0, 0x000002323c000c90, 0x000002321e1d87d0,
+0x000002321e1d9c10, 0x000002323c0071d0, 0x00000232149f3260, 0x000002323c0011a0,
+0x00000234d6babe80, 0x00000234d6bacdb0, 0x00000234d6ba7cb0, 0x00000234d6baf630,
+0x00000234d6b933a0, 0x00000234d6b942d0, 0x00000234d6b90b20, 0x00000234d6b989b0,
+0x00000234d6b95200, 0x00000234d74c2df0, 0x00000235117047b0, 0x00000234d74c23d0,
+0x00000234ec51b7d0, 0x00000234eb8200c0, 0x00000235137ed380, 0x0000023511704cc0,
+0x00000234d6b92e90, 0x0000023512562200, 0x00000235127ab2c0, 0x00000235127ab7d0,
+0x00000235127ad120, 0x00000235127acc10, 0x00000235127aa390, 0x00000235127ad630,
+0x00000235127a9e80, 0x00000235127aa8a0, 0x00000235127abce0, 0x00000235127ac1f0,
+0x00000234ec51bce0, 0x00000234d6b947e0, 0x00000234d74c3300, 0x00000234ec5f15d0,
+0x00000234d6b95710, 0x00000234d6ba81c0, 0x0000023512562710, 0x00000234ec51c1f0,
+0x00000235137ec960, 0x0000023516a779e0, 0x00000235127aadb0, 0x00000234d74c4740,
+0x000002321cac69e0, 0x000002321cac7910, 0x000002321cac4b80, 0x00000235232dd260
+}
+
+Java Threads: ( => current thread )
+=>0x000002326d9c6f90 JavaThread "Render thread" [_thread_in_native, id=8616, stack(0x000000697ed00000,0x000000697ee00000)]
+  0x000002320f174260 JavaThread "Reference Handler" daemon [_thread_blocked, id=20504, stack(0x000000697fb00000,0x000000697fc00000)]
+  0x000002320f1750c0 JavaThread "Finalizer" daemon [_thread_blocked, id=22244, stack(0x000000697fc00000,0x000000697fd00000)]
+  0x000002320f2339d0 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=10976, stack(0x000000697fd00000,0x000000697fe00000)]
+  0x000002320f1e3180 JavaThread "Attach Listener" daemon [_thread_blocked, id=11704, stack(0x000000697fe00000,0x000000697ff00000)]
+  0x000002320f1e2c70 JavaThread "Service Thread" daemon [_thread_blocked, id=1776, stack(0x000000697ff00000,0x0000006980000000)]
+  0x000002320f1dfee0 JavaThread "Monitor Deflation Thread" daemon [_thread_blocked, id=4456, stack(0x0000006900000000,0x0000006900100000)]
+  0x000002320f1d3c00 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=20616, stack(0x0000006900100000,0x0000006900200000)]
+  0x000002320f1f5fc0 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=15988, stack(0x0000006900200000,0x0000006900300000)]
+  0x000002320f1df9d0 JavaThread "Sweeper thread" daemon [_thread_blocked, id=12896, stack(0x0000006900300000,0x0000006900400000)]
+  0x000002320f1e03f0 JavaThread "Notification Thread" daemon [_thread_blocked, id=24284, stack(0x0000006900400000,0x0000006900500000)]
+  0x000002320f1e1830 JavaThread "Common-Cleaner" daemon [_thread_blocked, id=10084, stack(0x0000006900600000,0x0000006900700000)]
+  0x00000232149f1910 JavaThread "LauncherLogger-Worker" daemon [_thread_blocked, id=11628, stack(0x0000006900900000,0x0000006900a00000)]
+  0x00000232149f1400 JavaThread "JNA Cleaner" daemon [_thread_blocked, id=22348, stack(0x0000006900700000,0x0000006900800000)]
+  0x0000023220c9fce0 JavaThread "Timer hack thread" daemon [_thread_blocked, id=22500, stack(0x0000006900d00000,0x0000006900e00000)]
+  0x0000023220ca1b40 JavaThread "Yggdrasil Key Fetcher" daemon [_thread_blocked, id=5244, stack(0x0000006900e00000,0x0000006900f00000)]
+  0x0000023220ca52f0 JavaThread "FileSystemWatchService" daemon [_thread_in_native, id=12204, stack(0x0000006901100000,0x0000006901200000)]
+  0x0000023220ca4de0 JavaThread "config-file-watcher-0-0" daemon [_thread_blocked, id=16648, stack(0x0000006901200000,0x0000006901300000)]
+  0x0000023220ca2050 JavaThread "Cicada thread 0" daemon [_thread_blocked, id=25324, stack(0x0000006901400000,0x0000006901500000)]
+  0x0000023220c9e8a0 JavaThread "Cicada thread 1" daemon [_thread_blocked, id=27484, stack(0x0000006901500000,0x0000006901600000)]
+  0x0000023220ca3eb0 JavaThread "Cicada thread 2" daemon [_thread_blocked, id=14684, stack(0x0000006901600000,0x0000006901700000)]
+  0x0000023220ca43c0 JavaThread "Cicada thread 3" daemon [_thread_blocked, id=1740, stack(0x0000006901700000,0x0000006901800000)]
+  0x0000023220ca2560 JavaThread "HttpClient-1-SelectorManager" daemon [_thread_in_native, id=25760, stack(0x0000006901800000,0x0000006901900000)]
+  0x0000023220c47620 JavaThread "DFU cleaning thread" daemon [_thread_blocked, id=25708, stack(0x0000006900800000,0x0000006900900000)]
+  0x0000023220c466f0 JavaThread "pool-5-thread-1" [_thread_blocked, id=24552, stack(0x0000006901000000,0x0000006901100000)]
+  0x0000023220c47b30 JavaThread "ConfigSaver" daemon [_thread_blocked, id=26656, stack(0x0000006901300000,0x0000006901400000)]
+  0x0000023220c48a60 JavaThread "Thread-11" daemon [_thread_blocked, id=17584, stack(0x0000006902100000,0x0000006902200000)]
+  0x0000023220c48f70 JavaThread "FileSystemWatchService" daemon [_thread_in_native, id=22256, stack(0x0000006902200000,0x0000006902300000)]
+  0x0000023220c4add0 JavaThread "UniLib" daemon [_thread_blocked, id=8904, stack(0x0000006901d00000,0x0000006901e00000)]
+  0x0000023220c4a3b0 JavaThread "CraftPresence" daemon [_thread_blocked, id=5912, stack(0x0000006902300000,0x0000006902400000)]
+  0x000002321e1d5f50 JavaThread "IPCClient-Reader" daemon [_thread_blocked, id=25824, stack(0x0000006902d00000,0x0000006902e00000)]
+  0x000002321e1d3be0 JavaThread "FileSystemWatchService" daemon [_thread_in_native, id=14448, stack(0x0000006902700000,0x0000006902800000)]
+  0x000002321e1d6460 JavaThread "JEI Config File Watcher" daemon [_thread_blocked, id=25044, stack(0x0000006902a00000,0x0000006902b00000)]
+  0x000002321e1d5020 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=20556, stack(0x0000006902c00000,0x0000006902d00000)]
+  0x000002321e1d5530 JavaThread "AWT-Windows" daemon [_thread_in_native, id=19056, stack(0x0000006902f00000,0x0000006903000000)]
+  0x000002321e1d2cb0 JavaThread "HttpClient-4-SelectorManager" daemon [_thread_in_native, id=24520, stack(0x0000006903000000,0x0000006903100000)]
+  0x000002321e1d4600 JavaThread "spark-monitoring-thread" daemon [_thread_blocked, id=7608, stack(0x0000006903200000,0x0000006903300000)]
+  0x000002321e1d36d0 JavaThread "spark-worker-pool-1-thread-1" daemon [_thread_blocked, id=26396, stack(0x0000006903300000,0x0000006903400000)]
+  0x000002321e1d40f0 JavaThread "Thread-13" [_thread_blocked, id=7708, stack(0x0000006902900000,0x0000006902a00000)]
+  0x000002323c006cc0 JavaThread "CullThread" [_thread_blocked, id=20700, stack(0x0000006904e00000,0x0000006904f00000)]
+  0x000002325203e7c0 JavaThread "IO-Worker-4" [_thread_blocked, id=24856, stack(0x0000006904f00000,0x0000006905000000)]
+  0x000002323c0020d0 JavaThread "Server Pinger #0" daemon [_thread_blocked, id=17276, stack(0x0000006901b00000,0x0000006901c00000)]
+  0x000002323c000c90 JavaThread "Thread-17" daemon [_thread_in_native, id=1172, stack(0x0000006901900000,0x0000006901a00000)]
+  0x000002321e1d87d0 JavaThread "Netty Client IO #0" daemon [_thread_in_native, id=9852, stack(0x0000006904100000,0x0000006904200000)]
+  0x000002321e1d9c10 JavaThread "Server Pinger #1" daemon [_thread_blocked, id=25968, stack(0x0000006904500000,0x0000006904600000)]
+  0x000002323c0071d0 JavaThread "defaultEventLoopGroup-2-1" [_thread_blocked, id=7740, stack(0x0000006904800000,0x0000006904900000)]
+  0x00000232149f3260 JavaThread "Dialtone Session Dispatcher" daemon [_thread_in_native, id=14908, stack(0x0000006901a00000,0x0000006901b00000)]
+  0x000002323c0011a0 JavaThread "defaultEventLoopGroup-2-2" [_thread_blocked, id=21800, stack(0x0000006904d00000,0x0000006904e00000)]
+  0x00000234d6babe80 JavaThread "Server Pinger #0" daemon [_thread_blocked, id=8732, stack(0x0000006906900000,0x0000006906a00000)]
+  0x00000234d6bacdb0 JavaThread "defaultEventLoopGroup-2-3" [_thread_blocked, id=7480, stack(0x0000006906e00000,0x0000006906f00000)]
+  0x00000234d6ba7cb0 JavaThread "defaultEventLoopGroup-2-4" [_thread_blocked, id=13228, stack(0x0000006906400000,0x0000006906500000)]
+  0x00000234d6baf630 JavaThread "Server Pinger #1" daemon [_thread_blocked, id=18148, stack(0x0000006907400000,0x0000006907500000)]
+  0x00000234d6b933a0 JavaThread "defaultEventLoopGroup-2-5" [_thread_blocked, id=22320, stack(0x0000006907900000,0x0000006907a00000)]
+  0x00000234d6b942d0 JavaThread "pool-52-thread-1" [_thread_blocked, id=1204, stack(0x0000006904300000,0x0000006904400000)]
+  0x00000234d6b90b20 JavaThread "pool-53-thread-1" [_thread_blocked, id=14916, stack(0x0000006904400000,0x0000006904500000)]
+  0x00000234d6b989b0 JavaThread "pool-52-thread-2" [_thread_blocked, id=24540, stack(0x0000006902400000,0x0000006902500000)]
+  0x00000234d6b95200 JavaThread "pool-53-thread-2" [_thread_blocked, id=22504, stack(0x0000006903900000,0x0000006903a00000)]
+  0x00000234d74c2df0 JavaThread "Server Pinger #2" daemon [_thread_blocked, id=23888, stack(0x0000006901c00000,0x0000006901d00000)]
+  0x00000235117047b0 JavaThread "defaultEventLoopGroup-2-6" [_thread_blocked, id=5428, stack(0x0000006904200000,0x0000006904300000)]
+  0x00000234d74c23d0 JavaThread "Server Pinger #3" daemon [_thread_blocked, id=15636, stack(0x0000006900b00000,0x0000006900c00000)]
+  0x00000234ec51b7d0 JavaThread "defaultEventLoopGroup-2-7" [_thread_blocked, id=5612, stack(0x0000006902800000,0x0000006902900000)]
+  0x00000234eb8200c0 JavaThread "Server Pinger #2" daemon [_thread_blocked, id=12384, stack(0x0000006900a00000,0x0000006900b00000)]
+  0x00000235137ed380 JavaThread "defaultEventLoopGroup-2-8" [_thread_blocked, id=9804, stack(0x0000006903d00000,0x0000006903e00000)]
+  0x0000023511704cc0 JavaThread "defaultEventLoopGroup-2-9" [_thread_blocked, id=13120, stack(0x0000006903700000,0x0000006903800000)]
+  0x00000234d6b92e90 JavaThread "Server Pinger #3" daemon [_thread_blocked, id=15952, stack(0x0000006903a00000,0x0000006903b00000)]
+  0x0000023512562200 JavaThread "defaultEventLoopGroup-2-10" [_thread_blocked, id=19660, stack(0x0000006903f00000,0x0000006904000000)]
+  0x00000235127ab2c0 JavaThread "defaultEventLoopGroup-2-11" [_thread_blocked, id=18104, stack(0x0000006904a00000,0x0000006904b00000)]
+  0x00000235127ab7d0 JavaThread "Sound engine" daemon [_thread_blocked, id=24748, stack(0x0000006904b00000,0x0000006904c00000)]
+  0x00000235127ad120 JavaThread "Worker-Main-7" daemon [_thread_blocked, id=16404, stack(0x0000006904600000,0x0000006904700000)]
+  0x00000235127acc10 JavaThread "Chunk Render Task Executor #0" [_thread_blocked, id=17936, stack(0x0000006904c00000,0x0000006904d00000)]
+  0x00000235127aa390 JavaThread "Chunk Render Task Executor #1" [_thread_blocked, id=400, stack(0x0000006905000000,0x0000006905100000)]
+  0x00000235127ad630 JavaThread "Chunk Render Task Executor #2" [_thread_blocked, id=1684, stack(0x0000006906100000,0x0000006906200000)]
+  0x00000235127a9e80 JavaThread "Chunk Render Task Executor #3" [_thread_blocked, id=16836, stack(0x0000006906200000,0x0000006906300000)]
+  0x00000235127aa8a0 JavaThread "Chunk Render Task Executor #4" [_thread_blocked, id=24632, stack(0x0000006906300000,0x0000006906400000)]
+  0x00000235127abce0 JavaThread "Chunk Render Task Executor #5" [_thread_blocked, id=5564, stack(0x0000006906500000,0x0000006906600000)]
+  0x00000235127ac1f0 JavaThread "Chunk Render Task Executor #6" [_thread_blocked, id=17208, stack(0x0000006906600000,0x0000006906700000)]
+  0x00000234ec51bce0 JavaThread "Chunk Render Task Executor #7" [_thread_blocked, id=5028, stack(0x0000006906700000,0x0000006906800000)]
+  0x00000234d6b947e0 JavaThread "pool-58-thread-1" [_thread_blocked, id=24936, stack(0x0000006906800000,0x0000006906900000)]
+  0x00000234d74c3300 JavaThread "Server Pinger #4" daemon [_thread_blocked, id=14960, stack(0x0000006906a00000,0x0000006906b00000)]
+  0x00000234ec5f15d0 JavaThread "defaultEventLoopGroup-2-12" [_thread_blocked, id=10296, stack(0x0000006907000000,0x0000006907100000)]
+  0x00000234d6b95710 JavaThread "Worker-Main-8" daemon [_thread_blocked, id=26592, stack(0x0000006901f00000,0x0000006902000000)]
+  0x00000234d6ba81c0 JavaThread "JEI Deduplicating Run Executor 0" [_thread_blocked, id=12736, stack(0x0000006900c00000,0x0000006900d00000)]
+  0x0000023512562710 JavaThread "HttpClient-19-SelectorManager" daemon [_thread_in_native, id=19236, stack(0x0000006901e00000,0x0000006901f00000)]
+  0x00000234ec51c1f0 JavaThread "defaultEventLoopGroup-2-13" [_thread_blocked, id=26796, stack(0x0000006903c00000,0x0000006903d00000)]
+  0x00000235137ec960 JavaThread "HttpClient-20-SelectorManager" daemon [_thread_in_native, id=20080, stack(0x0000006902000000,0x0000006902100000)]
+  0x0000023516a779e0 JavaThread "defaultEventLoopGroup-2-14" [_thread_blocked, id=22784, stack(0x0000006903e00000,0x0000006903f00000)]
+  0x00000235127aadb0 JavaThread "Worker-Main-9" daemon [_thread_blocked, id=11900, stack(0x0000006902b00000,0x0000006902c00000)]
+  0x00000234d74c4740 JavaThread "HttpClient-21-SelectorManager" daemon [_thread_in_native, id=144, stack(0x0000006902e00000,0x0000006902f00000)]
+  0x000002321cac69e0 JavaThread "HttpClient-21-Worker-0" daemon [_thread_blocked, id=18800, stack(0x0000006903b00000,0x0000006903c00000)]
+  0x000002321cac7910 JavaThread "HttpClient-21-Worker-1" daemon [_thread_blocked, id=23316, stack(0x0000006904000000,0x0000006904100000)]
+  0x000002321cac4b80 JavaThread "HttpClient-20-Worker-2" daemon [_thread_blocked, id=11448, stack(0x0000006904700000,0x0000006904800000)]
+  0x00000235232dd260 JavaThread "defaultEventLoopGroup-2-15" [_thread_blocked, id=21012, stack(0x0000006904900000,0x0000006904a00000)]
+
+Other Threads:
+  0x000002320f0ea4e0 VMThread "VM Thread" [stack: 0x000000697fa00000,0x000000697fb00000] [id=21300]
+  0x000002320f399490 WatcherThread [stack: 0x0000006900500000,0x0000006900600000] [id=9352]
+  0x000002326d9fe950 ConcurrentGCThread "ZDirector" [stack: 0x000000697f300000,0x000000697f400000] [id=1368]
+  0x000002326d9fcfd0 ConcurrentGCThread "ZDriver" [stack: 0x000000697f200000,0x000000697f300000] [id=9836]
+  0x000002326da00560 ConcurrentGCThread "ZStat" [stack: 0x000000697f400000,0x000000697f500000] [id=2108]
+  0x000002326d9f7240 ConcurrentGCThread "ZUnmapper" [stack: 0x000000697f000000,0x000000697f100000] [id=12368]
+  0x000002326d9f8ca0 ConcurrentGCThread "ZUncommitter" [stack: 0x000000697f100000,0x000000697f200000] [id=23060]
+  0x000002326d9e6920 GCTaskThread "ZWorker#0" [stack: 0x000000697ee00000,0x000000697ef00000] [id=17212]
+  0x000002326d9e6f30 GCTaskThread "ZWorker#1" [stack: 0x000000697ef00000,0x000000697f000000] [id=27264]
+  0x000002326da00e60 Thread "RuntimeWorker#0" [stack: 0x000000697f500000,0x000000697f600000] [id=21888]
+  0x000002326da02a10 Thread "RuntimeWorker#1" [stack: 0x000000697f600000,0x000000697f700000] [id=15328]
+  0x000002326da10c90 Thread "RuntimeWorker#2" [stack: 0x000000697f700000,0x000000697f800000] [id=24900]
+  0x000002326da137f0 Thread "RuntimeWorker#3" [stack: 0x000000697f800000,0x000000697f900000] [id=18332]
+  0x000002326da15bb0 Thread "RuntimeWorker#4" [stack: 0x000000697f900000,0x000000697fa00000] [id=26176]
+
+Threads with active compile tasks:
+
+VM state: not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+CDS archive(s) not mapped
+Compressed class space mapped at: 0x0000000080000000-0x00000000c0000000, reserved size: 1073741824
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0xc0000000
+
+GC Precious Log:
+ NUMA Support: Disabled
+ CPUs: 8 total, 8 available
+ Memory: 7778M
+ Large Page Support: Disabled
+ GC Workers: 2 (dynamic)
+ Address Space Type: Contiguous/Unrestricted/Complete
+ Address Space Size: 65536M x 3 = 196608M
+ Min Capacity: 512M
+ Initial Capacity: 512M
+ Max Capacity: 4096M
+ Medium Page Size: 32M
+ Pre-touch: Enabled
+ Uncommit: Disabled
+ Runtime Workers: 5
+
+ZGC Globals:
+ GlobalPhase:       0 (Mark)
+ GlobalSeqNum:      163
+ Offset Max:        4096G (0x0000040000000000)
+ Page Size Small:   2M
+ Page Size Medium:  32M
+
+ZGC Metadata Bits:
+ Good:              0x0000040000000000
+ Bad:               0x0000380000000000
+ WeakBad:           0x0000080000000000
+ Marked:            0x0000040000000000
+ Remapped:          0x0000100000000000
+
+Heap:
+ ZHeap           used 2632M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306688K, committed 308736K, reserved 1310720K
+  class space    used 52912K, committed 53888K, reserved 1048576K
+
+ZGC Page Table:
+ Small   0x0000000000000000 0x00000000001fffe8 0x0000000000200000  Relocatable
+ Small   0x0000000000400000 0x0000000000600000 0x0000000000600000  Relocatable
+ Small   0x0000000000600000 0x00000000007fffe8 0x0000000000800000  Relocatable
+ Small   0x0000000000800000 0x00000000009ffff0 0x0000000000a00000  Relocatable
+ Small   0x0000000000a00000 0x0000000000bffff8 0x0000000000c00000  Relocatable
+ Small   0x0000000000c00000 0x0000000000e00000 0x0000000000e00000  Allocating
+ Small   0x0000000001000000 0x0000000001200000 0x0000000001200000  Relocatable
+ Small   0x0000000001400000 0x0000000001600000 0x0000000001600000  Relocatable
+ Small   0x0000000001600000 0x00000000017fffb8 0x0000000001800000  Relocatable
+ Small   0x0000000001e00000 0x0000000002000000 0x0000000002000000  Relocatable
+ Small   0x0000000002200000 0x0000000002400000 0x0000000002400000  Relocatable
+ Small   0x0000000002400000 0x0000000002600000 0x0000000002600000  Relocatable
+ Small   0x0000000002600000 0x00000000027ffff0 0x0000000002800000  Relocatable
+ Small   0x0000000002a00000 0x0000000002bfffe0 0x0000000002c00000  Relocatable
+ Small   0x0000000003000000 0x00000000031fffe8 0x0000000003200000  Relocatable
+ Small   0x0000000003200000 0x0000000003400000 0x0000000003400000  Relocatable
+ Small   0x0000000003400000 0x00000000035fff80 0x0000000003600000  Relocatable
+ Small   0x0000000003a00000 0x0000000003c00000 0x0000000003c00000  Relocatable
+ Small   0x0000000003c00000 0x0000000003e00000 0x0000000003e00000  Relocatable
+ Small   0x0000000003e00000 0x0000000004000000 0x0000000004000000  Relocatable
+ Small   0x0000000004000000 0x0000000004200000 0x0000000004200000  Relocatable
+ Small   0x0000000004200000 0x0000000004400000 0x0000000004400000  Relocatable
+ Small   0x0000000004400000 0x0000000004600000 0x0000000004600000  Relocatable
+ Small   0x0000000004600000 0x0000000004800000 0x0000000004800000  Relocatable
+ Small   0x0000000004800000 0x0000000004a00000 0x0000000004a00000  Relocatable
+ Small   0x0000000004a00000 0x0000000004c00000 0x0000000004c00000  Relocatable
+ Small   0x0000000004c00000 0x0000000004e00000 0x0000000004e00000  Relocatable
+ Small   0x0000000004e00000 0x0000000005000000 0x0000000005000000  Relocatable
+ Small   0x0000000005000000 0x0000000005200000 0x0000000005200000  Relocatable
+ Small   0x0000000005200000 0x0000000005400000 0x0000000005400000  Relocatable
+ Small   0x0000000005400000 0x0000000005600000 0x0000000005600000  Relocatable
+ Small   0x0000000005600000 0x0000000005800000 0x0000000005800000  Relocatable
+ Small   0x0000000005800000 0x0000000005a00000 0x0000000005a00000  Relocatable
+ Small   0x0000000005a00000 0x0000000005c00000 0x0000000005c00000  Relocatable
+ Small   0x0000000005c00000 0x0000000005dfffd8 0x0000000005e00000  Relocatable
+ Small   0x0000000005e00000 0x0000000005ffffe8 0x0000000006000000  Relocatable
+ Small   0x0000000006000000 0x0000000006200000 0x0000000006200000  Relocatable
+ Small   0x0000000006400000 0x00000000065ffff8 0x0000000006600000  Relocatable
+ Small   0x0000000006c00000 0x0000000006e00000 0x0000000006e00000  Allocating
+ Small   0x0000000007400000 0x00000000075fffd8 0x0000000007600000  Relocatable
+ Small   0x0000000007600000 0x00000000077fff68 0x0000000007800000  Relocatable
+ Small   0x0000000007800000 0x00000000079fff68 0x0000000007a00000  Relocatable
+ Small   0x0000000007a00000 0x0000000007bfff78 0x0000000007c00000  Relocatable
+ Small   0x0000000007e00000 0x0000000007f9e3c0 0x0000000008000000  Relocatable
+ Small   0x0000000008000000 0x00000000081fffc0 0x0000000008200000  Relocatable
+ Small   0x0000000008200000 0x0000000008400000 0x0000000008400000  Allocating
+ Small   0x0000000008600000 0x0000000008800000 0x0000000008800000  Relocatable
+ Small   0x0000000008a00000 0x0000000008bfffe0 0x0000000008c00000  Relocatable
+ Small   0x0000000008c00000 0x0000000008e00000 0x0000000008e00000  Relocatable
+ Small   0x0000000008e00000 0x0000000008fffff0 0x0000000009000000  Relocatable
+ Small   0x0000000009000000 0x00000000091ffff8 0x0000000009200000  Relocatable
+ Small   0x0000000009400000 0x00000000095ffff8 0x0000000009600000  Relocatable
+ Small   0x0000000009600000 0x00000000097fffb8 0x0000000009800000  Relocatable
+ Small   0x000000000aa00000 0x000000000abfffc0 0x000000000ac00000  Relocatable
+ Small   0x000000000ac00000 0x000000000ae00000 0x000000000ae00000  Allocating
+ Small   0x000000000ae00000 0x000000000b000000 0x000000000b000000  Allocating
+ Small   0x000000000b000000 0x000000000b1fffc8 0x000000000b200000  Relocatable
+ Small   0x000000000b200000 0x000000000b400000 0x000000000b400000  Allocating
+ Small   0x000000000bc00000 0x000000000be00000 0x000000000be00000  Relocatable
+ Small   0x000000000c000000 0x000000000c200000 0x000000000c200000  Relocatable
+ Small   0x000000000c600000 0x000000000c7fffe0 0x000000000c800000  Relocatable
+ Small   0x000000000ca00000 0x000000000cc00000 0x000000000cc00000  Relocatable
+ Small   0x000000000cc00000 0x000000000cdfffc8 0x000000000ce00000  Relocatable
+ Small   0x000000000d200000 0x000000000d3fff48 0x000000000d400000  Relocatable
+ Small   0x000000000d400000 0x000000000d5fffe8 0x000000000d600000  Relocatable
+ Small   0x000000000d600000 0x000000000d800000 0x000000000d800000  Relocatable
+ Small   0x000000000d800000 0x000000000da00000 0x000000000da00000  Relocatable
+ Small   0x000000000da00000 0x000000000dbfffb8 0x000000000dc00000  Relocatable
+ Small   0x000000000dc00000 0x000000000ddfffc0 0x000000000de00000  Relocatable
+ Small   0x000000000e000000 0x000000000e1fffc8 0x000000000e200000  Relocatable
+ Small   0x000000000ec00000 0x000000000edffff0 0x000000000ee00000  Relocatable
+ Small   0x000000000ee00000 0x000000000effffd8 0x000000000f000000  Relocatable
+ Small   0x000000000f200000 0x000000000f3fffe0 0x000000000f400000  Relocatable
+ Small   0x000000000f800000 0x000000000f9ffff8 0x000000000fa00000  Relocatable
+ Small   0x000000000fc00000 0x000000000fdff618 0x000000000fe00000  Relocatable
+ Small   0x000000000fe00000 0x0000000010000000 0x0000000010000000  Relocatable
+ Small   0x0000000010200000 0x0000000010400000 0x0000000010400000  Relocatable
+ Small   0x0000000010400000 0x00000000105ffa88 0x0000000010600000  Relocatable
+ Small   0x0000000010600000 0x00000000107ffc90 0x0000000010800000  Relocatable
+ Small   0x0000000010800000 0x00000000109fffe0 0x0000000010a00000  Relocatable
+ Small   0x0000000010c00000 0x0000000010dfffe0 0x0000000010e00000  Relocatable
+ Small   0x0000000011200000 0x00000000113fffc0 0x0000000011400000  Relocatable
+ Small   0x0000000011400000 0x00000000115fe010 0x0000000011600000  Relocatable
+ Small   0x0000000011600000 0x0000000011800000 0x0000000011800000  Relocatable
+ Small   0x0000000011800000 0x0000000011a00000 0x0000000011a00000  Relocatable
+ Small   0x0000000011a00000 0x0000000011bdfd08 0x0000000011c00000  Relocatable
+ Small   0x0000000011c00000 0x0000000011e00000 0x0000000011e00000  Relocatable
+ Small   0x0000000011e00000 0x0000000012000000 0x0000000012000000  Relocatable
+ Small   0x0000000012200000 0x00000000123fff58 0x0000000012400000  Relocatable
+ Small   0x0000000012400000 0x00000000125fffd0 0x0000000012600000  Relocatable
+ Small   0x0000000012600000 0x00000000127fffb0 0x0000000012800000  Relocatable
+ Small   0x0000000012a00000 0x0000000012bfffe8 0x0000000012c00000  Relocatable
+ Small   0x0000000012e00000 0x0000000012fffff8 0x0000000013000000  Relocatable
+ Small   0x0000000013200000 0x0000000013400000 0x0000000013400000  Allocating
+ Small   0x0000000013400000 0x00000000135ff868 0x0000000013600000  Relocatable
+ Small   0x0000000013600000 0x0000000013800000 0x0000000013800000  Relocatable
+ Small   0x0000000013e00000 0x0000000013ffdc88 0x0000000014000000  Relocatable
+ Small   0x0000000014000000 0x0000000014200000 0x0000000014200000  Relocatable
+ Small   0x0000000014200000 0x0000000014400000 0x0000000014400000  Relocatable
+ Small   0x0000000014400000 0x00000000145fffe0 0x0000000014600000  Relocatable
+ Small   0x0000000014e00000 0x0000000014ffffe0 0x0000000015000000  Relocatable
+ Small   0x0000000015000000 0x00000000151fffa8 0x0000000015200000  Relocatable
+ Small   0x0000000015a00000 0x0000000015bee0b0 0x0000000015c00000  Relocatable
+ Small   0x0000000016000000 0x00000000161fffa0 0x0000000016200000  Relocatable
+ Small   0x0000000016600000 0x00000000167fffd8 0x0000000016800000  Relocatable
+ Small   0x0000000016e00000 0x0000000016ffffe8 0x0000000017000000  Relocatable
+ Small   0x0000000017000000 0x00000000171fffe8 0x0000000017200000  Relocatable
+ Small   0x0000000017800000 0x00000000179fffd8 0x0000000017a00000  Relocatable
+ Small   0x0000000017a00000 0x0000000017c00000 0x0000000017c00000  Relocatable
+ Small   0x0000000017c00000 0x0000000017de9970 0x0000000017e00000  Relocatable
+ Small   0x0000000018000000 0x00000000181f8e20 0x0000000018200000  Relocatable
+ Small   0x0000000018200000 0x0000000018400000 0x0000000018400000  Relocatable
+ Small   0x0000000018600000 0x00000000187fe5c0 0x0000000018800000  Relocatable
+ Small   0x0000000018800000 0x0000000018a00000 0x0000000018a00000  Allocating
+ Small   0x0000000018a00000 0x0000000018c00000 0x0000000018c00000  Relocatable
+ Small   0x0000000018e00000 0x0000000019000000 0x0000000019000000  Relocatable
+ Small   0x0000000019200000 0x00000000193ffff8 0x0000000019400000  Relocatable
+ Small   0x0000000019400000 0x00000000195fffd8 0x0000000019600000  Relocatable
+ Small   0x0000000019800000 0x00000000199fff88 0x0000000019a00000  Relocatable
+ Small   0x0000000019a00000 0x0000000019c00000 0x0000000019c00000  Relocatable
+ Small   0x0000000019c00000 0x0000000019dfff80 0x0000000019e00000  Relocatable
+ Small   0x000000001a400000 0x000000001a600000 0x000000001a600000  Relocatable
+ Small   0x000000001a800000 0x000000001a9fff70 0x000000001aa00000  Relocatable
+ Small   0x000000001b400000 0x000000001b5ffff8 0x000000001b600000  Relocatable
+ Small   0x000000001b800000 0x000000001b9fffd0 0x000000001ba00000  Relocatable
+ Small   0x000000001bc00000 0x000000001be00000 0x000000001be00000  Relocatable
+ Small   0x000000001be00000 0x000000001c000000 0x000000001c000000  Relocatable
+ Small   0x000000001c000000 0x000000001c200000 0x000000001c200000  Allocating
+ Small   0x000000001c400000 0x000000001c600000 0x000000001c600000  Relocatable
+ Small   0x000000001c600000 0x000000001c7ffff0 0x000000001c800000  Relocatable
+ Small   0x000000001d000000 0x000000001d200000 0x000000001d200000  Relocatable
+ Small   0x000000001d400000 0x000000001d600000 0x000000001d600000  Relocatable
+ Small   0x000000001da00000 0x000000001dbfff78 0x000000001dc00000  Relocatable
+ Small   0x000000001dc00000 0x000000001de00000 0x000000001de00000  Relocatable
+ Small   0x000000001de00000 0x000000001dfffff0 0x000000001e000000  Relocatable
+ Small   0x000000001e000000 0x000000001e1fffe0 0x000000001e200000  Relocatable
+ Small   0x000000001e400000 0x000000001e5fffe0 0x000000001e600000  Relocatable
+ Small   0x000000001e600000 0x000000001e800000 0x000000001e800000  Relocatable
+ Small   0x000000001e800000 0x000000001ea00000 0x000000001ea00000  Relocatable
+ Small   0x000000001ea00000 0x000000001ebfffe0 0x000000001ec00000  Relocatable
+ Small   0x000000001ec00000 0x000000001edffff0 0x000000001ee00000  Relocatable
+ Small   0x000000001ee00000 0x000000001f000000 0x000000001f000000  Allocating
+ Small   0x000000001f200000 0x000000001f3ffd78 0x000000001f400000  Relocatable
+ Small   0x000000001f400000 0x000000001f600000 0x000000001f600000  Relocatable
+ Small   0x000000001f600000 0x000000001f7ffff8 0x000000001f800000  Relocatable
+ Small   0x000000001fc00000 0x000000001fdfffd8 0x000000001fe00000  Relocatable
+ Small   0x0000000020000000 0x00000000201ffff8 0x0000000020200000  Relocatable
+ Small   0x0000000020200000 0x00000000203fda40 0x0000000020400000  Relocatable
+ Small   0x0000000020400000 0x00000000205fffe8 0x0000000020600000  Relocatable
+ Small   0x0000000020600000 0x0000000020800000 0x0000000020800000  Allocating
+ Small   0x0000000020e00000 0x0000000020ffffa8 0x0000000021000000  Relocatable
+ Small   0x0000000021800000 0x0000000021a00000 0x0000000021a00000  Relocatable
+ Small   0x0000000022800000 0x00000000229fffd0 0x0000000022a00000  Relocatable
+ Small   0x0000000022a00000 0x0000000022bffe98 0x0000000022c00000  Relocatable
+ Small   0x0000000022c00000 0x0000000022dff998 0x0000000022e00000  Relocatable
+ Small   0x0000000022e00000 0x0000000023000000 0x0000000023000000  Relocatable
+ Small   0x0000000023200000 0x00000000233fffe0 0x0000000023400000  Relocatable
+ Small   0x0000000023400000 0x00000000235ffff8 0x0000000023600000  Relocatable
+ Small   0x0000000023800000 0x0000000023a00000 0x0000000023a00000  Relocatable
+ Small   0x0000000023a00000 0x0000000023bfffd8 0x0000000023c00000  Relocatable
+ Small   0x0000000023e00000 0x0000000024000000 0x0000000024000000  Allocating
+ Small   0x0000000024000000 0x0000000024200000 0x0000000024200000  Allocating
+ Small   0x0000000024200000 0x00000000243fffe0 0x0000000024400000  Relocatable
+ Small   0x0000000024400000 0x00000000245fff98 0x0000000024600000  Relocatable
+ Small   0x0000000024600000 0x0000000024800000 0x0000000024800000  Allocating
+ Small   0x0000000024a00000 0x0000000024bffff8 0x0000000024c00000  Relocatable
+ Small   0x0000000024e00000 0x0000000025000000 0x0000000025000000  Relocatable
+ Small   0x0000000025400000 0x0000000025600000 0x0000000025600000  Relocatable
+ Small   0x0000000025600000 0x00000000257fffc8 0x0000000025800000  Relocatable
+ Small   0x0000000025800000 0x0000000025999ff0 0x0000000025a00000  Relocatable
+ Small   0x0000000025a00000 0x0000000025c00000 0x0000000025c00000  Relocatable
+ Small   0x0000000025e00000 0x0000000025fffff8 0x0000000026000000  Relocatable
+ Small   0x0000000026000000 0x00000000261fffe0 0x0000000026200000  Relocatable
+ Small   0x0000000026a00000 0x0000000026ac0000 0x0000000026c00000  Relocatable
+ Small   0x0000000026e00000 0x0000000027000000 0x0000000027000000  Relocatable
+ Small   0x0000000027000000 0x0000000027200000 0x0000000027200000  Relocatable
+ Small   0x0000000027400000 0x00000000275fffe0 0x0000000027600000  Relocatable
+ Small   0x0000000027600000 0x00000000277fffc0 0x0000000027800000  Relocatable
+ Small   0x0000000027c00000 0x0000000027e00000 0x0000000027e00000  Relocatable
+ Small   0x0000000027e00000 0x0000000028000000 0x0000000028000000  Relocatable
+ Small   0x0000000028400000 0x0000000028600000 0x0000000028600000  Relocatable
+ Small   0x0000000028e00000 0x0000000028ffffd0 0x0000000029000000  Relocatable
+ Small   0x0000000029200000 0x0000000029400000 0x0000000029400000  Relocatable
+ Small   0x0000000029600000 0x00000000297ffff8 0x0000000029800000  Relocatable
+ Small   0x0000000029a00000 0x0000000029bffff0 0x0000000029c00000  Relocatable
+ Small   0x0000000029c00000 0x0000000029dffff0 0x0000000029e00000  Relocatable
+ Small   0x0000000029e00000 0x0000000029fffff8 0x000000002a000000  Relocatable
+ Small   0x000000002a000000 0x000000002a1fffd8 0x000000002a200000  Relocatable
+ Small   0x000000002a200000 0x000000002a3ffff0 0x000000002a400000  Relocatable
+ Small   0x000000002a400000 0x000000002a5ffff0 0x000000002a600000  Relocatable
+ Small   0x000000002a600000 0x000000002a7fff70 0x000000002a800000  Relocatable
+ Small   0x000000002aa00000 0x000000002abfd380 0x000000002ac00000  Relocatable
+ Small   0x000000002b000000 0x000000002b1fffe8 0x000000002b200000  Relocatable
+ Small   0x000000002b200000 0x000000002b400000 0x000000002b400000  Allocating
+ Small   0x000000002b400000 0x000000002b5fffc8 0x000000002b600000  Relocatable
+ Small   0x000000002b600000 0x000000002b7fffe8 0x000000002b800000  Relocatable
+ Small   0x000000002ba00000 0x000000002bbffff0 0x000000002bc00000  Relocatable
+ Small   0x000000002bc00000 0x000000002bdfffd0 0x000000002be00000  Relocatable
+ Small   0x000000002c000000 0x000000002c200000 0x000000002c200000  Allocating
+ Small   0x000000002c200000 0x000000002c400000 0x000000002c400000  Relocatable
+ Small   0x000000002c400000 0x000000002c555428 0x000000002c600000  Relocatable
+ Small   0x000000002c600000 0x000000002c800000 0x000000002c800000  Relocatable
+ Small   0x000000002ca00000 0x000000002cc00000 0x000000002cc00000  Relocatable
+ Small   0x000000002ce00000 0x000000002cffffd0 0x000000002d000000  Relocatable
+ Small   0x000000002d000000 0x000000002d1febe8 0x000000002d200000  Relocatable
+ Small   0x000000002d400000 0x000000002d5fffd8 0x000000002d600000  Relocatable
+ Small   0x000000002da00000 0x000000002dbfffe8 0x000000002dc00000  Relocatable
+ Small   0x000000002dc00000 0x000000002ddffff0 0x000000002de00000  Relocatable
+ Small   0x000000002e400000 0x000000002e600000 0x000000002e600000  Relocatable
+ Small   0x000000002e600000 0x000000002e7fffe8 0x000000002e800000  Relocatable
+ Small   0x000000002e800000 0x000000002ea00000 0x000000002ea00000  Relocatable
+ Small   0x000000002ec00000 0x000000002edfffe8 0x000000002ee00000  Relocatable
+ Small   0x000000002f800000 0x000000002f9fff90 0x000000002fa00000  Relocatable
+ Small   0x000000002fc00000 0x000000002fdffff0 0x000000002fe00000  Relocatable
+ Small   0x0000000030200000 0x0000000030400000 0x0000000030400000  Relocatable
+ Small   0x0000000030600000 0x00000000307fffe0 0x0000000030800000  Relocatable
+ Small   0x0000000030800000 0x0000000030986be0 0x0000000030a00000  Relocatable
+ Small   0x0000000030e00000 0x0000000030ffffd0 0x0000000031000000  Relocatable
+ Small   0x0000000031400000 0x00000000315ffff8 0x0000000031600000  Relocatable
+ Small   0x0000000031600000 0x00000000317fffd0 0x0000000031800000  Relocatable
+ Small   0x0000000031c00000 0x0000000031e00000 0x0000000031e00000  Relocatable
+ Small   0x0000000031e00000 0x0000000031ffffe0 0x0000000032000000  Relocatable
+ Small   0x0000000032200000 0x00000000323ffff8 0x0000000032400000  Relocatable
+ Small   0x0000000032400000 0x00000000325fff68 0x0000000032600000  Relocatable
+ Small   0x0000000032a00000 0x0000000032c00000 0x0000000032c00000  Relocatable
+ Small   0x0000000032c00000 0x0000000032dffff8 0x0000000032e00000  Relocatable
+ Small   0x0000000032e00000 0x0000000033000000 0x0000000033000000  Relocatable
+ Small   0x0000000033000000 0x00000000331ffd10 0x0000000033200000  Relocatable
+ Small   0x0000000033600000 0x00000000337fffd8 0x0000000033800000  Relocatable
+ Small   0x0000000033e00000 0x0000000033ffffc0 0x0000000034000000  Relocatable
+ Small   0x0000000035800000 0x00000000359fffe8 0x0000000035a00000  Relocatable
+ Small   0x0000000035a00000 0x0000000035bfffe0 0x0000000035c00000  Relocatable
+ Small   0x0000000035c00000 0x0000000035dffff8 0x0000000035e00000  Relocatable
+ Small   0x0000000035e00000 0x0000000035ffffa8 0x0000000036000000  Relocatable
+ Small   0x0000000036000000 0x00000000361fff90 0x0000000036200000  Relocatable
+ Small   0x0000000036200000 0x00000000363fffd8 0x0000000036400000  Relocatable
+ Small   0x0000000036600000 0x0000000036800000 0x0000000036800000  Allocating
+ Small   0x0000000036a00000 0x0000000036c00000 0x0000000036c00000  Relocatable
+ Small   0x0000000036c00000 0x0000000036dfe3a0 0x0000000036e00000  Relocatable
+ Small   0x0000000037400000 0x00000000375ffff8 0x0000000037600000  Relocatable
+ Small   0x0000000037600000 0x00000000377ffff8 0x0000000037800000  Relocatable
+ Small   0x0000000038200000 0x0000000038400000 0x0000000038400000  Relocatable
+ Small   0x0000000038400000 0x00000000385ffff8 0x0000000038600000  Relocatable
+ Small   0x0000000038800000 0x0000000038a00000 0x0000000038a00000  Relocatable
+ Small   0x0000000038a00000 0x0000000038bfd028 0x0000000038c00000  Relocatable
+ Small   0x0000000039200000 0x00000000393fff90 0x0000000039400000  Relocatable
+ Small   0x0000000039400000 0x00000000395ffff0 0x0000000039600000  Relocatable
+ Small   0x0000000039600000 0x00000000397fffd8 0x0000000039800000  Relocatable
+ Small   0x0000000039800000 0x0000000039a00000 0x0000000039a00000  Relocatable
+ Small   0x0000000039c00000 0x0000000039dfffa8 0x0000000039e00000  Relocatable
+ Small   0x000000003a000000 0x000000003a1fffc8 0x000000003a200000  Relocatable
+ Small   0x000000003aa00000 0x000000003ac00000 0x000000003ac00000  Relocatable
+ Small   0x000000003ac00000 0x000000003adffff8 0x000000003ae00000  Relocatable
+ Small   0x000000003ae00000 0x000000003b000000 0x000000003b000000  Relocatable
+ Small   0x000000003b000000 0x000000003b200000 0x000000003b200000  Relocatable
+ Small   0x000000003b200000 0x000000003b3fffe0 0x000000003b400000  Relocatable
+ Small   0x000000003b400000 0x000000003b600000 0x000000003b600000  Relocatable
+ Small   0x000000003ba00000 0x000000003bc00000 0x000000003bc00000  Relocatable
+ Small   0x000000003c600000 0x000000003c800000 0x000000003c800000  Allocating
+ Small   0x000000003d200000 0x000000003d3b3bd8 0x000000003d400000  Relocatable
+ Small   0x000000003d600000 0x000000003d7fffe8 0x000000003d800000  Relocatable
+ Small   0x000000003da00000 0x000000003dbfffd0 0x000000003dc00000  Relocatable
+ Small   0x000000003e200000 0x000000003e3fffd8 0x000000003e400000  Relocatable
+ Small   0x000000003e800000 0x000000003e9ffff0 0x000000003ea00000  Relocatable
+ Small   0x000000003ec00000 0x000000003ee00000 0x000000003ee00000  Relocatable
+ Small   0x000000003ee00000 0x000000003effff68 0x000000003f000000  Relocatable
+ Small   0x000000003f000000 0x000000003f1fff88 0x000000003f200000  Relocatable
+ Small   0x000000003f800000 0x000000003fa00000 0x000000003fa00000  Relocatable
+ Small   0x0000000040a00000 0x0000000040c00000 0x0000000040c00000  Relocatable
+ Small   0x0000000040e00000 0x0000000040fffff8 0x0000000041000000  Relocatable
+ Small   0x0000000041200000 0x00000000413fffe8 0x0000000041400000  Relocatable
+ Small   0x0000000041400000 0x00000000415fbf48 0x0000000041600000  Relocatable
+ Small   0x0000000041600000 0x00000000417fffc0 0x0000000041800000  Relocatable
+ Small   0x0000000041800000 0x0000000041a00000 0x0000000041a00000  Relocatable
+ Small   0x0000000041c00000 0x0000000041dfffd8 0x0000000041e00000  Relocatable
+ Small   0x0000000041e00000 0x0000000042000000 0x0000000042000000  Relocatable
+ Small   0x0000000042000000 0x00000000421fff40 0x0000000042200000  Relocatable
+ Small   0x0000000042600000 0x00000000427fffa0 0x0000000042800000  Relocatable
+ Small   0x0000000042a00000 0x0000000042bfff48 0x0000000042c00000  Relocatable
+ Small   0x0000000042c00000 0x0000000042dfffd0 0x0000000042e00000  Relocatable
+ Small   0x0000000042e00000 0x0000000043000000 0x0000000043000000  Allocating
+ Small   0x0000000043600000 0x00000000437ffb78 0x0000000043800000  Relocatable
+ Small   0x0000000043a00000 0x0000000043c00000 0x0000000043c00000  Relocatable
+ Small   0x0000000043c00000 0x0000000043dff6e0 0x0000000043e00000  Relocatable
+ Small   0x0000000044400000 0x00000000445fffe0 0x0000000044600000  Relocatable
+ Small   0x0000000044c00000 0x0000000044dfffe0 0x0000000044e00000  Relocatable
+ Small   0x0000000045000000 0x00000000451fffb0 0x0000000045200000  Relocatable
+ Small   0x0000000045600000 0x00000000457fffe8 0x0000000045800000  Relocatable
+ Small   0x0000000045c00000 0x0000000045d8f2e8 0x0000000045e00000  Relocatable
+ Small   0x0000000046000000 0x00000000461fffe8 0x0000000046200000  Relocatable
+ Small   0x0000000046200000 0x00000000463fff80 0x0000000046400000  Relocatable
+ Small   0x0000000046800000 0x00000000469fff60 0x0000000046a00000  Relocatable
+ Small   0x0000000046a00000 0x0000000046bffff0 0x0000000046c00000  Relocatable
+ Small   0x0000000046c00000 0x0000000046dffff0 0x0000000046e00000  Relocatable
+ Small   0x0000000047000000 0x0000000047200000 0x0000000047200000  Relocatable
+ Small   0x0000000047600000 0x0000000047800000 0x0000000047800000  Relocatable
+ Small   0x0000000047800000 0x00000000479ff148 0x0000000047a00000  Relocatable
+ Small   0x0000000047c00000 0x0000000047dfffe8 0x0000000047e00000  Relocatable
+ Small   0x0000000048200000 0x00000000483ffff8 0x0000000048400000  Relocatable
+ Small   0x0000000048400000 0x0000000048600000 0x0000000048600000  Relocatable
+ Small   0x0000000048600000 0x0000000048800000 0x0000000048800000  Allocating
+ Small   0x0000000048800000 0x0000000048a00000 0x0000000048a00000  Relocatable
+ Small   0x0000000048a00000 0x0000000048bfffd0 0x0000000048c00000  Relocatable
+ Small   0x0000000048c00000 0x0000000048dffff0 0x0000000048e00000  Relocatable
+ Small   0x0000000048e00000 0x0000000048ffff78 0x0000000049000000  Relocatable
+ Small   0x0000000049200000 0x00000000493ffff0 0x0000000049400000  Relocatable
+ Small   0x0000000049600000 0x00000000497ffd90 0x0000000049800000  Relocatable
+ Small   0x0000000049a00000 0x0000000049c00000 0x0000000049c00000  Relocatable
+ Small   0x0000000049c00000 0x0000000049dffff0 0x0000000049e00000  Relocatable
+ Small   0x000000004a000000 0x000000004a1ff2d8 0x000000004a200000  Relocatable
+ Small   0x000000004a200000 0x000000004a400000 0x000000004a400000  Relocatable
+ Small   0x000000004a400000 0x000000004a5fffe8 0x000000004a600000  Relocatable
+ Small   0x000000004a600000 0x000000004a800000 0x000000004a800000  Relocatable
+ Small   0x000000004aa00000 0x000000004abfffb0 0x000000004ac00000  Relocatable
+ Small   0x000000004ac00000 0x000000004adfffe0 0x000000004ae00000  Relocatable
+ Small   0x000000004b000000 0x000000004b1ffe40 0x000000004b200000  Relocatable
+ Small   0x000000004b200000 0x000000004b400000 0x000000004b400000  Relocatable
+ Small   0x000000004b400000 0x000000004b5ffff0 0x000000004b600000  Relocatable
+ Small   0x000000004c000000 0x000000004c200000 0x000000004c200000  Relocatable
+ Small   0x000000004c200000 0x000000004c3fffe0 0x000000004c400000  Relocatable
+ Small   0x000000004c800000 0x000000004c9fffe8 0x000000004ca00000  Relocatable
+ Small   0x000000004ca00000 0x000000004cbfff50 0x000000004cc00000  Relocatable
+ Small   0x000000004ce00000 0x000000004d000000 0x000000004d000000  Relocatable
+ Small   0x000000004d000000 0x000000004d200000 0x000000004d200000  Allocating
+ Small   0x000000004d400000 0x000000004d5fffd0 0x000000004d600000  Relocatable
+ Small   0x000000004d800000 0x000000004d9fffb8 0x000000004da00000  Relocatable
+ Small   0x000000004dc00000 0x000000004ddfffd0 0x000000004de00000  Relocatable
+ Small   0x000000004de00000 0x000000004dfffff0 0x000000004e000000  Relocatable
+ Small   0x000000004e200000 0x000000004e3fffe0 0x000000004e400000  Relocatable
+ Small   0x000000004ea00000 0x000000004ebffff0 0x000000004ec00000  Relocatable
+ Small   0x000000004ec00000 0x000000004edfff98 0x000000004ee00000  Relocatable
+ Small   0x000000004ee00000 0x000000004f000000 0x000000004f000000  Allocating
+ Small   0x000000004f600000 0x000000004f800000 0x000000004f800000  Relocatable
+ Small   0x000000004f800000 0x000000004fa00000 0x000000004fa00000  Relocatable
+ Small   0x000000004fc00000 0x000000004fdfffd8 0x000000004fe00000  Relocatable
+ Small   0x000000004fe00000 0x000000004fffff80 0x0000000050000000  Relocatable
+ Small   0x0000000050200000 0x0000000050400000 0x0000000050400000  Relocatable
+ Small   0x0000000050a00000 0x0000000050bff838 0x0000000050c00000  Relocatable
+ Small   0x0000000050c00000 0x0000000050dfff40 0x0000000050e00000  Relocatable
+ Small   0x0000000050e00000 0x0000000050ffe240 0x0000000051000000  Relocatable
+ Small   0x0000000052200000 0x0000000052400000 0x0000000052400000  Relocatable
+ Small   0x0000000052400000 0x0000000052600000 0x0000000052600000  Relocatable
+ Small   0x0000000052600000 0x0000000052800000 0x0000000052800000  Allocating
+ Small   0x0000000052800000 0x00000000529fffe0 0x0000000052a00000  Relocatable
+ Small   0x0000000052a00000 0x0000000052c00000 0x0000000052c00000  Relocatable
+ Small   0x0000000052c00000 0x0000000052e00000 0x0000000052e00000  Relocatable
+ Small   0x0000000053000000 0x0000000053200000 0x0000000053200000  Relocatable
+ Small   0x0000000054000000 0x0000000054200000 0x0000000054200000  Relocatable
+ Small   0x0000000054200000 0x00000000543ffff0 0x0000000054400000  Relocatable
+ Small   0x0000000054400000 0x00000000545fffe8 0x0000000054600000  Relocatable
+ Small   0x0000000054a00000 0x0000000054c00000 0x0000000054c00000  Relocatable
+ Small   0x0000000054e00000 0x0000000054ffffb0 0x0000000055000000  Relocatable
+ Small   0x0000000055000000 0x0000000055200000 0x0000000055200000  Relocatable
+ Small   0x0000000055e00000 0x0000000055ffb018 0x0000000056000000  Relocatable
+ Small   0x0000000056000000 0x0000000056200000 0x0000000056200000  Relocatable
+ Small   0x0000000056600000 0x0000000056800000 0x0000000056800000  Relocatable
+ Small   0x0000000056800000 0x00000000569fff78 0x0000000056a00000  Relocatable
+ Small   0x0000000057200000 0x00000000573ffff8 0x0000000057400000  Relocatable
+ Small   0x0000000057400000 0x00000000575ffff8 0x0000000057600000  Relocatable
+ Small   0x0000000057c00000 0x0000000057e00000 0x0000000057e00000  Relocatable
+ Small   0x0000000057e00000 0x0000000058000000 0x0000000058000000  Relocatable
+ Small   0x0000000058000000 0x0000000058200000 0x0000000058200000  Allocating
+ Small   0x0000000058200000 0x00000000583fffd8 0x0000000058400000  Relocatable
+ Small   0x0000000058400000 0x0000000058600000 0x0000000058600000  Relocatable
+ Small   0x0000000058e00000 0x0000000058fffff0 0x0000000059000000  Relocatable
+ Small   0x0000000059200000 0x00000000593fff58 0x0000000059400000  Relocatable
+ Small   0x0000000059400000 0x00000000595fff98 0x0000000059600000  Relocatable
+ Small   0x0000000059600000 0x0000000059800000 0x0000000059800000  Relocatable
+ Small   0x0000000059a00000 0x0000000059bffff0 0x0000000059c00000  Relocatable
+ Small   0x0000000059e00000 0x000000005a000000 0x000000005a000000  Allocating
+ Small   0x000000005a200000 0x000000005a3fff60 0x000000005a400000  Relocatable
+ Small   0x000000005a400000 0x000000005a600000 0x000000005a600000  Relocatable
+ Small   0x000000005a600000 0x000000005a7ffff0 0x000000005a800000  Relocatable
+ Small   0x000000005a800000 0x000000005aa00000 0x000000005aa00000  Relocatable
+ Small   0x000000005aa00000 0x000000005abffff0 0x000000005ac00000  Relocatable
+ Small   0x000000005ac00000 0x000000005adffff8 0x000000005ae00000  Relocatable
+ Small   0x000000005b000000 0x000000005b1fffc8 0x000000005b200000  Relocatable
+ Small   0x000000005b400000 0x000000005b600000 0x000000005b600000  Relocatable
+ Small   0x000000005b600000 0x000000005b7fd768 0x000000005b800000  Relocatable
+ Small   0x000000005c000000 0x000000005c1fff48 0x000000005c200000  Relocatable
+ Small   0x000000005ca00000 0x000000005cc00000 0x000000005cc00000  Allocating
+ Small   0x000000005d400000 0x000000005d600000 0x000000005d600000  Allocating
+ Small   0x000000005dc00000 0x000000005dd80000 0x000000005de00000  Allocating
+ Small   0x000000005de00000 0x000000005e000000 0x000000005e000000  Allocating
+ Small   0x000000005f400000 0x000000005f5ffff8 0x000000005f600000  Relocatable
+ Small   0x000000005fa00000 0x000000005fc00000 0x000000005fc00000  Allocating
+ Small   0x000000005fc00000 0x000000005fdfff78 0x000000005fe00000  Relocatable
+ Small   0x0000000060000000 0x0000000060200000 0x0000000060200000  Relocatable
+ Small   0x0000000060a00000 0x0000000060c00000 0x0000000060c00000  Relocatable
+ Small   0x0000000061000000 0x00000000611ffff0 0x0000000061200000  Relocatable
+ Small   0x0000000061800000 0x0000000061a00000 0x0000000061a00000  Relocatable
+ Small   0x0000000061a00000 0x0000000061bff5d0 0x0000000061c00000  Relocatable
+ Small   0x0000000061c00000 0x0000000061dffff0 0x0000000061e00000  Relocatable
+ Small   0x0000000062200000 0x00000000623ffcc0 0x0000000062400000  Relocatable
+ Small   0x0000000062600000 0x0000000062800000 0x0000000062800000  Relocatable
+ Small   0x0000000062a00000 0x0000000062bffff0 0x0000000062c00000  Relocatable
+ Small   0x0000000062c00000 0x0000000062dffff0 0x0000000062e00000  Relocatable
+ Small   0x0000000063400000 0x00000000635ffff0 0x0000000063600000  Relocatable
+ Small   0x0000000063600000 0x0000000063800000 0x0000000063800000  Relocatable
+ Small   0x0000000063800000 0x00000000639fffc8 0x0000000063a00000  Relocatable
+ Small   0x0000000063a00000 0x0000000063bffff8 0x0000000063c00000  Relocatable
+ Small   0x0000000063e00000 0x0000000063fffcc8 0x0000000064000000  Relocatable
+ Small   0x0000000064000000 0x00000000641ffff8 0x0000000064200000  Relocatable
+ Small   0x0000000064400000 0x00000000645ffa60 0x0000000064600000  Relocatable
+ Small   0x0000000064e00000 0x0000000064ffffe0 0x0000000065000000  Relocatable
+ Small   0x0000000065200000 0x0000000065400000 0x0000000065400000  Relocatable
+ Small   0x0000000065600000 0x00000000657feaa8 0x0000000065800000  Relocatable
+ Small   0x0000000065800000 0x0000000065a00000 0x0000000065a00000  Relocatable
+ Small   0x0000000065a00000 0x0000000065bf9fd0 0x0000000065c00000  Relocatable
+ Small   0x0000000066400000 0x00000000665fffd0 0x0000000066600000  Relocatable
+ Small   0x0000000066600000 0x00000000667fff60 0x0000000066800000  Relocatable
+ Small   0x0000000066a00000 0x0000000066c00000 0x0000000066c00000  Relocatable
+ Small   0x0000000067000000 0x0000000067200000 0x0000000067200000  Relocatable
+ Small   0x0000000067600000 0x0000000067800000 0x0000000067800000  Relocatable
+ Small   0x0000000067800000 0x0000000067a00000 0x0000000067a00000  Relocatable
+ Small   0x0000000067c00000 0x0000000067e00000 0x0000000067e00000  Allocating
+ Small   0x0000000068200000 0x0000000068400000 0x0000000068400000  Allocating
+ Small   0x0000000068400000 0x00000000685fffe8 0x0000000068600000  Relocatable
+ Small   0x0000000068800000 0x00000000689ffe10 0x0000000068a00000  Relocatable
+ Small   0x0000000068a00000 0x0000000068bfffe8 0x0000000068c00000  Relocatable
+ Small   0x0000000069200000 0x00000000693ffff8 0x0000000069400000  Relocatable
+ Small   0x0000000069400000 0x0000000069600000 0x0000000069600000  Relocatable
+ Small   0x0000000069600000 0x0000000069800000 0x0000000069800000  Relocatable
+ Small   0x0000000069800000 0x0000000069a00000 0x0000000069a00000  Relocatable
+ Small   0x0000000069a00000 0x0000000069c00000 0x0000000069c00000  Relocatable
+ Small   0x0000000069c00000 0x0000000069e00000 0x0000000069e00000  Relocatable
+ Small   0x000000006a000000 0x000000006a1ffff0 0x000000006a200000  Relocatable
+ Small   0x000000006a200000 0x000000006a3fffd0 0x000000006a400000  Relocatable
+ Small   0x000000006a400000 0x000000006a5ffff0 0x000000006a600000  Relocatable
+ Small   0x000000006a600000 0x000000006a7fff40 0x000000006a800000  Relocatable
+ Small   0x000000006a800000 0x000000006aa00000 0x000000006aa00000  Relocatable
+ Small   0x000000006aa00000 0x000000006abffff0 0x000000006ac00000  Relocatable
+ Small   0x000000006ac00000 0x000000006adfffd8 0x000000006ae00000  Relocatable
+ Small   0x000000006ae00000 0x000000006affff78 0x000000006b000000  Relocatable
+ Small   0x000000006b000000 0x000000006b1ffb90 0x000000006b200000  Relocatable
+ Small   0x000000006b200000 0x000000006b3ffff8 0x000000006b400000  Relocatable
+ Small   0x000000006b400000 0x000000006b600000 0x000000006b600000  Relocatable
+ Small   0x000000006ba00000 0x000000006bbd0fc8 0x000000006bc00000  Relocatable
+ Small   0x000000006c000000 0x000000006c200000 0x000000006c200000  Relocatable
+ Small   0x000000006c200000 0x000000006c400000 0x000000006c400000  Relocatable
+ Small   0x000000006c600000 0x000000006c7fffe8 0x000000006c800000  Relocatable
+ Small   0x000000006c800000 0x000000006c9fe030 0x000000006ca00000  Relocatable
+ Small   0x000000006cc00000 0x000000006ce00000 0x000000006ce00000  Relocatable
+ Small   0x000000006d000000 0x000000006d1fffc8 0x000000006d200000  Relocatable
+ Small   0x000000006d200000 0x000000006d400000 0x000000006d400000  Allocating
+ Small   0x000000006d400000 0x000000006d5fff90 0x000000006d600000  Relocatable
+ Small   0x000000006d800000 0x000000006da00000 0x000000006da00000  Relocatable
+ Small   0x000000006da00000 0x000000006dc00000 0x000000006dc00000  Relocatable
+ Small   0x000000006dc00000 0x000000006ddffff8 0x000000006de00000  Relocatable
+ Small   0x000000006e600000 0x000000006e7ffff0 0x000000006e800000  Relocatable
+ Small   0x000000006ea00000 0x000000006ebfffe0 0x000000006ec00000  Relocatable
+ Small   0x000000006f000000 0x000000006f1ffda0 0x000000006f200000  Relocatable
+ Small   0x000000006f600000 0x000000006f7fff00 0x000000006f800000  Relocatable
+ Small   0x000000006fc00000 0x000000006fdffc70 0x000000006fe00000  Relocatable
+ Small   0x000000006fe00000 0x0000000070000000 0x0000000070000000  Relocatable
+ Small   0x0000000070000000 0x00000000701ffff0 0x0000000070200000  Relocatable
+ Small   0x0000000070200000 0x00000000703ffe48 0x0000000070400000  Relocatable
+ Small   0x0000000070800000 0x00000000709ffff8 0x0000000070a00000  Relocatable
+ Small   0x0000000070a00000 0x0000000070c00000 0x0000000070c00000  Relocatable
+ Small   0x0000000071200000 0x0000000071400000 0x0000000071400000  Relocatable
+ Small   0x0000000071400000 0x00000000715fff38 0x0000000071600000  Relocatable
+ Small   0x0000000071600000 0x00000000717fffe0 0x0000000071800000  Relocatable
+ Small   0x0000000071a00000 0x0000000071bffff8 0x0000000071c00000  Relocatable
+ Small   0x0000000071e00000 0x0000000071ffffe8 0x0000000072000000  Relocatable
+ Small   0x0000000072600000 0x00000000727fffe0 0x0000000072800000  Relocatable
+ Small   0x0000000072a00000 0x0000000072c00000 0x0000000072c00000  Relocatable
+ Small   0x0000000073200000 0x0000000073400000 0x0000000073400000  Relocatable
+ Small   0x0000000073800000 0x0000000073a00000 0x0000000073a00000  Relocatable
+ Small   0x0000000074200000 0x00000000743ffff0 0x0000000074400000  Relocatable
+ Small   0x0000000074400000 0x00000000745ffff8 0x0000000074600000  Relocatable
+ Small   0x0000000074800000 0x0000000074a00000 0x0000000074a00000  Relocatable
+ Small   0x0000000074a00000 0x0000000074bffff8 0x0000000074c00000  Relocatable
+ Small   0x0000000074c00000 0x0000000074e00000 0x0000000074e00000  Relocatable
+ Small   0x0000000074e00000 0x0000000075000000 0x0000000075000000  Relocatable
+ Small   0x0000000075000000 0x00000000751fff68 0x0000000075200000  Relocatable
+ Small   0x0000000075200000 0x00000000753ffd70 0x0000000075400000  Relocatable
+ Small   0x0000000075400000 0x00000000755fd908 0x0000000075600000  Relocatable
+ Small   0x0000000075c00000 0x0000000075e00000 0x0000000075e00000  Allocating
+ Small   0x0000000075e00000 0x0000000075ffffb0 0x0000000076000000  Relocatable
+ Small   0x0000000076400000 0x00000000765fff68 0x0000000076600000  Relocatable
+ Small   0x0000000076600000 0x00000000767fffc8 0x0000000076800000  Relocatable
+ Small   0x0000000076e00000 0x0000000076fffff0 0x0000000077000000  Relocatable
+ Small   0x0000000078000000 0x00000000781fffd0 0x0000000078200000  Relocatable
+ Small   0x0000000078200000 0x0000000078400000 0x0000000078400000  Relocatable
+ Small   0x0000000078400000 0x00000000785a2750 0x0000000078600000  Relocatable
+ Small   0x0000000078c00000 0x0000000078e00000 0x0000000078e00000  Relocatable
+ Small   0x0000000079400000 0x0000000079600000 0x0000000079600000  Relocatable
+ Small   0x0000000079600000 0x00000000797ffff8 0x0000000079800000  Relocatable
+ Small   0x0000000079800000 0x00000000799fff60 0x0000000079a00000  Relocatable
+ Small   0x0000000079a00000 0x0000000079bfffd8 0x0000000079c00000  Relocatable
+ Small   0x0000000079e00000 0x000000007a000000 0x000000007a000000  Allocating
+ Small   0x000000007a200000 0x000000007a3fff90 0x000000007a400000  Relocatable
+ Small   0x000000007ae00000 0x000000007aec0000 0x000000007b000000  Relocatable
+ Small   0x000000007b400000 0x000000007b600000 0x000000007b600000  Allocating
+ Small   0x000000007b800000 0x000000007ba00000 0x000000007ba00000  Relocatable
+ Small   0x000000007be00000 0x000000007c000000 0x000000007c000000  Relocatable
+ Small   0x000000007c000000 0x000000007c200000 0x000000007c200000  Allocating
+ Small   0x000000007c200000 0x000000007c3fffe8 0x000000007c400000  Relocatable
+ Small   0x000000007c800000 0x000000007ca00000 0x000000007ca00000  Allocating
+ Small   0x000000007d400000 0x000000007d600000 0x000000007d600000  Relocatable
+ Small   0x000000007dc00000 0x000000007ddfffb8 0x000000007de00000  Relocatable
+ Small   0x000000007ec00000 0x000000007ee00000 0x000000007ee00000  Allocating
+ Small   0x000000007f400000 0x000000007f5fffe8 0x000000007f600000  Relocatable
+ Small   0x000000007fa00000 0x000000007fc00000 0x000000007fc00000  Relocatable
+ Small   0x000000007fc00000 0x000000007fe00000 0x000000007fe00000  Relocatable
+ Small   0x000000007fe00000 0x0000000080000000 0x0000000080000000  Relocatable
+ Small   0x0000000080200000 0x0000000080400000 0x0000000080400000  Relocatable
+ Small   0x0000000080400000 0x00000000805fffe0 0x0000000080600000  Relocatable
+ Small   0x0000000080600000 0x00000000807ffff8 0x0000000080800000  Relocatable
+ Small   0x0000000080800000 0x00000000809ffff8 0x0000000080a00000  Relocatable
+ Small   0x0000000080a00000 0x0000000080c00000 0x0000000080c00000  Relocatable
+ Small   0x0000000081200000 0x0000000081400000 0x0000000081400000  Allocating
+ Small   0x0000000081600000 0x00000000817e3e40 0x0000000081800000  Relocatable
+ Small   0x0000000081800000 0x0000000081a00000 0x0000000081a00000  Relocatable
+ Small   0x0000000081c00000 0x0000000081e00000 0x0000000081e00000  Relocatable
+ Small   0x0000000081e00000 0x0000000082000000 0x0000000082000000  Relocatable
+ Small   0x0000000083600000 0x0000000083800000 0x0000000083800000  Allocating
+ Small   0x0000000083800000 0x0000000083a00000 0x0000000083a00000  Relocatable
+ Small   0x0000000084a00000 0x0000000084c00000 0x0000000084c00000  Relocatable
+ Small   0x0000000084e00000 0x0000000085000000 0x0000000085000000  Relocatable
+ Small   0x0000000085000000 0x0000000085200000 0x0000000085200000  Relocatable
+ Small   0x0000000085200000 0x0000000085400000 0x0000000085400000  Relocatable
+ Small   0x0000000085400000 0x0000000085600000 0x0000000085600000  Relocatable
+ Small   0x0000000085600000 0x0000000085800000 0x0000000085800000  Relocatable
+ Small   0x0000000085800000 0x00000000859ffff8 0x0000000085a00000  Relocatable
+ Small   0x0000000085c00000 0x0000000085dfffe8 0x0000000085e00000  Relocatable
+ Small   0x0000000086600000 0x0000000086700000 0x0000000086800000  Relocatable
+ Small   0x0000000086c00000 0x0000000086e00000 0x0000000086e00000  Relocatable
+ Small   0x0000000086e00000 0x0000000087000000 0x0000000087000000  Allocating
+ Small   0x0000000087000000 0x0000000087200000 0x0000000087200000  Relocatable
+ Small   0x0000000087200000 0x0000000087400000 0x0000000087400000  Relocatable
+ Small   0x0000000087600000 0x0000000087800000 0x0000000087800000  Relocatable
+ Small   0x0000000087a00000 0x0000000087c00000 0x0000000087c00000  Relocatable
+ Small   0x0000000087c00000 0x0000000087e00000 0x0000000087e00000  Relocatable
+ Small   0x0000000088000000 0x0000000088200000 0x0000000088200000  Allocating
+ Small   0x0000000088200000 0x0000000088400000 0x0000000088400000  Relocatable
+ Small   0x0000000088600000 0x00000000887fffd8 0x0000000088800000  Relocatable
+ Small   0x0000000088800000 0x00000000889fffe8 0x0000000088a00000  Relocatable
+ Small   0x0000000088a00000 0x0000000088c00000 0x0000000088c00000  Relocatable
+ Small   0x0000000088c00000 0x0000000088e00000 0x0000000088e00000  Relocatable
+ Small   0x0000000089000000 0x0000000089200000 0x0000000089200000  Relocatable
+ Small   0x0000000089400000 0x0000000089600000 0x0000000089600000  Relocatable
+ Small   0x0000000089600000 0x00000000897ffe88 0x0000000089800000  Relocatable
+ Small   0x0000000089a00000 0x0000000089c00000 0x0000000089c00000  Relocatable
+ Small   0x0000000089c00000 0x0000000089e00000 0x0000000089e00000  Relocatable
+ Small   0x0000000089e00000 0x000000008a000000 0x000000008a000000  Relocatable
+ Small   0x000000008a000000 0x000000008a140000 0x000000008a200000  Allocating
+ Small   0x000000008a200000 0x000000008a400000 0x000000008a400000  Relocatable
+ Small   0x000000008a400000 0x000000008a600000 0x000000008a600000  Relocatable
+ Small   0x000000008a600000 0x000000008a7fffe8 0x000000008a800000  Relocatable
+ Small   0x000000008a800000 0x000000008aa00000 0x000000008aa00000  Relocatable
+ Small   0x000000008ae00000 0x000000008b000000 0x000000008b000000  Relocatable
+ Small   0x000000008b000000 0x000000008b200000 0x000000008b200000  Relocatable
+ Small   0x000000008b200000 0x000000008b400000 0x000000008b400000  Relocatable
+ Small   0x000000008b600000 0x000000008b800000 0x000000008b800000  Relocatable
+ Small   0x000000008ba00000 0x000000008bbfffc8 0x000000008bc00000  Relocatable
+ Small   0x000000008be00000 0x000000008c000000 0x000000008c000000  Relocatable
+ Small   0x000000008c000000 0x000000008c1ffff0 0x000000008c200000  Relocatable
+ Small   0x000000008c400000 0x000000008c600000 0x000000008c600000  Relocatable
+ Small   0x000000008c600000 0x000000008c800000 0x000000008c800000  Relocatable
+ Small   0x000000008c800000 0x000000008ca00000 0x000000008ca00000  Relocatable
+ Small   0x000000008ca00000 0x000000008cc00000 0x000000008cc00000  Allocating
+ Small   0x000000008cc00000 0x000000008ce00000 0x000000008ce00000  Relocatable
+ Small   0x000000008ce00000 0x000000008d000000 0x000000008d000000  Relocatable
+ Small   0x000000008d000000 0x000000008d1fffe0 0x000000008d200000  Relocatable
+ Small   0x000000008d400000 0x000000008d600000 0x000000008d600000  Relocatable
+ Small   0x000000008d600000 0x000000008d800000 0x000000008d800000  Relocatable
+ Small   0x000000008d800000 0x000000008da00000 0x000000008da00000  Relocatable
+ Small   0x000000008dc00000 0x000000008de00000 0x000000008de00000  Allocating
+ Small   0x000000008de00000 0x000000008e000000 0x000000008e000000  Relocatable
+ Small   0x000000008e000000 0x000000008e200000 0x000000008e200000  Relocatable
+ Small   0x000000008e200000 0x000000008e400000 0x000000008e400000  Relocatable
+ Small   0x000000008e600000 0x000000008e7fffe8 0x000000008e800000  Relocatable
+ Small   0x000000008e800000 0x000000008e9ffff8 0x000000008ea00000  Relocatable
+ Small   0x000000008ee00000 0x000000008effffd8 0x000000008f000000  Relocatable
+ Small   0x000000008f000000 0x000000008f200000 0x000000008f200000  Relocatable
+ Small   0x000000008f200000 0x000000008f400000 0x000000008f400000  Relocatable
+ Small   0x000000008f400000 0x000000008f600000 0x000000008f600000  Relocatable
+ Small   0x000000008f800000 0x000000008fa00000 0x000000008fa00000  Relocatable
+ Small   0x000000008fa00000 0x000000008fbfffd8 0x000000008fc00000  Relocatable
+ Small   0x000000008fc00000 0x000000008fe00000 0x000000008fe00000  Relocatable
+ Small   0x0000000090000000 0x0000000090200000 0x0000000090200000  Relocatable
+ Small   0x0000000090200000 0x00000000903fffe8 0x0000000090400000  Relocatable
+ Small   0x0000000090400000 0x00000000905fff38 0x0000000090600000  Relocatable
+ Small   0x0000000090600000 0x0000000090800000 0x0000000090800000  Relocatable
+ Small   0x0000000090800000 0x0000000090a00000 0x0000000090a00000  Relocatable
+ Small   0x0000000090a00000 0x0000000090c00000 0x0000000090c00000  Relocatable
+ Small   0x0000000090e00000 0x0000000091000000 0x0000000091000000  Relocatable
+ Small   0x0000000091000000 0x00000000911fffc8 0x0000000091200000  Relocatable
+ Small   0x0000000091400000 0x0000000091600000 0x0000000091600000  Allocating
+ Small   0x0000000091800000 0x0000000091a00000 0x0000000091a00000  Relocatable
+ Small   0x0000000091e00000 0x0000000092000000 0x0000000092000000  Relocatable
+ Small   0x0000000092000000 0x0000000092200000 0x0000000092200000  Relocatable
+ Small   0x0000000092400000 0x0000000092600000 0x0000000092600000  Allocating
+ Small   0x0000000092600000 0x0000000092800000 0x0000000092800000  Relocatable
+ Small   0x0000000092800000 0x0000000092a00000 0x0000000092a00000  Relocatable
+ Small   0x0000000092a00000 0x0000000092c00000 0x0000000092c00000  Relocatable
+ Small   0x0000000092c00000 0x0000000092e00000 0x0000000092e00000  Allocating
+ Small   0x0000000092e00000 0x0000000092ffffe8 0x0000000093000000  Relocatable
+ Small   0x0000000093000000 0x0000000093200000 0x0000000093200000  Relocatable
+ Small   0x0000000093400000 0x00000000935ffff8 0x0000000093600000  Relocatable
+ Small   0x0000000093800000 0x00000000939fffa0 0x0000000093a00000  Relocatable
+ Small   0x0000000093c00000 0x0000000093e00000 0x0000000093e00000  Relocatable
+ Small   0x0000000093e00000 0x0000000093ffffe8 0x0000000094000000  Relocatable
+ Small   0x0000000094000000 0x0000000094200000 0x0000000094200000  Relocatable
+ Small   0x0000000094400000 0x00000000945fffb0 0x0000000094600000  Relocatable
+ Small   0x0000000094600000 0x0000000094800000 0x0000000094800000  Relocatable
+ Small   0x0000000094800000 0x0000000094a00000 0x0000000094a00000  Relocatable
+ Small   0x0000000094a00000 0x0000000094bfffe8 0x0000000094c00000  Relocatable
+ Small   0x0000000094c00000 0x0000000094e00000 0x0000000094e00000  Relocatable
+ Small   0x0000000095000000 0x0000000095200000 0x0000000095200000  Allocating
+ Small   0x0000000095200000 0x00000000953fffd8 0x0000000095400000  Relocatable
+ Small   0x0000000095400000 0x0000000095600000 0x0000000095600000  Relocatable
+ Small   0x0000000095800000 0x00000000959ffff0 0x0000000095a00000  Relocatable
+ Small   0x0000000095a00000 0x0000000095bfff20 0x0000000095c00000  Relocatable
+ Small   0x0000000095e00000 0x0000000096000000 0x0000000096000000  Relocatable
+ Small   0x0000000096200000 0x00000000963fffd0 0x0000000096400000  Relocatable
+ Small   0x0000000096600000 0x0000000096800000 0x0000000096800000  Relocatable
+ Small   0x0000000096a00000 0x0000000096c00000 0x0000000096c00000  Relocatable
+ Small   0x0000000096c00000 0x0000000096dfff58 0x0000000096e00000  Relocatable
+ Small   0x0000000096e00000 0x0000000097000000 0x0000000097000000  Relocatable
+ Small   0x0000000097000000 0x00000000971ffff0 0x0000000097200000  Relocatable
+ Small   0x0000000097200000 0x0000000097400000 0x0000000097400000  Relocatable
+ Small   0x0000000097600000 0x00000000977ffff8 0x0000000097800000  Relocatable
+ Small   0x0000000097a00000 0x0000000097bffb20 0x0000000097c00000  Relocatable
+ Small   0x0000000097c00000 0x0000000097e00000 0x0000000097e00000  Relocatable
+ Small   0x0000000098000000 0x0000000098200000 0x0000000098200000  Relocatable
+ Small   0x0000000098400000 0x0000000098600000 0x0000000098600000  Allocating
+ Small   0x0000000098600000 0x00000000987fff30 0x0000000098800000  Relocatable
+ Small   0x0000000098800000 0x0000000098a00000 0x0000000098a00000  Relocatable
+ Small   0x0000000098a00000 0x0000000098c00000 0x0000000098c00000  Relocatable
+ Small   0x0000000098c00000 0x0000000098dffff8 0x0000000098e00000  Relocatable
+ Small   0x0000000099000000 0x0000000099200000 0x0000000099200000  Allocating
+ Small   0x0000000099200000 0x00000000993fff78 0x0000000099400000  Relocatable
+ Small   0x0000000099400000 0x0000000099600000 0x0000000099600000  Relocatable
+ Small   0x0000000099600000 0x0000000099800000 0x0000000099800000  Relocatable
+ Small   0x0000000099a00000 0x0000000099c00000 0x0000000099c00000  Relocatable
+ Small   0x0000000099c00000 0x0000000099dffff0 0x0000000099e00000  Relocatable
+ Small   0x0000000099e00000 0x0000000099ffffe0 0x000000009a000000  Relocatable
+ Small   0x000000009a000000 0x000000009a200000 0x000000009a200000  Relocatable
+ Small   0x000000009a200000 0x000000009a3fffd8 0x000000009a400000  Relocatable
+ Small   0x000000009a800000 0x000000009aa00000 0x000000009aa00000  Relocatable
+ Small   0x000000009b000000 0x000000009b200000 0x000000009b200000  Relocatable
+ Small   0x000000009b200000 0x000000009b400000 0x000000009b400000  Allocating
+ Small   0x000000009b400000 0x000000009b5fffd0 0x000000009b600000  Relocatable
+ Small   0x000000009b600000 0x000000009b800000 0x000000009b800000  Relocatable
+ Small   0x000000009b800000 0x000000009ba00000 0x000000009ba00000  Relocatable
+ Small   0x000000009ba00000 0x000000009bc00000 0x000000009bc00000  Relocatable
+ Small   0x000000009bc00000 0x000000009be00000 0x000000009be00000  Relocatable
+ Small   0x000000009be00000 0x000000009c000000 0x000000009c000000  Relocatable
+ Small   0x000000009c000000 0x000000009c200000 0x000000009c200000  Relocatable
+ Small   0x000000009c600000 0x000000009c800000 0x000000009c800000  Relocatable
+ Small   0x000000009c800000 0x000000009ca00000 0x000000009ca00000  Relocatable
+ Small   0x000000009ca00000 0x000000009cbffff0 0x000000009cc00000  Relocatable
+ Small   0x000000009ce00000 0x000000009d000000 0x000000009d000000  Relocatable
+ Small   0x000000009d000000 0x000000009d1ffff0 0x000000009d200000  Relocatable
+ Small   0x000000009d400000 0x000000009d600000 0x000000009d600000  Relocatable
+ Small   0x000000009d600000 0x000000009d800000 0x000000009d800000  Relocatable
+ Small   0x000000009d800000 0x000000009da00000 0x000000009da00000  Relocatable
+ Small   0x000000009da00000 0x000000009dc00000 0x000000009dc00000  Relocatable
+ Small   0x000000009dc00000 0x000000009de00000 0x000000009de00000  Relocatable
+ Small   0x000000009de00000 0x000000009dffffe0 0x000000009e000000  Relocatable
+ Small   0x000000009e000000 0x000000009e200000 0x000000009e200000  Allocating
+ Small   0x000000009e400000 0x000000009e600000 0x000000009e600000  Relocatable
+ Small   0x000000009ea00000 0x000000009ec00000 0x000000009ec00000  Relocatable
+ Small   0x000000009ec00000 0x000000009edffff8 0x000000009ee00000  Relocatable
+ Small   0x000000009ee00000 0x000000009f000000 0x000000009f000000  Relocatable
+ Small   0x000000009f000000 0x000000009f200000 0x000000009f200000  Relocatable
+ Small   0x000000009f200000 0x000000009f3fff88 0x000000009f400000  Relocatable
+ Small   0x000000009f400000 0x000000009f600000 0x000000009f600000  Relocatable
+ Small   0x000000009f600000 0x000000009f800000 0x000000009f800000  Relocatable
+ Small   0x000000009f800000 0x000000009fa00000 0x000000009fa00000  Relocatable
+ Small   0x000000009fe00000 0x00000000a0000000 0x00000000a0000000  Relocatable
+ Small   0x00000000a0000000 0x00000000a0200000 0x00000000a0200000  Relocatable
+ Small   0x00000000a0200000 0x00000000a0400000 0x00000000a0400000  Relocatable
+ Small   0x00000000a0400000 0x00000000a0600000 0x00000000a0600000  Relocatable
+ Small   0x00000000a0600000 0x00000000a07ffff0 0x00000000a0800000  Relocatable
+ Small   0x00000000a0800000 0x00000000a09f5228 0x00000000a0a00000  Relocatable
+ Small   0x00000000a0a00000 0x00000000a0bffff0 0x00000000a0c00000  Relocatable
+ Small   0x00000000a0c00000 0x00000000a0dfff30 0x00000000a0e00000  Relocatable
+ Small   0x00000000a0e00000 0x00000000a1000000 0x00000000a1000000  Relocatable
+ Small   0x00000000a1000000 0x00000000a1200000 0x00000000a1200000  Allocating
+ Small   0x00000000a1200000 0x00000000a13fffd8 0x00000000a1400000  Relocatable
+ Small   0x00000000a1600000 0x00000000a1800000 0x00000000a1800000  Relocatable
+ Small   0x00000000a1a00000 0x00000000a1c00000 0x00000000a1c00000  Relocatable
+ Small   0x00000000a1c00000 0x00000000a1dffff0 0x00000000a1e00000  Relocatable
+ Small   0x00000000a1e00000 0x00000000a1fffff8 0x00000000a2000000  Relocatable
+ Small   0x00000000a2400000 0x00000000a2600000 0x00000000a2600000  Relocatable
+ Small   0x00000000a2600000 0x00000000a2800000 0x00000000a2800000  Relocatable
+ Small   0x00000000a2800000 0x00000000a2a00000 0x00000000a2a00000  Relocatable
+ Small   0x00000000a2a00000 0x00000000a2c00000 0x00000000a2c00000  Relocatable
+ Small   0x00000000a2c00000 0x00000000a2dfffe0 0x00000000a2e00000  Relocatable
+ Small   0x00000000a2e00000 0x00000000a3000000 0x00000000a3000000  Relocatable
+ Small   0x00000000a3000000 0x00000000a3200000 0x00000000a3200000  Relocatable
+ Small   0x00000000a3200000 0x00000000a3400000 0x00000000a3400000  Relocatable
+ Small   0x00000000a3400000 0x00000000a35fd578 0x00000000a3600000  Relocatable
+ Small   0x00000000a3800000 0x00000000a3a00000 0x00000000a3a00000  Relocatable
+ Small   0x00000000a3a00000 0x00000000a3c00000 0x00000000a3c00000  Relocatable
+ Small   0x00000000a3c00000 0x00000000a3dffb08 0x00000000a3e00000  Relocatable
+ Small   0x00000000a4000000 0x00000000a41ffff8 0x00000000a4200000  Relocatable
+ Small   0x00000000a4200000 0x00000000a4400000 0x00000000a4400000  Relocatable
+ Small   0x00000000a4400000 0x00000000a4600000 0x00000000a4600000  Relocatable
+ Small   0x00000000a4600000 0x00000000a4640000 0x00000000a4800000  Relocatable
+ Small   0x00000000a4800000 0x00000000a49ffff0 0x00000000a4a00000  Relocatable
+ Small   0x00000000a4a00000 0x00000000a4c00000 0x00000000a4c00000  Relocatable
+ Small   0x00000000a4c00000 0x00000000a4dfffe8 0x00000000a4e00000  Relocatable
+ Small   0x00000000a4e00000 0x00000000a5000000 0x00000000a5000000  Relocatable
+ Small   0x00000000a5000000 0x00000000a5200000 0x00000000a5200000  Relocatable
+ Small   0x00000000a5600000 0x00000000a5800000 0x00000000a5800000  Relocatable
+ Small   0x00000000a5800000 0x00000000a5a00000 0x00000000a5a00000  Relocatable
+ Small   0x00000000a5a00000 0x00000000a5c00000 0x00000000a5c00000  Relocatable
+ Small   0x00000000a5c00000 0x00000000a5e00000 0x00000000a5e00000  Allocating
+ Small   0x00000000a6200000 0x00000000a6400000 0x00000000a6400000  Relocatable
+ Small   0x00000000a6800000 0x00000000a6a00000 0x00000000a6a00000  Relocatable
+ Small   0x00000000a6a00000 0x00000000a6c00000 0x00000000a6c00000  Allocating
+ Small   0x00000000a6c00000 0x00000000a6e00000 0x00000000a6e00000  Relocatable
+ Small   0x00000000a7000000 0x00000000a7200000 0x00000000a7200000  Relocatable
+ Small   0x00000000a7200000 0x00000000a7400000 0x00000000a7400000  Relocatable
+ Small   0x00000000a7400000 0x00000000a7600000 0x00000000a7600000  Relocatable
+ Small   0x00000000a7600000 0x00000000a7800000 0x00000000a7800000  Allocating
+ Small   0x00000000a7a00000 0x00000000a7bfff40 0x00000000a7c00000  Relocatable
+ Small   0x00000000a7c00000 0x00000000a7e00000 0x00000000a7e00000  Relocatable
+ Small   0x00000000a7e00000 0x00000000a7ffffd0 0x00000000a8000000  Relocatable
+ Small   0x00000000a8000000 0x00000000a81ffff0 0x00000000a8200000  Relocatable
+ Small   0x00000000a8600000 0x00000000a87fffe8 0x00000000a8800000  Relocatable
+ Small   0x00000000a8800000 0x00000000a89fffe0 0x00000000a8a00000  Relocatable
+ Small   0x00000000a8e00000 0x00000000a8fff920 0x00000000a9000000  Relocatable
+ Small   0x00000000a9200000 0x00000000a9400000 0x00000000a9400000  Relocatable
+ Small   0x00000000a9400000 0x00000000a95faa98 0x00000000a9600000  Relocatable
+ Small   0x00000000a9600000 0x00000000a97ffe40 0x00000000a9800000  Relocatable
+ Small   0x00000000a9a00000 0x00000000a9c00000 0x00000000a9c00000  Relocatable
+ Small   0x00000000a9c00000 0x00000000a9e00000 0x00000000a9e00000  Relocatable
+ Small   0x00000000aa000000 0x00000000aa200000 0x00000000aa200000  Relocatable
+ Small   0x00000000aa200000 0x00000000aa400000 0x00000000aa400000  Relocatable
+ Small   0x00000000aa400000 0x00000000aa600000 0x00000000aa600000  Relocatable
+ Small   0x00000000aa600000 0x00000000aa7fffe8 0x00000000aa800000  Relocatable
+ Small   0x00000000ab000000 0x00000000ab200000 0x00000000ab200000  Relocatable
+ Small   0x00000000ab200000 0x00000000ab400000 0x00000000ab400000  Allocating
+ Small   0x00000000ab600000 0x00000000ab800000 0x00000000ab800000  Relocatable
+ Small   0x00000000aba00000 0x00000000abc00000 0x00000000abc00000  Relocatable
+ Small   0x00000000abc00000 0x00000000abe00000 0x00000000abe00000  Relocatable
+ Small   0x00000000ac000000 0x00000000ac1ffff0 0x00000000ac200000  Relocatable
+ Small   0x00000000ac200000 0x00000000ac3ffff8 0x00000000ac400000  Relocatable
+ Small   0x00000000ac400000 0x00000000ac600000 0x00000000ac600000  Relocatable
+ Small   0x00000000ac800000 0x00000000aca00000 0x00000000aca00000  Relocatable
+ Small   0x00000000ace00000 0x00000000ad000000 0x00000000ad000000  Relocatable
+ Small   0x00000000ad200000 0x00000000ad400000 0x00000000ad400000  Relocatable
+ Small   0x00000000ad400000 0x00000000ad600000 0x00000000ad600000  Relocatable
+ Small   0x00000000ad800000 0x00000000ada00000 0x00000000ada00000  Relocatable
+ Small   0x00000000adc00000 0x00000000ade00000 0x00000000ade00000  Allocating
+ Small   0x00000000ade00000 0x00000000ae000000 0x00000000ae000000  Relocatable
+ Small   0x00000000ae000000 0x00000000ae200000 0x00000000ae200000  Relocatable
+ Small   0x00000000ae200000 0x00000000ae400000 0x00000000ae400000  Relocatable
+ Small   0x00000000ae400000 0x00000000ae5ffff0 0x00000000ae600000  Relocatable
+ Small   0x00000000ae600000 0x00000000ae800000 0x00000000ae800000  Relocatable
+ Small   0x00000000aec00000 0x00000000aee00000 0x00000000aee00000  Relocatable
+ Small   0x00000000aee00000 0x00000000af000000 0x00000000af000000  Relocatable
+ Small   0x00000000af000000 0x00000000af200000 0x00000000af200000  Relocatable
+ Small   0x00000000af200000 0x00000000af400000 0x00000000af400000  Relocatable
+ Small   0x00000000af400000 0x00000000af5ffff8 0x00000000af600000  Relocatable
+ Small   0x00000000af600000 0x00000000af800000 0x00000000af800000  Relocatable
+ Small   0x00000000afa00000 0x00000000afbfffe0 0x00000000afc00000  Relocatable
+ Small   0x00000000afc00000 0x00000000afdfffe8 0x00000000afe00000  Relocatable
+ Small   0x00000000afe00000 0x00000000b0000000 0x00000000b0000000  Relocatable
+ Small   0x00000000b0000000 0x00000000b0200000 0x00000000b0200000  Relocatable
+ Small   0x00000000b0200000 0x00000000b0400000 0x00000000b0400000  Relocatable
+ Small   0x00000000b0400000 0x00000000b0600000 0x00000000b0600000  Relocatable
+ Small   0x00000000b0800000 0x00000000b0a00000 0x00000000b0a00000  Relocatable
+ Small   0x00000000b0c00000 0x00000000b0e00000 0x00000000b0e00000  Relocatable
+ Small   0x00000000b0e00000 0x00000000b1000000 0x00000000b1000000  Relocatable
+ Small   0x00000000b1200000 0x00000000b1400000 0x00000000b1400000  Relocatable
+ Small   0x00000000b1400000 0x00000000b15ffff8 0x00000000b1600000  Relocatable
+ Small   0x00000000b1600000 0x00000000b1800000 0x00000000b1800000  Relocatable
+ Small   0x00000000b1c00000 0x00000000b1e00000 0x00000000b1e00000  Relocatable
+ Small   0x00000000b1e00000 0x00000000b2000000 0x00000000b2000000  Relocatable
+ Small   0x00000000b2000000 0x00000000b2200000 0x00000000b2200000  Relocatable
+ Small   0x00000000b2200000 0x00000000b2400000 0x00000000b2400000  Relocatable
+ Small   0x00000000b2400000 0x00000000b2600000 0x00000000b2600000  Allocating
+ Small   0x00000000b2600000 0x00000000b2800000 0x00000000b2800000  Relocatable
+ Small   0x00000000b2800000 0x00000000b29fffe8 0x00000000b2a00000  Relocatable
+ Small   0x00000000b2a00000 0x00000000b2c00000 0x00000000b2c00000  Relocatable
+ Small   0x00000000b2c00000 0x00000000b2dfffe8 0x00000000b2e00000  Relocatable
+ Small   0x00000000b3000000 0x00000000b3200000 0x00000000b3200000  Relocatable
+ Small   0x00000000b3200000 0x00000000b3400000 0x00000000b3400000  Allocating
+ Small   0x00000000b3400000 0x00000000b3600000 0x00000000b3600000  Relocatable
+ Small   0x00000000b3600000 0x00000000b3800000 0x00000000b3800000  Relocatable
+ Small   0x00000000b3a00000 0x00000000b3c00000 0x00000000b3c00000  Relocatable
+ Small   0x00000000b4200000 0x00000000b4400000 0x00000000b4400000  Relocatable
+ Small   0x00000000b4400000 0x00000000b45ffff0 0x00000000b4600000  Relocatable
+ Small   0x00000000b4600000 0x00000000b47b80e0 0x00000000b4800000  Relocatable
+ Small   0x00000000b4800000 0x00000000b4a00000 0x00000000b4a00000  Relocatable
+ Small   0x00000000b4a00000 0x00000000b4bfffe0 0x00000000b4c00000  Relocatable
+ Small   0x00000000b4c00000 0x00000000b4e00000 0x00000000b4e00000  Allocating
+ Small   0x00000000b4e00000 0x00000000b5000000 0x00000000b5000000  Relocatable
+ Small   0x00000000b5000000 0x00000000b5200000 0x00000000b5200000  Relocatable
+ Small   0x00000000b5200000 0x00000000b5400000 0x00000000b5400000  Relocatable
+ Small   0x00000000b5400000 0x00000000b55ffff8 0x00000000b5600000  Relocatable
+ Small   0x00000000b5a00000 0x00000000b5c00000 0x00000000b5c00000  Allocating
+ Small   0x00000000b5c00000 0x00000000b5e00000 0x00000000b5e00000  Relocatable
+ Small   0x00000000b5e00000 0x00000000b6000000 0x00000000b6000000  Relocatable
+ Small   0x00000000b6000000 0x00000000b6200000 0x00000000b6200000  Relocatable
+ Small   0x00000000b6200000 0x00000000b63ffff0 0x00000000b6400000  Relocatable
+ Small   0x00000000b6400000 0x00000000b6600000 0x00000000b6600000  Relocatable
+ Small   0x00000000b6800000 0x00000000b6a00000 0x00000000b6a00000  Relocatable
+ Small   0x00000000b6a00000 0x00000000b6c00000 0x00000000b6c00000  Relocatable
+ Small   0x00000000b6c00000 0x00000000b6e00000 0x00000000b6e00000  Relocatable
+ Small   0x00000000b7000000 0x00000000b7200000 0x00000000b7200000  Relocatable
+ Small   0x00000000b7200000 0x00000000b727c300 0x00000000b7400000  Relocatable
+ Small   0x00000000b7400000 0x00000000b7600000 0x00000000b7600000  Relocatable
+ Small   0x00000000b7600000 0x00000000b77ffff0 0x00000000b7800000  Relocatable
+ Small   0x00000000b7800000 0x00000000b7a00000 0x00000000b7a00000  Relocatable
+ Small   0x00000000b7a00000 0x00000000b7c00000 0x00000000b7c00000  Relocatable
+ Small   0x00000000b7c00000 0x00000000b7e00000 0x00000000b7e00000  Relocatable
+ Small   0x00000000b7e00000 0x00000000b7ffffe8 0x00000000b8000000  Relocatable
+ Small   0x00000000b8000000 0x00000000b8200000 0x00000000b8200000  Relocatable
+ Small   0x00000000b8200000 0x00000000b8400000 0x00000000b8400000  Relocatable
+ Small   0x00000000b8400000 0x00000000b85ff418 0x00000000b8600000  Relocatable
+ Small   0x00000000b8600000 0x00000000b8800000 0x00000000b8800000  Allocating
+ Small   0x00000000b8c00000 0x00000000b8dff138 0x00000000b8e00000  Relocatable
+ Small   0x00000000b8e00000 0x00000000b8ffffd8 0x00000000b9000000  Relocatable
+ Small   0x00000000b9000000 0x00000000b91ff9f0 0x00000000b9200000  Relocatable
+ Small   0x00000000b9400000 0x00000000b95fffd8 0x00000000b9600000  Relocatable
+ Small   0x00000000b9600000 0x00000000b97fb0d0 0x00000000b9800000  Relocatable
+ Small   0x00000000b9800000 0x00000000b99ffff8 0x00000000b9a00000  Relocatable
+ Small   0x00000000b9a00000 0x00000000b9bfff30 0x00000000b9c00000  Relocatable
+ Small   0x00000000b9c00000 0x00000000b9e00000 0x00000000b9e00000  Relocatable
+ Small   0x00000000ba000000 0x00000000ba1fffe0 0x00000000ba200000  Relocatable
+ Small   0x00000000ba200000 0x00000000ba3fffe0 0x00000000ba400000  Relocatable
+ Small   0x00000000ba400000 0x00000000ba600000 0x00000000ba600000  Relocatable
+ Small   0x00000000ba600000 0x00000000ba800000 0x00000000ba800000  Relocatable
+ Small   0x00000000ba800000 0x00000000baa00000 0x00000000baa00000  Relocatable
+ Small   0x00000000baa00000 0x00000000bac00000 0x00000000bac00000  Relocatable
+ Small   0x00000000bac00000 0x00000000bae00000 0x00000000bae00000  Allocating
+ Small   0x00000000bae00000 0x00000000bb000000 0x00000000bb000000  Relocatable
+ Small   0x00000000bb000000 0x00000000bb1ffff8 0x00000000bb200000  Relocatable
+ Small   0x00000000bb200000 0x00000000bb3ffff0 0x00000000bb400000  Relocatable
+ Small   0x00000000bb400000 0x00000000bb600000 0x00000000bb600000  Relocatable
+ Small   0x00000000bb600000 0x00000000bb800000 0x00000000bb800000  Relocatable
+ Small   0x00000000bb800000 0x00000000bba00000 0x00000000bba00000  Relocatable
+ Small   0x00000000bba00000 0x00000000bbbfffe8 0x00000000bbc00000  Relocatable
+ Small   0x00000000bbc00000 0x00000000bbe00000 0x00000000bbe00000  Relocatable
+ Small   0x00000000bbe00000 0x00000000bc000000 0x00000000bc000000  Relocatable
+ Small   0x00000000bc000000 0x00000000bc1ffff8 0x00000000bc200000  Relocatable
+ Small   0x00000000bc600000 0x00000000bc7fffe8 0x00000000bc800000  Relocatable
+ Small   0x00000000bc800000 0x00000000bca00000 0x00000000bca00000  Relocatable
+ Small   0x00000000bca00000 0x00000000bcbffff8 0x00000000bcc00000  Relocatable
+ Small   0x00000000bcc00000 0x00000000bce00000 0x00000000bce00000  Allocating
+ Small   0x00000000bd000000 0x00000000bd1fff48 0x00000000bd200000  Relocatable
+ Small   0x00000000bd200000 0x00000000bd3ff910 0x00000000bd400000  Relocatable
+ Small   0x00000000bd400000 0x00000000bd600000 0x00000000bd600000  Relocatable
+ Small   0x00000000bd600000 0x00000000bd800000 0x00000000bd800000  Relocatable
+ Small   0x00000000bd800000 0x00000000bda00000 0x00000000bda00000  Relocatable
+ Small   0x00000000bdc00000 0x00000000bde00000 0x00000000bde00000  Relocatable
+ Small   0x00000000bde00000 0x00000000bdfffff0 0x00000000be000000  Relocatable
+ Small   0x00000000be000000 0x00000000be200000 0x00000000be200000  Relocatable
+ Small   0x00000000be200000 0x00000000be3fffe8 0x00000000be400000  Relocatable
+ Small   0x00000000be400000 0x00000000be5ffff0 0x00000000be600000  Relocatable
+ Small   0x00000000be800000 0x00000000bea00000 0x00000000bea00000  Relocatable
+ Small   0x00000000bea00000 0x00000000bebc0000 0x00000000bec00000  Relocatable
+ Small   0x00000000bee00000 0x00000000bf000000 0x00000000bf000000  Relocatable
+ Small   0x00000000bf000000 0x00000000bf200000 0x00000000bf200000  Relocatable
+ Small   0x00000000bf200000 0x00000000bf3fffe8 0x00000000bf400000  Relocatable
+ Small   0x00000000bf400000 0x00000000bf600000 0x00000000bf600000  Relocatable
+ Small   0x00000000bf600000 0x00000000bf800000 0x00000000bf800000  Relocatable
+ Small   0x00000000bf800000 0x00000000bf980000 0x00000000bfa00000  Relocatable
+ Small   0x00000000bfc00000 0x00000000bfdfd958 0x00000000bfe00000  Relocatable
+ Small   0x00000000c0000000 0x00000000c0200000 0x00000000c0200000  Allocating
+ Small   0x00000000c0400000 0x00000000c0600000 0x00000000c0600000  Relocatable
+ Small   0x00000000c0800000 0x00000000c0a00000 0x00000000c0a00000  Relocatable
+ Small   0x00000000c0a00000 0x00000000c0c00000 0x00000000c0c00000  Relocatable
+ Small   0x00000000c0c00000 0x00000000c0e00000 0x00000000c0e00000  Relocatable
+ Small   0x00000000c1000000 0x00000000c1200000 0x00000000c1200000  Relocatable
+ Small   0x00000000c1200000 0x00000000c13fb540 0x00000000c1400000  Relocatable
+ Small   0x00000000c1400000 0x00000000c1600000 0x00000000c1600000  Relocatable
+ Small   0x00000000c1600000 0x00000000c1800000 0x00000000c1800000  Relocatable
+ Small   0x00000000c1800000 0x00000000c1a00000 0x00000000c1a00000  Relocatable
+ Small   0x00000000c1a00000 0x00000000c1c00000 0x00000000c1c00000  Relocatable
+ Small   0x00000000c1e00000 0x00000000c2000000 0x00000000c2000000  Relocatable
+ Small   0x00000000c2000000 0x00000000c2200000 0x00000000c2200000  Relocatable
+ Small   0x00000000c2400000 0x00000000c2600000 0x00000000c2600000  Relocatable
+ Small   0x00000000c2800000 0x00000000c29fffe0 0x00000000c2a00000  Relocatable
+ Small   0x00000000c2a00000 0x00000000c2c00000 0x00000000c2c00000  Allocating
+ Small   0x00000000c2e00000 0x00000000c3000000 0x00000000c3000000  Relocatable
+ Small   0x00000000c3000000 0x00000000c31a3388 0x00000000c3200000  Relocatable
+ Small   0x00000000c3400000 0x00000000c35ffff0 0x00000000c3600000  Relocatable
+ Small   0x00000000c3600000 0x00000000c3800000 0x00000000c3800000  Relocatable
+ Small   0x00000000c3800000 0x00000000c3a00000 0x00000000c3a00000  Relocatable
+ Small   0x00000000c3a00000 0x00000000c3bffef8 0x00000000c3c00000  Relocatable
+ Small   0x00000000c3c00000 0x00000000c3e00000 0x00000000c3e00000  Relocatable
+ Small   0x00000000c3e00000 0x00000000c4000000 0x00000000c4000000  Relocatable
+ Small   0x00000000c4000000 0x00000000c4200000 0x00000000c4200000  Relocatable
+ Small   0x00000000c4200000 0x00000000c4400000 0x00000000c4400000  Relocatable
+ Small   0x00000000c4400000 0x00000000c4600000 0x00000000c4600000  Relocatable
+ Small   0x00000000c4600000 0x00000000c47ffa88 0x00000000c4800000  Relocatable
+ Small   0x00000000c4800000 0x00000000c49fffe8 0x00000000c4a00000  Relocatable
+ Small   0x00000000c4e00000 0x00000000c4f40000 0x00000000c5000000  Allocating
+ Small   0x00000000c5000000 0x00000000c51fffd0 0x00000000c5200000  Relocatable
+ Small   0x00000000c5200000 0x00000000c5400000 0x00000000c5400000  Relocatable
+ Small   0x00000000c5800000 0x00000000c5a00000 0x00000000c5a00000  Relocatable
+ Small   0x00000000c5c00000 0x00000000c5e00000 0x00000000c5e00000  Relocatable
+ Small   0x00000000c5e00000 0x00000000c6000000 0x00000000c6000000  Relocatable
+ Small   0x00000000c6000000 0x00000000c6200000 0x00000000c6200000  Relocatable
+ Small   0x00000000c6200000 0x00000000c6400000 0x00000000c6400000  Allocating
+ Small   0x00000000c6400000 0x00000000c6600000 0x00000000c6600000  Relocatable
+ Small   0x00000000c6600000 0x00000000c6800000 0x00000000c6800000  Relocatable
+ Small   0x00000000c6a00000 0x00000000c6c00000 0x00000000c6c00000  Relocatable
+ Small   0x00000000c6c00000 0x00000000c6e00000 0x00000000c6e00000  Allocating
+ Small   0x00000000c6e00000 0x00000000c7000000 0x00000000c7000000  Relocatable
+ Small   0x00000000c7000000 0x00000000c71ffff0 0x00000000c7200000  Relocatable
+ Small   0x00000000c7400000 0x00000000c75f57a0 0x00000000c7600000  Relocatable
+ Small   0x00000000c7600000 0x00000000c7800000 0x00000000c7800000  Relocatable
+ Small   0x00000000c7800000 0x00000000c79fffe8 0x00000000c7a00000  Relocatable
+ Small   0x00000000c7a00000 0x00000000c7bfff98 0x00000000c7c00000  Relocatable
+ Small   0x00000000c7c00000 0x00000000c7dfffe8 0x00000000c7e00000  Relocatable
+ Small   0x00000000c7e00000 0x00000000c7fffff8 0x00000000c8000000  Relocatable
+ Small   0x00000000c8400000 0x00000000c8600000 0x00000000c8600000  Relocatable
+ Small   0x00000000c8600000 0x00000000c8800000 0x00000000c8800000  Relocatable
+ Small   0x00000000c8800000 0x00000000c89fffe8 0x00000000c8a00000  Relocatable
+ Small   0x00000000c8a00000 0x00000000c8bff5d0 0x00000000c8c00000  Relocatable
+ Small   0x00000000c8c00000 0x00000000c8e00000 0x00000000c8e00000  Allocating
+ Small   0x00000000c8e00000 0x00000000c9000000 0x00000000c9000000  Allocating
+ Small   0x00000000c9200000 0x00000000c93ffff0 0x00000000c9400000  Relocatable
+ Small   0x00000000c9400000 0x00000000c95fffe8 0x00000000c9600000  Relocatable
+ Small   0x00000000c9600000 0x00000000c9800000 0x00000000c9800000  Relocatable
+ Small   0x00000000c9800000 0x00000000c99ffff0 0x00000000c9a00000  Relocatable
+ Small   0x00000000c9a00000 0x00000000c9c00000 0x00000000c9c00000  Relocatable
+ Small   0x00000000c9c00000 0x00000000c9e00000 0x00000000c9e00000  Relocatable
+ Small   0x00000000c9e00000 0x00000000ca000000 0x00000000ca000000  Relocatable
+ Small   0x00000000ca000000 0x00000000ca1fffd8 0x00000000ca200000  Relocatable
+ Small   0x00000000ca200000 0x00000000ca400000 0x00000000ca400000  Relocatable
+ Small   0x00000000ca400000 0x00000000ca5ffff8 0x00000000ca600000  Relocatable
+ Small   0x00000000ca600000 0x00000000ca7ffff0 0x00000000ca800000  Relocatable
+ Small   0x00000000ca800000 0x00000000caa00000 0x00000000caa00000  Relocatable
+ Small   0x00000000caa00000 0x00000000cac00000 0x00000000cac00000  Relocatable
+ Small   0x00000000cac00000 0x00000000cae00000 0x00000000cae00000  Relocatable
+ Small   0x00000000cb000000 0x00000000cb200000 0x00000000cb200000  Relocatable
+ Small   0x00000000cb200000 0x00000000cb3fffe8 0x00000000cb400000  Relocatable
+ Small   0x00000000cb400000 0x00000000cb600000 0x00000000cb600000  Relocatable
+ Small   0x00000000cb600000 0x00000000cb800000 0x00000000cb800000  Relocatable
+ Small   0x00000000cb800000 0x00000000cba00000 0x00000000cba00000  Relocatable
+ Small   0x00000000cba00000 0x00000000cbc00000 0x00000000cbc00000  Relocatable
+ Small   0x00000000cbc00000 0x00000000cbdffff0 0x00000000cbe00000  Relocatable
+ Small   0x00000000cbe00000 0x00000000cbfffff0 0x00000000cc000000  Relocatable
+ Small   0x00000000cc000000 0x00000000cc1ffff0 0x00000000cc200000  Relocatable
+ Small   0x00000000cc200000 0x00000000cc3ffff8 0x00000000cc400000  Relocatable
+ Small   0x00000000cc400000 0x00000000cc5fffd8 0x00000000cc600000  Relocatable
+ Small   0x00000000cc600000 0x00000000cc800000 0x00000000cc800000  Relocatable
+ Small   0x00000000cc800000 0x00000000cca00000 0x00000000cca00000  Relocatable
+ Small   0x00000000cca00000 0x00000000ccbffff8 0x00000000ccc00000  Relocatable
+ Small   0x00000000ccc00000 0x00000000ccdfea18 0x00000000cce00000  Relocatable
+ Small   0x00000000cd000000 0x00000000cd17fcb0 0x00000000cd200000  Relocatable
+ Small   0x00000000cd200000 0x00000000cd400000 0x00000000cd400000  Relocatable
+ Small   0x00000000cd400000 0x00000000cd5ffff8 0x00000000cd600000  Relocatable
+ Small   0x00000000cd600000 0x00000000cd7ffff0 0x00000000cd800000  Relocatable
+ Small   0x00000000cd800000 0x00000000cd9ffff8 0x00000000cda00000  Relocatable
+ Small   0x00000000cda00000 0x00000000cdc00000 0x00000000cdc00000  Relocatable
+ Small   0x00000000cdc00000 0x00000000cddfffd0 0x00000000cde00000  Relocatable
+ Small   0x00000000cde00000 0x00000000ce000000 0x00000000ce000000  Relocatable
+ Small   0x00000000ce000000 0x00000000ce200000 0x00000000ce200000  Relocatable
+ Small   0x00000000ce200000 0x00000000ce400000 0x00000000ce400000  Relocatable
+ Small   0x00000000ce600000 0x00000000ce700000 0x00000000ce800000  Relocatable
+ Small   0x00000000ce800000 0x00000000cea00000 0x00000000cea00000  Relocatable
+ Small   0x00000000cea00000 0x00000000cec00000 0x00000000cec00000  Relocatable
+ Small   0x00000000cec00000 0x00000000cedffff8 0x00000000cee00000  Relocatable
+ Small   0x00000000cf000000 0x00000000cf1fffc0 0x00000000cf200000  Relocatable
+ Small   0x00000000cf200000 0x00000000cf3c0000 0x00000000cf400000  Relocatable
+ Small   0x00000000cf400000 0x00000000cf5ffff0 0x00000000cf600000  Relocatable
+ Small   0x00000000cf800000 0x00000000cf9ffff0 0x00000000cfa00000  Relocatable
+ Small   0x00000000cfa00000 0x00000000cfc00000 0x00000000cfc00000  Relocatable
+ Small   0x00000000cfe00000 0x00000000d0000000 0x00000000d0000000  Relocatable
+ Small   0x00000000d0000000 0x00000000d01ffff8 0x00000000d0200000  Relocatable
+ Small   0x00000000d0200000 0x00000000d0400000 0x00000000d0400000  Relocatable
+ Small   0x00000000d0400000 0x00000000d05ffff0 0x00000000d0600000  Relocatable
+ Small   0x00000000d0600000 0x00000000d0800000 0x00000000d0800000  Allocating
+ Small   0x00000000d0800000 0x00000000d0a00000 0x00000000d0a00000  Relocatable
+ Small   0x00000000d1000000 0x00000000d11fffe8 0x00000000d1200000  Relocatable
+ Small   0x00000000d1200000 0x00000000d13f1248 0x00000000d1400000  Relocatable
+ Small   0x00000000d1400000 0x00000000d15ffff8 0x00000000d1600000  Relocatable
+ Small   0x00000000d1600000 0x00000000d17fe930 0x00000000d1800000  Relocatable
+ Small   0x00000000d1a00000 0x00000000d1c00000 0x00000000d1c00000  Relocatable
+ Small   0x00000000d1c00000 0x00000000d1ddabd0 0x00000000d1e00000  Relocatable
+ Small   0x00000000d1e00000 0x00000000d1fffe30 0x00000000d2000000  Relocatable
+ Small   0x00000000d2000000 0x00000000d2200000 0x00000000d2200000  Relocatable
+ Small   0x00000000d2200000 0x00000000d2400000 0x00000000d2400000  Allocating
+ Small   0x00000000d2400000 0x00000000d25fffe8 0x00000000d2600000  Relocatable
+ Small   0x00000000d2800000 0x00000000d2a00000 0x00000000d2a00000  Relocatable
+ Small   0x00000000d2c00000 0x00000000d2e00000 0x00000000d2e00000  Relocatable
+ Small   0x00000000d2e00000 0x00000000d2ffffe8 0x00000000d3000000  Relocatable
+ Small   0x00000000d3000000 0x00000000d3200000 0x00000000d3200000  Relocatable
+ Small   0x00000000d3200000 0x00000000d33ffff8 0x00000000d3400000  Relocatable
+ Small   0x00000000d3400000 0x00000000d3600000 0x00000000d3600000  Relocatable
+ Small   0x00000000d3600000 0x00000000d3800000 0x00000000d3800000  Relocatable
+ Small   0x00000000d3a00000 0x00000000d3c00000 0x00000000d3c00000  Relocatable
+ Small   0x00000000d3e00000 0x00000000d4000000 0x00000000d4000000  Relocatable
+ Small   0x00000000d4400000 0x00000000d4600000 0x00000000d4600000  Relocatable
+ Small   0x00000000d4600000 0x00000000d47ffb00 0x00000000d4800000  Relocatable
+ Small   0x00000000d4800000 0x00000000d49ffff8 0x00000000d4a00000  Relocatable
+ Small   0x00000000d4a00000 0x00000000d4b96450 0x00000000d4c00000  Relocatable
+ Small   0x00000000d4c00000 0x00000000d4e00000 0x00000000d4e00000  Relocatable
+ Small   0x00000000d5000000 0x00000000d5200000 0x00000000d5200000  Relocatable
+ Small   0x00000000d5200000 0x00000000d5400000 0x00000000d5400000  Relocatable
+ Small   0x00000000d5600000 0x00000000d5640000 0x00000000d5800000  Allocating
+ Small   0x00000000d5800000 0x00000000d5a00000 0x00000000d5a00000  Relocatable
+ Small   0x00000000d5a00000 0x00000000d5c00000 0x00000000d5c00000  Relocatable
+ Small   0x00000000d5c00000 0x00000000d5e00000 0x00000000d5e00000  Relocatable
+ Small   0x00000000d6000000 0x00000000d61ff878 0x00000000d6200000  Relocatable
+ Small   0x00000000d6200000 0x00000000d6400000 0x00000000d6400000  Allocating
+ Small   0x00000000d6600000 0x00000000d6800000 0x00000000d6800000  Relocatable
+ Small   0x00000000d6800000 0x00000000d69ffff8 0x00000000d6a00000  Relocatable
+ Small   0x00000000d6c00000 0x00000000d6dffff8 0x00000000d6e00000  Relocatable
+ Small   0x00000000d7000000 0x00000000d7200000 0x00000000d7200000  Allocating
+ Small   0x00000000d7200000 0x00000000d7400000 0x00000000d7400000  Relocatable
+ Small   0x00000000d7400000 0x00000000d7600000 0x00000000d7600000  Relocatable
+ Small   0x00000000d7600000 0x00000000d77ffff8 0x00000000d7800000  Relocatable
+ Small   0x00000000d7a00000 0x00000000d7bffff0 0x00000000d7c00000  Relocatable
+ Small   0x00000000d7e00000 0x00000000d7ffffd0 0x00000000d8000000  Relocatable
+ Small   0x00000000d8200000 0x00000000d8400000 0x00000000d8400000  Relocatable
+ Small   0x00000000d8400000 0x00000000d85fffd8 0x00000000d8600000  Relocatable
+ Small   0x00000000d8600000 0x00000000d8800000 0x00000000d8800000  Relocatable
+ Small   0x00000000d8c00000 0x00000000d8dfffe8 0x00000000d8e00000  Relocatable
+ Small   0x00000000d8e00000 0x00000000d9000000 0x00000000d9000000  Relocatable
+ Small   0x00000000d9000000 0x00000000d9200000 0x00000000d9200000  Allocating
+ Small   0x00000000d9200000 0x00000000d9400000 0x00000000d9400000  Relocatable
+ Small   0x00000000d9400000 0x00000000d95fffe8 0x00000000d9600000  Relocatable
+ Small   0x00000000d9600000 0x00000000d97fe0f8 0x00000000d9800000  Relocatable
+ Small   0x00000000d9a00000 0x00000000d9bc0000 0x00000000d9c00000  Allocating
+ Small   0x00000000d9c00000 0x00000000d9e00000 0x00000000d9e00000  Relocatable
+ Small   0x00000000d9e00000 0x00000000da000000 0x00000000da000000  Relocatable
+ Small   0x00000000da000000 0x00000000da200000 0x00000000da200000  Relocatable
+ Small   0x00000000daa00000 0x00000000dac00000 0x00000000dac00000  Relocatable
+ Small   0x00000000dac00000 0x00000000dae00000 0x00000000dae00000  Relocatable
+ Small   0x00000000db000000 0x00000000db200000 0x00000000db200000  Relocatable
+ Small   0x00000000db200000 0x00000000db400000 0x00000000db400000  Allocating
+ Small   0x00000000db400000 0x00000000db600000 0x00000000db600000  Relocatable
+ Small   0x00000000db600000 0x00000000db7ff6a0 0x00000000db800000  Relocatable
+ Small   0x00000000db800000 0x00000000db9ffff0 0x00000000dba00000  Relocatable
+ Small   0x00000000dba00000 0x00000000dbc00000 0x00000000dbc00000  Relocatable
+ Small   0x00000000dbe00000 0x00000000dc000000 0x00000000dc000000  Allocating
+ Small   0x00000000dc200000 0x00000000dc3ffff8 0x00000000dc400000  Relocatable
+ Small   0x00000000dc400000 0x00000000dc5fffe0 0x00000000dc600000  Relocatable
+ Small   0x00000000dc600000 0x00000000dc800000 0x00000000dc800000  Relocatable
+ Small   0x00000000dc800000 0x00000000dc9fffb8 0x00000000dca00000  Relocatable
+ Small   0x00000000dca00000 0x00000000dcc00000 0x00000000dcc00000  Relocatable
+ Small   0x00000000dcc00000 0x00000000dce00000 0x00000000dce00000  Allocating
+ Small   0x00000000dce00000 0x00000000dd000000 0x00000000dd000000  Allocating
+ Small   0x00000000dd000000 0x00000000dd1ffff0 0x00000000dd200000  Relocatable
+ Small   0x00000000dd200000 0x00000000dd400000 0x00000000dd400000  Relocatable
+ Small   0x00000000dd400000 0x00000000dd600000 0x00000000dd600000  Relocatable
+ Small   0x00000000dd600000 0x00000000dd800000 0x00000000dd800000  Relocatable
+ Small   0x00000000dd800000 0x00000000dda00000 0x00000000dda00000  Allocating
+ Small   0x00000000dda00000 0x00000000ddc00000 0x00000000ddc00000  Relocatable
+ Small   0x00000000ddc00000 0x00000000dddffff0 0x00000000dde00000  Relocatable
+ Small   0x00000000dde00000 0x00000000ddffffe0 0x00000000de000000  Relocatable
+ Small   0x00000000de000000 0x00000000de200000 0x00000000de200000  Relocatable
+ Small   0x00000000de400000 0x00000000de600000 0x00000000de600000  Allocating
+ Small   0x00000000de600000 0x00000000de7ffff8 0x00000000de800000  Relocatable
+ Small   0x00000000de800000 0x00000000dea00000 0x00000000dea00000  Relocatable
+ Small   0x00000000dea00000 0x00000000dec00000 0x00000000dec00000  Relocatable
+ Small   0x00000000dec00000 0x00000000dee00000 0x00000000dee00000  Relocatable
+ Small   0x00000000df000000 0x00000000df200000 0x00000000df200000  Relocatable
+ Small   0x00000000df200000 0x00000000df400000 0x00000000df400000  Allocating
+ Small   0x00000000df400000 0x00000000df600000 0x00000000df600000  Relocatable
+ Small   0x00000000df600000 0x00000000df800000 0x00000000df800000  Relocatable
+ Small   0x00000000df800000 0x00000000dfa00000 0x00000000dfa00000  Allocating
+ Small   0x00000000dfa00000 0x00000000dfbffff0 0x00000000dfc00000  Relocatable
+ Small   0x00000000dfc00000 0x00000000dfe00000 0x00000000dfe00000  Relocatable
+ Small   0x00000000e0000000 0x00000000e01fffd8 0x00000000e0200000  Relocatable
+ Small   0x00000000e0400000 0x00000000e0600000 0x00000000e0600000  Allocating
+ Small   0x00000000e0a00000 0x00000000e0c00000 0x00000000e0c00000  Relocatable
+ Small   0x00000000e0c00000 0x00000000e0dffff0 0x00000000e0e00000  Relocatable
+ Small   0x00000000e0e00000 0x00000000e0ffff40 0x00000000e1000000  Relocatable
+ Small   0x00000000e1000000 0x00000000e1200000 0x00000000e1200000  Allocating
+ Small   0x00000000e1200000 0x00000000e13ffff8 0x00000000e1400000  Relocatable
+ Small   0x00000000e1400000 0x00000000e1600000 0x00000000e1600000  Allocating
+ Small   0x00000000e1600000 0x00000000e1800000 0x00000000e1800000  Relocatable
+ Small   0x00000000e1800000 0x00000000e1a00000 0x00000000e1a00000  Relocatable
+ Small   0x00000000e1a00000 0x00000000e1bfffd0 0x00000000e1c00000  Relocatable
+ Small   0x00000000e1e00000 0x00000000e2000000 0x00000000e2000000  Relocatable
+ Small   0x00000000e2000000 0x00000000e21ffff8 0x00000000e2200000  Relocatable
+ Small   0x00000000e2200000 0x00000000e2400000 0x00000000e2400000  Relocatable
+ Small   0x00000000e2400000 0x00000000e2600000 0x00000000e2600000  Relocatable
+ Small   0x00000000e2600000 0x00000000e2800000 0x00000000e2800000  Relocatable
+ Small   0x00000000e2800000 0x00000000e2a00000 0x00000000e2a00000  Relocatable
+ Small   0x00000000e2c00000 0x00000000e2dffff0 0x00000000e2e00000  Relocatable
+ Small   0x00000000e3400000 0x00000000e35ffff0 0x00000000e3600000  Relocatable
+ Small   0x00000000e3600000 0x00000000e37fff88 0x00000000e3800000  Relocatable
+ Small   0x00000000e3800000 0x00000000e3a00000 0x00000000e3a00000  Relocatable
+ Small   0x00000000e3c00000 0x00000000e3dffff8 0x00000000e3e00000  Relocatable
+ Small   0x00000000e3e00000 0x00000000e3fffff0 0x00000000e4000000  Relocatable
+ Small   0x00000000e4200000 0x00000000e43fffd8 0x00000000e4400000  Relocatable
+ Small   0x00000000e4600000 0x00000000e47ffff8 0x00000000e4800000  Relocatable
+ Small   0x00000000e4800000 0x00000000e4a00000 0x00000000e4a00000  Allocating
+ Small   0x00000000e4c00000 0x00000000e4dffff0 0x00000000e4e00000  Relocatable
+ Small   0x00000000e4e00000 0x00000000e4fffff8 0x00000000e5000000  Relocatable
+ Small   0x00000000e5000000 0x00000000e5200000 0x00000000e5200000  Relocatable
+ Small   0x00000000e5200000 0x00000000e5400000 0x00000000e5400000  Relocatable
+ Small   0x00000000e5400000 0x00000000e55ffe28 0x00000000e5600000  Relocatable
+ Small   0x00000000e5a00000 0x00000000e5c00000 0x00000000e5c00000  Relocatable
+ Small   0x00000000e5c00000 0x00000000e5dffff8 0x00000000e5e00000  Relocatable
+ Small   0x00000000e6000000 0x00000000e61ffff0 0x00000000e6200000  Relocatable
+ Small   0x00000000e6200000 0x00000000e63ffff8 0x00000000e6400000  Relocatable
+ Small   0x00000000e6400000 0x00000000e6600000 0x00000000e6600000  Relocatable
+ Small   0x00000000e6600000 0x00000000e67ffff8 0x00000000e6800000  Relocatable
+ Small   0x00000000e6800000 0x00000000e69ffbe8 0x00000000e6a00000  Relocatable
+ Small   0x00000000e6a00000 0x00000000e6bfffd0 0x00000000e6c00000  Relocatable
+ Small   0x00000000e6c00000 0x00000000e6dfffe0 0x00000000e6e00000  Relocatable
+ Small   0x00000000e6e00000 0x00000000e7000000 0x00000000e7000000  Relocatable
+ Small   0x00000000e7000000 0x00000000e7200000 0x00000000e7200000  Relocatable
+ Small   0x00000000e7200000 0x00000000e7400000 0x00000000e7400000  Relocatable
+ Small   0x00000000e7400000 0x00000000e7600000 0x00000000e7600000  Relocatable
+ Small   0x00000000e7600000 0x00000000e7800000 0x00000000e7800000  Relocatable
+ Small   0x00000000e7800000 0x00000000e7a00000 0x00000000e7a00000  Relocatable
+ Small   0x00000000e7a00000 0x00000000e7c00000 0x00000000e7c00000  Relocatable
+ Small   0x00000000e7c00000 0x00000000e7e00000 0x00000000e7e00000  Relocatable
+ Small   0x00000000e7e00000 0x00000000e8000000 0x00000000e8000000  Relocatable
+ Small   0x00000000e8000000 0x00000000e81ffff8 0x00000000e8200000  Relocatable
+ Small   0x00000000e8200000 0x00000000e83ffff0 0x00000000e8400000  Relocatable
+ Small   0x00000000e8400000 0x00000000e8600000 0x00000000e8600000  Relocatable
+ Small   0x00000000e8600000 0x00000000e8800000 0x00000000e8800000  Relocatable
+ Small   0x00000000e8800000 0x00000000e89fffe8 0x00000000e8a00000  Relocatable
+ Small   0x00000000e8a00000 0x00000000e8c00000 0x00000000e8c00000  Relocatable
+ Small   0x00000000e8c00000 0x00000000e8deb598 0x00000000e8e00000  Relocatable
+ Small   0x00000000e9000000 0x00000000e91ffff0 0x00000000e9200000  Relocatable
+ Small   0x00000000e9200000 0x00000000e9400000 0x00000000e9400000  Relocatable
+ Small   0x00000000e9400000 0x00000000e95fffd8 0x00000000e9600000  Relocatable
+ Small   0x00000000e9600000 0x00000000e9800000 0x00000000e9800000  Relocatable
+ Small   0x00000000e9800000 0x00000000e9a00000 0x00000000e9a00000  Relocatable
+ Small   0x00000000e9a00000 0x00000000e9bfffe8 0x00000000e9c00000  Relocatable
+ Small   0x00000000e9c00000 0x00000000e9dfff80 0x00000000e9e00000  Relocatable
+ Small   0x00000000ea000000 0x00000000ea200000 0x00000000ea200000  Relocatable
+ Small   0x00000000ea400000 0x00000000ea600000 0x00000000ea600000  Relocatable
+ Small   0x00000000ea600000 0x00000000ea800000 0x00000000ea800000  Relocatable
+ Small   0x00000000ea800000 0x00000000eaa00000 0x00000000eaa00000  Relocatable
+ Small   0x00000000eaa00000 0x00000000eab97fb8 0x00000000eac00000  Relocatable
+ Small   0x00000000eae00000 0x00000000eafffff0 0x00000000eb000000  Relocatable
+ Small   0x00000000eb000000 0x00000000eb200000 0x00000000eb200000  Relocatable
+ Small   0x00000000eb200000 0x00000000eb3ffff8 0x00000000eb400000  Relocatable
+ Small   0x00000000eb400000 0x00000000eb600000 0x00000000eb600000  Relocatable
+ Small   0x00000000eb600000 0x00000000eb800000 0x00000000eb800000  Relocatable
+ Small   0x00000000eb800000 0x00000000eba00000 0x00000000eba00000  Relocatable
+ Small   0x00000000eba00000 0x00000000ebc00000 0x00000000ebc00000  Relocatable
+ Small   0x00000000ebc00000 0x00000000ebdfffe0 0x00000000ebe00000  Relocatable
+ Small   0x00000000ec000000 0x00000000ec1fffe8 0x00000000ec200000  Relocatable
+ Small   0x00000000ec200000 0x00000000ec400000 0x00000000ec400000  Allocating
+ Small   0x00000000ec400000 0x00000000ec600000 0x00000000ec600000  Relocatable
+ Small   0x00000000ec600000 0x00000000ec800000 0x00000000ec800000  Relocatable
+ Small   0x00000000ec800000 0x00000000eca00000 0x00000000eca00000  Allocating
+ Small   0x00000000eca00000 0x00000000ecc00000 0x00000000ecc00000  Relocatable
+ Small   0x00000000ecc00000 0x00000000ecdffff8 0x00000000ece00000  Relocatable
+ Small   0x00000000ece00000 0x00000000ecfffff0 0x00000000ed000000  Relocatable
+ Small   0x00000000ed000000 0x00000000ed1fffe8 0x00000000ed200000  Relocatable
+ Small   0x00000000ed200000 0x00000000ed400000 0x00000000ed400000  Relocatable
+ Small   0x00000000ed400000 0x00000000ed600000 0x00000000ed600000  Allocating
+ Small   0x00000000ed600000 0x00000000ed800000 0x00000000ed800000  Allocating
+ Small   0x00000000ed800000 0x00000000ed9fff50 0x00000000eda00000  Relocatable
+ Small   0x0000000fe2200000 0x0000000fe23fffe0 0x0000000fe2400000  Relocatable
+ Small   0x0000000fe3200000 0x0000000fe3400000 0x0000000fe3400000  Allocating
+ Small   0x0000000fe4200000 0x0000000fe4400000 0x0000000fe4400000  Allocating
+ Small   0x0000000fe4a00000 0x0000000fe4c00000 0x0000000fe4c00000  Allocating
+ Small   0x0000000fe5400000 0x0000000fe5600000 0x0000000fe5600000  Allocating
+ Small   0x0000000fe5c00000 0x0000000fe5dffff0 0x0000000fe5e00000  Relocatable
+ Small   0x0000000fe6a00000 0x0000000fe6c00000 0x0000000fe6c00000  Allocating
+ Small   0x0000000fe6e00000 0x0000000fe7000000 0x0000000fe7000000  Relocatable
+ Small   0x0000000fe7000000 0x0000000fe71feff8 0x0000000fe7200000  Relocatable
+ Small   0x0000000fe7800000 0x0000000fe79ffe58 0x0000000fe7a00000  Relocatable
+ Small   0x0000000fe7a00000 0x0000000fe7c00000 0x0000000fe7c00000  Relocatable
+ Small   0x0000000fe7c00000 0x0000000fe7dffff8 0x0000000fe7e00000  Relocatable
+ Small   0x0000000fe8000000 0x0000000fe8200000 0x0000000fe8200000  Allocating
+ Small   0x0000000fe8200000 0x0000000fe83fffd0 0x0000000fe8400000  Relocatable
+ Small   0x0000000fe8800000 0x0000000fe89b0340 0x0000000fe8a00000  Relocatable
+ Small   0x0000000fe9000000 0x0000000fe9200000 0x0000000fe9200000  Relocatable
+ Small   0x0000000fe9200000 0x0000000fe93fffe0 0x0000000fe9400000  Relocatable
+ Small   0x0000000fe9800000 0x0000000fe9a00000 0x0000000fe9a00000  Allocating
+ Small   0x0000000fe9a00000 0x0000000fe9bffff0 0x0000000fe9c00000  Relocatable
+ Small   0x0000000fe9c00000 0x0000000fe9e00000 0x0000000fe9e00000  Relocatable
+ Small   0x0000000fea200000 0x0000000fea3fff20 0x0000000fea400000  Relocatable
+ Small   0x0000000fea400000 0x0000000fea425a40 0x0000000fea600000  Relocatable
+ Small   0x0000000fea600000 0x0000000fea800000 0x0000000fea800000  Relocatable
+ Small   0x0000000fea800000 0x0000000feaa00000 0x0000000feaa00000  Relocatable
+ Small   0x0000000feac00000 0x0000000feadfffc8 0x0000000feae00000  Relocatable
+ Small   0x0000000feae00000 0x0000000feb000000 0x0000000feb000000  Allocating
+ Small   0x0000000feb200000 0x0000000feb400000 0x0000000feb400000  Allocating
+ Small   0x0000000feb800000 0x0000000feb9fffc0 0x0000000feba00000  Relocatable
+ Medium  0x0000000feba00000 0x0000000fecb13000 0x0000000feda00000  Relocatable
+ Large   0x0000000feda00000 0x0000000fee000000 0x0000000fee000000  Relocatable
+ Large   0x0000000fee000000 0x0000000fee600000 0x0000000fee600000  Relocatable
+ Large   0x0000000fefa00000 0x0000000ff0000000 0x0000000ff0000000  Relocatable
+ Small   0x0000000ff0400000 0x0000000ff0600000 0x0000000ff0600000  Relocatable
+ Small   0x0000000ff0800000 0x0000000ff0a00000 0x0000000ff0a00000  Allocating
+ Small   0x0000000ff0a00000 0x0000000ff0bffff8 0x0000000ff0c00000  Relocatable
+ Small   0x0000000ff0c00000 0x0000000ff0e00000 0x0000000ff0e00000  Relocatable
+ Small   0x0000000ff0e00000 0x0000000ff0fffff0 0x0000000ff1000000  Relocatable
+ Small   0x0000000ff1000000 0x0000000ff11ffff0 0x0000000ff1200000  Relocatable
+ Small   0x0000000ff1400000 0x0000000ff1600000 0x0000000ff1600000  Allocating
+ Small   0x0000000ff1600000 0x0000000ff17fffc8 0x0000000ff1800000  Relocatable
+ Small   0x0000000ff1800000 0x0000000ff19fd068 0x0000000ff1a00000  Relocatable
+ Small   0x0000000ff1a00000 0x0000000ff1c00000 0x0000000ff1c00000  Relocatable
+ Small   0x0000000ff1c00000 0x0000000ff1dfff68 0x0000000ff1e00000  Relocatable
+ Small   0x0000000ff1e00000 0x0000000ff1fc0000 0x0000000ff2000000  Allocating
+ Small   0x0000000ff2000000 0x0000000ff21ffff0 0x0000000ff2200000  Relocatable
+ Small   0x0000000ff2200000 0x0000000ff23fffb0 0x0000000ff2400000  Relocatable
+ Small   0x0000000ff2600000 0x0000000ff2800000 0x0000000ff2800000  Relocatable
+ Small   0x0000000ff2c00000 0x0000000ff2e00000 0x0000000ff2e00000  Relocatable
+ Small   0x0000000ff2e00000 0x0000000ff2ffff90 0x0000000ff3000000  Relocatable
+ Small   0x0000000ff3000000 0x0000000ff31ffad0 0x0000000ff3200000  Relocatable
+ Small   0x0000000ff3400000 0x0000000ff3600000 0x0000000ff3600000  Relocatable
+ Small   0x0000000ff3600000 0x0000000ff3800000 0x0000000ff3800000  Relocatable
+ Small   0x0000000ff3800000 0x0000000ff3a00000 0x0000000ff3a00000  Relocatable
+ Small   0x0000000ff3c00000 0x0000000ff3e00000 0x0000000ff3e00000  Relocatable
+ Medium  0x0000000ff4000000 0x0000000ff5907000 0x0000000ff6000000  Relocatable
+ Small   0x0000000ff6000000 0x0000000ff6200000 0x0000000ff6200000  Relocatable
+ Large   0x0000000ff6200000 0x0000000ff6800000 0x0000000ff6800000  Relocatable
+ Large   0x0000000ff6800000 0x0000000ff7200000 0x0000000ff7200000  Relocatable
+ Large   0x0000000ff7200000 0x0000000ff7800000 0x0000000ff7800000  Relocatable
+ Large   0x0000000ff7800000 0x0000000ff7e00000 0x0000000ff7e00000  Relocatable
+ Small   0x0000000ff7e00000 0x0000000ff7ffffa0 0x0000000ff8000000  Relocatable
+ Small   0x0000000ff8000000 0x0000000ff81fffb0 0x0000000ff8200000  Relocatable
+ Small   0x0000000ff8200000 0x0000000ff83ffff8 0x0000000ff8400000  Relocatable
+ Small   0x0000000ff8400000 0x0000000ff8600000 0x0000000ff8600000  Relocatable
+ Small   0x0000000ff8600000 0x0000000ff8800000 0x0000000ff8800000  Relocatable
+ Small   0x0000000ff8800000 0x0000000ff89fffd0 0x0000000ff8a00000  Relocatable
+ Small   0x0000000ff8a00000 0x0000000ff8bffff8 0x0000000ff8c00000  Relocatable
+ Small   0x0000000ff8c00000 0x0000000ff8dfffe8 0x0000000ff8e00000  Relocatable
+ Small   0x0000000ff8e00000 0x0000000ff8fffff8 0x0000000ff9000000  Relocatable
+ Small   0x0000000ff9000000 0x0000000ff9200000 0x0000000ff9200000  Relocatable
+ Small   0x0000000ff9400000 0x0000000ff95fffe8 0x0000000ff9600000  Relocatable
+ Small   0x0000000ff9600000 0x0000000ff97ff988 0x0000000ff9800000  Relocatable
+ Small   0x0000000ff9800000 0x0000000ff9a00000 0x0000000ff9a00000  Relocatable
+ Small   0x0000000ff9a00000 0x0000000ff9c00000 0x0000000ff9c00000  Relocatable
+ Small   0x0000000ff9c00000 0x0000000ff9dfffe8 0x0000000ff9e00000  Relocatable
+ Small   0x0000000ffa000000 0x0000000ffa1ffff8 0x0000000ffa200000  Relocatable
+ Small   0x0000000ffa200000 0x0000000ffa400000 0x0000000ffa400000  Relocatable
+ Small   0x0000000ffa400000 0x0000000ffa5ff888 0x0000000ffa600000  Relocatable
+ Small   0x0000000ffa600000 0x0000000ffa7fff38 0x0000000ffa800000  Relocatable
+ Small   0x0000000ffaa00000 0x0000000ffabfffd0 0x0000000ffac00000  Relocatable
+ Small   0x0000000ffac00000 0x0000000ffadffff8 0x0000000ffae00000  Relocatable
+ Small   0x0000000ffae00000 0x0000000ffafffdf8 0x0000000ffb000000  Relocatable
+ Small   0x0000000ffb000000 0x0000000ffb200000 0x0000000ffb200000  Relocatable
+ Small   0x0000000ffb200000 0x0000000ffb3fffe8 0x0000000ffb400000  Relocatable
+ Small   0x0000000ffb400000 0x0000000ffb600000 0x0000000ffb600000  Relocatable
+ Small   0x0000000ffb600000 0x0000000ffb7fffd0 0x0000000ffb800000  Relocatable
+ Small   0x0000000ffba00000 0x0000000ffbbfff88 0x0000000ffbc00000  Relocatable
+ Small   0x0000000ffbe00000 0x0000000ffbfffff8 0x0000000ffc000000  Relocatable
+ Small   0x0000000ffc000000 0x0000000ffc1ffff0 0x0000000ffc200000  Relocatable
+ Small   0x0000000ffc800000 0x0000000ffc9ffff8 0x0000000ffca00000  Relocatable
+ Small   0x0000000ffca00000 0x0000000ffcc00000 0x0000000ffcc00000  Relocatable
+ Small   0x0000000ffce00000 0x0000000ffcfffe30 0x0000000ffd000000  Relocatable
+ Small   0x0000000ffd000000 0x0000000ffd200000 0x0000000ffd200000  Relocatable
+ Small   0x0000000ffd200000 0x0000000ffd3ffe70 0x0000000ffd400000  Relocatable
+ Small   0x0000000ffd600000 0x0000000ffd800000 0x0000000ffd800000  Relocatable
+ Small   0x0000000ffd800000 0x0000000ffd9ffff0 0x0000000ffda00000  Relocatable
+ Small   0x0000000ffda00000 0x0000000ffdbfffe8 0x0000000ffdc00000  Relocatable
+ Small   0x0000000ffdc00000 0x0000000ffddffff0 0x0000000ffde00000  Relocatable
+ Small   0x0000000ffde00000 0x0000000ffe000000 0x0000000ffe000000  Relocatable
+ Medium  0x0000000ffe000000 0x0000000fffb7d000 0x0000001000000000  Relocatable
+
+ZBarrierSet
+
+Polling page: 0x000002326d6b0000
+
+Metaspace:
+
+Usage:
+  Non-class:    247.83 MB used.
+      Class:     51.67 MB used.
+       Both:    299.50 MB used.
+
+Virtual space:
+  Non-class space:      256.00 MB reserved,     248.88 MB ( 97%) committed,  4 nodes.
+      Class space:        1.00 GB reserved,      52.62 MB (  5%) committed,  1 nodes.
+             Both:        1.25 GB reserved,     301.50 MB ( 24%) committed. 
+
+Chunk freelists:
+   Non-Class:  6.75 MB
+       Class:  11.31 MB
+        Both:  18.06 MB
+
+MaxMetaspaceSize: unlimited
+CompressedClassSpaceSize: 1.00 GB
+Initial GC threshold: 21.00 MB
+Current GC threshold: 502.31 MB
+CDS: off
+MetaspaceReclaimPolicy: balanced
+ - commit_granule_bytes: 65536.
+ - commit_granule_words: 8192.
+ - virtual_space_node_default_size: 8388608.
+ - enlarge_chunks_in_place: 1.
+ - new_chunks_are_fully_committed: 0.
+ - uncommit_free_chunks: 1.
+ - use_allocation_guard: 0.
+ - handle_deallocations: 1.
+
+
+Internal statistics:
+
+num_allocs_failed_limit: 19.
+num_arena_births: 4962.
+num_arena_deaths: 1768.
+num_vsnodes_births: 5.
+num_vsnodes_deaths: 0.
+num_space_committed: 4814.
+num_space_uncommitted: 0.
+num_chunks_returned_to_freelist: 2128.
+num_chunks_taken_from_freelist: 17709.
+num_chunk_merges: 629.
+num_chunk_splits: 11705.
+num_chunks_enlarged: 9028.
+num_inconsistent_stats: 0.
+
+CodeHeap 'non-profiled nmethods': size=120000Kb used=58081Kb max_used=58299Kb free=61918Kb
+ bounds [0x0000023207ad0000, 0x000002320b3d0000, 0x000002320f000000]
+CodeHeap 'profiled nmethods': size=120000Kb used=65215Kb max_used=65899Kb free=54784Kb
+ bounds [0x0000023200000000, 0x0000023204080000, 0x0000023207530000]
+CodeHeap 'non-nmethods': size=5760Kb used=4080Kb max_used=4359Kb free=1679Kb
+ bounds [0x0000023207530000, 0x00000232079a0000, 0x0000023207ad0000]
+ total_blobs=42302 nmethods=39134 adapters=3076
+ compilation: enabled
+              stopped_count=0, restarted_count=0
+ full_count=0
+
+Compilation events (20 events):
+Event: 2397.617 Thread 0x000002320f1f5fc0 59893       3       net.weaponleveling.client.CustomToast::method_1986 (528 bytes)
+Event: 2397.656 Thread 0x000002320f1f5fc0 nmethod 59893 0x0000023204035910 code [0x0000023204036520, 0x000002320403e6c8]
+Event: 2397.703 Thread 0x000002320f1d3c00 59894       4       net.minecraft.class_329::method_19346 (62 bytes)
+Event: 2397.711 Thread 0x000002320f1d3c00 nmethod 59894 0x0000023209ff7a90 code [0x0000023209ff7c20, 0x0000023209ff7f18]
+Event: 2397.814 Thread 0x000002320f1d3c00 59895       4       com.mysticsbiomes.common.block.BlockTemplate$$Lambda$13007/0x0000000081b1bd00::test (7 bytes)
+Event: 2397.816 Thread 0x000002320f1d3c00 nmethod 59895 0x0000023209ff7610 code [0x0000023209ff7780, 0x0000023209ff77f8]
+Event: 2398.061 Thread 0x000002320f1f5fc0 59896       3       xaero.hud.minimap.element.render.world.MinimapElementWorldRendererHandler::transformAndRenderForRenderer (525 bytes)
+Event: 2398.082 Thread 0x000002320f1f5fc0 nmethod 59896 0x00000232015b0210 code [0x00000232015b0680, 0x00000232015b2968]
+Event: 2399.789 Thread 0x000002320f1d3c00 59897       4       net.minecraft.class_989::method_4199 (25 bytes)
+Event: 2399.864 Thread 0x000002320f1d3c00 nmethod 59897 0x0000023209f24f10 code [0x0000023209f25220, 0x0000023209f26670]
+Event: 2399.928 Thread 0x000002320f1d3c00 59898       4       net.minecraft.class_1657::method_7351 (326 bytes)
+Event: 2400.347 Thread 0x000002320f1f5fc0 59900       3       net.minecraft.class_341$$Lambda$28255/0x00000000833caa98::accept (10 bytes)
+Event: 2400.353 Thread 0x000002320f1f5fc0 nmethod 59900 0x0000023201d84790 code [0x0000023201d849e0, 0x0000023201d853e8]
+Event: 2400.353 Thread 0x000002320f1f5fc0 59901       1       net.minecraft.class_338::constant$hem000$morechathistory$changeMaxHistory (4 bytes)
+Event: 2400.353 Thread 0x000002320f1f5fc0 nmethod 59901 0x000002320b144710 code [0x000002320b1448a0, 0x000002320b144978]
+Event: 2400.354 Thread 0x000002320f1f5fc0 59902       3       net.minecraft.class_572::handler$ene000$farmersdelight$farmersdelightrefabricated$setupSkilletThirdPersonAnim (143 bytes)
+Event: 2400.359 Thread 0x000002320f1f5fc0 nmethod 59902 0x0000023203127b90 code [0x0000023203127fc0, 0x00000232031297a8]
+Event: 2400.455 Thread 0x000002320f1d3c00 nmethod 59898 0x000002320b14fa90 code [0x000002320b1500a0, 0x000002320b154f00]
+Event: 2400.455 Thread 0x000002320f1d3c00 59899       4       net.minecraft.class_1657::modifyReturnValue$iof000$porting_lib_entity$breakspeedEvent (37 bytes)
+Event: 2400.554 Thread 0x000002320f1d3c00 nmethod 59899 0x000002320a034490 code [0x000002320a0347e0, 0x000002320a036660]
+
+GC Heap History (20 events):
+Event: 2225.872 GC heap after
+{Heap after GC invocations=152 (full 152):
+ ZHeap           used 2130M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306417K, committed 308544K, reserved 1310720K
+  class space    used 52883K, committed 53888K, reserved 1048576K
+}
+Event: 2241.243 GC heap before
+{Heap before GC invocations=152 (full 152):
+ ZHeap           used 3048M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306457K, committed 308544K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2251.203 GC heap after
+{Heap after GC invocations=153 (full 153):
+ ZHeap           used 2440M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306463K, committed 308544K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2251.244 GC heap before
+{Heap before GC invocations=153 (full 153):
+ ZHeap           used 2444M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306463K, committed 308544K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2257.286 GC heap after
+{Heap after GC invocations=154 (full 154):
+ ZHeap           used 2214M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306471K, committed 308608K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2262.645 GC heap before
+{Heap before GC invocations=154 (full 154):
+ ZHeap           used 2484M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306476K, committed 308608K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2266.777 GC heap after
+{Heap after GC invocations=155 (full 155):
+ ZHeap           used 2120M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306476K, committed 308608K, reserved 1310720K
+  class space    used 52884K, committed 53888K, reserved 1048576K
+}
+Event: 2291.644 GC heap before
+{Heap before GC invocations=155 (full 155):
+ ZHeap           used 3384M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306494K, committed 308608K, reserved 1310720K
+  class space    used 52886K, committed 53888K, reserved 1048576K
+}
+Event: 2296.179 GC heap after
+{Heap after GC invocations=156 (full 156):
+ ZHeap           used 2098M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306501K, committed 308608K, reserved 1310720K
+  class space    used 52886K, committed 53888K, reserved 1048576K
+}
+Event: 2331.544 GC heap before
+{Heap before GC invocations=156 (full 156):
+ ZHeap           used 3740M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306511K, committed 308608K, reserved 1310720K
+  class space    used 52886K, committed 53888K, reserved 1048576K
+}
+Event: 2348.228 GC heap after
+{Heap after GC invocations=157 (full 157):
+ ZHeap           used 2282M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306539K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2348.229 GC heap before
+{Heap before GC invocations=157 (full 157):
+ ZHeap           used 2282M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306539K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2353.283 GC heap after
+{Heap after GC invocations=158 (full 158):
+ ZHeap           used 1968M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306539K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2353.443 GC heap before
+{Heap before GC invocations=158 (full 158):
+ ZHeap           used 1996M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306539K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2358.030 GC heap after
+{Heap after GC invocations=159 (full 159):
+ ZHeap           used 2172M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306548K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2361.444 GC heap before
+{Heap before GC invocations=159 (full 159):
+ ZHeap           used 2322M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306550K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2365.112 GC heap after
+{Heap after GC invocations=160 (full 160):
+ ZHeap           used 2148M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306551K, committed 308608K, reserved 1310720K
+  class space    used 52890K, committed 53888K, reserved 1048576K
+}
+Event: 2385.244 GC heap before
+{Heap before GC invocations=160 (full 160):
+ ZHeap           used 3094M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306639K, committed 308736K, reserved 1310720K
+  class space    used 52907K, committed 53888K, reserved 1048576K
+}
+Event: 2394.468 GC heap after
+{Heap after GC invocations=161 (full 161):
+ ZHeap           used 2318M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306678K, committed 308736K, reserved 1310720K
+  class space    used 52910K, committed 53888K, reserved 1048576K
+}
+Event: 2396.343 GC heap before
+{Heap before GC invocations=161 (full 161):
+ ZHeap           used 2414M, capacity 4096M, max capacity 4096M
+ Metaspace       used 306678K, committed 308736K, reserved 1310720K
+  class space    used 52910K, committed 53888K, reserved 1048576K
+}
+
+Dll operation events (18 events):
+Event: 0.009 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\java.dll
+Event: 0.014 Loaded shared library KernelBase
+Event: 0.320 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\jsvml.dll
+Event: 0.413 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\net.dll
+Event: 0.415 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\nio.dll
+Event: 0.421 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\zip.dll
+Event: 0.587 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\jimage.dll
+Event: 1.332 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\management.dll
+Event: 1.336 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\management_ext.dll
+Event: 1.773 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\verify.dll
+Event: 4.261 Loaded shared library C:\Users\Surface\AppData\Local\Temp\jna--188578675\jna11674488703981701752.dll
+Event: 17.285 Loaded shared library C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl.dll
+Event: 35.350 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\sunmscapi.dll
+Event: 35.460 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\extnet.dll
+Event: 58.126 Loaded shared library C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\awt.dll
+Event: 83.458 Loaded shared library C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl_opengl.dll
+Event: 83.928 Loaded shared library C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl_stb.dll
+Event: 185.155 Loaded shared library C:\Users\Surface\AppData\Local\Temp\e4mc_temp1354719049575666047\iroh_java_windows_x86_64_278c6cb.dll
+
+Deoptimization events (20 events):
+Event: 2391.832 Thread 0x000002326d9c6f90 Uncommon trap: trap_request=0xffffffde fr.pc=0x000002320aea1474 relative=0x00000000000012d4
+Event: 2391.833 Thread 0x000002326d9c6f90 Uncommon trap: reason=class_check action=maybe_recompile pc=0x000002320aea1474 method=net.minecraft.class_1146.method_4894()I @ 27 c2
+Event: 2391.834 Thread 0x000002326d9c6f90 DEOPT PACKING pc=0x000002320aea1474 sp=0x000000697edfeaf0
+Event: 2391.835 Thread 0x000002326d9c6f90 DEOPT UNPACKING pc=0x000002320758a023 sp=0x000000697edfe9b0 mode 2
+Event: 2391.838 Thread 0x000002326d9c6f90 Uncommon trap: trap_request=0xffffffde fr.pc=0x000002320b088f2c relative=0x00000000000035ec
+Event: 2391.838 Thread 0x000002326d9c6f90 Uncommon trap: reason=class_check action=maybe_recompile pc=0x000002320b088f2c method=net.minecraft.class_1102.method_4781()F @ 15 c2
+Event: 2391.838 Thread 0x000002326d9c6f90 DEOPT PACKING pc=0x000002320b088f2c sp=0x000000697edfeb60
+Event: 2391.838 Thread 0x000002326d9c6f90 DEOPT UNPACKING pc=0x000002320758a023 sp=0x000000697edfead0 mode 2
+Event: 2397.641 Thread 0x000002326d9c6f90 Uncommon trap: trap_request=0xffffff45 fr.pc=0x000002320adab50c relative=0x00000000000015cc
+Event: 2397.643 Thread 0x000002326d9c6f90 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000002320adab50c method=xaero.hud.minimap.element.render.world.MinimapElementWorldRendererHandler.isElementHovered(Ljava/lang/Object;IILxaero/hud/minimap/element/render/MinimapElementReader;Ljava/l
+Event: 2397.643 Thread 0x000002326d9c6f90 DEOPT PACKING pc=0x000002320adab50c sp=0x000000697edfe9f0
+Event: 2397.645 Thread 0x000002326d9c6f90 DEOPT UNPACKING pc=0x000002320758a023 sp=0x000000697edfe7d8 mode 2
+Event: 2398.857 Thread 0x000002326d9c6f90 Uncommon trap: trap_request=0xffffff66 fr.pc=0x000002320b331fcc relative=0x000000000000156c
+Event: 2398.857 Thread 0x000002326d9c6f90 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x000002320b331fcc method=net.minecraft.class_1309.method_6047()Lnet/minecraft/class_1799; @ 4 c2
+Event: 2398.857 Thread 0x000002326d9c6f90 DEOPT PACKING pc=0x000002320b331fcc sp=0x000000697edfe790
+Event: 2398.860 Thread 0x000002326d9c6f90 DEOPT UNPACKING pc=0x000002320758a023 sp=0x000000697edfe620 mode 2
+Event: 2398.892 Thread 0x000002326d9c6f90 Uncommon trap: trap_request=0xffffff66 fr.pc=0x000002320b331fcc relative=0x000000000000156c
+Event: 2398.892 Thread 0x000002326d9c6f90 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x000002320b331fcc method=net.minecraft.class_1309.method_6047()Lnet/minecraft/class_1799; @ 4 c2
+Event: 2398.892 Thread 0x000002326d9c6f90 DEOPT PACKING pc=0x000002320b331fcc sp=0x000000697edfe790
+Event: 2398.892 Thread 0x000002326d9c6f90 DEOPT UNPACKING pc=0x000002320758a023 sp=0x000000697edfe620 mode 2
+
+Classes loaded (20 events):
+Event: 247.527 Loading class java/util/concurrent/ConcurrentLinkedDeque$CLDSpliterator
+Event: 247.527 Loading class java/util/concurrent/ConcurrentLinkedDeque$CLDSpliterator done
+Event: 262.765 Loading class java/util/concurrent/locks/StampedLock$Node
+Event: 262.767 Loading class java/util/concurrent/locks/StampedLock$Node done
+Event: 444.532 Loading class java/util/concurrent/atomic/Striped64$Cell
+Event: 444.942 Loading class java/util/concurrent/atomic/Striped64$Cell done
+Event: 678.109 Loading class java/util/regex/Pattern$GroupCurly
+Event: 678.115 Loading class java/util/regex/Pattern$GroupCurly done
+Event: 814.436 Loading class javax/imageio/ImageTypeSpecifier$Grayscale
+Event: 814.442 Loading class javax/imageio/ImageTypeSpecifier$Grayscale done
+Event: 1819.871 Loading class java/util/stream/DoublePipeline$Head
+Event: 1819.960 Loading class java/util/stream/DoublePipeline$Head done
+Event: 1819.994 Loading class java/util/stream/DoublePipeline$2
+Event: 1820.021 Loading class java/util/stream/DoublePipeline$2 done
+Event: 1820.027 Loading class java/util/stream/FindOps$FindSink$OfDouble
+Event: 1820.067 Loading class java/util/stream/FindOps$FindSink$OfDouble done
+Event: 1820.085 Loading class java/util/stream/DoublePipeline$2$1
+Event: 1820.102 Loading class java/util/stream/Sink$ChainedDouble
+Event: 1820.115 Loading class java/util/stream/Sink$ChainedDouble done
+Event: 1820.115 Loading class java/util/stream/DoublePipeline$2$1 done
+
+Classes unloaded (20 events):
+Event: 1693.723 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c3400 'java/lang/invoke/LambdaForm$MH+0x00000000834c3400'
+Event: 1693.723 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c2c00 'java/lang/invoke/LambdaForm$MH+0x00000000834c2c00'
+Event: 1693.723 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c2800 'java/lang/invoke/LambdaForm$MH+0x00000000834c2800'
+Event: 1693.723 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c2400 'java/lang/invoke/LambdaForm$MH+0x00000000834c2400'
+Event: 1693.723 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c2000 'java/lang/invoke/LambdaForm$MH+0x00000000834c2000'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c1c00 'java/lang/invoke/LambdaForm$MH+0x00000000834c1c00'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c1800 'java/lang/invoke/LambdaForm$MH+0x00000000834c1800'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c1400 'java/lang/invoke/LambdaForm$MH+0x00000000834c1400'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c1000 'java/lang/invoke/LambdaForm$MH+0x00000000834c1000'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c0c00 'java/lang/invoke/LambdaForm$MH+0x00000000834c0c00'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x00000000834c0800 'java/lang/invoke/LambdaForm$MH+0x00000000834c0800'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083185800 'java/lang/invoke/LambdaForm$MH+0x0000000083185800'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083185400 'java/lang/invoke/LambdaForm$MH+0x0000000083185400'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083185000 'java/lang/invoke/LambdaForm$MH+0x0000000083185000'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083184c00 'java/lang/invoke/LambdaForm$MH+0x0000000083184c00'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083184800 'java/lang/invoke/LambdaForm$MH+0x0000000083184800'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083184400 'java/lang/invoke/LambdaForm$MH+0x0000000083184400'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000083184000 'java/lang/invoke/LambdaForm$MH+0x0000000083184000'
+Event: 1693.724 Thread 0x000002326d9fcfd0 Unloading class 0x0000000082b8c000 'java/lang/invoke/LambdaForm$MH+0x0000000082b8c000'
+Event: 1693.725 Thread 0x000002326d9fcfd0 Unloading class 0x0000000082b8e000 'java/lang/invoke/LambdaForm$MH+0x0000000082b8e000'
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (20 events):
+Event: 2318.391 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728a0070}> (0x00001000728a0070) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2318.392 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728a0750}> (0x00001000728a0750) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2318.394 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728a0d70}> (0x00001000728a0d70) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.331 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728aa558}> (0x00001000728aa558) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.332 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728ab4f0}> (0x00001000728ab4f0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.332 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728abc00}> (0x00001000728abc00) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.334 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728ac6a0}> (0x00001000728ac6a0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.334 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728acda0}> (0x00001000728acda0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2319.336 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000728ad400}> (0x00001000728ad400) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2378.521 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x000010005819be10}> (0x000010005819be10) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2378.522 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x000010005819c500}> (0x000010005819c500) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2378.525 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x000010005819cf30}> (0x000010005819cf30) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2378.525 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x000010005819d610}> (0x000010005819d610) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2378.526 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x000010005819dc30}> (0x000010005819dc30) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.388 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581a7318}> (0x00001000581a7318) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.389 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581a82b0}> (0x00001000581a82b0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.389 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581a89c0}> (0x00001000581a89c0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.391 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581a9460}> (0x00001000581a9460) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.391 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581a9b60}> (0x00001000581a9b60) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+Event: 2379.393 Thread 0x000002321e1d40f0 Exception <a 'sun/nio/fs/WindowsException'{0x00001000581aa1c0}> (0x00001000581aa1c0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 516]
+
+VM Operations (20 events):
+Event: 2391.255 Executing VM operation: Cleanup
+Event: 2391.256 Executing VM operation: Cleanup done
+Event: 2393.256 Executing VM operation: Cleanup
+Event: 2393.257 Executing VM operation: Cleanup done
+Event: 2393.484 Executing VM operation: HandshakeAllThreads
+Event: 2393.495 Executing VM operation: HandshakeAllThreads done
+Event: 2393.496 Executing VM operation: HandshakeAllThreads
+Event: 2393.496 Executing VM operation: HandshakeAllThreads done
+Event: 2393.496 Executing VM operation: HandshakeAllThreads
+Event: 2393.496 Executing VM operation: HandshakeAllThreads done
+Event: 2393.498 Executing VM operation: ZMarkEnd
+Event: 2393.508 Executing VM operation: ZMarkEnd done
+Event: 2394.351 Executing VM operation: HandshakeAllThreads
+Event: 2394.351 Executing VM operation: HandshakeAllThreads done
+Event: 2394.372 Executing VM operation: ZRelocateStart
+Event: 2394.373 Executing VM operation: ZRelocateStart done
+Event: 2396.344 Executing VM operation: ZMarkStart
+Event: 2396.344 Executing VM operation: ZMarkStart done
+Event: 2399.344 Executing VM operation: Cleanup
+Event: 2399.344 Executing VM operation: Cleanup done
+
+Memory protections (0 events):
+No events
+
+Nmethod flushes (20 events):
+Event: 2363.604 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203a37090
+Event: 2363.604 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203a6e890
+Event: 2363.604 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203a6fb90
+Event: 2363.605 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203a90410
+Event: 2363.605 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203aa0910
+Event: 2363.605 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203aaab10
+Event: 2363.606 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203ada110
+Event: 2363.607 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203b1ab10
+Event: 2363.609 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203c5e590
+Event: 2363.609 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203c96010
+Event: 2363.610 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203cb2b10
+Event: 2363.611 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203d79290
+Event: 2363.613 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203def010
+Event: 2363.613 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203e68c90
+Event: 2363.614 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203f0fc90
+Event: 2363.616 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203f85210
+Event: 2363.616 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203fb7d10
+Event: 2363.616 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023203ffee10
+Event: 2363.617 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023204027710
+Event: 2363.617 Thread 0x000002320f1df9d0 flushing  nmethod 0x0000023204034d90
+
+Events (20 events):
+Event: 1871.599 Thread 0x00000234d6b92470 Thread exited: 0x00000234d6b92470
+Event: 1931.596 Thread 0x00000234d6b96130 Thread exited: 0x00000234d6b96130
+Event: 2052.225 Thread 0x000002320f1d3c00 Thread added: 0x00000232177374a0
+Event: 2052.782 Thread 0x00000232177374a0 Thread exited: 0x00000232177374a0
+Event: 2055.531 Thread 0x00000234d74c23d0 Thread added: 0x00000235137ec960
+Event: 2055.615 Thread 0x00000235137ec960 Thread added: 0x00000235137ed890
+Event: 2055.622 Thread 0x00000235137ec960 Thread added: 0x00000235137ebf40
+Event: 2055.815 Thread 0x0000023512562710 Thread added: 0x00000235232dd260
+Event: 2055.935 Thread 0x00000234d74c23d0 Thread added: 0x0000023516a779e0
+Event: 2115.629 Thread 0x00000235137ebf40 Thread exited: 0x00000235137ebf40
+Event: 2115.824 Thread 0x00000235137ed890 Thread exited: 0x00000235137ed890
+Event: 2115.928 Thread 0x00000235232dd260 Thread exited: 0x00000235232dd260
+Event: 2250.920 Thread 0x000002326d9c6f90 Thread added: 0x00000235127aadb0
+Event: 2322.210 Thread 0x000002320f1d3c00 Thread added: 0x0000023217733f80
+Event: 2324.207 Thread 0x0000023217733f80 Thread exited: 0x0000023217733f80
+Event: 2355.532 Thread 0x00000234d6babe80 Thread added: 0x00000234d74c4740
+Event: 2355.625 Thread 0x00000234d74c4740 Thread added: 0x000002321cac69e0
+Event: 2355.634 Thread 0x00000234d74c4740 Thread added: 0x000002321cac7910
+Event: 2355.816 Thread 0x00000235137ec960 Thread added: 0x000002321cac4b80
+Event: 2355.843 Thread 0x00000234d6babe80 Thread added: 0x00000235232dd260
+
+
+Dynamic libraries:
+0x00007ff6f6580000 - 0x00007ff6f658e000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\javaw.exe
+0x00007ff8f7460000 - 0x00007ff8f76c7000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff8f63f0000 - 0x00007ff8f64b9000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff8f4180000 - 0x00007ff8f4577000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff8f5090000 - 0x00007ff8f51db000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff8dd1e0000 - 0x00007ff8dd1f7000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\jli.dll
+0x00007ff8e6720000 - 0x00007ff8e673d000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\VCRUNTIME140.dll
+0x00007ff8f6210000 - 0x00007ff8f63d6000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff8f40a0000 - 0x00007ff8f40c7000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff8e6480000 - 0x00007ff8e6712000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d\COMCTL32.dll
+0x00007ff8f6a40000 - 0x00007ff8f6a6b000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff8f5ec0000 - 0x00007ff8f5f69000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff8f4630000 - 0x00007ff8f475c000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff8f4580000 - 0x00007ff8f4623000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff8f6cd0000 - 0x00007ff8f6d02000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ff8f14b0000 - 0x00007ff8f14bc000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\vcruntime140_1.dll
+0x00007ff8d4160000 - 0x00007ff8d41ed000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\msvcp140.dll
+0x00007ff8a6bd0000 - 0x00007ff8a7842000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\server\jvm.dll
+0x00007ff8f5f70000 - 0x00007ff8f6026000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff8f6990000 - 0x00007ff8f6a37000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff8f6e70000 - 0x00007ff8f6f88000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff8f6da0000 - 0x00007ff8f6e20000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff8f3cf0000 - 0x00007ff8f3d4e000 	C:\WINDOWS\SYSTEM32\POWRPROF.dll
+0x00007ff8ee0f0000 - 0x00007ff8ee0fb000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff8de9c0000 - 0x00007ff8de9f6000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff8f3cd0000 - 0x00007ff8f3ce4000 	C:\WINDOWS\SYSTEM32\UMPDC.dll
+0x00007ff8f2c20000 - 0x00007ff8f2c3b000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ff8eba50000 - 0x00007ff8eba5a000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\jimage.dll
+0x00007ff8f1e90000 - 0x00007ff8f20d2000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ff8f6600000 - 0x00007ff8f6983000 	C:\WINDOWS\System32\combase.dll
+0x00007ff8f6030000 - 0x00007ff8f6109000 	C:\WINDOWS\System32\OLEAUT32.dll
+0x00007ff8d4890000 - 0x00007ff8d48cb000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ff8f40d0000 - 0x00007ff8f4178000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ff8d5560000 - 0x00007ff8d5585000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\java.dll
+0x00007ff8d4990000 - 0x00007ff8d49a8000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\zip.dll
+0x00007ff8cecc0000 - 0x00007ff8ced96000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\jsvml.dll
+0x00007ff8f52a0000 - 0x00007ff8f5a0e000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ff8f4820000 - 0x00007ff8f508c000 	C:\WINDOWS\System32\windows.storage.dll
+0x00007ff8f5dc0000 - 0x00007ff8f5eb6000 	C:\WINDOWS\System32\SHCORE.dll
+0x00007ff8f6590000 - 0x00007ff8f65f6000 	C:\WINDOWS\System32\shlwapi.dll
+0x00007ff8f3db0000 - 0x00007ff8f3dd9000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ff8d4970000 - 0x00007ff8d498a000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\net.dll
+0x00007ff8ebb30000 - 0x00007ff8ebc59000 	C:\WINDOWS\SYSTEM32\WINHTTP.dll
+0x00007ff8f3190000 - 0x00007ff8f31fc000 	C:\WINDOWS\system32\mswsock.dll
+0x00007ff8d2cc0000 - 0x00007ff8d2cd6000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\nio.dll
+0x00007ff8e8530000 - 0x00007ff8e853a000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\management.dll
+0x00007ff8e21c0000 - 0x00007ff8e21cb000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\management_ext.dll
+0x00007ff8f5a90000 - 0x00007ff8f5a98000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff897230000 - 0x00007ff897248000 	C:\WINDOWS\system32\napinsp.dll
+0x00007ff8f2720000 - 0x00007ff8f2852000 	C:\WINDOWS\SYSTEM32\DNSAPI.dll
+0x00007ff8f2680000 - 0x00007ff8f26b2000 	C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+0x00007ff8f63e0000 - 0x00007ff8f63ea000 	C:\WINDOWS\System32\NSI.dll
+0x00007ff897210000 - 0x00007ff897223000 	C:\WINDOWS\System32\winrnr.dll
+0x00007ff8bd930000 - 0x00007ff8bd952000 	C:\WINDOWS\system32\nlansp_c.dll
+0x00007ff8ebaf0000 - 0x00007ff8ebb06000 	C:\WINDOWS\system32\wshbth.dll
+0x00007ff8e8750000 - 0x00007ff8e875b000 	C:\Windows\System32\rasadhlp.dll
+0x00007ff8ed3b0000 - 0x00007ff8ed436000 	C:\WINDOWS\System32\fwpuclnt.dll
+0x00007ff8dcd60000 - 0x00007ff8dcd70000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\verify.dll
+0x00007ff8f2d40000 - 0x00007ff8f2d76000 	C:\WINDOWS\SYSTEM32\ntmarta.dll
+0x00007ff8f3470000 - 0x00007ff8f348b000 	C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+0x00007ff8f2b80000 - 0x00007ff8f2bb9000 	C:\WINDOWS\system32\rsaenh.dll
+0x00007ff8f3240000 - 0x00007ff8f3273000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ff8f3d80000 - 0x00007ff8f3daa000 	C:\WINDOWS\SYSTEM32\bcrypt.dll
+0x00007ff8f3490000 - 0x00007ff8f349c000 	C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+0x00007ff8ed070000 - 0x00007ff8ed08d000 	C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+0x00007ff8ed040000 - 0x00007ff8ed065000 	C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+0x00007ff8d04b0000 - 0x00007ff8d04f0000 	C:\Users\Surface\AppData\Local\Temp\jna--188578675\jna11674488703981701752.dll
+0x00007ff8f5c00000 - 0x00007ff8f5d97000 	C:\WINDOWS\System32\Ole32.dll
+0x00007ff8f51e0000 - 0x00007ff8f528e000 	C:\WINDOWS\System32\clbcatq.dll
+0x00007ff8e12e0000 - 0x00007ff8e12fd000 	C:\WINDOWS\SYSTEM32\amsi.dll
+0x00007ff8cf830000 - 0x00007ff8cf8d3000 	C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26040.7-0\MpOav.dll
+0x00007ff8cf600000 - 0x00007ff8cf675000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl.dll
+0x00007ff8f1880000 - 0x00007ff8f18c5000 	C:\WINDOWS\SYSTEM32\dxcore.dll
+0x00007ff8bc4a0000 - 0x00007ff8bc6f9000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\jemalloc.dll
+0x00007ff8dd6e0000 - 0x00007ff8dd736000 	C:\WINDOWS\SYSTEM32\Pdh.dll
+0x00007ff8d2d10000 - 0x00007ff8d2d21000 	C:\WINDOWS\System32\perfos.dll
+0x00007ff8f2320000 - 0x00007ff8f2332000 	C:\WINDOWS\SYSTEM32\pfclient.dll
+0x00007ff8dccd0000 - 0x00007ff8dccde000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\sunmscapi.dll
+0x00007ff8f3f20000 - 0x00007ff8f4098000 	C:\WINDOWS\System32\CRYPT32.dll
+0x00007ff8f3690000 - 0x00007ff8f36c0000 	C:\WINDOWS\SYSTEM32\ncrypt.dll
+0x00007ff8f3640000 - 0x00007ff8f367f000 	C:\WINDOWS\SYSTEM32\NTASN1.dll
+0x00007ff8dc8a0000 - 0x00007ff8dc8a9000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\extnet.dll
+0x00007ff897590000 - 0x00007ff897598000 	C:\WINDOWS\system32\wshunix.dll
+0x00007ff8bbe30000 - 0x00007ff8bbfc0000 	C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\awt.dll
+0x00007ff8f14e0000 - 0x00007ff8f1580000 	C:\WINDOWS\SYSTEM32\apphelp.dll
+0x00007ff8bbbe0000 - 0x00007ff8bbc41000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\glfw.dll
+0x00007ff8f1730000 - 0x00007ff8f17da000 	C:\WINDOWS\system32\uxtheme.dll
+0x00007ff8f5aa0000 - 0x00007ff8f5bfc000 	C:\WINDOWS\System32\MSCTF.dll
+0x00007ff8f18d0000 - 0x00007ff8f18ff000 	C:\WINDOWS\system32\DWMAPI.DLL
+0x00007ff8f14c0000 - 0x00007ff8f14d2000 	C:\WINDOWS\System32\perfproc.dll
+0x00007ff8c2bc0000 - 0x00007ff8c2c0b000 	C:\WINDOWS\SYSTEM32\dinput8.dll
+0x00007ff8ce7e0000 - 0x00007ff8ce7fc000 	C:\WINDOWS\SYSTEM32\xinput1_4.dll
+0x00007ff8f39d0000 - 0x00007ff8f39fd000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x00007ff8f3a00000 - 0x00007ff8f3a51000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007ff8d94b0000 - 0x00007ff8d9693000 	C:\WINDOWS\SYSTEM32\inputhost.dll
+0x00007ff8f0ec0000 - 0x00007ff8f0fe7000 	C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+0x00007ff89ba70000 - 0x00007ff89bb7f000 	C:\WINDOWS\SYSTEM32\opengl32.dll
+0x00007ff89ba40000 - 0x00007ff89ba6d000 	C:\WINDOWS\SYSTEM32\GLU32.dll
+0x00007ff8ee5d0000 - 0x00007ff8ee631000 	C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll
+0x00007ff8df620000 - 0x00007ff8df63d000 	C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll
+0x00007ff8aa0a0000 - 0x00007ff8ab1ba000 	C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c7d8ede2ab197971\ig11icd64.dll
+0x00007ff8f1140000 - 0x00007ff8f127e000 	C:\WINDOWS\system32\dxgi.dll
+0x00007ff8c49f0000 - 0x00007ff8c4b1c000 	C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c7d8ede2ab197971\igdml64.dll
+0x00007ff8e6db0000 - 0x00007ff8e71b9000 	C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c7d8ede2ab197971\igdgmm64.dll
+0x00007ff8e2260000 - 0x00007ff8e59f4000 	C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c7d8ede2ab197971\igc64.dll
+0x00007ff8d9330000 - 0x00007ff8d9476000 	C:\WINDOWS\SYSTEM32\textinputframework.dll
+0x00007ff8c8280000 - 0x00007ff8c82f6000 	C:\WINDOWS\system32\Oleacc.dll
+0x00007ff8c2650000 - 0x00007ff8c26ad000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl_opengl.dll
+0x00007ff8bbae0000 - 0x00007ff8bbb61000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\lwjgl_stb.dll
+0x00007ff8ec6a0000 - 0x00007ff8ec75f000 	C:\WINDOWS\SYSTEM32\mscms.dll
+0x00007ff8dc850000 - 0x00007ff8dc899000 	C:\WINDOWS\SYSTEM32\icm32.dll
+0x00007ff8d2c70000 - 0x00007ff8d2c82000 	C:\WINDOWS\system32\wbem\wbemprox.dll
+0x00007ff8d8db0000 - 0x00007ff8d8e2a000 	C:\WINDOWS\SYSTEM32\wbemcomn.dll
+0x00007ff8d5040000 - 0x00007ff8d5055000 	C:\WINDOWS\system32\wbem\wbemsvc.dll
+0x00007ff8d5060000 - 0x00007ff8d5150000 	C:\WINDOWS\system32\wbem\fastprox.dll
+0x00007ff8b8f10000 - 0x00007ff8b90a7000 	C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT\OpenAL.dll
+0x00007ff8e76d0000 - 0x00007ff8e7769000 	C:\WINDOWS\System32\MMDevApi.dll
+0x00007ff8b7ad0000 - 0x00007ff8b7c43000 	C:\WINDOWS\System32\Speech\Common\sapi.dll
+0x00007ff8dc500000 - 0x00007ff8dc6dd000 	C:\WINDOWS\system32\urlmon.dll
+0x00007ff8dab40000 - 0x00007ff8dae04000 	C:\WINDOWS\SYSTEM32\iertutil.dll
+0x00007ff8f25d0000 - 0x00007ff8f25dd000 	C:\WINDOWS\SYSTEM32\netutils.dll
+0x00007ff8da9c0000 - 0x00007ff8da9e9000 	C:\WINDOWS\SYSTEM32\srvcli.dll
+0x00007ff8ed7a0000 - 0x00007ff8eda82000 	C:\WINDOWS\SYSTEM32\CoreUIComponents.dll
+0x00007ff8ee100000 - 0x00007ff8ee26a000 	C:\WINDOWS\SYSTEM32\wintypes.dll
+0x00007ff8d8fc0000 - 0x00007ff8d901e000 	C:\WINDOWS\system32\ApplicationTargetedFeatureDatabase.dll
+0x00007ff8e8180000 - 0x00007ff8e83ce000 	C:\Windows\System32\twinapi.appcore.dll
+0x00007ff8d5a50000 - 0x00007ff8d5c03000 	C:\WINDOWS\SYSTEM32\AUDIOSES.DLL
+0x00007ff8f1c50000 - 0x00007ff8f1c64000 	C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d;C:\Users\Surface\AppData\Roaming\ElyPrismLauncher\java\java-runtime-gamma\bin\server;C:\Users\Surface\AppData\Local\Temp\jna--188578675;C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26040.7-0;C:\Users\Surface\AppData\Local\Temp\lwjglSurface\3.3.1-SNAPSHOT;C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c7d8ede2ab197971;C:\WINDOWS\system32\wbem;C:\WINDOWS\System32\Speech\Common;C:\Users\Surface\AppData\Local\Temp\e4mc_temp1354719049575666047
+
+VM Arguments:
+jvm_args: -Duser.language=en -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseZGC -XX:-ZUncommit -Djava.library.path=C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/instances/BiotechS/natives 
+java_command: org.prismlauncher.EntryPoint
+java_class_path (initial): C:/Users/Surface/AppData/Local/Programs/ElyPrismLauncher/jars/NewLaunch.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.1/lwjgl-glfw-natives-windows-arm64-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.1/lwjgl-glfw-natives-windows-x86-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.1/lwjgl-glfw-natives-windows-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.1/lwjgl-jemalloc-natives-windows-arm64-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.1/lwjgl-jemalloc-natives-windows-x86-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.1/lwjgl-jemalloc-natives-windows-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.1/lwjgl-natives-windows-arm64-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.1/lwjgl-natives-windows-x86-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.1/lwjgl-natives-windows-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.1/lwjgl-openal-natives-windows-arm64-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.1/lwjgl-openal-natives-windows-x86-3.3.1.jar;C:/Users/Surface/AppData/Roaming/ElyPrismLauncher
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     bool AlwaysPreTouch                           = true                                      {product} {command line}
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+    ccstr HeapDumpPath                             = MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump         {manageable} {command line}
+   size_t InitialHeapSize                          = 536870912                                 {product} {command line}
+   size_t MaxHeapSize                              = 4294967296                                {product} {command line}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 536870912                                 {product} {command line}
+    uintx NonNMethodCodeHeapSize                   = 5839372                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122909434                              {pd product} {ergonomic}
+     bool ParallelRefProcEnabled                   = true                                      {product} {command line}
+     bool PerfDisableSharedMem                     = true                                      {product} {command line}
+    uintx ProfiledCodeHeapSize                     = 122909434                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 4294967296                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = false                          {product lp64_product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+     bool UseZGC                                   = true                                      {product} {command line}
+     bool ZUncommit                                = false                                     {product} {command line}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\Go\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\nodejs\;C:\Users\Surface\.local\bin;C:\Users\Surface\AppData\Local\Microsoft\WindowsApps;C:\ninja;C:\msys64\ucrt64\bin;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Scripts;C:\ProgramData\anaconda3\Library\bin;C:\Users\Surface\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Surface\AppData\Roaming\Python\Python313\Scripts\;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;C:\Users\Surface\go\bin;C:\Users\Surface\AppData\Roaming\npm
+USERNAME=Surface
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+TMP=C:\Users\Surface\AppData\Local\Temp
+TEMP=C:\Users\Surface\AppData\Local\Temp
+
+
+
+Periodic native trim disabled
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 11 , 64 bit Build 26100 (10.0.26100.8328)
+OS uptime: 14 days 14:06 hours
+
+CPU: total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 126 stepping 5 microcode 0xbc, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, avx512f, avx512dq, avx512cd, avx512bw, avx512vl, sha, fma, vzeroupper, avx512_vpopcntdq, avx512_vpclmulqdq, avx512_vaes, avx512_vnni, clflush, clflushopt, avx512_vbmi2, avx512_vbmi
+Processor Information for the first 8 processors :
+  Max Mhz: 1498, Current Mhz: 1198, Mhz Limit: 1198
+
+Memory: 4k page, system-wide physical 7778M (567M free)
+TotalPageFile size 26197M (AvailPageFile size 8551M)
+current process WorkingSet (physical memory assigned to process): 2881M, peak: 6611M
+current process commit charge ("private bytes"): 3280M, peak: 3343M
+
+vm_info: OpenJDK 64-Bit Server VM (17.0.15+6-LTS) for windows-amd64 JRE (17.0.15+6-LTS), built on Apr  9 2025 22:27:25 by "MicrosoftCorporation" with unknown MS VC++:1939
+
+END.

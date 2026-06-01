@@ -1,0 +1,29 @@
+filename = 'farm-3x3-farmers-delight-compatibility-1.0.0-beta2.jar'
+name = "Farm 3x3 Farmer's Delight Compatibility"
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19', '1.19.1', '1.19.2', '1.20', '1.20.1', '1.21', '1.21.1', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0-beta2+fabric'
+
+[download]
+hash = 'c09702910cc251efd4a64ede3f65940a5b013059032ac409858cf9a0fe60f976784c8a726b92e78b2f2cedd58aa739c68d42fa7dd8854d3bfd2c8bdedb98cdef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gDrMYkTU/versions/X9TPhec5/farm-3x3-farmers-delight-compatibility-1.0.0-beta2.jar'
+
+[update.modrinth]
+mod-id = 'gDrMYkTU'
+version = 'X9TPhec5'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cNHrBKWb'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'

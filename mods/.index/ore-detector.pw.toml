@@ -1,0 +1,25 @@
+filename = 'OreDetector-1.2-1.20.1-fabric.jar'
+name = 'Ore detector'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2-1.20.1-fabric'
+
+[download]
+hash = 'ce829cdeeec6378508dd319f2e1700b9a5ab0ed34ec42cacc33b866b05bb5d32fa2bb364ca3471ee8ead93d22b6a34caf91539fd782faa0f68b04401a5fc2ca8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xNq3q2LY/versions/PRSN87Xs/OreDetector-1.2-1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'xNq3q2LY'
+version = 'PRSN87Xs'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mPg0PTH3'
+type = 'REQUIRED'
