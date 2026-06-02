@@ -151,7 +151,10 @@
       "daycare-fax.ap.e4mc.link": "https://api.mcsrvstat.us/icon/daycare-fax.ap.e4mc.link",
       "swivel-domain.ap.e4mc.link": "https://api.mcsrvstat.us/icon/swivel-domain.ap.e4mc.link",
       "musky-mama.sg.e4mc.link": "https://api.mcsrvstat.us/icon/musky-mama.sg.e4mc.link",
-      "runaround-drilling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/runaround-drilling.ap.e4mc.link"
+      "runaround-drilling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/runaround-drilling.ap.e4mc.link",
+      "cranium-width.ap.e4mc.link": "https://api.mcsrvstat.us/icon/cranium-width.ap.e4mc.link",
+      "untruth-utter.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untruth-utter.ap.e4mc.link",
+      "fresh-astronaut.ap.e4mc.link": "https://api.mcsrvstat.us/icon/fresh-astronaut.ap.e4mc.link"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",

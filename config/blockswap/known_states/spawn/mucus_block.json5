@@ -114,5 +114,117 @@ to make editing this file much easier.
 	},
 	{
 		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "8"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "8"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "9"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "9"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "10"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "10"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "11"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "11"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "12"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "12"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "13"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "13"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "true",
+			"distance": "14"
+		},
+		"Name": "spawn:mucus_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"solid": "false",
+			"distance": "14"
+		},
+		"Name": "spawn:mucus_block"
 	}
 ]

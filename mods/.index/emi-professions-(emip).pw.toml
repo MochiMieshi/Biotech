@@ -1,0 +1,21 @@
+filename = 'EMIProfessions-fabric-1.20.1-1.0.4.jar'
+name = 'EMI professions (EMIP)'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = '84a07c2c57b717a6981bde80b79d6c458f6cbbe80fa8fffef851fe33c19a0949eff810723156751e78c0555bd2b1828f83127ae18a6ecb212520e6ab15c9c82b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LGVihYcz/versions/4y3T9sCQ/EMIProfessions-fabric-1.20.1-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'LGVihYcz'
+version = '4y3T9sCQ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'REQUIRED'
