@@ -1,0 +1,21 @@
+filename = 'SilkTouch+ 0.4.4+1.20.jar'
+name = 'SilkTouch+'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4.4_1.20-1.20.4'
+
+[download]
+hash = 'af2a69c11a38c42d20d0e025c9c550fe6c190255cc6d4887937ec8a49d797b4a046016cd4cbbc9670c8882caf0a8f9146eb94b6370b00790b386feb33a03d9e4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Gsu8eWIK/versions/r5wypHMV/SilkTouch%2B 0.4.4%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'Gsu8eWIK'
+version = 'r5wypHMV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

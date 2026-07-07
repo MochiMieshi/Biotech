@@ -32,7 +32,6 @@
 	hot_neutral = "regions_unexplored:saguaro_desert"
 	hot_wet = "regions_unexplored:outback"
 	hot_humid = "regions_unexplored:eucalyptus_forest"
-
 [-----------------MIDDLE_BIOMES_VARIANT--------------------]
 	#icy_biomes
 	icy_arid = "regions_unexplored:frozen_pine_taiga"
@@ -64,7 +63,6 @@
 	hot_neutral = "regions_unexplored:saguaro_desert"
 	hot_wet = "regions_unexplored:outback"
 	hot_humid = "regions_unexplored:eucalyptus_forest"
-
 [-----------------PLATEAU_BIOMES--------------------]
 	#icy_biomes
 	icy_arid = "regions_unexplored:icy_heights"
@@ -96,7 +94,6 @@
 	hot_neutral = "regions_unexplored:saguaro_desert"
 	hot_wet = "regions_unexplored:eucalyptus_forest"
 	hot_humid = "regions_unexplored:eucalyptus_forest"
-
 [-----------------PLATEAU_BIOMES_VARIANT--------------------]
 	#icy_biomes
 	icy_arid = "regions_unexplored:icy_heights"
@@ -128,7 +125,6 @@
 	hot_neutral = "regions_unexplored:saguaro_desert"
 	hot_wet = "regions_unexplored:eucalyptus_forest"
 	hot_humid = "regions_unexplored:eucalyptus_forest"
-
 [-----------------SHATTERED_BIOMES--------------------]
 	#icy_biomes
 	icy_arid = "regions_unexplored:icy_heights"
@@ -160,7 +156,6 @@
 	hot_neutral = "regions_unexplored:saguaro_desert"
 	hot_wet = "regions_unexplored:eucalyptus_forest"
 	hot_humid = "regions_unexplored:eucalyptus_forest"
-
 [-----------------SLOPE_BIOMES--------------------]
 	#slope_biomes
 	icy_slope_biome = "minecraft:snowy_slopes"
@@ -174,7 +169,6 @@
 	neutral_slope_biome_variant = "regions_unexplored:pine_slopes"
 	warm_slope_biome_variant = "regions_unexplored:deciduous_forest"
 	hot_slope_biome_variant = "regions_unexplored:eucalyptus_forest"
-
 [-----------------PEAK_BIOMES--------------------]
 	#peak_biomes
 	icy_peak_biome = "minecraft:frozen_peaks"
@@ -188,7 +182,6 @@
 	neutral_peak_biome_variant = "regions_unexplored:mountains"
 	warm_peak_biome_variant = "minecraft:stony_peaks"
 	hot_peak_biome_variant = "regions_unexplored:arid_mountains"
-
 [-----------------RIVER_BIOMES--------------------]
 	#icy_biomes
 	icy_arid = "minecraft:frozen_river"
@@ -220,7 +213,6 @@
 	hot_neutral = "regions_unexplored:tropical_river"
 	hot_wet = "regions_unexplored:tropical_river"
 	hot_humid = "regions_unexplored:tropical_river"
-
 [-----------------RIVER_BIOMES_VARIANT--------------------]
 	#icy_biomes
 	icy_arid = "minecraft:frozen_river"
@@ -252,7 +244,6 @@
 	hot_neutral = "regions_unexplored:tropical_river"
 	hot_wet = "regions_unexplored:tropical_river"
 	hot_humid = "regions_unexplored:tropical_river"
-
 [-----------------SWAMP_BIOMES--------------------]
 	#icy_biomes
 	icy_arid = "regions_unexplored:spires"
@@ -284,7 +275,6 @@
 	hot_neutral = "regions_unexplored:fungal_fen"
 	hot_wet = "regions_unexplored:fungal_fen"
 	hot_humid = "regions_unexplored:fungal_fen"
-
 [-----------------OCEAN_BIOMES--------------------]
 	#deep_oceans
 	deep_icy = "regions_unexplored:hyacinth_deeps"
@@ -298,7 +288,6 @@
 	neutral = "minecraft:ocean"
 	warm = "minecraft:lukewarm_ocean"
 	hot = "regions_unexplored:rocky_reef"
-
 [-----------------SHORE_BIOMES--------------------]
 	#beach_biomes
 	icy_beach_biome = "minecraft:snowy_beach"
@@ -309,7 +298,6 @@
 	#stone_beach_biomes
 	cold_stone_beach_biome = "minecraft:stony_shore"
 	hot_stone_beach_biome = "regions_unexplored:chalk_cliffs"
-
 [-----------------UNDERGROUND_BIOMES--------------------]
 	cave_1_biome = "minecraft:lush_caves"
 	cave_2_biome = "minecraft:dripstone_caves"
@@ -319,13 +307,11 @@
 	cave_6_biome = "regions_unexplored:prismachasm"
 	cave_7_biome = "regions_unexplored:redstone_caves"
 	cave_8_biome = "regions_unexplored:scorching_caves"
-
 [-----------------ISLAND_BIOMES--------------------]
 	icy_island_biome = "regions_unexplored:alpha_grove"
 	cool_island_biome = "regions_unexplored:alpha_grove"
 	neutral_island_biome = "regions_unexplored:ashen_woodland"
 	warm_island_biome = "regions_unexplored:tropics"
 	hot_island_biome = "regions_unexplored:tropics"
-
 [-----------------OTHER_BIOMES--------------------]
 	shattered_cliff_biome = "regions_unexplored:towering_cliffs"

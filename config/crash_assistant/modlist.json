@@ -1661,6 +1661,22 @@
     "curseForgeHash": 2415722253,
     "modrinthHash": "681757921997f3ab8455a968bf77ee4f305b82ed"
   },
+  "silk-touch-less-enderchest-1.2.jar": {
+    "jarName": "silk-touch-less-enderchest-1.2.jar",
+    "modId": "mr_silk_touchlessenderchest",
+    "name": "Silk Touch-less Enderchest",
+    "version": "1.2",
+    "curseForgeHash": 3823704060,
+    "modrinthHash": "8b60cb4fbea56ef3ac46ffa23e2c16f150a158df"
+  },
+  "SilkTouch+ 0.4.4+1.20.jar": {
+    "jarName": "SilkTouch+ 0.4.4+1.20.jar",
+    "modId": "silktouchplus",
+    "name": "SilkTouchPlus",
+    "version": "0.4.4",
+    "curseForgeHash": 2487197113,
+    "modrinthHash": "a0ce887ed7581c25b51c2057e65c216bb7b8110c"
+  },
   "simplified_ai_logic-fabric-2.0.jar": {
     "jarName": "simplified_ai_logic-fabric-2.0.jar",
     "modId": "simplified_ai_logic",
@@ -1788,14 +1804,6 @@
     "version": "1.0.11",
     "curseForgeHash": 2886085670,
     "modrinthHash": "d227c88decede1778f12dd6cb72a751cac21a18b"
-  },
-  "structurecontrol-1.20.1-1.8.5.jar": {
-    "jarName": "structurecontrol-1.20.1-1.8.5.jar",
-    "modId": "structurecontrol",
-    "name": "Structure Control",
-    "version": "1.8.5",
-    "curseForgeHash": 954155406,
-    "modrinthHash": "1a66957154b7b161a80b3efa524fdcdebdd98d9f"
   },
   "structurify-fabric-2.0.25+mc1.20.1.jar": {
     "jarName": "structurify-fabric-2.0.25+mc1.20.1.jar",

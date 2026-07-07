@@ -1,3 +1,4 @@
+[embeddiumextras]
 	[embeddiumextras.general]
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
@@ -21,7 +22,6 @@
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
 		fpsDisplayShadow = false
-
 	[embeddiumextras.quality]
 		#Toggle fog feature
 		#Fog was a vanilla feature, toggling off may increases performance
@@ -70,7 +70,6 @@
 			#Configure min moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
 			newMoonBright = 0.0
-
 	[embeddiumextras.performance]
 		#Toggles JREI item rendering until searching
 		#Increases performance a little bit and cleans your screen when you don't want to use it
@@ -80,6 +79,7 @@
 		#Gives a flat style text
 		fontShadows = true
 
+		[embeddiumextras.performance.distanceCulling]
 			[embeddiumextras.performance.distanceCulling.tileEntities]
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
@@ -97,7 +97,6 @@
 				#Example 1: "minecraft:chest" - Ignores chests only
 				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
 				whitelist = ["waterframes:*"]
-
 			[embeddiumextras.performance.distanceCulling.entities]
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
@@ -115,7 +114,6 @@
 				#Example 1: "minecraft:bat" - Ignores bats only
 				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
 				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*"]
-
 	[embeddiumextras.others]
 		#Configure if borderless fullscreen option should be attached to F11 or replace vanilla fullscreen
 		#Allowed Values: ATTACH, REPLACE, OFF

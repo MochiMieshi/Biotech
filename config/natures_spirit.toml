@@ -50,14 +50,12 @@
 	has_blooming_highlands = true
 	has_chaparral = true
 	has_floral_ridges = true
-
 [region]
 	terra_ferax_frequency = 4
 	terra_solaris_frequency = 4
 	terra_flava_frequency = 4
 	terra_laeta_frequency = 4
 	terra_mater_frequency = 4
-
 [misc]
 	#Calcite clusters from coral feature
 	calcite_generator = true
@@ -67,7 +65,6 @@
 	creative_tab = true
 	#Toggle the Pillar Generation (turn off for lower end devices)
 	sugi_and_stratified_pillars = true
-
 [datapacks]
 	vanilla_trees_toggle = false
 	birch_forest_toggle = true
