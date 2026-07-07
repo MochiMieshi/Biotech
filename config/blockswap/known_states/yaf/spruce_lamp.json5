@@ -1,0 +1,2724 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "single"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "bottom"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "middle"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "empty",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "empty",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "white",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "white",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "orange",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "orange",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "magenta",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "magenta",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "yellow",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "yellow",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "lime",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "lime",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "pink",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "pink",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "light_gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "light_gray",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "cyan",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "cyan",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "purple",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "purple",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "blue",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "brown",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "brown",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "green",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "green",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "red",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "red",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"lampshade": "black",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"lampshade": "black",
+			"lamp_type": "top"
+		},
+		"Name": "yaf:spruce_lamp"
+	}
+]

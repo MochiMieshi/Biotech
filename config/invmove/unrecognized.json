@@ -1,0 +1,7 @@
+{
+  "allowMovement": {
+    "io.github.bumblesoftware.fastload.client.BuildingTerrainScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true
+  },
+  "hideBackground": {}
+}

@@ -1,0 +1,18 @@
+filename = 'efficient_hashing-fabric-1.0.0+1.20.1-mod.jar'
+name = 'EfficientHashing'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'f74f08211481c64b794377bbcf922397ea5ab295e67cf0eefc3e52b8e993b1171f6ce24ff3faaacdfbe78def57ef323c485825e0e7c993caa9a93d6c56e8d59a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zEcqovh2/versions/7JADWJjJ/efficient_hashing-fabric-1.0.0%2B1.20.1-mod.jar'
+
+[update.modrinth]
+mod-id = 'zEcqovh2'
+version = '7JADWJjJ'

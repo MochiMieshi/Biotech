@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/crop_with_rope",
+	"textures": {
+		"crop": "farmersdelight:block/tomatoes_vine_stage0",
+		"rope_top": "supplementaries:block/stick"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [9, 0, 7, 16], "texture": "#rope_top"},
+				"east": {"uv": [7, 0, 9, 16], "texture": "#rope_top"},
+				"south": {"uv": [9, 0, 7, 16], "texture": "#rope_top"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#rope_top"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#rope_top"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#rope_top"}
+			}
+		},
+		{
+			"from": [0.8, -1, 8],
+			"to": [15.2, 15, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#crop"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#crop"}
+			}
+		},
+		{
+			"from": [8, -1, 0.8],
+			"to": [8, 15, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#crop"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#crop"}
+			}
+		}
+	]
+}

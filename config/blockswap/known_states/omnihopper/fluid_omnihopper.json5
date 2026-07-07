@@ -1,0 +1,653 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "down",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "down",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "down",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "down",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "down",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "up",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "north",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "south",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "west",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "east",
+			"enabled": "true"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "down",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "up",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "north",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "south",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "west",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "down",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "up",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "north",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "south",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "west",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"sucky_bit": "east",
+			"pointy_bit": "east",
+			"enabled": "false"
+		},
+		"Name": "omnihopper:fluid_omnihopper"
+	}
+]

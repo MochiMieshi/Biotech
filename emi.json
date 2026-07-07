@@ -1,0 +1,68 @@
+{
+  "favorites": [
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:cobblestone",
+        "amount": 64
+      }
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "farmersdelight:cabbage",
+        "amount": 22
+      }
+    },
+    {
+      "stack": "item:minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:spruce_slab",
+        "amount": 5
+      }
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:dirt",
+    "item:minecraft:coarse_dirt",
+    "item:travelersbackpack:feeding_upgrade",
+    "item:farmersdelight:barbecue_stick",
+    "item:farmersdelight:fried_egg",
+    "#item:farmersdelight:cabbage_roll_ingredients",
+    "item:farmersdelight:cabbage_rolls",
+    "item:farmersdelight:kelp_roll",
+    "item:travelersbackpack:netherite_tier_upgrade",
+    "item:travelersbackpack:gold_tier_upgrade",
+    "item:travelersbackpack:pickup_upgrade",
+    "item:travelersbackpack:blank_upgrade",
+    "item:travelersbackpack:crafting_upgrade"
+  ],
+  "craft_history": [
+    "minecraft:oak_planks",
+    "minecraft:book",
+    "minecraft:paper",
+    "travelersbackpack:feeding_upgrade",
+    "minecraft:golden_carrot",
+    "minecraft:gold_nugget",
+    "minecraft:golden_apple",
+    "minecraft:netherite_ingot",
+    "travelersbackpack:diamond_tier_upgrade",
+    "travelersbackpack:gold_tier_upgrade",
+    "travelersbackpack:blank_upgrade",
+    "travelersbackpack:pickup_upgrade",
+    "minecraft:hopper",
+    "travelersbackpack:crafting_upgrade",
+    "minecraft:chest",
+    "minecraft:crafting_table"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

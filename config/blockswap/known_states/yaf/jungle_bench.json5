@@ -1,0 +1,2819 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "single",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "left",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "right",
+			"back": "true"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "single",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "left",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "middle",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "north",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "south",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "west",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "single",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "left",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "middle",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"main_type": "right",
+			"facing": "east",
+			"back_type": "right",
+			"back": "false"
+		},
+		"Name": "yaf:jungle_bench"
+	}
+]

@@ -1,0 +1,171 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 763,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "450485984333660181",
+    "defaultIcon": "grass",
+    "enableJoinRequests": false,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 96
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "statusDisplayType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "gameStateUrl": "",
+      "appName": "",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "smallImageUrl": "",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {}
+    },
+    "dynamicIcons": {
+      "gristle-skeleton.ap.e4mc.link": "https://api.mcsrvstat.us/icon/gristle-skeleton.ap.e4mc.link",
+      "bolt-fester.ap.e4mc.link": "https://api.mcsrvstat.us/icon/bolt-fester.ap.e4mc.link",
+      "untoasted-stony.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untoasted-stony.ap.e4mc.link",
+      "catalyst-album.ap.e4mc.link": "https://api.mcsrvstat.us/icon/catalyst-album.ap.e4mc.link",
+      "stallion-sighing.ap.e4mc.link": "https://api.mcsrvstat.us/icon/stallion-sighing.ap.e4mc.link",
+      "oxidize-poise.sg.e4mc.link": "https://api.mcsrvstat.us/icon/oxidize-poise.sg.e4mc.link",
+      "chute-crawling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/chute-crawling.ap.e4mc.link",
+      "saddling-lapel.ap.e4mc.link": "https://api.mcsrvstat.us/icon/saddling-lapel.ap.e4mc.link",
+      "smugly-fruit.sg.e4mc.link": "https://api.mcsrvstat.us/icon/smugly-fruit.sg.e4mc.link",
+      "slimy-tactless.sg.e4mc.link": "https://api.mcsrvstat.us/icon/slimy-tactless.sg.e4mc.link",
+      "mousiness-failing.ap.e4mc.link": "https://api.mcsrvstat.us/icon/mousiness-failing.ap.e4mc.link",
+      "upgrade-endocrine.ap.e4mc.link": "https://api.mcsrvstat.us/icon/upgrade-endocrine.ap.e4mc.link",
+      "collision-pennant.sg.e4mc.link": "https://api.mcsrvstat.us/icon/collision-pennant.sg.e4mc.link",
+      "100.78.238.84": "https://api.mcsrvstat.us/icon/100.78.238.84",
+      "daycare-fax.ap.e4mc.link": "https://api.mcsrvstat.us/icon/daycare-fax.ap.e4mc.link",
+      "swivel-domain.ap.e4mc.link": "https://api.mcsrvstat.us/icon/swivel-domain.ap.e4mc.link",
+      "musky-mama.sg.e4mc.link": "https://api.mcsrvstat.us/icon/musky-mama.sg.e4mc.link",
+      "runaround-drilling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/runaround-drilling.ap.e4mc.link",
+      "cranium-width.ap.e4mc.link": "https://api.mcsrvstat.us/icon/cranium-width.ap.e4mc.link",
+      "untruth-utter.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untruth-utter.ap.e4mc.link",
+      "fresh-astronaut.ap.e4mc.link": "https://api.mcsrvstat.us/icon/fresh-astronaut.ap.e4mc.link"
+    },
+    "dynamicVariables": {
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

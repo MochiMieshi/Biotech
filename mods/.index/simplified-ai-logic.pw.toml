@@ -1,0 +1,25 @@
+filename = 'simplified_ai_logic-fabric-2.0.jar'
+name = 'Simplified AI Logic'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = 'd139f91655cb2fcd8a9b3a786520e88b464d7cbebc629e97f77810a44ca99a9c8b844e6e801b531bd770e6523d017b29549cbe8aa084804866c7ab06624c2b78'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NwQM8Lpl/versions/MJXbxJ3G/simplified_ai_logic-fabric-2.0.jar'
+
+[update.modrinth]
+mod-id = 'NwQM8Lpl'
+version = 'MJXbxJ3G'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

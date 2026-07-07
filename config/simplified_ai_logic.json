@@ -1,0 +1,26 @@
+{
+  "peaceful_mobs": [
+    "minecraft:cow",
+    "minecraft:sheep",
+    "minecraft:pig",
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "minecraft:fox",
+    "minecraft:goat"
+  ],
+  "hostile_mobs": [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "minecraft:spider",
+    "minecraft:creeper",
+    "minecraft:witch"
+  ],
+  "optimized_mobs": [
+    "minecraft:horse",
+    "minecraft:donkey",
+    "minecraft:mule",
+    "minecraft:llama",
+    "minecraft:wolf",
+    "minecraft:cat"
+  ]
+}

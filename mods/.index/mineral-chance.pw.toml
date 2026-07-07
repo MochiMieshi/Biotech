@@ -1,0 +1,21 @@
+filename = 'mineralchance-1.20.1-3.8.jar'
+name = 'Mineral Chance'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-3.8-fabric+forge+neo'
+
+[download]
+hash = '6550936fb0947dfbddb75ddb5a8ba6c3a4f66b4e8cb0fd264af0affae57779cc4ab28fe04fa669dfdaf3d5621f6f43aeac5a7edf139e98612be3974e2469c8ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bu1hACOl/versions/ivqjJxmM/mineralchance-1.20.1-3.8.jar'
+
+[update.modrinth]
+mod-id = 'bu1hACOl'
+version = 'ivqjJxmM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0M1UDsY'
+type = 'REQUIRED'

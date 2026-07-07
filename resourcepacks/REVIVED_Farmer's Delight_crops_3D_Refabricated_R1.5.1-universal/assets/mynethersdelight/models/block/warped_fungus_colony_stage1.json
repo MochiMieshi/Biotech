@@ -1,0 +1,116 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 16],
+	"textures": {
+		"1": "nethersdelight:block/warped_fungus_colony",
+		"particle": "mynethersdelight:block/warped_fungus_colony_stage1"
+	},
+	"elements": [
+		{
+			"from": [7, 1, 7],
+			"to": [9, 7, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, -2]},
+			"faces": {
+				"north": {"uv": [0, 3, 1, 9], "texture": "#1"},
+				"east": {"uv": [0, 3, 1, 9], "texture": "#1"},
+				"south": {"uv": [0, 4, 1, 10], "texture": "#1"},
+				"west": {"uv": [0, 2, 1, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 2], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, 2, 9],
+			"to": [10, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 1, 1]},
+			"faces": {
+				"north": {"uv": [0, 7, 0.5, 9], "texture": "#1"},
+				"east": {"uv": [0.5, 7, 1, 9], "texture": "#1"},
+				"south": {"uv": [0, 7, 0.5, 9], "texture": "#1"},
+				"west": {"uv": [0.5, 7, 1, 9], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.5, 1], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 4, 8],
+			"to": [11, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 1, 1]},
+			"faces": {
+				"north": {"uv": [2, 9, 3.5, 10], "texture": "#1"},
+				"east": {"uv": [1.5, 9, 3, 10], "texture": "#1"},
+				"south": {"uv": [7.5, 7, 9, 8], "texture": "#1"},
+				"west": {"uv": [7, 7, 8.5, 8], "texture": "#1"},
+				"up": {"uv": [2.5, 4, 4, 7], "texture": "#1"},
+				"down": {"uv": [5.5, 11, 7, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 1, 6],
+			"to": [5, 3, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, -2]},
+			"faces": {
+				"north": {"uv": [0, 7, 0.5, 10], "texture": "#1"},
+				"east": {"uv": [0.5, 7, 1, 10], "texture": "#1"},
+				"south": {"uv": [0, 7, 0.5, 10], "texture": "#1"},
+				"west": {"uv": [0.5, 7, 1, 10], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.5, 1], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 3, 5],
+			"to": [6, 5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, -2]},
+			"faces": {
+				"north": {"uv": [1.5, 4, 3, 6], "texture": "#1"},
+				"east": {"uv": [1, 4, 2.5, 6], "texture": "#1"},
+				"south": {"uv": [7.5, 8, 9, 10], "texture": "#1"},
+				"west": {"uv": [7, 8, 8.5, 10], "texture": "#1"},
+				"up": {"uv": [2.5, 4, 4, 7], "texture": "#1"},
+				"down": {"uv": [5.5, 11, 7, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 7, 4],
+			"to": [12, 11, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, -2]},
+			"faces": {
+				"north": {"uv": [9, 0, 13, 4], "texture": "#1"},
+				"east": {"uv": [9, 0, 13, 4], "texture": "#1"},
+				"south": {"uv": [9, 0, 13, 4], "texture": "#1"},
+				"west": {"uv": [9, 0, 13, 4], "texture": "#1"},
+				"up": {"uv": [1, 0, 5, 8], "texture": "#1"},
+				"down": {"uv": [5, 0, 9, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 10, 2, 11], "texture": "#1"},
+				"east": {"uv": [0, 10, 2, 11], "texture": "#1"},
+				"south": {"uv": [0, 10, 2, 11], "texture": "#1"},
+				"west": {"uv": [0, 10, 2, 11], "texture": "#1"},
+				"up": {"uv": [0, 10, 2, 14], "texture": "#1"},
+				"down": {"uv": [0, 10, 2, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 0, 5],
+			"to": [6, 1, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 5]},
+			"faces": {
+				"north": {"uv": [0, 11, 1, 12], "texture": "#1"},
+				"east": {"uv": [0, 11, 1, 12], "texture": "#1"},
+				"south": {"uv": [0, 11, 1, 12], "texture": "#1"},
+				"west": {"uv": [0, 11, 1, 12], "texture": "#1"},
+				"up": {"uv": [0, 11, 1, 13], "texture": "#1"},
+				"down": {"uv": [0, 11, 1, 13], "texture": "#1"}
+			}
+		}
+	]
+}

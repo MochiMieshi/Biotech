@@ -1,0 +1,45 @@
+filename = 'voicechat-fabric-1.20.1-2.6.20.jar'
+name = 'Simple Voice Chat'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.20.1-2.6.20'
+
+[download]
+hash = '77d6bafeedc994734393bc94ea78419b5b0ff20144766f3bb9538f7733c0ddb90e6c424c537d7205337cf74f8d00552ff22884c7abdadae0e670ebbfd16da013'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9eGKb6K1/versions/UiVFkKer/voicechat-fabric-1.20.1-2.6.20.jar'
+
+[update.modrinth]
+mod-id = '9eGKb6K1'
+version = 'UiVFkKer'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Vebnzrzj'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YlKdE5VK'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qyVF9oeo'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SRlzjEBS'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'UL4bJFDY'
+type = 'OPTIONAL'
