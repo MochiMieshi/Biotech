@@ -1229,6 +1229,14 @@
     "curseForgeHash": 1153222377,
     "modrinthHash": "77497ef5d95357ef60d4bf9536a379a2c9bb89e9"
   },
+  "minerally-1.20.2-1.31.jar": {
+    "jarName": "minerally-1.20.2-1.31.jar",
+    "modId": "minerally",
+    "name": "Minerally",
+    "version": "1.20.2-1.31",
+    "curseForgeHash": 623773590,
+    "modrinthHash": "e746d3527469d34f741a40aebea989283c4d6b69"
+  },
   "mixintrace-1.1.1+1.17.jar": {
     "jarName": "mixintrace-1.1.1+1.17.jar",
     "modId": "mixintrace",
@@ -1492,6 +1500,14 @@
     "version": "2.15.41.2-x2",
     "curseForgeHash": 2706150089,
     "modrinthHash": "5dada9e6583081ed98b0f6f0ec82d3bd5b87ef84"
+  },
+  "oregrowth-1.1.7-fabric-mc1.20.1.jar": {
+    "jarName": "oregrowth-1.1.7-fabric-mc1.20.1.jar",
+    "modId": "oregrowth",
+    "name": "Ore Growth",
+    "version": "1.1.7",
+    "curseForgeHash": 3583836390,
+    "modrinthHash": "d04578e326760c8f62271f5f45b471f3c30b9577"
   },
   "overweightfarming-1.20.1-2.0.3-fabric.jar": {
     "jarName": "overweightfarming-1.20.1-2.0.3-fabric.jar",
@@ -1812,6 +1828,22 @@
     "version": "2.0.25",
     "curseForgeHash": 2786372567,
     "modrinthHash": "d37c7175df8920517c52744486e02e646599b11a"
+  },
+  "supermartijn642configlib-1.1.8a-fabric-mc1.20.jar": {
+    "jarName": "supermartijn642configlib-1.1.8a-fabric-mc1.20.jar",
+    "modId": "supermartijn642configlib",
+    "name": "SuperMartijn642\u0027s Config Lib",
+    "version": "1.1.8+a",
+    "curseForgeHash": 1820505617,
+    "modrinthHash": "964df96c16afe775efd467b22f24458915805ad8"
+  },
+  "supermartijn642corelib-1.1.21-fabric-mc1.20.1.jar": {
+    "jarName": "supermartijn642corelib-1.1.21-fabric-mc1.20.1.jar",
+    "modId": "supermartijn642corelib",
+    "name": "SuperMartijn642\u0027s Core Lib",
+    "version": "1.1.21",
+    "curseForgeHash": 835230463,
+    "modrinthHash": "824c8d015c1f4823ae543c970016d77eea31c52d"
   },
   "supplementaries-1.20-3.1.43-fabric.jar": {
     "jarName": "supplementaries-1.20-3.1.43-fabric.jar",

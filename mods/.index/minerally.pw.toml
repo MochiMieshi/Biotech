@@ -1,0 +1,18 @@
+filename = 'minerally-1.20.2-1.31.jar'
+name = 'Minerally'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.31'
+
+[download]
+hash = '9502f7f17c9736c2dafce32ba58c88d4a09acaae124e89f1f6277bd791b92e9202badc8ddcd1e8cd0009327afccfd6d8b22b1a8727db6f5aa573adf5493a5b0e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DKG1CVAt/versions/NdqtlMPl/minerally-1.20.2-1.31.jar'
+
+[update.modrinth]
+mod-id = 'DKG1CVAt'
+version = 'NdqtlMPl'

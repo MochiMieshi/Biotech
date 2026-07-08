@@ -65,6 +65,10 @@
   "waystones": {
     "waystone": true
   },
+  "oregrowth": {
+    "ore_growth_hint": true,
+    "ore_growth_icon": true
+  },
   "balm": {
     "jade": true
   }
