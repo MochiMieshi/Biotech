@@ -2,11 +2,11 @@
 
 # BiotechXS
 
-*A coherent Vanilla+ experience built around curiosity, not complexity.*
+*A coherent Vanilla+ experience built around curiosity, not complication.*
 
 Rather than asking *"What mods should I add?"*, BiotechXS asks a different question:
 
-> **What kind of world should this become?**
+**"What kind of world should this become?"**
 
 </div>
 
@@ -14,13 +14,17 @@ Rather than asking *"What mods should I add?"*, BiotechXS asks a different quest
 
 ## Why BiotechXS?
 
-Many Vanilla+ modpacks are collections of individually great mods, but they often feel disconnected. A biome exists without anything living in it. A decorative block belongs to a single mod. A technology tree exists because it's expected to.
+Many Vanilla+ modpacks are collections of individually great mods, but they often feel disconnected. A biome introduces new plants with no broader ecosystem. Building exists apart from progression. Technology advances independently of the world around it.
 
-BiotechXS is designed differently. Every addition should feel like it belongs in the same world, serving a purpose beyond itself. Exploration leads to technology, technology supports building, building encourages exploration, and the world quietly rewards curiosity instead of demanding attention.
+BiotechXS is built around a simple principle: every addition should be chosen because of how it connects with the rest of the game. Exploration uncovers new resources. Those resources power technology. Technology expands what's possible to build. In turn, building creates new reasons to explore. An absolute NO to features existing in isolation.
 
-The goal isn't to make Minecraft bigger.
+Every mechanic belongs to something larger than itself.
 
-It's to make it feel more complete.
+The world quietly rewards curiosity instead of demanding attention.
+
+The goal isn't to add more;
+
+It's to make Minecraft feel new but whole, again.
 
 ---
 
@@ -54,7 +58,7 @@ Progression is something you discover, not something you're assigned.
 
 ---
 
-## A Familiar Beauty
+## A World That Reserves Its Familiar Beauty
 
 Minecraft has one of the most recognizable visual identities in gaming.
 
@@ -64,7 +68,7 @@ Every mod, resource pack, and shader is selected to either preserve vanilla's ar
 
 ---
 
-# Everything Connects
+# Design Philosophy in Practice
 
 BiotechXS isn't organized around mods.
 
@@ -72,11 +76,15 @@ It's organized around systems.
 
 ### A Living World
 
-The world is the foundation of everything else. Regions Unexplored, Geophilic, Nature's Spirit, River Redux, Earth & Water, and dozens of structure mods work together to create places that feel worth visiting rather than simply larger.
+The world is the foundation of everything else, and every dimension deserves to feel like a place worth exploring.
 
-Exploration is supported by Friends & Foes, Bosses of Mass Destruction, Enderman Overhaul, Creeper Overhaul, Rotten Creatures, and many smaller additions that make every journey a little less predictable.
+The Overworld is enriched through Regions Unexplored, Geophilic, Nature's Spirit, River Redux, Earth & Water, YUNG's Cave Biomes, and an extensive collection of improved structures, creating landscapes that reward wandering rather than simply adding more terrain.
 
-Rather than endlessly generating terrain, the world constantly gives you reasons to explore it.
+That same philosophy extends throughout progression. Jaden's Nether Expansion, YUNG's Better Nether Fortresses, Medieval Buildings: Nether Edition, Nether Vinery, and My Nether's Delight transform the Nether into more than a resource stop. Moog's End Structures, YUNG's Better End Island, Medieval End, Qrafty's End Villages, and Enderman Overhaul give the End its own identity beyond the dragon fight.
+
+The world is further brought to life through Friends & Foes, Creeper Overhaul, Rotten Creatures, Bosses of Mass Destruction, and countless smaller additions that make every journey a little less predictable.
+
+No dimension is left behind. Every stage of progression offers new places to discover, new structures to investigate, and new reasons to keep exploring.
 
 ---
 
