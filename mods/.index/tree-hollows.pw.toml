@@ -1,0 +1,18 @@
+filename = 'tree-hollows-fabric-3.1.0.jar'
+name = 'Tree Hollows'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.1.0'
+
+[download]
+hash = '02c6e732ac4bf6043370905706d1da319613dcd8c4baf8b71b076655ca7559a69ca839e154e1ef5ba7c0825d44e4f785c070d91b5c7ec6b0916149d168055314'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/g744qmft/versions/stCzQhpB/tree-hollows-fabric-3.1.0.jar'
+
+[update.modrinth]
+mod-id = 'g744qmft'
+version = 'stCzQhpB'

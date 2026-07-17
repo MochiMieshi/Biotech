@@ -253,5 +253,257 @@ to make editing this file much easier.
 	},
 	{
 		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "8"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14"
+		},
+		"Name": "mysticsbiomes:maple_leaves"
 	}
 ]

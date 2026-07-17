@@ -1,0 +1,25 @@
+filename = 'kafvalentine-fabric-1.4.0+1.20.1.jar'
+name = "Kaf's Valentine Special"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.0+1.20.1'
+
+[download]
+hash = 'efeb324ff37ed523abcc43a6bdb6e9db98f898cdb91c2d5481fa8fb96edb96543514c792c61b5051db7fe3343d405872a64a0c4954f226c4afcb1cb3630dac0b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BAlSr7dy/versions/Lf3YZqhP/kafvalentine-fabric-1.4.0%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'BAlSr7dy'
+version = 'Lf3YZqhP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ccKDOlHs'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'D5h9NKNI'
+type = 'EMBEDDED'

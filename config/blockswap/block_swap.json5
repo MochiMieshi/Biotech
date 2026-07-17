@@ -84,6 +84,7 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
-        "grounded:loam": "minecraft:grass_block"
+        "grounded:loam": "minecraft:grass_block",
+        "grounded:permafrost": "minecraft:grass_block"
     }
 }

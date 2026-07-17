@@ -1,0 +1,49 @@
+filename = 'ubesdelight-fabric-1.20.1-0.4.12.jar'
+name = "Ube's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.20.1-0.4.12'
+
+[download]
+hash = '1735ea8dfb6d9fa7b32665e7a5361dee6bb2fd44312befc591c9047f0ce3118061608b5d7f1ec33b37c9451c98905e9bd04c9b948e22bd7253b7ab62b755636d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PYjpoAys/versions/hshjWmab/ubesdelight-fabric-1.20.1-0.4.12.jar'
+
+[update.modrinth]
+mod-id = 'PYjpoAys'
+version = 'hshjWmab'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4EakbH8e'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'codAaoxh'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

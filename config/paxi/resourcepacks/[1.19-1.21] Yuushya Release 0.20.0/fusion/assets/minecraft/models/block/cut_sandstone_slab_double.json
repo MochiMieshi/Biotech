@@ -1,0 +1,10 @@
+{
+  "loader":"fusion:model",
+  "type":"connecting",
+  "connections":[{"type":"is_same_block"}],
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/cut_sandstone",
+    "side": "minecraft:block/cut_sandstone_side"
+  }
+}

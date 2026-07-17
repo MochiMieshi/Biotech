@@ -1,0 +1,21 @@
+filename = 'DumplingsDelightRewrapped-1.20.1-1.3.0+fabric.jar'
+name = 'Dumplings Delight Rewrapped'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.3.0+fabric'
+
+[download]
+hash = '164e211dd051512cd012841f22f59a0f8d19f3f7f12adbc80279600d269652a83d9d5a5dd1fc6dd7cd3a85116d9158a794aa3003b25ceede3fb06d9671af5cfb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DqKMBArS/versions/fhqaCHuw/DumplingsDelightRewrapped-1.20.1-1.3.0%2Bfabric.jar'
+
+[update.modrinth]
+mod-id = 'DqKMBArS'
+version = 'fhqaCHuw'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'

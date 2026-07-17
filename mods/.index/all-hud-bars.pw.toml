@@ -1,0 +1,18 @@
+filename = 'allhudbars-1.0.1+1.20.1.jar'
+name = 'All HUD Bars'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1+1.20.1'
+
+[download]
+hash = '95b5d9430b1966173cf2f64de1a7a8ba3bdf7b0a5c95663255789a481124c3b6125518fe39bda3ebd83ee2b097cddedcfdc8161a6052d7f7aa808ace945edfae'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/c5GqQr6R/versions/Ba1IPFZD/allhudbars-1.0.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'c5GqQr6R'
+version = 'Ba1IPFZD'

@@ -1,0 +1,18 @@
+filename = 'more_sounds-1.20.x-0.3.0-beta-fabric.jar'
+name = 'More Sounds'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.20.x-0.3.0-fabric'
+
+[download]
+hash = 'a01a4fa32213bae2e6ac7ba2d788c66702ca0142e8b2f143700cf6c692d4c311db3b2c794e5ee83cf173994e401ae17bd7f8e1dc1353fc12d168b2080d00497f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8jvcOd6S/versions/Rmi9OX5y/more_sounds-1.20.x-0.3.0-beta-fabric.jar'
+
+[update.modrinth]
+mod-id = '8jvcOd6S'
+version = 'Rmi9OX5y'

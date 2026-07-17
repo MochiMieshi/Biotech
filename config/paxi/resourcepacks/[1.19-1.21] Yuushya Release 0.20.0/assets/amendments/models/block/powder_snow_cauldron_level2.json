@@ -1,0 +1,10 @@
+{
+  "loader": "amendments:cauldron",
+  "cauldron": "minecraft:block/powder_snow_cauldron_level2",
+  "fluid": {
+    "parent": "amendments:block/cauldron_level_12",
+    "textures": {
+      "content": "minecraft:block/powder_snow"
+    }
+  }
+}

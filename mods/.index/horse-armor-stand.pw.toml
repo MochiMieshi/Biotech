@@ -1,0 +1,25 @@
+filename = 'horsearmorstandmod-1.0.2-1.20.1.jar'
+name = 'Horse Armor Stand'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2-1.20.1'
+
+[download]
+hash = '32c30a2dc672e98ba1fba714ad4f1884abcfd0997a53c77baee6a4676fd8d1b26aa6b62728cc33a6aaedc48b6960b8f5c36e198aec0e0cb3fb53d08cf3ec4880'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9CbsP5lC/versions/o6rZW3t6/horsearmorstandmod-1.0.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '9CbsP5lC'
+version = 'o6rZW3t6'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

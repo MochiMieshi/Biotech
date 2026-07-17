@@ -1,7 +1,13 @@
 {
   "allowMovement": {
     "io.github.bumblesoftware.fastload.client.BuildingTerrainScreen": true,
-    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "fudge.notenoughcrashes.gui.CrashScreen": true,
+    "dev.huskuraft.effortless.fabric.gui.MinecraftProxyScreen": true,
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true
   },
-  "hideBackground": {}
+  "hideBackground": {
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true
+  }
 }

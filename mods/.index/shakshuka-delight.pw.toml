@@ -1,0 +1,25 @@
+filename = 'shakdel-1.0.0.jar'
+name = 'Shakshuka Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'd178b8056ed700e0955d8e735ac0ed3a4c49e7f92b66be1af6f7703b4c81913e5a6e76fa67643e159b5137aae158bc56f63c9efe448f6a8f298a3d8b84e01031'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Kt3KLrwo/versions/rqkoYVzG/shakdel-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'Kt3KLrwo'
+version = 'rqkoYVzG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4EakbH8e'
+type = 'REQUIRED'

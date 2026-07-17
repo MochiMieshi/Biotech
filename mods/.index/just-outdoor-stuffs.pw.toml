@@ -1,0 +1,18 @@
+filename = 'JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar'
+name = 'Just Outdoor Stuffs'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = '92c3af731016096af9a325057a5802ec41514a8df4957e18be4f2dba81de83e559efdec1d949817350dfc0970044785653585186350504d8c6d407f032a2cb9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6hCfRrRD/versions/V0qW1u68/JustOutdoorStuffs-1.20.1-fabric-v1.0.2.jar'
+
+[update.modrinth]
+mod-id = '6hCfRrRD'
+version = 'V0qW1u68'

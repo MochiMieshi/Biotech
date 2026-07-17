@@ -1,0 +1,21 @@
+filename = 'darkwindowbar-fabric-1.0.0-1.20.1.jar'
+name = 'Dark Window Bar'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.20.1-1.0.0'
+
+[download]
+hash = '21d448a4ce0735c663d9e17b3df033c30bcc295425ab89c4430d01dd145d506628e9264e970375fe96b7a4f167bfb9e418ee0a7d1b153003be8a03255ef0de1d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H7ktFfSH/versions/EAP4MoR7/darkwindowbar-fabric-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'H7ktFfSH'
+version = 'EAP4MoR7'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

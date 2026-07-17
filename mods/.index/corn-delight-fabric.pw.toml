@@ -1,0 +1,21 @@
+filename = 'corndelight-1.20.1-1.1.4.jar'
+name = 'Corn Delight [Fabric/Quilt]'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.1.4'
+
+[download]
+hash = '120dc4a20e00528fe403d55e3082e403a08726ce8792a9a6ed2a7ca280217e4c235f4a0b910b763c35fae6710702db100bf4abbfd28646d39f95074294d75c0e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LbZWy6od/versions/bcPpqoz1/corndelight-1.20.1-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'LbZWy6od'
+version = 'bcPpqoz1'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'

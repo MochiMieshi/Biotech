@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:block/copper_bulb",
+	"textures": {
+		"0": "block/weathered_copper",
+		"1": "block/weathered_chiseled_copper",
+		"3": "block/weathered_copper_bulb",
+		"particle": "block/weathered_copper"
+	}
+}

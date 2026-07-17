@@ -1,0 +1,7 @@
+{
+  "parent": "amendments:block/jukebox",
+  "textures": {
+    "side": "minecraft:block/jukebox_side",
+    "top": "minecraft:block/jukebox_top_has_record"
+  }
+}

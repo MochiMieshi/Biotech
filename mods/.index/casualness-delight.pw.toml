@@ -1,0 +1,21 @@
+filename = 'CasualnessDelight-0.4.jar'
+name = 'Casualness Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.20.1-0.4-FDR'
+
+[download]
+hash = '048251835ad8a667a43f7202c800140666fc3fc75db15ccacc0938df236196b2383e268fcae61beffda835ed7802b56552b93d3190f6f2f355b93a6548c54f97'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zYuGPZIx/versions/XjsRMY8V/CasualnessDelight-0.4.jar'
+
+[update.modrinth]
+mod-id = 'zYuGPZIx'
+version = 'XjsRMY8V'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7vxePowz'
+type = 'REQUIRED'

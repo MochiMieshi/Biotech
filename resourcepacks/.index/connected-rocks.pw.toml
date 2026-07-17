@@ -1,20 +1,61 @@
-filename = 'Connected-Rocks 1.21.9+ v1.1.1.zip'
+filename = 'Connected-Rocks 1.14-1.21.8 v1.1.1.zip'
 name = 'Connected Rocks'
 side = 'client'
 x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-mc-versions = [
+    '1.14',
+    '1.14.1',
+    '1.14.2',
+    '1.14.3',
+    '1.14.4',
+    '1.15',
+    '1.15.1',
+    '1.15.2',
+    '1.16',
+    '1.16.1',
+    '1.16.2',
+    '1.16.3',
+    '1.16.4',
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8'
+]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.1.1'
 
 [download]
-hash = 'e7f9137da1b0cd87df4e8b60f50d16d6c463434a2ef001aa01f0788d6e4c1ee0491c3779bd1caf4b507382e261023f04093bf87cb5f277111e89de91976e243f'
+hash = 'cea6a07e94f95448ff158952898ee6da59c9539a2293e3d3004640659b5a3021d73d8d03e0af9aa5aac405af0c9f40567f371100c76dbf82b3ce8010f8fb3335'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/IE9kFeq9/versions/Uk7rcW6S/Connected-Rocks 1.21.9%2B v1.1.1.zip'
+url = 'https://cdn.modrinth.com/data/IE9kFeq9/versions/6C6wjgyN/Connected-Rocks 1.14-1.21.8 v1.1.1.zip'
 
 [update.modrinth]
 mod-id = 'IE9kFeq9'
-version = 'Uk7rcW6S'
+version = '6C6wjgyN'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1IjD5062'

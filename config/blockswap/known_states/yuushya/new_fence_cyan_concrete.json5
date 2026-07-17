@@ -1,0 +1,3171 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "north",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "left"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "north",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "right"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "north",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "south",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "west",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "left",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "right",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "left",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "middle",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "right",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"pos": "none",
+			"front": "none",
+			"facing": "east",
+			"back": "none"
+		},
+		"Name": "yuushya:new_fence_cyan_concrete"
+	}
+]

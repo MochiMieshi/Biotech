@@ -286,6 +286,286 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"persistent": "true",
+			"distance": "8",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14",
+			"age": "0"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
 			"distance": "1",
 			"age": "1"
 		},
@@ -566,6 +846,286 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"persistent": "true",
+			"distance": "8",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14",
+			"age": "1"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
 			"distance": "1",
 			"age": "2"
 		},
@@ -846,6 +1406,286 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"persistent": "true",
+			"distance": "8",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14",
+			"age": "2"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
 			"distance": "1",
 			"age": "3"
 		},
@@ -1126,6 +1966,286 @@ to make editing this file much easier.
 		"Properties": {
 			"waterlogged": "true",
 			"persistent": "true",
+			"distance": "8",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14",
+			"age": "3"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
 			"distance": "1",
 			"age": "4"
 		},
@@ -1397,6 +2517,286 @@ to make editing this file much easier.
 			"waterlogged": "false",
 			"persistent": "false",
 			"distance": "7",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "8",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "8",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "8",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "8",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "9",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "9",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "9",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "9",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "10",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "10",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "10",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "10",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "11",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "11",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "11",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "11",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "12",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "12",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "12",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "12",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "13",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "13",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "13",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "13",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"distance": "14",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"distance": "14",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"distance": "14",
+			"age": "4"
+		},
+		"Name": "regions_unexplored:apple_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"distance": "14",
 			"age": "4"
 		},
 		"Name": "regions_unexplored:apple_oak_leaves"

@@ -1,5 +1,7 @@
 {
   "balm:jade": null,
+  "barbequesdelight:grill": null,
+  "camerapture:picture_frame": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,
@@ -53,5 +55,6 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
+  "treechop:plugin": null,
   "waystones:waystone": null
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "snowy=false": [
+      {"model": "minecraft:block/mycelium","uvlock": true},
+      {"model": "minecraft:block/mycelium","uvlock": true,"y": 90},
+      {"model": "minecraft:block/mycelium","uvlock": true,"y": 180},
+      {"model": "minecraft:block/mycelium","uvlock": true,"y": 270}
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
+  }
+}

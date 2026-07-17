@@ -1,0 +1,61 @@
+filename = 'mcwmysticbiomes-fabric-1.20.1-1.6.jar'
+name = "Macaw's Mystic's Biomes"
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.6'
+
+[download]
+hash = 'dbf22742177ccf836edd147353bd25b58e256ff7a9b19ebcf4ac8005b995ae51dac5dd7ee578397b9321dabd259ab456ca22c455eb024580700854f8b18d45c1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XQ6CZtXV/versions/fsy04Zbw/mcwmysticbiomes-fabric-1.20.1-1.6.jar'
+
+[update.modrinth]
+mod-id = 'XQ6CZtXV'
+version = 'fsy04Zbw'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VRLhWB91'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iP3wH1ha'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'dtWC90iB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GURcjz8O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GmwLse2I'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'B8jaH3P1'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kUpOjknA'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'C7I0BCni'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cl5ec0Qm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'n2fvCDlM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kNxa8z3e'
+type = 'OPTIONAL'

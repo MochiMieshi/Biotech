@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/item_center_v",
+  "textures": {
+    "layer0": "minecraft:item/turtle_scute"
+  }
+}

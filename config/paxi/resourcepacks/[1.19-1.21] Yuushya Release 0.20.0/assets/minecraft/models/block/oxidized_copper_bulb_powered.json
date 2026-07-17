@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:block/copper_bulb_powered",
+	"textures": {
+		"0": "block/oxidized_copper",
+		"1": "block/oxidized_chiseled_copper",
+		"3": "block/oxidized_copper_bulb",
+		"particle": "block/oxidized_copper"
+	}
+}

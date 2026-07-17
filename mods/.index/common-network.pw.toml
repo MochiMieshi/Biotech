@@ -1,0 +1,18 @@
+filename = 'common-networking-fabric-1.0.6-1.20.1.jar'
+name = 'Common Network'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.6-1.20.1'
+
+[download]
+hash = '23805d01173f4c23be00c9ac2713da0b5a113c6fd40fb6cb0da243561ba2394456cabadda9735bf32574d3b4302e18cf77a8ca5aafe017a6146baeef74a797c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HIuqnQpi/versions/dqeVoHmO/common-networking-fabric-1.0.6-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'HIuqnQpi'
+version = 'dqeVoHmO'

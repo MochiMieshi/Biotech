@@ -1,0 +1,964 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "north"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "south"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "west"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "left",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "middle",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "right",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "inner",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "outer",
+			"pos": "none",
+			"facing": "east"
+		},
+		"Name": "yuushya:couch_brown_wool"
+	}
+]
