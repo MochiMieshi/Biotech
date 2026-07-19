@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/cabinet_open",
+  "textures": {
+    "0": "redeco:block/cabinet/warped_cabinet",
+    "1": "redeco:block/cabinet_doors_warped",
+    "particle": "redeco:block/cabinet/warped_cabinet"
+  }
+}

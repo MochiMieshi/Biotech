@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "natures_spirit:block/fir_planks"},
+			{"model": "natures_spirit:block/fir_planks1"},
+			{"model": "natures_spirit:block/fir_planks2"}
+		]
+	}
+}

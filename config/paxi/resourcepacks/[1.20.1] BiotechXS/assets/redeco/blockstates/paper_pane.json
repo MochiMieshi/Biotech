@@ -1,0 +1,389 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side"
+      },
+      "when": {
+        "north": "true",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt"
+      },
+      "when": {
+        "south": "true",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt",
+        "y": 90
+      },
+      "when": {
+        "west": "true",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside"
+      },
+      "when": {
+        "north": "false",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt"
+      },
+      "when": {
+        "east": "false",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt",
+        "y": 90
+      },
+      "when": {
+        "south": "false",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside",
+        "y": 270
+      },
+      "when": {
+        "west": "false",
+	"design": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_double"
+      },
+      "when": {
+        "north": "true",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_double",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_double"
+      },
+      "when": {
+        "south": "true",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_double",
+        "y": 90
+      },
+      "when": {
+        "west": "true",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_double"
+      },
+      "when": {
+        "north": "false",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_double"
+      },
+      "when": {
+        "east": "false",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_double",
+        "y": 90
+      },
+      "when": {
+        "south": "false",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_double",
+        "y": 270
+      },
+      "when": {
+        "west": "false",
+	"design": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_four"
+      },
+      "when": {
+        "north": "true",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_four",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_four"
+      },
+      "when": {
+        "south": "true",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_four",
+        "y": 90
+      },
+      "when": {
+        "west": "true",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_four"
+      },
+      "when": {
+        "north": "false",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_four"
+      },
+      "when": {
+        "east": "false",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_four",
+        "y": 90
+      },
+      "when": {
+        "south": "false",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_four",
+        "y": 270
+      },
+      "when": {
+        "west": "false",
+	"design": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_bamboo"
+      },
+      "when": {
+        "north": "true",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_bamboo",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_bamboo"
+      },
+      "when": {
+        "south": "true",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_bamboo",
+        "y": 90
+      },
+      "when": {
+        "west": "true",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_bamboo"
+      },
+      "when": {
+        "north": "false",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_bamboo"
+      },
+      "when": {
+        "east": "false",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_bamboo",
+        "y": 90
+      },
+      "when": {
+        "south": "false",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_bamboo",
+        "y": 270
+      },
+      "when": {
+        "west": "false",
+	"design": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_petals"
+      },
+      "when": {
+        "north": "true",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_petals",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_petals"
+      },
+      "when": {
+        "south": "true",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_side_alt_petals",
+        "y": 90
+      },
+      "when": {
+        "west": "true",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_petals"
+      },
+      "when": {
+        "north": "false",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_petals"
+      },
+      "when": {
+        "east": "false",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_alt_petals",
+        "y": 90
+      },
+      "when": {
+        "south": "false",
+	"design": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "redeco:block/paper_pane_noside_petals",
+        "y": 270
+      },
+      "when": {
+        "west": "false",
+	"design": 4
+      }
+    }
+  ]
+}

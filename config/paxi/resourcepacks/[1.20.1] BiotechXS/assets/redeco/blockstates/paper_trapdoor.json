@@ -1,0 +1,329 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_bottom",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_top",
+      "y": 90
+    },
+    "facing=east,half=top,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_bottom"
+    },
+    "facing=north,half=bottom,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open"
+    },
+    "facing=north,half=top,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_top"
+    },
+    "facing=north,half=top,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_bottom",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_top",
+      "y": 180
+    },
+    "facing=south,half=top,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_bottom",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,design=0": {
+      "model": "redeco:block/paper_trapdoor_top",
+      "y": 270
+    },
+    "facing=west,half=top,open=true,design=0": {
+      "model": "redeco:block/paper_trapdoor_open",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=bottom,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_bottom_double",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_top_double",
+      "y": 90
+    },
+    "facing=east,half=top,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_bottom_double"
+    },
+    "facing=north,half=bottom,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double"
+    },
+    "facing=north,half=top,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_top_double"
+    },
+    "facing=north,half=top,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_bottom_double",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_top_double",
+      "y": 180
+    },
+    "facing=south,half=top,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_bottom_double",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,design=1": {
+      "model": "redeco:block/paper_trapdoor_top_double",
+      "y": 270
+    },
+    "facing=west,half=top,open=true,design=1": {
+      "model": "redeco:block/paper_trapdoor_open_double",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=bottom,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_bottom_four",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_top_four",
+      "y": 90
+    },
+    "facing=east,half=top,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,design=2_four": {
+      "model": "redeco:block/paper_trapdoor_bottom"
+    },
+    "facing=north,half=bottom,open=true,design=2_four": {
+      "model": "redeco:block/paper_trapdoor_open"
+    },
+    "facing=north,half=top,open=false,design=2_four": {
+      "model": "redeco:block/paper_trapdoor_top"
+    },
+    "facing=north,half=top,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_bottom_four",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_top_four",
+      "y": 180
+    },
+    "facing=south,half=top,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_bottom_four",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,design=2": {
+      "model": "redeco:block/paper_trapdoor_top_four",
+      "y": 270
+    },
+    "facing=west,half=top,open=true,design=2": {
+      "model": "redeco:block/paper_trapdoor_open_four",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=bottom,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_bottom_bamboo",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_top_bamboo",
+      "y": 90
+    },
+    "facing=east,half=top,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_bottom_bamboo"
+    },
+    "facing=north,half=bottom,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo"
+    },
+    "facing=north,half=top,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_top_bamboo"
+    },
+    "facing=north,half=top,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_bottom_bamboo",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_top_bamboo",
+      "y": 180
+    },
+    "facing=south,half=top,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_bottom_bamboo",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,design=3": {
+      "model": "redeco:block/paper_trapdoor_top_bamboo",
+      "y": 270
+    },
+    "facing=west,half=top,open=true,design=3": {
+      "model": "redeco:block/paper_trapdoor_open_bamboo",
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=bottom,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_bottom_petals",
+      "y": 90
+    },
+    "facing=east,half=bottom,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_top_petals",
+      "y": 90
+    },
+    "facing=east,half=top,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_bottom_petals"
+    },
+    "facing=north,half=bottom,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals"
+    },
+    "facing=north,half=top,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_top_petals"
+    },
+    "facing=north,half=top,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_bottom_petals",
+      "y": 180
+    },
+    "facing=south,half=bottom,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_top_petals",
+      "y": 180
+    },
+    "facing=south,half=top,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_bottom_petals",
+      "y": 270
+    },
+    "facing=west,half=bottom,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "y": 270
+    },
+    "facing=west,half=top,open=false,design=4": {
+      "model": "redeco:block/paper_trapdoor_top_petals",
+      "y": 270
+    },
+    "facing=west,half=top,open=true,design=4": {
+      "model": "redeco:block/paper_trapdoor_open_petals",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

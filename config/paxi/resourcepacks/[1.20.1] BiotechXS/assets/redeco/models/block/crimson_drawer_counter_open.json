@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter_open",
+  "textures": {
+    "0": "redeco:block/counters/crimson_counters",
+    "1": "redeco:block/drawer_crimson",
+    "2": "minecraft:block/crimson_stem",
+    "particle": "redeco:block/polishedplanks/polished_crimson_planks"
+  }
+}

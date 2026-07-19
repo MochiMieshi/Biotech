@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushie_buddies:block/plushie_zombified_piglin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plushie_buddies:block/plushie_zombified_piglin"
+    },
+    "facing=south": {
+      "model": "plushie_buddies:block/plushie_zombified_piglin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plushie_buddies:block/plushie_zombified_piglin",
+      "y": 270
+    }
+  }
+}

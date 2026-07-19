@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/display_case_open",
+  "textures": {
+    "0": "redeco:block/displaycase/birch_display_case",
+    "2": "redeco:block/displaycase/light_blue_liner",
+    "particle": "redeco:block/displaycase/birch_display_case"
+  }
+}

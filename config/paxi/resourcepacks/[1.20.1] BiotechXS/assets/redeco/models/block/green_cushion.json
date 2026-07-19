@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/cushion",
+  "textures": {
+    "0": "redeco:block/cushion/green_cushion",
+    "particle": "redeco:block/cushion/green_cushion"
+  }
+}

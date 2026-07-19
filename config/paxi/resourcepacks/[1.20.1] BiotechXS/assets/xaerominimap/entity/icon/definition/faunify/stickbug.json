@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "faunify:textures/entity/stickbug1.png": "outlined_sprite:faunify/stickbug1.png",
+        "faunify:textures/entity/stickbug2.png": "outlined_sprite:faunify/stickbug2.png",
+        "faunify:textures/entity/stickbug3.png": "outlined_sprite:faunify/stickbug3.png",
+        "faunify:textures/entity/stickbug4.png": "outlined_sprite:faunify/stickbug4.png",
+        "faunify:textures/entity/stickbug5.png": "outlined_sprite:faunify/stickbug5.png",
+        "default": "outlined_sprite:faunify/stickbug1.png"
+    }
+}

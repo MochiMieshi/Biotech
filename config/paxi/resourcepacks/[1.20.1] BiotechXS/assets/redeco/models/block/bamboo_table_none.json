@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/table_none",
+  "textures": {
+    "0": "redeco:block/table/bamboo_table",
+    "particle": "redeco:block/table/bamboo_table"
+  }
+}

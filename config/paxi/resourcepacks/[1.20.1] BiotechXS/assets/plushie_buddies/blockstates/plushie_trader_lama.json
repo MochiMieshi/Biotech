@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushie_buddies:block/plushie_trader_lama",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plushie_buddies:block/plushie_trader_lama"
+    },
+    "facing=south": {
+      "model": "plushie_buddies:block/plushie_trader_lama",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plushie_buddies:block/plushie_trader_lama",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=north,north=false,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf" },
+    "facing=north,north=true,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf" },
+    "facing=north,north=false,south=false,east=true,west=true": { "model": "redeco:block/dark_oak_shelf_middle" },
+    "facing=north,north=false,south=false,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_left" },
+    "facing=north,north=false,south=false,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_right" },
+    "facing=north,north=true,south=false,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_corner" },
+    "facing=north,north=true,south=false,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_corner", "y": 90 },
+
+    "facing=south,north=false,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf", "y": 180 },
+    "facing=south,north=false,south=true,east=false,west=false": { "model": "redeco:block/dark_oak_shelf", "y": 180 },
+    "facing=south,north=false,south=false,east=true,west=true": { "model": "redeco:block/dark_oak_shelf_middle", "y": 180 },
+    "facing=south,north=false,south=false,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_right", "y": 180 },
+    "facing=south,north=false,south=false,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_left", "y": 180 },
+    "facing=south,north=false,south=true,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_corner", "y": 270 },
+    "facing=south,north=false,south=true,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_corner", "y": 180 },
+
+    "facing=east,north=false,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf", "y": 90 },
+    "facing=east,north=false,south=false,east=true,west=false": { "model": "redeco:block/dark_oak_shelf", "y": 90 },
+    "facing=east,north=true,south=true,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_middle", "y": 90 },
+    "facing=east,north=true,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_right", "y": 90 },
+    "facing=east,north=false,south=true,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_left", "y": 90 },
+    "facing=east,north=true,south=false,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_corner", "y": 90 },
+    "facing=east,north=false,south=true,east=true,west=false": { "model": "redeco:block/dark_oak_shelf_corner", "y": 180 },
+
+    "facing=west,north=false,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf", "y": 270 },
+    "facing=west,north=false,south=false,east=false,west=true": { "model": "redeco:block/dark_oak_shelf", "y": 270 },
+    "facing=west,north=true,south=true,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_middle", "y": 270 },
+    "facing=west,north=false,south=true,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_right", "y": 270 },
+    "facing=west,north=true,south=false,east=false,west=false": { "model": "redeco:block/dark_oak_shelf_left", "y": 270 },
+    "facing=west,north=false,south=true,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_corner", "y": 270 },
+    "facing=west,north=true,south=false,east=false,west=true": { "model": "redeco:block/dark_oak_shelf_corner" }
+  }
+}

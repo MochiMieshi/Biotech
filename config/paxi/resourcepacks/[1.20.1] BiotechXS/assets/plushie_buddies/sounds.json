@@ -1,0 +1,10 @@
+{
+  "plushie_sound": {
+    "sounds": [
+      {
+        "name": "plushie_buddies:plushie_sound",
+        "stream": true
+      }
+    ]
+  }
+}

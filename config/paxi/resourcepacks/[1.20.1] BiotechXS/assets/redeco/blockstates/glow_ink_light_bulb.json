@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "redeco:block/glow_ink_light_bulb_hanging"
+    },
+    "facing=east": {
+      "model": "redeco:block/glow_ink_light_bulb_wall",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "redeco:block/glow_ink_light_bulb_wall"
+    },
+    "facing=south": {
+      "model": "redeco:block/glow_ink_light_bulb_wall",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "redeco:block/glow_ink_light_bulb_ground"
+    },
+    "facing=west": {
+      "model": "redeco:block/glow_ink_light_bulb_wall",
+      "y": 270
+    }
+  }
+}

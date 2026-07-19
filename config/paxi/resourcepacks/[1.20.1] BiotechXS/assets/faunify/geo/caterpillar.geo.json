@@ -1,0 +1,69 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.silkworm",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "base",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "base",
+					"pivot": [0, 1.5, -4],
+					"cubes": [
+						{"origin": [-1.5, 0, -7], "size": [3, 3, 3], "uv": [14, 0]}
+					]
+				},
+				{
+					"name": "antennae",
+					"parent": "head",
+					"pivot": [0, 2.75, -6.75]
+				},
+				{
+					"name": "antennaleft",
+					"parent": "antennae",
+					"pivot": [1, 2.75, -6.75],
+					"rotation": [-45, 0, 0],
+					"cubes": [
+						{"origin": [1, 1.25, -8.75], "size": [0, 2, 2], "uv": [14, 6]}
+					]
+				},
+				{
+					"name": "antennaright",
+					"parent": "antennae",
+					"pivot": [-1, 2.75, -6.75],
+					"rotation": [-45, 0, 0],
+					"cubes": [
+						{"origin": [-1, 1.25, -8.75], "size": [0, 2, 2], "uv": [14, 6], "mirror": true}
+					]
+				},
+				{
+					"name": "bodyfront",
+					"parent": "base",
+					"pivot": [0, 1.25, -4],
+					"cubes": [
+						{"origin": [-1, 0.25, -3.85], "size": [2, 2, 5], "inflate": 0.201, "uv": [0, 0]},
+						{"origin": [-2, 0, -4.5], "size": [4, 3.25, 3], "inflate": 0.0001, "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "bodyback",
+					"parent": "bodyfront",
+					"pivot": [0, 1.25, 1.4],
+					"cubes": [
+						{"origin": [-1, 0.25, 1.55], "size": [2, 2, 5], "inflate": 0.2, "uv": [0, 7]}
+					]
+				}
+			]
+		}
+	]
+}

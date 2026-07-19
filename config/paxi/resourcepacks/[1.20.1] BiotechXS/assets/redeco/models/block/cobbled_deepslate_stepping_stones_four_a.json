@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/stepping_stones_four_a",
+  "textures": {
+    "0": "block/cobbled_deepslate",
+    "particle": "block/cobbled_deepslate"
+  }
+}

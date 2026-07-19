@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "faunify:textures/entity/mouse1.png": "outlined_sprite:faunify/mouse1.png",
+        "faunify:textures/entity/mouse2.png": "outlined_sprite:faunify/mouse2.png",
+        "faunify:textures/entity/mouse3.png": "outlined_sprite:faunify/mouse3.png",
+        "faunify:textures/entity/mouse4.png": "outlined_sprite:faunify/mouse4.png",
+        "faunify:textures/entity/mouse5.png": "outlined_sprite:faunify/mouse5.png",
+        "faunify:textures/entity/mouse6.png": "outlined_sprite:faunify/mouse6.png",
+        "faunify:textures/entity/mousealbino.png": "outlined_sprite:faunify/mousealbino.png",
+        "default": "outlined_sprite:faunify/mouse1.png"
+    }
+}

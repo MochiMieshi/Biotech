@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "faunify:textures/entity/millipede1.png": "outlined_sprite:faunify/millipede1.png",
+        "faunify:textures/entity/millipede2.png": "outlined_sprite:faunify/millipede2.png",
+        "faunify:textures/entity/millipede3.png": "outlined_sprite:faunify/millipede3.png",
+        "default": "outlined_sprite:faunify/millipede1.png"
+    }
+}

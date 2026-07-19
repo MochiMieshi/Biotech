@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/cabinet",
+  "textures": {
+    "0": "redeco:block/cabinet/mangrove_cabinet",
+    "1": "redeco:block/cabinet_doors_mangrove",
+    "particle": "redeco:block/cabinet/mangrove_cabinet"
+  }
+}

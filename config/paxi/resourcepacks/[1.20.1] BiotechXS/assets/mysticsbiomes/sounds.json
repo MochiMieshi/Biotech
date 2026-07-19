@@ -1,0 +1,136 @@
+{
+  "entity.red_panda.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.ambient",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.ambient"
+  },
+  "entity.red_panda.ambient_aggressive": {
+    "sounds": [
+      { "name": "minecraft:entity.panda.aggressive_ambient",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.ambient_aggressive"
+  },
+  "entity.red_panda.ambient_gloomy": {
+    "sounds": [
+      { "name": "minecraft:entity.panda.worried_ambient",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.ambient_gloomy"
+  },
+  "entity.red_panda.step": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.step",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.step"
+  },
+  "entity.red_panda.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.hurt",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.hurt"
+  },
+  "entity.red_panda.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.death",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.death"
+  },
+  "entity.red_panda.bite": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.bite",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.bite"
+  },
+  "entity.red_panda.spit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.spit",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.spit"
+  },
+  "entity.red_panda.sleep": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.sleep",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.sleep"
+  },
+  "entity.red_panda.shake": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.shake",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.shake"
+  },
+
+  "entity.red_panda.eat": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.eat",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.eat"
+  },
+  "entity.red_panda.pre_sneeze": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.pre_sneeze",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.pre_sneeze"
+  },
+  "entity.red_panda.sneeze": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.sneeze",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.red_panda.sneeze"
+  },
+  "block.butterfly_nest.enter": {
+    "sounds": [
+      {
+        "name": "minecraft:block.beehive.enter",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.butterfly_nest.enter"
+  },
+  "block.butterfly_nest.exit": {
+    "sounds": [
+      {
+        "name": "minecraft:block.beehive.exit",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.butterfly_nest.exit"
+  }
+}

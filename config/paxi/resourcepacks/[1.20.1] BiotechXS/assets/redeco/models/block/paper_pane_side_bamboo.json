@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "redeco:block/paperpane/paper_edge",
+    "pane": "redeco:block/paperpane/paper_pane_bamboo"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "faunify:textures/entity/silkmoth.png": "outlined_sprite:faunify/silkmoth.png",
+        "default": "outlined_sprite:faunify/silkmoth.png"
+    }
+}

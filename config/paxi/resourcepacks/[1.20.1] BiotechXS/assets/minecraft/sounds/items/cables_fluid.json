@@ -1,0 +1,6 @@
+{
+  "keys": [
+    "#more_sounds:cables_fluid"
+  ],
+  "soundEvent": "more_sounds:item.cable.fluid"
+}

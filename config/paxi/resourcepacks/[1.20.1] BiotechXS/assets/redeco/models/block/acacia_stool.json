@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/stool",
+  "textures": {
+    "0": "redeco:block/stool/acacia_stool",
+    "particle": "redeco:block/stool/acacia_stool"
+  }
+}

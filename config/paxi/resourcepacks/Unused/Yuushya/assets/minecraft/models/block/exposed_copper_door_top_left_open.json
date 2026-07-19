@@ -1,0 +1,8 @@
+{
+	"parent":"minecraft:block/copper_door_top_left_open",
+	"textures": {
+		"0": "block/exposed_copper",
+		"1": "block/exposed_chiseled_copper",
+		"particle": "block/exposed_copper"
+	}
+}

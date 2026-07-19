@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/shelf",
+  "textures": {
+    "0": "redeco:block/shelf/mangrove_shelf",
+    "1": "redeco:block/shelf/mangrove_shelf_support",
+    "particle": "redeco:block/shelf/mangrove_shelf"
+  }
+}

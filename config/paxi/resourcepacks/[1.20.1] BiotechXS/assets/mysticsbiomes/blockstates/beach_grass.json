@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mysticsbiomes:block/beach_grass",
+        "weight": 1
+      },
+      {
+        "model": "mysticsbiomes:block/beach_grass_variant",
+        "weight": 1
+      }
+    ]
+  }
+}

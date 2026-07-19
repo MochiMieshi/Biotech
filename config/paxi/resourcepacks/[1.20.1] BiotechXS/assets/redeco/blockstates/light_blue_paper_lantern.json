@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "hanging=true": 
+      { "model": "redeco:block/light_blue_paper_lantern" },
+    "hanging=false":
+      { "model": "redeco:block/light_blue_paper_lantern_floor" }
+  }
+}

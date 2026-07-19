@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "faunify:textures/entity/weevil_acorn.png": "outlined_sprite:faunify/weevil_acorn.png",
+        "faunify:textures/entity/weevil_common.png": "outlined_sprite:faunify/weevil_common.png",
+        "faunify:textures/entity/weevil_ground.png": "outlined_sprite:faunify/weevil_ground.png",
+        "default": "outlined_sprite:faunify/weevil_acorn.png"
+    }
+}

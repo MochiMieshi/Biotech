@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "redeco:block/bamboo_counter" },
+    "facing=east": { "model": "redeco:block/bamboo_counter", "y": 90 },
+    "facing=south": { "model": "redeco:block/bamboo_counter", "y": 180 },
+    "facing=west": { "model": "redeco:block/bamboo_counter", "y": 270 }
+  }
+}

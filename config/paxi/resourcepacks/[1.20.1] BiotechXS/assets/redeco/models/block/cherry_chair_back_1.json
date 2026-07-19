@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/chair",
+  "textures": {
+    "0": "redeco:block/chair/cherry_chair",
+    "2": "redeco:block/chair/cherry_back_1",
+    "particle": "redeco:block/chair/cherry_chair"
+  }
+}

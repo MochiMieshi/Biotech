@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/cabinet_counter",
+  "textures": {
+    "0": "redeco:block/counters/warped_counters",
+    "1": "redeco:block/cabinet_doors_warped",
+    "2": "minecraft:block/warped_stem",
+    "particle": "redeco:block/polishedplanks/polished_warped_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/table_west",
+  "textures": {
+    "0": "redeco:block/table/cherry_table",
+    "particle": "redeco:block/table/cherry_table"
+  }
+}

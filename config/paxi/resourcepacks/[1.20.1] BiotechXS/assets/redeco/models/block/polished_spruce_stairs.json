@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "redeco:block/polishedplanks/polished_spruce_planks",
+    "side": "redeco:block/polishedplanks/polished_spruce_planks",
+    "top": "redeco:block/polishedplanks/polished_spruce_planks"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "entity.villager.snore": {
+    "subtitle": "subtitles.subtle_effects.entity.villager.snore",
+    "sounds": [
+      {
+        "name": "subtle_effects:mob/villager/snore1",
+        "volume": 0.8
+      },
+      {
+        "name": "subtle_effects:mob/villager/snore2",
+        "volume": 0.8
+      },
+      {
+        "name": "subtle_effects:mob/villager/snore3",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.player.snore": {
+    "subtitle": "subtitles.subtle_effects.entity.player.snore",
+    "sounds": [
+      "subtle_effects:entity/player/snore1",
+      "subtle_effects:entity/player/snore2",
+      "subtle_effects:entity/player/snore3"
+    ]
+  },
+  "entity.player.stomach_growl": {
+    "subtitle": "subtitles.subtle_effects.entity.player.stomach_growl",
+    "sounds": [
+      "subtle_effects:entity/player/stomach_growl"
+    ]
+  },
+  "entity.player.heartbeat": {
+    "subtitle": "subtitles.subtle_effects.entity.player.heartbeat",
+    "sounds": [
+      "subtle_effects:entity/player/heartbeat"
+    ]
+  },
+  "entity.egg.break": {
+    "subtitle": "subtitles.subtle_effects.entity.egg.break",
+    "sounds": [
+      {
+        "name": "entity.turtle.egg_break",
+        "type": "event",
+        "pitch": 1.7
+      }
+    ]
+  },
+  "entity.snowball.poof": {
+    "subtitle": "subtitles.subtle_effects.entity.snowball.poof",
+    "sounds": [
+      {
+        "name": "entity.snow_golem.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.cow.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.cow.eat",
+    "sounds": [
+      {
+        "name": "entity.mooshroom.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.chicken.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.chicken.eat",
+    "sounds": [
+      {
+        "name": "entity.parrot.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.ocelot.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.ocelot.eat",
+    "sounds": [
+      {
+        "name": "entity.cat.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.sheep.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.sheep.eat",
+    "sounds": [
+      {
+        "name": "entity.goat.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.axolotl.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.axolotl.eat",
+    "sounds": [
+      {
+        "name": "entity.cat.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.bee.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.bee.eat",
+    "sounds": [
+      {
+        "name": "block.cobweb.break",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "entity.tadpole.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.tadpole.eat",
+    "sounds": [
+      {
+        "name": "entity.cat.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.rabbit.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.rabbit.eat",
+    "sounds": [
+      {
+        "name": "entity.cat.eat",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.turtle.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.turtle.eat",
+    "sounds": [
+      {
+        "name": "entity.cat.eat",
+        "type": "event",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "entity.hoglin.eat": {
+    "subtitle": "subtitles.subtle_effects.entity.hoglin.eat",
+    "sounds": [
+      {
+        "name": "entity.generic.eat",
+        "type": "event",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "block.amethyst_cluster.chime": {
+    "subtitle": "subtitles.block.amethyst_block.chime",
+    "sounds": [
+      {
+        "name": "block.amethyst_block.step",
+        "type": "event"
+      }
+    ]
+  },
+  "block.campfire.sizzle": {
+    "subtitle": "subtitles.subtle_effects.block.campfire.sizzle",
+    "sounds": [
+      "subtle_effects:block/campfire/sizzle0",
+      "subtle_effects:block/campfire/sizzle1"
+    ]
+  },
+  "block.water.drip": {
+    "subtitle": "subtitles.subtle_effects.block.water.drip",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water",
+        "type": "event"
+      }
+    ]
+  },
+  "block.lava.drip": {
+    "subtitle": "subtitles.subtle_effects.block.lava.drip",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_lava",
+        "type": "event"
+      }
+    ]
+  },
+  "block.water.drip_into_fluid": {
+    "subtitle": "subtitles.subtle_effects.block.water.drip_into_fluid",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water_into_cauldron",
+        "type": "event"
+      }
+    ]
+  },
+  "block.lava.drip_into_fluid": {
+    "subtitle": "subtitles.subtle_effects.block.lava.drip_into_fluid",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_lava_into_cauldron",
+        "type": "event"
+      }
+    ]
+  },
+  "block.cauldron.clean_item": {
+    "subtitle": "subtitles.subtle_effects.block.cauldron.clean_item",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.work_leatherworker",
+        "type": "event"
+      }
+    ]
+  },
+  "block.monster_spawner.ambient": {
+    "subtitle": "subtitles.subtle_effects.block.monster_spawner.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:block.trial_spawner.ambient",
+        "type": "event"
+      }
+    ]
+  },
+  "block.monster_spawner.spawn_mob": {
+    "subtitle": "subtitles.subtle_effects.block.monster_spawner.spawn_mob",
+    "sounds": [
+      {
+        "name": "minecraft:block.trial_spawner.spawn_mob",
+        "type": "event"
+      }
+    ]
+  },
+  "environment.geyser.whoosh": {
+    "subtitle": "subtitles.subtle_effects.environment.geyser.whoosh",
+    "sounds": [
+      "minecraft:mob/ghast/fireball4"
+    ]
+  },
+  "environment.geyser.hiss": {
+    "subtitle": "subtitles.subtle_effects.environment.geyser.hiss",
+    "sounds": [
+      "minecraft:random/fizz"
+    ]
+  },
+  "environment.firefly.buzz": {
+    "subtitle": "subtitles.subtle_effects.environment.firefly.buzz",
+    "sounds": [
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush1",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush2",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush3",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush4",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush5",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush6",
+        "volume": 4.0
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush7",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush8",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush9",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush10",
+        "volume": 4.0,
+        "weight": 2
+      },
+      {
+        "name": "subtle_effects:block/firefly_bush/firefly_bush11",
+        "volume": 4.0
+      }
+    ]
+  },
+  "item.spawn_egg.spawn_mob": {
+    "subtitle": "subtitles.subtle_effects.item.spawn_egg.spawn_mob",
+    "sounds": [
+      {
+        "name": "entity.turtle.egg_break",
+        "type": "event",
+        "pitch": 1.7
+      }
+    ]
+  }
+}

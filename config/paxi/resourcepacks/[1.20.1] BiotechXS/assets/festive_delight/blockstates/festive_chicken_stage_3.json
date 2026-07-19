@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "festive_delight:block/festive_chicken_stage_3"
+    },
+    "facing=east": {
+      "model": "festive_delight:block/festive_chicken_stage_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "festive_delight:block/festive_chicken_stage_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "festive_delight:block/festive_chicken_stage_3",
+      "y": 270
+    }
+  }
+}

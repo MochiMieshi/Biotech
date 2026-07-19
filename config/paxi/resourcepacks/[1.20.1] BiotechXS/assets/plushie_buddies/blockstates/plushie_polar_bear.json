@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushie_buddies:block/plushie_polar_bear",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plushie_buddies:block/plushie_polar_bear"
+    },
+    "facing=south": {
+      "model": "plushie_buddies:block/plushie_polar_bear",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plushie_buddies:block/plushie_polar_bear",
+      "y": 270
+    }
+  }
+}

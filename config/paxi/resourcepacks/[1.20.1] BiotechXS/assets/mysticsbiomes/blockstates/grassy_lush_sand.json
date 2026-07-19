@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mysticsbiomes:block/grassy_lush_sand"
+      },
+      {
+        "model": "mysticsbiomes:block/grassy_lush_sand",
+        "y": 90
+      },
+      {
+        "model": "mysticsbiomes:block/grassy_lush_sand",
+        "y": 180
+      },
+      {
+        "model": "mysticsbiomes:block/grassy_lush_sand",
+        "y": 270
+      }
+    ]
+  }
+}

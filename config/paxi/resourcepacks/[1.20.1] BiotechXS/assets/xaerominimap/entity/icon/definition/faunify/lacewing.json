@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "faunify:textures/entity/lacewing.png": "outlined_sprite:faunify/lacewing.png",
+        "default": "outlined_sprite:faunify/lacewing.png"
+    }
+}

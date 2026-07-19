@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,attached=false": { "model": "redeco:block/spyglass_stand" },
+    "facing=east,attached=false": { "model": "redeco:block/spyglass_stand", "y": 90 },
+    "facing=south,attached=false": { "model": "redeco:block/spyglass_stand", "y": 180 },
+    "facing=west,attached=false": { "model": "redeco:block/spyglass_stand", "y": 270 },
+    "facing=north,attached=true": { "model": "redeco:block/spyglass_stand" },
+    "facing=east,attached=true": { "model": "redeco:block/spyglass_stand", "y": 90 },
+    "facing=south,attached=true": { "model": "redeco:block/spyglass_stand", "y": 180 },
+    "facing=west,attached=true": { "model": "redeco:block/spyglass_stand", "y": 270 }
+  }
+}

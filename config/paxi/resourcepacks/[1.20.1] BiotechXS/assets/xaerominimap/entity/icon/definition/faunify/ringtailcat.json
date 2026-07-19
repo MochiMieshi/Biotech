@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "faunify:textures/entity/ringtailcat1.png": "outlined_sprite:faunify/ringtailcat1.png",
+        "faunify:textures/entity/sleep/ringtailcat1.png": "outlined_sprite:faunify/ringtailcat1.png",
+        "default": "outlined_sprite:faunify/ringtailcat1.png"
+    }
+}

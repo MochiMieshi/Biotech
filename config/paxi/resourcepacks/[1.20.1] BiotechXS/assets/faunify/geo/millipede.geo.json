@@ -1,0 +1,103 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "base",
+					"pivot": [0, 3, 0]
+				},
+				{
+					"name": "head",
+					"parent": "base",
+					"pivot": [0, 3, 2],
+					"cubes": [
+						{"origin": [-3, 0.5, -2.75], "size": [6, 5, 5], "inflate": -0.25, "uv": [0, 42]},
+						{"origin": [-4.5, 0.9, -2.5], "size": [9, 0, 4.5], "uv": [22, 42]}
+					]
+				},
+				{
+					"name": "face",
+					"parent": "head",
+					"pivot": [0, 2, -2.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 0.751, -3.75], "size": [5, 3, 2], "uv": [48, 7]}
+					]
+				},
+				{
+					"name": "antennae",
+					"parent": "face",
+					"pivot": [0, 3, -4]
+				},
+				{
+					"name": "antennaleft",
+					"parent": "antennae",
+					"pivot": [2.25, 3, -3.25],
+					"rotation": [18.29388, -16.66577, -5.41615],
+					"cubes": [
+						{"origin": [0.25, 3, -9.25], "size": [4, 0, 6], "uv": [22, 46]}
+					]
+				},
+				{
+					"name": "antennaright",
+					"parent": "antennae",
+					"pivot": [-2.25, 3, -3.25],
+					"rotation": [18.29388, 16.66577, 5.41615],
+					"cubes": [
+						{"origin": [-4.25, 3, -9.25], "size": [4, 0, 6], "uv": [42, 46]}
+					]
+				},
+				{
+					"name": "headlegs",
+					"parent": "head",
+					"pivot": [0, 3, 2]
+				},
+				{
+					"name": "head_leg1",
+					"parent": "headlegs",
+					"pivot": [2, 1, 1],
+					"rotation": [0, 0, -57.5],
+					"cubes": [
+						{"origin": [2, -1, 0.5], "size": [0, 2, 1], "uv": [2, 52]}
+					]
+				},
+				{
+					"name": "head_leg2",
+					"parent": "headlegs",
+					"pivot": [2, 1, -1],
+					"rotation": [0, 0, -57.5],
+					"cubes": [
+						{"origin": [2, -1, -1.5], "size": [0, 2, 1], "uv": [4, 52]}
+					]
+				},
+				{
+					"name": "head_leg3",
+					"parent": "headlegs",
+					"pivot": [-2, 1, 1],
+					"rotation": [0, 0, 57.5],
+					"cubes": [
+						{"origin": [-2, -1, 0.5], "size": [0, 2, 1], "uv": [6, 52]}
+					]
+				},
+				{
+					"name": "head_leg4",
+					"parent": "headlegs",
+					"pivot": [-2, 1, -1],
+					"rotation": [0, 0, 57.5],
+					"cubes": [
+						{"origin": [-2, -1, -1.5], "size": [0, 2, 1], "uv": [8, 52]}
+					]
+				}
+			]
+		}
+	]
+}

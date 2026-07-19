@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "redeco:block/amethyst_light_bulb_hanging"
+    },
+    "facing=east": {
+      "model": "redeco:block/amethyst_light_bulb_wall",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "redeco:block/amethyst_light_bulb_wall"
+    },
+    "facing=south": {
+      "model": "redeco:block/amethyst_light_bulb_wall",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "redeco:block/amethyst_light_bulb_ground"
+    },
+    "facing=west": {
+      "model": "redeco:block/amethyst_light_bulb_wall",
+      "y": 270
+    }
+  }
+}

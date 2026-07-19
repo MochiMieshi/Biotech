@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/shelf_right",
+  "textures": {
+    "0": "redeco:block/shelf/bamboo_shelf",
+    "1": "redeco:block/shelf/bamboo_shelf_support",
+    "particle": "redeco:block/shelf/bamboo_shelf"
+  }
+}

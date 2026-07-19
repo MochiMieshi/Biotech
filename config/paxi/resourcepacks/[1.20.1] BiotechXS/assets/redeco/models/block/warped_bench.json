@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/bench",
+  "textures": {
+    "0": "redeco:block/bench/warped_bench",
+    "particle": "redeco:block/bench/warped_bench"
+  }
+}

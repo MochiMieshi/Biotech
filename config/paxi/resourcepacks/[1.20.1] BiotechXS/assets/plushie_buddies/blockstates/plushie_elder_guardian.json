@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plushie_buddies:block/plushie_elder_guardian",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plushie_buddies:block/plushie_elder_guardian"
+    },
+    "facing=south": {
+      "model": "plushie_buddies:block/plushie_elder_guardian",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plushie_buddies:block/plushie_elder_guardian",
+      "y": 270
+    }
+  }
+}

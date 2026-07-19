@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/counter",
+  "textures": {
+    "0": "redeco:block/counters/cherry_counters",
+    "1": "block/cherry_log",
+    "particle": "redeco:block/polishedplanks/polished_cherry_planks"
+  }
+}

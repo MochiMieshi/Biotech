@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/upholstered_wood_pedestal",
+  "textures": {
+    "0": "redeco:block/pedestal/crimson_pedestal",
+    "1": "redeco:block/pedestal/magenta_pedestal_upholstery",
+    "particle": "redeco:block/pedestal/crimson_pedestal"
+  }
+}

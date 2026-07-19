@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "upholstery=none": { "model": "redeco:block/bamboo_stool"},
+    "upholstery=white": { "model": "redeco:block/white_upholstered_bamboo_stool"},
+    "upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_bamboo_stool"},
+    "upholstery=gray": { "model": "redeco:block/gray_upholstered_bamboo_stool"},
+    "upholstery=black": { "model": "redeco:block/black_upholstered_bamboo_stool"},
+    "upholstery=lime": { "model": "redeco:block/lime_upholstered_bamboo_stool"},
+    "upholstery=green": { "model": "redeco:block/green_upholstered_bamboo_stool"},
+    "upholstery=cyan": { "model": "redeco:block/cyan_upholstered_bamboo_stool"},
+    "upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_bamboo_stool"},
+    "upholstery=blue": { "model": "redeco:block/blue_upholstered_bamboo_stool"},
+    "upholstery=purple": { "model": "redeco:block/purple_upholstered_bamboo_stool"},
+    "upholstery=magenta": { "model": "redeco:block/magenta_upholstered_bamboo_stool"},
+    "upholstery=pink": { "model": "redeco:block/pink_upholstered_bamboo_stool"},
+    "upholstery=red": { "model": "redeco:block/red_upholstered_bamboo_stool"},
+    "upholstery=orange": { "model": "redeco:block/orange_upholstered_bamboo_stool"},
+    "upholstery=yellow": { "model": "redeco:block/yellow_upholstered_bamboo_stool"},
+    "upholstery=brown": { "model": "redeco:block/brown_upholstered_bamboo_stool"}
+  }
+}

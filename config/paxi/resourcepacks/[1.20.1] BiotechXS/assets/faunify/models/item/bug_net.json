@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "faunify:item/bug_net"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "faunify:has_entity": 1
+            },
+            "model": "faunify:item/bug_net_full"
+        }
+    ]
+}

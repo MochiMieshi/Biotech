@@ -1,0 +1,14 @@
+{
+  "states": [
+    {
+      "name": "minecraft:soul_lantern"
+    }
+  ],
+  "options": {
+    "preset": "lantern",
+    "color": {
+      "type": "subtle_effects:preset",
+      "preset": "soul_sparks"
+    }
+  }
+}

@@ -26,6 +26,8 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:torch",
+    "item:minecraft:coal",
     "item:minecraft:dirt",
     "item:minecraft:coarse_dirt",
     "item:travelersbackpack:feeding_upgrade",
@@ -41,6 +43,25 @@
     "item:travelersbackpack:crafting_upgrade"
   ],
   "craft_history": [
+    "minecraft:stone_hoe",
+    "farm_and_charm:seeds_lettuce",
+    "minecraft:wooden_hoe",
+    "minecraft:acacia_trapdoor",
+    "minecraft:bucket",
+    "minecraft:acacia_planks",
+    "minecraft:furnace",
+    "minecraft:crafting_table",
+    "vinery:oak_planks",
+    "minecraft:acacia_door",
+    "minecraft:stone_pickaxe",
+    "minecraft:white_wool_from_string",
+    "minecraft:stone_axe",
+    "minecraft:acacia_slab",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_shovel",
+    "vinery:seed_from_white_grape",
+    "minecraft:wooden_axe",
+    "twigs:stick_from_twig",
     "minecraft:oak_planks",
     "minecraft:book",
     "minecraft:paper",
@@ -55,8 +76,7 @@
     "travelersbackpack:pickup_upgrade",
     "minecraft:hopper",
     "travelersbackpack:crafting_upgrade",
-    "minecraft:chest",
-    "minecraft:crafting_table"
+    "minecraft:chest"
   ],
   "recipe_defaults": {
     "added": [],

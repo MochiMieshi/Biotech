@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "BiotechXS pack, credits to the author of the Yuushya, Ashen, and Ashen Compats packs"
+  },
+  "fusion": {
+      "overrides_folder": "fusion"
+  }
+}

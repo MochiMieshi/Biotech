@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/cabinet",
+  "textures": {
+    "0": "redeco:block/cabinet/acacia_cabinet",
+    "1": "redeco:block/cabinet_doors_acacia",
+    "particle": "redeco:block/cabinet/acacia_cabinet"
+  }
+}

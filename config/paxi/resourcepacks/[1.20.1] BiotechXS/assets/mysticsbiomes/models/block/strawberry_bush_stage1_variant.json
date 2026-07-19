@@ -1,0 +1,111 @@
+{
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"plant": "mysticsbiomes:block/strawberry_bush_stage1_variant",
+		"layer": "mysticsbiomes:block/strawberry_bush_layer",
+		"particle": "mysticsbiomes:block/strawberry_bush_stage1_variant"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 8],
+			"to": [17, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#plant"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [8, 0, -1],
+			"to": [8, 16, 17],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#plant"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [6, 3, 3],
+			"to": [10, 3, 6],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 3, 4]},
+			"faces": {
+				"up": {"uv": [10, 3, 6, 6], "rotation": 180, "texture": "#layer"},
+				"down": {"uv": [10, 6, 6, 3], "rotation": 180, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [6, 2, 2],
+			"to": [10, 2, 6],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 2, 5]},
+			"faces": {
+				"up": {"uv": [10, 11, 6, 15], "rotation": 180, "texture": "#layer"},
+				"down": {"uv": [6, 11, 10, 15], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [3, 3, 6],
+			"to": [6, 3, 10],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, 3, 8]},
+			"faces": {
+				"up": {"uv": [10, 3, 6, 6], "rotation": 90, "texture": "#layer"},
+				"down": {"uv": [10, 6, 6, 3], "rotation": 270, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [2, 2, 6],
+			"to": [6, 2, 10],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5, 2, 8]},
+			"faces": {
+				"up": {"uv": [10, 11, 6, 15], "rotation": 90, "texture": "#layer"},
+				"down": {"uv": [6, 11, 10, 15], "rotation": 90, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [6, 3, 10],
+			"to": [10, 3, 13],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 3, 12]},
+			"faces": {
+				"up": {"uv": [10, 3, 6, 6], "texture": "#layer"},
+				"down": {"uv": [10, 6, 6, 3], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [6, 2, 10.35],
+			"to": [10, 2, 14.35],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 2, 11.35]},
+			"faces": {
+				"up": {"uv": [10, 11, 6, 15], "texture": "#layer"},
+				"down": {"uv": [6, 11, 10, 15], "rotation": 180, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [10, 3, 6],
+			"to": [13, 3, 10],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [12, 3, 8]},
+			"faces": {
+				"up": {"uv": [10, 3, 6, 6], "rotation": 270, "texture": "#layer"},
+				"down": {"uv": [10, 6, 6, 3], "rotation": 90, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [10.2, 2, 6],
+			"to": [14.2, 2, 10],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [11.2, 2, 8]},
+			"faces": {
+				"up": {"uv": [10, 11, 6, 15], "rotation": 270, "texture": "#layer"},
+				"down": {"uv": [6, 11, 10, 15], "rotation": 270, "texture": "#layer"}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "redeco:block/brown_awning" },
+    "facing=east": { "model": "redeco:block/brown_awning", "y": 90 },
+    "facing=south": { "model": "redeco:block/brown_awning", "y": 180 },
+    "facing=west": { "model": "redeco:block/brown_awning", "y": 270 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter_open",
+  "textures": {
+    "0": "redeco:block/counters/mangrove_counters",
+    "1": "redeco:block/drawer_mangrove",
+    "2": "minecraft:block/mangrove_log",
+    "particle": "redeco:block/polishedplanks/polished_mangrove_planks"
+  }
+}

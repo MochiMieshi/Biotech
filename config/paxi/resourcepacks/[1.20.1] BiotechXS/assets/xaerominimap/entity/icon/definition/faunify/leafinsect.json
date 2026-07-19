@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "faunify:textures/entity/leafinsect1.png": "outlined_sprite:faunify/leafinsect1.png",
+        "faunify:textures/entity/leafinsect2.png": "outlined_sprite:faunify/leafinsect2.png",
+        "faunify:textures/entity/leafinsect3.png": "outlined_sprite:faunify/leafinsect3.png",
+        "default": "outlined_sprite:faunify/leafinsect1.png"
+    }
+}

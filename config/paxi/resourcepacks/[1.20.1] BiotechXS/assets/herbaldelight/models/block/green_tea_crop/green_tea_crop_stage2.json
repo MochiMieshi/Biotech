@@ -1,0 +1,6 @@
+{
+  "parent": "herbaldelight:block/untinted_stem",
+  "textures": {
+    "stem": "herbaldelight:block/green_tea_crop_stage2"
+  }
+}

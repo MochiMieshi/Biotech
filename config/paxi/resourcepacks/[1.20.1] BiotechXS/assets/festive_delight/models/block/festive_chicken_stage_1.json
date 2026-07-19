@@ -1,0 +1,12 @@
+{
+  "parent": "festive_delight:custom/festive_chicken_block_stage1",
+  "textures": {
+    "all": "festive_delight:block/festive_chicken_body",
+    "particle": "festive_delight:block/festive_chicken_body",
+    "gibs": "festive_delight:block/festive_chicken_gibs",
+    "tray_top": "festive_delight:block/tray_rice_berry_garnish",
+    "tray_bottom": "festive_delight:block/tray_bottom",
+    "body": "festive_delight:block/festive_chicken_eaten"
+  },
+  "render_type": "translucent"
+}

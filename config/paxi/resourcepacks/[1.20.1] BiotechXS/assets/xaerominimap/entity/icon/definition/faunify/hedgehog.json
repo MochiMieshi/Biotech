@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "faunify:textures/entity/hedgehog1.png": "outlined_sprite:faunify/hedgehog1.png",
+        "faunify:textures/entity/hedgehog2.png": "outlined_sprite:faunify/hedgehog2.png",
+        "faunify:textures/entity/hedgehog3.png": "outlined_sprite:faunify/hedgehog3.png",
+        "faunify:textures/entity/hedgehog_sonic.png": "outlined_sprite:faunify/hedgehog_sonic.png",
+        "faunify:textures/entity/hedgehog_shadow.png": "outlined_sprite:faunify/hedgehog_shadow.png",
+        "faunify:textures/entity/hedgehog_amy.png": "outlined_sprite:faunify/hedgehog_amy.png",
+        "faunify:textures/entity/hedgehog_silver.png": "outlined_sprite:faunify/hedgehog_silver.png",
+        "faunify:textures/entity/silver/hedgehog1.png": "outlined_sprite:faunify/hedgehog1.png",
+        "faunify:textures/entity/silver/hedgehog2.png": "outlined_sprite:faunify/hedgehog2.png",
+        "faunify:textures/entity/silver/hedgehog3.png": "outlined_sprite:faunify/hedgehog3.png",
+        "faunify:textures/entity/silver/hedgehog_sonic.png": "outlined_sprite:faunify/hedgehog_sonic.png",
+        "faunify:textures/entity/silver/hedgehog_shadow.png": "outlined_sprite:faunify/hedgehog_shadow.png",
+        "faunify:textures/entity/silver/hedgehog_amy.png": "outlined_sprite:faunify/hedgehog_amy.png",
+        "faunify:textures/entity/silver/hedgehog_silver.png": "outlined_sprite:faunify/hedgehog_silver.png",
+        "default": "outlined_sprite:faunify/hedgehog1.png"
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "redeco:block/paperdoor/paper_door_side",
+		"particle": "redeco:block/paperdoor/paper_door_bottom_four",
+		"bottom": "redeco:block/paperdoor/paper_door_bottom_four"
+	},
+	"elements": [
+		{
+			"from": [13, 0.02, 4.98],
+			"to": [29, 16.02, 6.98],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"east": {"uv": [7, 0, 9, 16], "texture": "#1"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#1"},
+				"down": {"uv": [9, 0, 7, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

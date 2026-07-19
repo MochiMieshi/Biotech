@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/stepping_stones_one",
+  "textures": {
+    "0": "block/blackstone",
+    "particle": "block/blackstone"
+  }
+}

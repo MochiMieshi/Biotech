@@ -108,7 +108,7 @@
     "stripTranslationColors": false,
     "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": 96
+    "configKeyCode": -1
   },
   "displaySettings": {
     "presenceData": {
@@ -154,7 +154,8 @@
       "runaround-drilling.ap.e4mc.link": "https://api.mcsrvstat.us/icon/runaround-drilling.ap.e4mc.link",
       "cranium-width.ap.e4mc.link": "https://api.mcsrvstat.us/icon/cranium-width.ap.e4mc.link",
       "untruth-utter.ap.e4mc.link": "https://api.mcsrvstat.us/icon/untruth-utter.ap.e4mc.link",
-      "fresh-astronaut.ap.e4mc.link": "https://api.mcsrvstat.us/icon/fresh-astronaut.ap.e4mc.link"
+      "fresh-astronaut.ap.e4mc.link": "https://api.mcsrvstat.us/icon/fresh-astronaut.ap.e4mc.link",
+      "serpent-mayflower.sg.e4mc.link": "https://api.mcsrvstat.us/icon/serpent-mayflower.sg.e4mc.link"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",

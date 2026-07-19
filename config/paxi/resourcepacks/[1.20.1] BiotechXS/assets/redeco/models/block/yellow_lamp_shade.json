@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/lamp_shade",
+  "textures": {
+    "0": "redeco:block/lamp/yellow_lamp",
+    "particle": "redeco:block/lamp/yellow_lamp"
+  }
+}

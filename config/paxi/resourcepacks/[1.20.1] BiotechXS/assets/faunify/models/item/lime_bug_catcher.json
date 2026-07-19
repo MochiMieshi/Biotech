@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "faunify:item/lime_bug_catcher"
+  }
+}

@@ -1,0 +1,165 @@
+{
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"plant": "mysticsbiomes:block/strawberry_bush_stage4",
+		"layer": "mysticsbiomes:block/strawberry_bush_layer",
+		"particle": "mysticsbiomes:block/strawberry_bush_stage4"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 8],
+			"to": [17, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#plant"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [8, 0, -1],
+			"to": [8, 16, 17],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#plant"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [6, 4, 4],
+			"to": [10, 8, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 6, 4]},
+			"faces": {
+				"north": {"uv": [6, 1, 2, 5], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [8, 1, 4],
+			"to": [11, 4, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [9, 4, 4]},
+			"faces": {
+				"north": {"uv": [2, 11, 5, 14], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, -1, 4],
+			"to": [12, 3, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3, 4]},
+			"faces": {
+				"north": {"uv": [6, 11, 14, 15], "texture": "#layer"},
+				"south": {"uv": [14, 11, 6, 15], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, 0, 4],
+			"to": [12, 6, 4],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 4]},
+			"faces": {
+				"north": {"uv": [6, 8, 14, 14], "texture": "#layer"},
+				"south": {"uv": [6, 8, 14, 14], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, 3, 6],
+			"to": [4, 7, 10],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [4, 5, 8]},
+			"faces": {
+				"west": {"uv": [6, 1, 2, 5], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, -1, 4],
+			"to": [4, 3, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [4, 3, 8]},
+			"faces": {
+				"east": {"uv": [14, 11, 6, 15], "texture": "#layer"},
+				"west": {"uv": [6, 11, 14, 15], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, 0, 4],
+			"to": [4, 5, 12],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 8]},
+			"faces": {
+				"east": {"uv": [6, 9, 14, 14], "texture": "#layer"},
+				"west": {"uv": [6, 9, 14, 14], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [6, 4, 12],
+			"to": [10, 8, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 6, 12]},
+			"faces": {
+				"south": {"uv": [6, 1, 2, 5], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [5, 1, 12],
+			"to": [8, 4, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [7, 4, 12]},
+			"faces": {
+				"south": {"uv": [2, 11, 5, 14], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, -1, 12],
+			"to": [12, 3, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 3, 12]},
+			"faces": {
+				"north": {"uv": [14, 11, 6, 15], "texture": "#layer"},
+				"south": {"uv": [6, 11, 14, 15], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [4, 0, 12],
+			"to": [12, 6, 12],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 12]},
+			"faces": {
+				"north": {"uv": [6, 8, 14, 14], "texture": "#layer"},
+				"south": {"uv": [6, 8, 14, 14], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [12, 3, 6],
+			"to": [12, 7, 10],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [12, 5, 8]},
+			"faces": {
+				"east": {"uv": [6, 1, 2, 5], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [12, -1, 4],
+			"to": [12, 3, 12],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [12, 3, 8]},
+			"faces": {
+				"east": {"uv": [6, 11, 14, 15], "texture": "#layer"},
+				"west": {"uv": [14, 11, 6, 15], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [12, 0, 4],
+			"to": [12, 5, 12],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 4, 8]},
+			"faces": {
+				"east": {"uv": [6, 9, 14, 14], "texture": "#layer"},
+				"west": {"uv": [14, 9, 6, 14], "texture": "#layer"}
+			}
+		}
+	]
+}

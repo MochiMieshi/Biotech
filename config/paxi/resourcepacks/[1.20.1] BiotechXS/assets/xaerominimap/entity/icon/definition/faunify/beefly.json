@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "faunify:textures/entity/beefly.png": "outlined_sprite:faunify/beefly.png",
+        "default": "outlined_sprite:faunify/beefly.png"
+    }
+}

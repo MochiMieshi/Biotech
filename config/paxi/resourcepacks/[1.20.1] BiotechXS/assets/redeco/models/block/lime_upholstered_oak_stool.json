@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/upholstered_stool",
+  "textures": {
+    "0": "redeco:block/stool/oak_stool",
+    "1": "redeco:block/stool/lime_stool_upholstery",
+    "particle": "redeco:block/stool/oak_stool"
+  }
+}

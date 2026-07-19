@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/awning",
+  "textures": {
+    "0": "redeco:block/awning/gray_awning",
+    "1": "redeco:block/awning/awning_supports",
+    "particle": "redeco:block/awning/gray_awning"
+  }
+}

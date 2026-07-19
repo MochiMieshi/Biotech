@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/drawers_open",
+  "textures": {
+    "0": "redeco:block/drawers/bamboo_drawers",
+    "1": "redeco:block/drawer_bamboo",
+    "particle": "redeco:block/drawers/bamboo_drawers"
+  }
+}

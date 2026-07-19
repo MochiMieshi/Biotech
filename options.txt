@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"false"
-resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","continuity:default","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","file/Comforts Modernized - V1.1.zip","file/Nehter\u0027s_Delight_crops_3D_1.3.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip"]
-incompatibleResourcePacks:["file/Comforts Modernized - V1.1.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Connected-Paths 26.1 – 26.1.2 v2.1.1.zip","file/Connected-Bricks 1.21.9+ v1.0.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip","file/Unique Dark - Lite - 1.20.2-26.x.zip"]
+resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","continuity:default","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip","Moonlight Mods Dynamic Assets","netherexp:jne_retextures","file/Comforts Modernized - V1.1.zip","file/Nehter\u0027s_Delight_crops_3D_1.3.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip","AllHudBars"]
+incompatibleResourcePacks:["file/Comforts Modernized - V1.1.zip","file/Farm 3D - Heycronus.zip","file/§e§lAllure 3D Plants§r§0.zip","[1.19-1.21] Yuushya Release 0.20.0"]
 lastServer:100.78.238.84:56971
 lang:en_us
 soundDevice:""
@@ -124,7 +124,7 @@ key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
 key_accessories.key.open_accessories_screen:key.keyboard.h
 key_auditory.sound_reload_key:key.keyboard.unknown
-key_key.autofish.open_gui:key.keyboard.v
+key_key.autofish.open_gui:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.unknown
 key_key.effortless.settings.desc:key.keyboard.unknown
 key_key.effortless.build_mode_radial.desc:key.keyboard.left.alt
@@ -259,7 +259,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.c
-key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
+key_key.craftpresence.config_keycode.name:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

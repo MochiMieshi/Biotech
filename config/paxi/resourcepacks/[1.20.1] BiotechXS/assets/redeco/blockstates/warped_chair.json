@@ -1,0 +1,630 @@
+{
+  "variants": {
+    "facing=north,upholstery=none,back=0": { "model": "redeco:block/warped_chair" },
+    "facing=east,upholstery=none,back=0": { "model": "redeco:block/warped_chair", "y": 90 },
+    "facing=south,upholstery=none,back=0": { "model": "redeco:block/warped_chair", "y": 180 },
+    "facing=west,upholstery=none,back=0": { "model": "redeco:block/warped_chair", "y": 270 },
+
+    "facing=north,upholstery=none,back=1": { "model": "redeco:block/warped_chair_back_1" },
+    "facing=east,upholstery=none,back=1": { "model": "redeco:block/warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=none,back=1": { "model": "redeco:block/warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=none,back=1": { "model": "redeco:block/warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=none,back=2": { "model": "redeco:block/warped_chair_back_2" },
+    "facing=east,upholstery=none,back=2": { "model": "redeco:block/warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=none,back=2": { "model": "redeco:block/warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=none,back=2": { "model": "redeco:block/warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=none,back=3": { "model": "redeco:block/warped_chair_back_3" },
+    "facing=east,upholstery=none,back=3": { "model": "redeco:block/warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=none,back=3": { "model": "redeco:block/warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=none,back=3": { "model": "redeco:block/warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=none,back=4": { "model": "redeco:block/warped_chair_back_4" },
+    "facing=east,upholstery=none,back=4": { "model": "redeco:block/warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=none,back=4": { "model": "redeco:block/warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=none,back=4": { "model": "redeco:block/warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=none,back=5": { "model": "redeco:block/warped_chair_back_5" },
+    "facing=east,upholstery=none,back=5": { "model": "redeco:block/warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=none,back=5": { "model": "redeco:block/warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=none,back=5": { "model": "redeco:block/warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=none,back=6": { "model": "redeco:block/warped_chair_back_6" },
+    "facing=east,upholstery=none,back=6": { "model": "redeco:block/warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=none,back=6": { "model": "redeco:block/warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=none,back=6": { "model": "redeco:block/warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=white,back=0": { "model": "redeco:block/white_upholstered_warped_chair" },
+    "facing=east,upholstery=white,back=0": { "model": "redeco:block/white_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=white,back=0": { "model": "redeco:block/white_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=white,back=0": { "model": "redeco:block/white_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=white,back=1": { "model": "redeco:block/white_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=white,back=1": { "model": "redeco:block/white_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=white,back=1": { "model": "redeco:block/white_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=white,back=1": { "model": "redeco:block/white_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=white,back=2": { "model": "redeco:block/white_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=white,back=2": { "model": "redeco:block/white_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=white,back=2": { "model": "redeco:block/white_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=white,back=2": { "model": "redeco:block/white_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=white,back=3": { "model": "redeco:block/white_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=white,back=3": { "model": "redeco:block/white_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=white,back=3": { "model": "redeco:block/white_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=white,back=3": { "model": "redeco:block/white_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=white,back=4": { "model": "redeco:block/white_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=white,back=4": { "model": "redeco:block/white_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=white,back=4": { "model": "redeco:block/white_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=white,back=4": { "model": "redeco:block/white_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=white,back=5": { "model": "redeco:block/white_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=white,back=5": { "model": "redeco:block/white_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=white,back=5": { "model": "redeco:block/white_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=white,back=5": { "model": "redeco:block/white_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=white,back=6": { "model": "redeco:block/white_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=white,back=6": { "model": "redeco:block/white_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=white,back=6": { "model": "redeco:block/white_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=white,back=6": { "model": "redeco:block/white_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=light_gray,back=0": { "model": "redeco:block/light_gray_upholstered_warped_chair" },
+    "facing=east,upholstery=light_gray,back=0": { "model": "redeco:block/light_gray_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=light_gray,back=0": { "model": "redeco:block/light_gray_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=light_gray,back=0": { "model": "redeco:block/light_gray_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=1": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=light_gray,back=1": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=light_gray,back=1": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=light_gray,back=1": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=2": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=light_gray,back=2": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=light_gray,back=2": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=light_gray,back=2": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=3": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=light_gray,back=3": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=light_gray,back=3": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=light_gray,back=3": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=4": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=light_gray,back=4": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=light_gray,back=4": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=light_gray,back=4": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=5": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=light_gray,back=5": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=light_gray,back=5": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=light_gray,back=5": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=light_gray,back=6": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=light_gray,back=6": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=light_gray,back=6": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=light_gray,back=6": { "model": "redeco:block/light_gray_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=gray,back=0": { "model": "redeco:block/gray_upholstered_warped_chair" },
+    "facing=east,upholstery=gray,back=0": { "model": "redeco:block/gray_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=gray,back=0": { "model": "redeco:block/gray_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=gray,back=0": { "model": "redeco:block/gray_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=gray,back=1": { "model": "redeco:block/gray_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=gray,back=1": { "model": "redeco:block/gray_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=gray,back=1": { "model": "redeco:block/gray_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=gray,back=1": { "model": "redeco:block/gray_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=gray,back=2": { "model": "redeco:block/gray_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=gray,back=2": { "model": "redeco:block/gray_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=gray,back=2": { "model": "redeco:block/gray_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=gray,back=2": { "model": "redeco:block/gray_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=gray,back=3": { "model": "redeco:block/gray_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=gray,back=3": { "model": "redeco:block/gray_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=gray,back=3": { "model": "redeco:block/gray_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=gray,back=3": { "model": "redeco:block/gray_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=gray,back=4": { "model": "redeco:block/gray_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=gray,back=4": { "model": "redeco:block/gray_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=gray,back=4": { "model": "redeco:block/gray_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=gray,back=4": { "model": "redeco:block/gray_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=gray,back=5": { "model": "redeco:block/gray_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=gray,back=5": { "model": "redeco:block/gray_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=gray,back=5": { "model": "redeco:block/gray_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=gray,back=5": { "model": "redeco:block/gray_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=gray,back=6": { "model": "redeco:block/gray_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=gray,back=6": { "model": "redeco:block/gray_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=gray,back=6": { "model": "redeco:block/gray_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=gray,back=6": { "model": "redeco:block/gray_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=black,back=0": { "model": "redeco:block/black_upholstered_warped_chair" },
+    "facing=east,upholstery=black,back=0": { "model": "redeco:block/black_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=black,back=0": { "model": "redeco:block/black_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=black,back=0": { "model": "redeco:block/black_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=black,back=1": { "model": "redeco:block/black_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=black,back=1": { "model": "redeco:block/black_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=black,back=1": { "model": "redeco:block/black_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=black,back=1": { "model": "redeco:block/black_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=black,back=2": { "model": "redeco:block/black_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=black,back=2": { "model": "redeco:block/black_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=black,back=2": { "model": "redeco:block/black_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=black,back=2": { "model": "redeco:block/black_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=black,back=3": { "model": "redeco:block/black_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=black,back=3": { "model": "redeco:block/black_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=black,back=3": { "model": "redeco:block/black_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=black,back=3": { "model": "redeco:block/black_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=black,back=4": { "model": "redeco:block/black_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=black,back=4": { "model": "redeco:block/black_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=black,back=4": { "model": "redeco:block/black_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=black,back=4": { "model": "redeco:block/black_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=black,back=5": { "model": "redeco:block/black_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=black,back=5": { "model": "redeco:block/black_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=black,back=5": { "model": "redeco:block/black_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=black,back=5": { "model": "redeco:block/black_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=black,back=6": { "model": "redeco:block/black_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=black,back=6": { "model": "redeco:block/black_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=black,back=6": { "model": "redeco:block/black_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=black,back=6": { "model": "redeco:block/black_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=lime,back=0": { "model": "redeco:block/lime_upholstered_warped_chair" },
+    "facing=east,upholstery=lime,back=0": { "model": "redeco:block/lime_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=lime,back=0": { "model": "redeco:block/lime_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=lime,back=0": { "model": "redeco:block/lime_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=lime,back=1": { "model": "redeco:block/lime_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=lime,back=1": { "model": "redeco:block/lime_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=lime,back=1": { "model": "redeco:block/lime_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=lime,back=1": { "model": "redeco:block/lime_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=lime,back=2": { "model": "redeco:block/lime_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=lime,back=2": { "model": "redeco:block/lime_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=lime,back=2": { "model": "redeco:block/lime_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=lime,back=2": { "model": "redeco:block/lime_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=lime,back=3": { "model": "redeco:block/lime_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=lime,back=3": { "model": "redeco:block/lime_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=lime,back=3": { "model": "redeco:block/lime_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=lime,back=3": { "model": "redeco:block/lime_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=lime,back=4": { "model": "redeco:block/lime_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=lime,back=4": { "model": "redeco:block/lime_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=lime,back=4": { "model": "redeco:block/lime_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=lime,back=4": { "model": "redeco:block/lime_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=lime,back=5": { "model": "redeco:block/lime_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=lime,back=5": { "model": "redeco:block/lime_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=lime,back=5": { "model": "redeco:block/lime_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=lime,back=5": { "model": "redeco:block/lime_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=lime,back=6": { "model": "redeco:block/lime_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=lime,back=6": { "model": "redeco:block/lime_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=lime,back=6": { "model": "redeco:block/lime_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=lime,back=6": { "model": "redeco:block/lime_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=green,back=0": { "model": "redeco:block/green_upholstered_warped_chair" },
+    "facing=east,upholstery=green,back=0": { "model": "redeco:block/green_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=green,back=0": { "model": "redeco:block/green_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=green,back=0": { "model": "redeco:block/green_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=green,back=1": { "model": "redeco:block/green_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=green,back=1": { "model": "redeco:block/green_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=green,back=1": { "model": "redeco:block/green_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=green,back=1": { "model": "redeco:block/green_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=green,back=2": { "model": "redeco:block/green_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=green,back=2": { "model": "redeco:block/green_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=green,back=2": { "model": "redeco:block/green_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=green,back=2": { "model": "redeco:block/green_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=green,back=3": { "model": "redeco:block/green_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=green,back=3": { "model": "redeco:block/green_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=green,back=3": { "model": "redeco:block/green_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=green,back=3": { "model": "redeco:block/green_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=green,back=4": { "model": "redeco:block/green_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=green,back=4": { "model": "redeco:block/green_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=green,back=4": { "model": "redeco:block/green_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=green,back=4": { "model": "redeco:block/green_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=green,back=5": { "model": "redeco:block/green_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=green,back=5": { "model": "redeco:block/green_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=green,back=5": { "model": "redeco:block/green_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=green,back=5": { "model": "redeco:block/green_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=green,back=6": { "model": "redeco:block/green_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=green,back=6": { "model": "redeco:block/green_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=green,back=6": { "model": "redeco:block/green_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=green,back=6": { "model": "redeco:block/green_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=cyan,back=0": { "model": "redeco:block/cyan_upholstered_warped_chair" },
+    "facing=east,upholstery=cyan,back=0": { "model": "redeco:block/cyan_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=cyan,back=0": { "model": "redeco:block/cyan_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=cyan,back=0": { "model": "redeco:block/cyan_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=1": { "model": "redeco:block/cyan_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=cyan,back=1": { "model": "redeco:block/cyan_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=cyan,back=1": { "model": "redeco:block/cyan_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=cyan,back=1": { "model": "redeco:block/cyan_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=2": { "model": "redeco:block/cyan_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=cyan,back=2": { "model": "redeco:block/cyan_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=cyan,back=2": { "model": "redeco:block/cyan_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=cyan,back=2": { "model": "redeco:block/cyan_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=3": { "model": "redeco:block/cyan_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=cyan,back=3": { "model": "redeco:block/cyan_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=cyan,back=3": { "model": "redeco:block/cyan_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=cyan,back=3": { "model": "redeco:block/cyan_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=4": { "model": "redeco:block/cyan_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=cyan,back=4": { "model": "redeco:block/cyan_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=cyan,back=4": { "model": "redeco:block/cyan_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=cyan,back=4": { "model": "redeco:block/cyan_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=5": { "model": "redeco:block/cyan_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=cyan,back=5": { "model": "redeco:block/cyan_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=cyan,back=5": { "model": "redeco:block/cyan_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=cyan,back=5": { "model": "redeco:block/cyan_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=cyan,back=6": { "model": "redeco:block/cyan_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=cyan,back=6": { "model": "redeco:block/cyan_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=cyan,back=6": { "model": "redeco:block/cyan_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=cyan,back=6": { "model": "redeco:block/cyan_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=light_blue,back=0": { "model": "redeco:block/light_blue_upholstered_warped_chair" },
+    "facing=east,upholstery=light_blue,back=0": { "model": "redeco:block/light_blue_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=light_blue,back=0": { "model": "redeco:block/light_blue_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=light_blue,back=0": { "model": "redeco:block/light_blue_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=1": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=light_blue,back=1": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=light_blue,back=1": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=light_blue,back=1": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=2": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=light_blue,back=2": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=light_blue,back=2": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=light_blue,back=2": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=3": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=light_blue,back=3": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=light_blue,back=3": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=light_blue,back=3": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=4": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=light_blue,back=4": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=light_blue,back=4": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=light_blue,back=4": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=5": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=light_blue,back=5": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=light_blue,back=5": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=light_blue,back=5": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=light_blue,back=6": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=light_blue,back=6": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=light_blue,back=6": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=light_blue,back=6": { "model": "redeco:block/light_blue_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=blue,back=0": { "model": "redeco:block/blue_upholstered_warped_chair" },
+    "facing=east,upholstery=blue,back=0": { "model": "redeco:block/blue_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=blue,back=0": { "model": "redeco:block/blue_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=blue,back=0": { "model": "redeco:block/blue_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=blue,back=1": { "model": "redeco:block/blue_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=blue,back=1": { "model": "redeco:block/blue_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=blue,back=1": { "model": "redeco:block/blue_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=blue,back=1": { "model": "redeco:block/blue_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=blue,back=2": { "model": "redeco:block/blue_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=blue,back=2": { "model": "redeco:block/blue_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=blue,back=2": { "model": "redeco:block/blue_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=blue,back=2": { "model": "redeco:block/blue_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=blue,back=3": { "model": "redeco:block/blue_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=blue,back=3": { "model": "redeco:block/blue_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=blue,back=3": { "model": "redeco:block/blue_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=blue,back=3": { "model": "redeco:block/blue_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=blue,back=4": { "model": "redeco:block/blue_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=blue,back=4": { "model": "redeco:block/blue_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=blue,back=4": { "model": "redeco:block/blue_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=blue,back=4": { "model": "redeco:block/blue_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=blue,back=5": { "model": "redeco:block/blue_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=blue,back=5": { "model": "redeco:block/blue_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=blue,back=5": { "model": "redeco:block/blue_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=blue,back=5": { "model": "redeco:block/blue_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=blue,back=6": { "model": "redeco:block/blue_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=blue,back=6": { "model": "redeco:block/blue_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=blue,back=6": { "model": "redeco:block/blue_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=blue,back=6": { "model": "redeco:block/blue_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=purple,back=0": { "model": "redeco:block/purple_upholstered_warped_chair" },
+    "facing=east,upholstery=purple,back=0": { "model": "redeco:block/purple_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=purple,back=0": { "model": "redeco:block/purple_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=purple,back=0": { "model": "redeco:block/purple_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=purple,back=1": { "model": "redeco:block/purple_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=purple,back=1": { "model": "redeco:block/purple_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=purple,back=1": { "model": "redeco:block/purple_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=purple,back=1": { "model": "redeco:block/purple_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=purple,back=2": { "model": "redeco:block/purple_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=purple,back=2": { "model": "redeco:block/purple_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=purple,back=2": { "model": "redeco:block/purple_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=purple,back=2": { "model": "redeco:block/purple_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=purple,back=3": { "model": "redeco:block/purple_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=purple,back=3": { "model": "redeco:block/purple_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=purple,back=3": { "model": "redeco:block/purple_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=purple,back=3": { "model": "redeco:block/purple_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=purple,back=4": { "model": "redeco:block/purple_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=purple,back=4": { "model": "redeco:block/purple_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=purple,back=4": { "model": "redeco:block/purple_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=purple,back=4": { "model": "redeco:block/purple_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=purple,back=5": { "model": "redeco:block/purple_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=purple,back=5": { "model": "redeco:block/purple_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=purple,back=5": { "model": "redeco:block/purple_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=purple,back=5": { "model": "redeco:block/purple_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=purple,back=6": { "model": "redeco:block/purple_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=purple,back=6": { "model": "redeco:block/purple_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=purple,back=6": { "model": "redeco:block/purple_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=purple,back=6": { "model": "redeco:block/purple_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=magenta,back=0": { "model": "redeco:block/magenta_upholstered_warped_chair" },
+    "facing=east,upholstery=magenta,back=0": { "model": "redeco:block/magenta_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=magenta,back=0": { "model": "redeco:block/magenta_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=magenta,back=0": { "model": "redeco:block/magenta_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=1": { "model": "redeco:block/magenta_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=magenta,back=1": { "model": "redeco:block/magenta_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=magenta,back=1": { "model": "redeco:block/magenta_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=magenta,back=1": { "model": "redeco:block/magenta_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=2": { "model": "redeco:block/magenta_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=magenta,back=2": { "model": "redeco:block/magenta_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=magenta,back=2": { "model": "redeco:block/magenta_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=magenta,back=2": { "model": "redeco:block/magenta_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=3": { "model": "redeco:block/magenta_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=magenta,back=3": { "model": "redeco:block/magenta_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=magenta,back=3": { "model": "redeco:block/magenta_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=magenta,back=3": { "model": "redeco:block/magenta_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=4": { "model": "redeco:block/magenta_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=magenta,back=4": { "model": "redeco:block/magenta_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=magenta,back=4": { "model": "redeco:block/magenta_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=magenta,back=4": { "model": "redeco:block/magenta_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=5": { "model": "redeco:block/magenta_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=magenta,back=5": { "model": "redeco:block/magenta_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=magenta,back=5": { "model": "redeco:block/magenta_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=magenta,back=5": { "model": "redeco:block/magenta_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=magenta,back=6": { "model": "redeco:block/magenta_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=magenta,back=6": { "model": "redeco:block/magenta_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=magenta,back=6": { "model": "redeco:block/magenta_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=magenta,back=6": { "model": "redeco:block/magenta_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=pink,back=0": { "model": "redeco:block/pink_upholstered_warped_chair" },
+    "facing=east,upholstery=pink,back=0": { "model": "redeco:block/pink_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=pink,back=0": { "model": "redeco:block/pink_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=pink,back=0": { "model": "redeco:block/pink_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=pink,back=1": { "model": "redeco:block/pink_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=pink,back=1": { "model": "redeco:block/pink_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=pink,back=1": { "model": "redeco:block/pink_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=pink,back=1": { "model": "redeco:block/pink_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=pink,back=2": { "model": "redeco:block/pink_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=pink,back=2": { "model": "redeco:block/pink_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=pink,back=2": { "model": "redeco:block/pink_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=pink,back=2": { "model": "redeco:block/pink_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=pink,back=3": { "model": "redeco:block/pink_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=pink,back=3": { "model": "redeco:block/pink_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=pink,back=3": { "model": "redeco:block/pink_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=pink,back=3": { "model": "redeco:block/pink_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=pink,back=4": { "model": "redeco:block/pink_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=pink,back=4": { "model": "redeco:block/pink_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=pink,back=4": { "model": "redeco:block/pink_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=pink,back=4": { "model": "redeco:block/pink_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=pink,back=5": { "model": "redeco:block/pink_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=pink,back=5": { "model": "redeco:block/pink_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=pink,back=5": { "model": "redeco:block/pink_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=pink,back=5": { "model": "redeco:block/pink_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=pink,back=6": { "model": "redeco:block/pink_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=pink,back=6": { "model": "redeco:block/pink_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=pink,back=6": { "model": "redeco:block/pink_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=pink,back=6": { "model": "redeco:block/pink_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=red,back=0": { "model": "redeco:block/red_upholstered_warped_chair" },
+    "facing=east,upholstery=red,back=0": { "model": "redeco:block/red_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=red,back=0": { "model": "redeco:block/red_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=red,back=0": { "model": "redeco:block/red_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=red,back=1": { "model": "redeco:block/red_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=red,back=1": { "model": "redeco:block/red_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=red,back=1": { "model": "redeco:block/red_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=red,back=1": { "model": "redeco:block/red_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=red,back=2": { "model": "redeco:block/red_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=red,back=2": { "model": "redeco:block/red_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=red,back=2": { "model": "redeco:block/red_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=red,back=2": { "model": "redeco:block/red_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=red,back=3": { "model": "redeco:block/red_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=red,back=3": { "model": "redeco:block/red_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=red,back=3": { "model": "redeco:block/red_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=red,back=3": { "model": "redeco:block/red_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=red,back=4": { "model": "redeco:block/red_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=red,back=4": { "model": "redeco:block/red_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=red,back=4": { "model": "redeco:block/red_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=red,back=4": { "model": "redeco:block/red_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=red,back=5": { "model": "redeco:block/red_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=red,back=5": { "model": "redeco:block/red_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=red,back=5": { "model": "redeco:block/red_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=red,back=5": { "model": "redeco:block/red_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=red,back=6": { "model": "redeco:block/red_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=red,back=6": { "model": "redeco:block/red_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=red,back=6": { "model": "redeco:block/red_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=red,back=6": { "model": "redeco:block/red_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=orange,back=0": { "model": "redeco:block/orange_upholstered_warped_chair" },
+    "facing=east,upholstery=orange,back=0": { "model": "redeco:block/orange_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=orange,back=0": { "model": "redeco:block/orange_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=orange,back=0": { "model": "redeco:block/orange_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=orange,back=1": { "model": "redeco:block/orange_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=orange,back=1": { "model": "redeco:block/orange_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=orange,back=1": { "model": "redeco:block/orange_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=orange,back=1": { "model": "redeco:block/orange_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=orange,back=2": { "model": "redeco:block/orange_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=orange,back=2": { "model": "redeco:block/orange_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=orange,back=2": { "model": "redeco:block/orange_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=orange,back=2": { "model": "redeco:block/orange_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=orange,back=3": { "model": "redeco:block/orange_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=orange,back=3": { "model": "redeco:block/orange_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=orange,back=3": { "model": "redeco:block/orange_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=orange,back=3": { "model": "redeco:block/orange_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=orange,back=4": { "model": "redeco:block/orange_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=orange,back=4": { "model": "redeco:block/orange_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=orange,back=4": { "model": "redeco:block/orange_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=orange,back=4": { "model": "redeco:block/orange_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=orange,back=5": { "model": "redeco:block/orange_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=orange,back=5": { "model": "redeco:block/orange_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=orange,back=5": { "model": "redeco:block/orange_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=orange,back=5": { "model": "redeco:block/orange_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=orange,back=6": { "model": "redeco:block/orange_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=orange,back=6": { "model": "redeco:block/orange_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=orange,back=6": { "model": "redeco:block/orange_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=orange,back=6": { "model": "redeco:block/orange_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=yellow,back=0": { "model": "redeco:block/yellow_upholstered_warped_chair" },
+    "facing=east,upholstery=yellow,back=0": { "model": "redeco:block/yellow_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=yellow,back=0": { "model": "redeco:block/yellow_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=yellow,back=0": { "model": "redeco:block/yellow_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=1": { "model": "redeco:block/yellow_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=yellow,back=1": { "model": "redeco:block/yellow_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=yellow,back=1": { "model": "redeco:block/yellow_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=yellow,back=1": { "model": "redeco:block/yellow_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=2": { "model": "redeco:block/yellow_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=yellow,back=2": { "model": "redeco:block/yellow_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=yellow,back=2": { "model": "redeco:block/yellow_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=yellow,back=2": { "model": "redeco:block/yellow_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=3": { "model": "redeco:block/yellow_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=yellow,back=3": { "model": "redeco:block/yellow_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=yellow,back=3": { "model": "redeco:block/yellow_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=yellow,back=3": { "model": "redeco:block/yellow_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=4": { "model": "redeco:block/yellow_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=yellow,back=4": { "model": "redeco:block/yellow_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=yellow,back=4": { "model": "redeco:block/yellow_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=yellow,back=4": { "model": "redeco:block/yellow_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=5": { "model": "redeco:block/yellow_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=yellow,back=5": { "model": "redeco:block/yellow_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=yellow,back=5": { "model": "redeco:block/yellow_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=yellow,back=5": { "model": "redeco:block/yellow_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=yellow,back=6": { "model": "redeco:block/yellow_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=yellow,back=6": { "model": "redeco:block/yellow_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=yellow,back=6": { "model": "redeco:block/yellow_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=yellow,back=6": { "model": "redeco:block/yellow_upholstered_warped_chair_back_6", "y": 270 },
+
+
+
+    "facing=north,upholstery=brown,back=0": { "model": "redeco:block/brown_upholstered_warped_chair" },
+    "facing=east,upholstery=brown,back=0": { "model": "redeco:block/brown_upholstered_warped_chair", "y": 90 },
+    "facing=south,upholstery=brown,back=0": { "model": "redeco:block/brown_upholstered_warped_chair", "y": 180 },
+    "facing=west,upholstery=brown,back=0": { "model": "redeco:block/brown_upholstered_warped_chair", "y": 270 },
+
+    "facing=north,upholstery=brown,back=1": { "model": "redeco:block/brown_upholstered_warped_chair_back_1" },
+    "facing=east,upholstery=brown,back=1": { "model": "redeco:block/brown_upholstered_warped_chair_back_1", "y": 90 },
+    "facing=south,upholstery=brown,back=1": { "model": "redeco:block/brown_upholstered_warped_chair_back_1", "y": 180 },
+    "facing=west,upholstery=brown,back=1": { "model": "redeco:block/brown_upholstered_warped_chair_back_1", "y": 270 },
+
+    "facing=north,upholstery=brown,back=2": { "model": "redeco:block/brown_upholstered_warped_chair_back_2" },
+    "facing=east,upholstery=brown,back=2": { "model": "redeco:block/brown_upholstered_warped_chair_back_2", "y": 90 },
+    "facing=south,upholstery=brown,back=2": { "model": "redeco:block/brown_upholstered_warped_chair_back_2", "y": 180 },
+    "facing=west,upholstery=brown,back=2": { "model": "redeco:block/brown_upholstered_warped_chair_back_2", "y": 270 },
+
+    "facing=north,upholstery=brown,back=3": { "model": "redeco:block/brown_upholstered_warped_chair_back_3" },
+    "facing=east,upholstery=brown,back=3": { "model": "redeco:block/brown_upholstered_warped_chair_back_3", "y": 90 },
+    "facing=south,upholstery=brown,back=3": { "model": "redeco:block/brown_upholstered_warped_chair_back_3", "y": 180 },
+    "facing=west,upholstery=brown,back=3": { "model": "redeco:block/brown_upholstered_warped_chair_back_3", "y": 270 },
+
+    "facing=north,upholstery=brown,back=4": { "model": "redeco:block/brown_upholstered_warped_chair_back_4" },
+    "facing=east,upholstery=brown,back=4": { "model": "redeco:block/brown_upholstered_warped_chair_back_4", "y": 90 },
+    "facing=south,upholstery=brown,back=4": { "model": "redeco:block/brown_upholstered_warped_chair_back_4", "y": 180 },
+    "facing=west,upholstery=brown,back=4": { "model": "redeco:block/brown_upholstered_warped_chair_back_4", "y": 270 },
+
+    "facing=north,upholstery=brown,back=5": { "model": "redeco:block/brown_upholstered_warped_chair_back_5" },
+    "facing=east,upholstery=brown,back=5": { "model": "redeco:block/brown_upholstered_warped_chair_back_5", "y": 90 },
+    "facing=south,upholstery=brown,back=5": { "model": "redeco:block/brown_upholstered_warped_chair_back_5", "y": 180 },
+    "facing=west,upholstery=brown,back=5": { "model": "redeco:block/brown_upholstered_warped_chair_back_5", "y": 270 },
+
+    "facing=north,upholstery=brown,back=6": { "model": "redeco:block/brown_upholstered_warped_chair_back_6" },
+    "facing=east,upholstery=brown,back=6": { "model": "redeco:block/brown_upholstered_warped_chair_back_6", "y": 90 },
+    "facing=south,upholstery=brown,back=6": { "model": "redeco:block/brown_upholstered_warped_chair_back_6", "y": 180 },
+    "facing=west,upholstery=brown,back=6": { "model": "redeco:block/brown_upholstered_warped_chair_back_6", "y": 270 }
+  }
+}

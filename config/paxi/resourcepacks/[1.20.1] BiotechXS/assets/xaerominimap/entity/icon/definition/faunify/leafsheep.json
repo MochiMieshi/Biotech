@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "faunify:textures/entity/leafsheep.png": "outlined_sprite:faunify/leafsheep.png",
+        "default": "outlined_sprite:faunify/leafsheep.png"
+    }
+}

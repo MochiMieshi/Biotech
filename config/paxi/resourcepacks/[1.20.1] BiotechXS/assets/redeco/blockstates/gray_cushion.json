@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "redeco:block/gray_cushion" },
+    "facing=east": { "model": "redeco:block/gray_cushion", "y": 90 },
+    "facing=south": { "model": "redeco:block/gray_cushion", "y": 180 },
+    "facing=west": { "model": "redeco:block/gray_cushion", "y": 270 }
+  }
+}

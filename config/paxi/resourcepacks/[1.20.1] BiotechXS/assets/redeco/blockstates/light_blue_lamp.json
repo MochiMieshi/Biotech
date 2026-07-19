@@ -1,0 +1,91 @@
+{
+  "variants": {
+    "facing=down,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp_hanging"
+    },
+    "facing=east,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 90
+    },
+    "facing=north,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall"
+    },
+    "facing=south,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 180
+    },
+    "facing=up,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp"
+    },
+    "facing=west,up=false,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 270
+    },
+
+    "facing=down,up=true,down=false": {
+      "model": "redeco:block/lamp_base"
+    },
+    "facing=east,up=true,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 90
+    },
+    "facing=north,up=true,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall"
+    },
+    "facing=south,up=true,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 180
+    },
+    "facing=up,up=true,down=false": {
+      "model": "redeco:block/lamp_base"
+    },
+    "facing=west,up=true,down=false": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 270
+    },
+
+    "facing=down,up=true,down=true": {
+      "model": "redeco:block/lamp_post"
+    },
+    "facing=east,up=true,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 90
+    },
+    "facing=north,up=true,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall"
+    },
+    "facing=south,up=true,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 180
+    },
+    "facing=up,up=true,down=true": {
+      "model": "redeco:block/lamp_post"
+    },
+    "facing=west,up=true,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 270
+    },
+
+    "facing=down,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_shade"
+    },
+    "facing=east,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 90
+    },
+    "facing=north,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall"
+    },
+    "facing=south,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 180
+    },
+    "facing=up,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_shade"
+    },
+    "facing=west,up=false,down=true": {
+      "model": "redeco:block/light_blue_lamp_wall",
+      "y": 270
+    }
+  }
+}

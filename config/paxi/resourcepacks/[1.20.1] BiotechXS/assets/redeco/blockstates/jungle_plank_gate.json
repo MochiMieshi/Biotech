@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=east,in_wall=false,open=false": {
+      "model": "redeco:block/jungle_plank_gate_east_west"
+    },
+    "facing=east,in_wall=false,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_east"
+    },
+    "facing=east,in_wall=true,open=false": {
+      "model": "redeco:block/jungle_plank_gate_east_west"
+    },
+    "facing=east,in_wall=true,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_east"
+    },
+    "facing=north,in_wall=false,open=false": {
+      "model": "redeco:block/jungle_plank_gate_north_south"
+    },
+    "facing=north,in_wall=false,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_north"
+    },
+    "facing=north,in_wall=true,open=false": {
+      "model": "redeco:block/jungle_plank_gate_north_south"
+    },
+    "facing=north,in_wall=true,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_north"
+    },
+    "facing=south,in_wall=false,open=false": {
+      "model": "redeco:block/jungle_plank_gate_north_south"
+    },
+    "facing=south,in_wall=false,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_south"
+    },
+    "facing=south,in_wall=true,open=false": {
+      "model": "redeco:block/jungle_plank_gate_north_south"
+    },
+    "facing=south,in_wall=true,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_south"
+    },
+    "facing=west,in_wall=false,open=false": {
+      "model": "redeco:block/jungle_plank_gate_east_west"
+    },
+    "facing=west,in_wall=false,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_west"
+    },
+    "facing=west,in_wall=true,open=false": {
+      "model": "redeco:block/jungle_plank_gate_east_west"
+    },
+    "facing=west,in_wall=true,open=true": {
+      "model": "redeco:block/jungle_plank_gate_open_west"
+    }
+  }
+}

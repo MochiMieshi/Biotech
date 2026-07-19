@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "spawn:block/anthill",
+      "uvlock": false
+    },
+    "facing=north": {
+      "model": "spawn:block/anthill",
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "spawn:block/anthill",
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "spawn:block/anthill",
+      "uvlock": false
+    }
+  }
+}

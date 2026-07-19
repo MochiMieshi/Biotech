@@ -1,0 +1,9 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"ctm",
+        "textures":[
+            "minecraft:block/yellow_stained_glass_top_ctm"
+        ]
+    }
+}

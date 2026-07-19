@@ -1,0 +1,14 @@
+{
+  "states": [
+    {
+      "name": "minecraft:soul_torch"
+    }
+  ],
+  "options": {
+    "preset": "torch",
+    "color": {
+      "type": "subtle_effects:preset",
+      "preset": "soul_sparks"
+    }
+  }
+}

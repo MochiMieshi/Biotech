@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/plank_gate_open_north",
+  "textures": {
+    "0": "redeco:block/plankfence/mangrove_plank_fence",
+    "1": "minecraft:block/mangrove_log",
+    "particle": "redeco:block/plankfence/mangrove_plank_fence"
+  }
+}

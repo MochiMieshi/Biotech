@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "faunify:textures/entity/grasshopper1.png": "outlined_sprite:faunify/grasshopper1.png",
+        "faunify:textures/entity/grasshopper2.png": "outlined_sprite:faunify/grasshopper2.png",
+        "faunify:textures/entity/grasshopper3.png": "outlined_sprite:faunify/grasshopper3.png",
+        "default": "outlined_sprite:faunify/grasshopper1.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/light_bulb_ground",
+  "textures": {
+    "0": "redeco:block/lightbulb/glow_ink_light_bulb",
+    "particle": "redeco:block/lightbulb/glow_ink_light_bulb"
+  }
+}

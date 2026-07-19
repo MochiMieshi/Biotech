@@ -1,0 +1,8 @@
+{
+	"parent": "block/cross",
+		"textures": {
+			"cross": "regions_unexplored:block/lupine_yellow2",
+			"particle": "regions_unexplored:block/lupine_yellow2"
+		},
+	"render_type": "cutout"
+}

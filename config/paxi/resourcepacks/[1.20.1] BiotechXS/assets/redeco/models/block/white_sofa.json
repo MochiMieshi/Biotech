@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/sofa",
+  "textures": {
+    "0": "redeco:block/sofa/white_sofa",
+    "particle": "redeco:block/sofa/white_sofa"
+  }
+}

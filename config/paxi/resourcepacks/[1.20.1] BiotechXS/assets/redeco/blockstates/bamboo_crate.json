@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,propped=false": { "model": "redeco:block/bamboo_crate" },
+    "facing=east,propped=false": { "model": "redeco:block/bamboo_crate", "y": 90 },
+    "facing=south,propped=false": { "model": "redeco:block/bamboo_crate", "y": 180 },
+    "facing=west,propped=false": { "model": "redeco:block/bamboo_crate", "y": 270 },
+
+    "facing=north,propped=true": { "model": "redeco:block/bamboo_crate_propped" },
+    "facing=east,propped=true": { "model": "redeco:block/bamboo_crate_propped", "y": 90 },
+    "facing=south,propped=true": { "model": "redeco:block/bamboo_crate_propped", "y": 180 },
+    "facing=west,propped=true": { "model": "redeco:block/bamboo_crate_propped", "y": 270 }
+  }
+}

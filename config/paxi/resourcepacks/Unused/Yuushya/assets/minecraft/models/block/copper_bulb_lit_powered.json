@@ -1,0 +1,6 @@
+{
+	"parent":"minecraft:block/copper_bulb_powered",
+	"textures": {
+		"3": "block/copper_bulb_lit"
+	}
+}

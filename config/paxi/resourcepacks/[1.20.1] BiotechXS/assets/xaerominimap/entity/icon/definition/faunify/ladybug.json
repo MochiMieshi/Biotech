@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "faunify:textures/entity/ladybug.png": "outlined_sprite:faunify/ladybug.png",
+        "faunify:textures/entity/ladybug_catbug.png": "outlined_sprite:faunify/ladybug_catbug.png",
+        "faunify:textures/entity/ladybug_tikki.png": "outlined_sprite:faunify/ladybug_tikki.png",
+        "default": "outlined_sprite:faunify/ladybug.png"
+    }
+}

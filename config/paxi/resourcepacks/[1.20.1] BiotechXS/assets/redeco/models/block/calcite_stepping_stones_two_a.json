@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/stepping_stones_two_a",
+  "textures": {
+    "0": "block/calcite",
+    "particle": "block/calcite"
+  }
+}

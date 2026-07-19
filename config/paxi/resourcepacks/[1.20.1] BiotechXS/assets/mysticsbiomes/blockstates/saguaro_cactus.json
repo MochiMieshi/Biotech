@@ -1,0 +1,61 @@
+{
+  "variants": {
+    "shape=base,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus"
+    },
+    "shape=base,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_top"
+    },
+    "shape=vertical_branch,facing=north": {
+      "model": "mysticsbiomes:block/saguaro_cactus_vertical_branch"
+    },
+    "shape=vertical_branch,facing=east": {
+      "model": "mysticsbiomes:block/saguaro_cactus_vertical_branch",
+      "y": 90
+    },
+    "shape=vertical_branch,facing=south": {
+      "model": "mysticsbiomes:block/saguaro_cactus_vertical_branch",
+      "y": 180
+    },
+    "shape=vertical_branch,facing=west": {
+      "model": "mysticsbiomes:block/saguaro_cactus_vertical_branch",
+      "y": 270
+    },
+    "shape=curved_branch,facing=north,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch_top"
+    },
+    "shape=curved_branch,facing=east,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch_top",
+      "y": 90
+    },
+    "shape=curved_branch,facing=south,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch_top",
+      "y": 180
+    },
+    "shape=curved_branch,facing=west,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch_top",
+      "y": 270
+    },
+    "shape=curved_branch,facing=north,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch"
+    },
+    "shape=curved_branch,facing=east,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch",
+      "y": 90
+    },
+    "shape=curved_branch,facing=south,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch",
+      "y": 180
+    },
+    "shape=curved_branch,facing=west,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus_curved_branch",
+      "y": 270
+    },
+    "shape=branch,top=false": {
+      "model": "mysticsbiomes:block/saguaro_cactus_branch"
+    },
+    "shape=branch,top=true": {
+      "model": "mysticsbiomes:block/saguaro_cactus_branch_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/cabinet_open",
+  "textures": {
+    "0": "redeco:block/cabinet/oak_cabinet",
+    "1": "redeco:block/cabinet_doors_oak",
+    "particle": "redeco:block/cabinet/oak_cabinet"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "faunify:textures/entity/opossum1.png": "outlined_sprite:faunify/opossum1.png",
+        "faunify:textures/entity/opossum2.png": "outlined_sprite:faunify/opossum2.png",
+        "faunify:textures/entity/sleep/opossum1.png": "outlined_sprite:faunify/opossum1.png",
+        "faunify:textures/entity/sleep/opossum2.png": "outlined_sprite:faunify/opossum2.png",
+        "default": "outlined_sprite:faunify/opossum1.png"
+    }
+}

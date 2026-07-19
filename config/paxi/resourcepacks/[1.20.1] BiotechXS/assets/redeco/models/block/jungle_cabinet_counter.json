@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/cabinet_counter",
+  "textures": {
+    "0": "redeco:block/counters/jungle_counters",
+    "1": "redeco:block/cabinet_doors_jungle",
+    "2": "minecraft:block/jungle_log",
+    "particle": "redeco:block/polishedplanks/polished_jungle_planks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/upholstered_chair",
+  "textures": {
+    "0": "redeco:block/chair/warped_chair",
+    "1": "redeco:block/chair/yellow_chair_upholstery",
+    "2": "redeco:block/chair/warped_back_5",
+    "particle": "redeco:block/chair/warped_chair"
+  }
+}

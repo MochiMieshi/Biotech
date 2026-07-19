@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "regions_unexplored:block/purple_lupine"},
+			{"model": "regions_unexplored:block/purple_lupine1"},
+			{"model": "regions_unexplored:block/purple_lupine2"},
+			{"model": "regions_unexplored:block/purple_lupine3"}
+		]
+	}
+}

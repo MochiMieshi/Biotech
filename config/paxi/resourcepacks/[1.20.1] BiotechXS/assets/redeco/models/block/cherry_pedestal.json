@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/wood_pedestal",
+  "textures": {
+    "0": "redeco:block/pedestal/cherry_pedestal",
+    "particle": "redeco:block/pedestal/cherry_pedestal"
+  }
+}

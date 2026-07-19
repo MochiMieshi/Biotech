@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "natures_spirit:block/palo_verde_planks2"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter",
+  "textures": {
+    "0": "redeco:block/counters/dark_oak_counters",
+    "1": "redeco:block/drawer_dark_oak",
+    "2": "minecraft:block/dark_oak_log",
+    "particle": "redeco:block/polishedplanks/polished_dark_oak_planks"
+  }
+}

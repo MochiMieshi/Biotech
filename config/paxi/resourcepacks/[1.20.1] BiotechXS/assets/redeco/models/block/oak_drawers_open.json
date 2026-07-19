@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/drawers_open",
+  "textures": {
+    "0": "redeco:block/drawers/oak_drawers",
+    "1": "redeco:block/drawer_oak",
+    "particle": "redeco:block/drawers/oak_drawers"
+  }
+}

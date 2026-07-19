@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redeco:block/polished_cherry_slab"
+    },
+    "type=double": {
+      "model": "redeco:block/polished_cherry_planks"
+    },
+    "type=top": {
+      "model": "redeco:block/polished_cherry_slab_top"
+    }
+  }
+}

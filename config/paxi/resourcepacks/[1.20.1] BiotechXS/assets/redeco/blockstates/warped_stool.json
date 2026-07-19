@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "upholstery=none": { "model": "redeco:block/warped_stool"},
+    "upholstery=white": { "model": "redeco:block/white_upholstered_warped_stool"},
+    "upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_warped_stool"},
+    "upholstery=gray": { "model": "redeco:block/gray_upholstered_warped_stool"},
+    "upholstery=black": { "model": "redeco:block/black_upholstered_warped_stool"},
+    "upholstery=lime": { "model": "redeco:block/lime_upholstered_warped_stool"},
+    "upholstery=green": { "model": "redeco:block/green_upholstered_warped_stool"},
+    "upholstery=cyan": { "model": "redeco:block/cyan_upholstered_warped_stool"},
+    "upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_warped_stool"},
+    "upholstery=blue": { "model": "redeco:block/blue_upholstered_warped_stool"},
+    "upholstery=purple": { "model": "redeco:block/purple_upholstered_warped_stool"},
+    "upholstery=magenta": { "model": "redeco:block/magenta_upholstered_warped_stool"},
+    "upholstery=pink": { "model": "redeco:block/pink_upholstered_warped_stool"},
+    "upholstery=red": { "model": "redeco:block/red_upholstered_warped_stool"},
+    "upholstery=orange": { "model": "redeco:block/orange_upholstered_warped_stool"},
+    "upholstery=yellow": { "model": "redeco:block/yellow_upholstered_warped_stool"},
+    "upholstery=brown": { "model": "redeco:block/brown_upholstered_warped_stool"}
+  }
+}

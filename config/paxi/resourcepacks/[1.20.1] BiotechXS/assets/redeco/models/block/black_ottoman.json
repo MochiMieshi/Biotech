@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/ottoman",
+  "textures": {
+    "0": "redeco:block/sofa/black_sofa",
+    "particle": "redeco:block/sofa/black_sofa"
+  }
+}

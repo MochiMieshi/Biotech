@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "faunify:textures/entity/rolypoly1.png": "outlined_sprite:faunify/rolypoly1.png",
+        "faunify:textures/entity/rolypoly2.png": "outlined_sprite:faunify/rolypoly2.png",
+        "faunify:textures/entity/rolypoly3.png": "outlined_sprite:faunify/rolypoly3.png",
+        "faunify:textures/entity/rolypoly4.png": "outlined_sprite:faunify/rolypoly4.png",
+        "faunify:textures/entity/rolypoly5.png": "outlined_sprite:faunify/rolypoly5.png",
+        "faunify:textures/entity/rolypoly6.png": "outlined_sprite:faunify/rolypoly6.png",
+        "default": "outlined_sprite:faunify/rolypoly1.png"
+    }
+}

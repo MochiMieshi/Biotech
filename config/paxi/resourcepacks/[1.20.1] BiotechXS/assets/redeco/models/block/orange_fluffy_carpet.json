@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/fluffy_carpet",
+  "textures": {
+    "0": "block/orange_wool",
+    "1": "redeco:block/fluffycarpet/orange_fluffy_carpet",
+    "particle": "block/orange_wool"
+  }
+}

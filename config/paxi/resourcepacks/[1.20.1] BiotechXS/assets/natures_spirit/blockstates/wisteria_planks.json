@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "natures_spirit:block/wisteria_planks"},
+			{"model": "natures_spirit:block/wisteria_planks1"},
+			{"model": "natures_spirit:block/wisteria_planks2"}
+		]
+	}
+}

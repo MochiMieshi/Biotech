@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/cabinet_counter",
+  "textures": {
+    "0": "redeco:block/counters/birch_counters",
+    "1": "redeco:block/cabinet_doors_birch",
+    "2": "minecraft:block/birch_log",
+    "particle": "redeco:block/polishedplanks/polished_birch_planks"
+  }
+}

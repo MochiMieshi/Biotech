@@ -1,0 +1,636 @@
+{
+	"entity.fish.flop": {
+		"sounds": [
+			"minecraft:entity/fish/flop1",
+			"minecraft:entity/fish/flop2",
+			"minecraft:entity/fish/flop3",
+			"minecraft:entity/fish/flop4"
+		],
+		"subtitle": "subtitles.entity.spawn.fish.flop"
+	},
+	"entity.fish.hurt": {
+		"sounds": [
+			"minecraft:entity/fish/hurt1",
+			"minecraft:entity/fish/hurt2",
+			"minecraft:entity/fish/hurt3",
+			"minecraft:entity/fish/hurt4"
+		],
+		"subtitle": "subtitles.entity.spawn.fish.hurt"
+	},
+	"entity.fish.death": {
+		"sounds": [
+			"minecraft:entity/fish/hurt1",
+			"minecraft:entity/fish/hurt2",
+			"minecraft:entity/fish/hurt3",
+			"minecraft:entity/fish/hurt4"
+		],
+		"subtitle": "subtitles.entity.spawn.fish.death"
+	},
+	"entity.fish.ambient": { "sounds": [], "subtitle": "subtitles.entity.spawn.fish.ambient" },
+
+	"entity.angler_fish.deflate": {
+		"sounds": [ "spawn:entity/angler_fish/deflate" ],
+		"subtitle": "subtitles.entity.spawn.angler_fish.deflate"
+	},
+	"entity.angler_fish.effect.give": {
+		"sounds": [ "spawn:entity/angler_fish/effect_give" ],
+		"subtitle": "subtitles.entity.spawn.angler_fish.effect.give"
+	},
+	"entity.angler_fish.effect.deny": {
+		"sounds": [ "spawn:entity/angler_fish/effect_deny" ],
+		"subtitle": "subtitles.entity.spawn.angler_fish.effect.deny"
+	},
+
+	"entity.seahorse.hurt": {
+		"sounds": [
+			"minecraft:entity/fish/hurt1",
+			"minecraft:entity/fish/hurt2",
+			"minecraft:entity/fish/hurt3",
+			"minecraft:entity/fish/hurt4"
+		],
+		"subtitle": "subtitles.entity.spawn.seahorse.hurt"
+	},
+	"entity.seahorse.death": {
+		"sounds": [
+			"minecraft:entity/fish/hurt1",
+			"minecraft:entity/fish/hurt2",
+			"minecraft:entity/fish/hurt3",
+			"minecraft:entity/fish/hurt4"
+		],
+		"subtitle": "subtitles.entity.spawn.seahorse.death"
+	},
+	"entity.seahorse.growl": {
+		"sounds": [
+			"spawn:entity/seahorse/growl1",
+			"spawn:entity/seahorse/growl2"
+		],
+		"subtitle": "subtitles.entity.spawn.seahorse.growl"
+	},
+	"entity.seahorse.click": {
+		"sounds": [
+			"spawn:entity/seahorse/click1",
+			"spawn:entity/seahorse/click2",
+			"spawn:entity/seahorse/click3"
+		],
+		"subtitle": "subtitles.entity.spawn.seahorse.click"
+	},
+
+	"entity.snail.death": {
+		"sounds": [
+			"spawn:entity/snail/death"
+		],
+		"subtitle": "subtitles.entity.snail.death"
+	},
+	"entity.snail.death_hidden": {
+		"sounds": [
+			"spawn:entity/snail/death_hidden"
+		],
+		"subtitle": "subtitles.entity.snail.death"
+	},
+	"entity.snail.hurt": {
+		"sounds": [
+			"spawn:entity/snail/hurt1",
+			"spawn:entity/snail/hurt2"
+		],
+		"subtitle": "subtitles.entity.snail.hurt"
+	},
+	"entity.snail.eat": {
+		"sounds": [
+			"spawn:entity/snail/eat1",
+			"spawn:entity/snail/eat2"
+		],
+		"subtitle": "subtitles.entity.snail.eat"
+	},
+	"entity.snail.hurt_hidden": {
+		"sounds": [
+			"spawn:entity/snail/hurt_hidden1",
+			"spawn:entity/snail/hurt_hidden2",
+			"spawn:entity/snail/hurt_hidden3",
+			"spawn:entity/snail/hurt_hidden4"
+		],
+		"subtitle": "subtitles.entity.snail.hurt_hidden"
+	},
+	"entity.snail.shell_grow": {
+		"sounds": [
+			"spawn:entity/snail/shell_grow"
+		],
+		"subtitle": "subtitles.entity.snail.shell_grow"
+	},
+	"entity.snail.slide": {
+		"sounds": [
+			"spawn:entity/snail/slide1",
+			"spawn:entity/snail/slide2",
+			"spawn:entity/snail/slide3",
+			"spawn:entity/snail/slide4",
+			"spawn:entity/snail/slide5",
+			"spawn:entity/snail/slide6"
+		],
+		"subtitle": "subtitles.entity.snail.slide"
+	},
+	"entity.snail.lay_eggs": {
+		"sounds": [
+			"spawn:entity/snail/lay_eggs"
+		],
+		"subtitle": "subtitles.entity.snail.lay_eggs"
+	},
+	"block.snail_eggs.hatch": {
+	"sounds": [
+		"spawn:block/snail_eggs/hatch"
+	],
+	"subtitle": "subtitles.block.snail_eggs.hatch"
+	},
+	"block.snail_shell.break": {
+		"sounds": [
+			"spawn:block/snail_shell/break1",
+			"spawn:block/snail_shell/break2",
+			"spawn:block/snail_shell/break3"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.snail_shell.fall": {
+		"sounds": [
+			{
+				"name": "spawn:block.snail_shell.break",
+				"type": "event"
+			}
+		]
+	},
+	"block.snail_shell.hit": {
+		"sounds": [
+			{
+				"name": "spawn:block.snail_shell.step",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.snail_shell.place": {
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.snail_shell.step": {
+		"sounds": [
+			"step/stone1",
+			"step/stone2",
+			"step/stone3",
+			"step/stone4"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"block.mucus.break": {
+		"sounds": [
+			"spawn:block/mucus/heavy1",
+			"spawn:block/mucus/heavy2",
+			"spawn:block/mucus/heavy3"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.mucus.fall": {
+		"sounds": [
+			{
+				"name": "spawn:block.mucus.break",
+				"type": "event"
+			}
+		]
+	},
+	"block.mucus.hit": {
+		"sounds": [
+			{
+				"name": "spawn:block.mucus.step",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.mucus.place": {
+		"sounds": [
+			{
+				"name": "spawn:block.mucus.break",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.mucus.step": {
+		"sounds": [
+			"spawn:block/mucus/light1",
+			"spawn:block/mucus/light2"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"entity.tuna_egg.hit": {
+		"sounds": [
+			"spawn:entity/tuna_egg/hit1",
+			"spawn:entity/tuna_egg/hit2",
+			"spawn:entity/tuna_egg/hit3",
+			"spawn:entity/tuna_egg/hit4"
+		],
+		"subtitle": "subtitles.entity.tuna_egg.hit"
+	},
+	"entity.tuna_egg.broken": {
+		"sounds": [
+			"spawn:entity/tuna_egg/break"
+		],
+		"subtitle": "subtitles.entity.tuna_egg.broken"
+	},
+	"item.bucket.empty_tuna_egg": {
+		"sounds": [
+			"spawn:item/bucket/empty_tuna_egg1",
+			"spawn:item/bucket/empty_tuna_egg2",
+			"spawn:item/bucket/empty_tuna_egg3"
+		],
+		"subtitle": "subtitles.item.bucket.empty"
+	},
+	"item.bucket.fill_tuna_egg": {
+		"sounds": [
+			"spawn:item/bucket/fill_tuna_egg1",
+			"spawn:item/bucket/fill_tuna_egg2",
+			"spawn:item/bucket/fill_tuna_egg3"
+		],
+		"subtitle": "subtitles.item.bucket.fill_tuna_egg"
+	},
+	"entity.big_fish.swim": {
+		"sounds": [
+			"spawn:entity/big_fish/swim1",
+			"spawn:entity/big_fish/swim2",
+			"spawn:entity/big_fish/swim3",
+			"spawn:entity/big_fish/swim4",
+			"spawn:entity/big_fish/swim5",
+			"spawn:entity/big_fish/swim6",
+			"spawn:entity/big_fish/swim7",
+			"spawn:entity/big_fish/swim8"
+		]
+	},
+	"entity.hamster.idle": {
+		"sounds": [
+			"spawn:entity/hamster/idle1",
+			"spawn:entity/hamster/idle2",
+			"spawn:entity/hamster/idle3",
+			"spawn:entity/hamster/idle4",
+			"spawn:entity/hamster/idle5",
+			"spawn:entity/hamster/idle6"
+		],
+		"subtitle": "subtitles.entity.hamster.idle"
+	},
+	"entity.hamster.idle_call": {
+		"sounds": [
+			"spawn:entity/hamster/call1",
+			"spawn:entity/hamster/call2",
+			"spawn:entity/hamster/call3",
+			"spawn:entity/hamster/call4",
+			"spawn:entity/hamster/call5"
+		],
+		"subtitle": "subtitles.entity.hamster.idle_call"
+	},
+	"entity.hamster.step": {
+		"sounds": [
+			"spawn:entity/hamster/step1",
+			"spawn:entity/hamster/step2",
+			"spawn:entity/hamster/step3",
+			"spawn:entity/hamster/step4",
+			"spawn:entity/hamster/step5",
+			"spawn:entity/hamster/step6",
+			"spawn:entity/hamster/step7",
+			"spawn:entity/hamster/step8"
+		],
+		"subtitle": "subtitles.entity.hamster.step"
+	},
+	"entity.hamster.hurt": {
+		"sounds": [
+			"spawn:entity/hamster/hurt1",
+			"spawn:entity/hamster/hurt2",
+			"spawn:entity/hamster/hurt3"
+		],
+		"subtitle": "subtitles.entity.hamster.hurt"
+	},
+	"entity.hamster.death": {
+		"sounds": [
+			"spawn:entity/hamster/death"
+		],
+		"subtitle": "subtitles.entity.hamster.death"
+	},
+	"entity.hamster.eat": {
+		"sounds": [
+			"spawn:entity/hamster/eat1",
+			"spawn:entity/hamster/eat2",
+			"spawn:entity/hamster/eat3",
+			"spawn:entity/hamster/eat4"
+		],
+		"subtitle": "subtitles.entity.hamster.eat"
+	},
+	"block.rotten_wood_door.open": {
+		"sounds": [
+			"spawn:block/rotten_door/toggle1",
+			"spawn:block/rotten_door/toggle2",
+			"spawn:block/rotten_door/toggle3",
+			"spawn:block/rotten_door/toggle4"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.rotten_wood_door.close": {
+		"sounds": [
+			"spawn:block/rotten_door/toggle1",
+			"spawn:block/rotten_door/toggle2",
+			"spawn:block/rotten_door/toggle3",
+			"spawn:block/rotten_door/toggle4"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.rotten_wood.break": {
+		"sounds": [
+			"spawn:block/rotten_wood/dig1",
+			"spawn:block/rotten_wood/dig2",
+			"spawn:block/rotten_wood/dig3",
+			"spawn:block/rotten_wood/dig4"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.rotten_wood.fall": {
+		"sounds": [
+			"spawn:block/rotten_wood/step1",
+			"spawn:block/rotten_wood/step2",
+			"spawn:block/rotten_wood/step3",
+			"spawn:block/rotten_wood/step4",
+			"spawn:block/rotten_wood/step5",
+			"spawn:block/rotten_wood/step6"
+		]
+	},
+	"block.rotten_wood.hit": {
+		"sounds": [
+			"spawn:block/rotten_wood/step1",
+			"spawn:block/rotten_wood/step2",
+			"spawn:block/rotten_wood/step3",
+			"spawn:block/rotten_wood/step4",
+			"spawn:block/rotten_wood/step5",
+			"spawn:block/rotten_wood/step6"
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.rotten_wood.place": {
+		"sounds": [
+			"spawn:block/rotten_wood/dig1",
+			"spawn:block/rotten_wood/dig2",
+			"spawn:block/rotten_wood/dig3",
+			"spawn:block/rotten_wood/dig4"
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.rotten_wood.step": {
+		"sounds": [
+			"spawn:block/rotten_wood/step1",
+			"spawn:block/rotten_wood/step2",
+			"spawn:block/rotten_wood/step3",
+			"spawn:block/rotten_wood/step4",
+			"spawn:block/rotten_wood/step5",
+			"spawn:block/rotten_wood/step6"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"block.rotten_wood_trapdoor.close": {
+		"sounds": [
+			"spawn:block/rotten_trapdoor/toggle1",
+			"spawn:block/rotten_trapdoor/toggle2",
+			"spawn:block/rotten_trapdoor/toggle3"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.rotten_wood_trapdoor.open": {
+		"sounds": [
+			"spawn:block/rotten_trapdoor/toggle1",
+			"spawn:block/rotten_trapdoor/toggle2",
+			"spawn:block/rotten_trapdoor/toggle3"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.rotten_wood_fence_gate.close": {
+		"sounds": [
+			"spawn:block/rotten_fence_gate/toggle1",
+			"spawn:block/rotten_fence_gate/toggle2",
+			"spawn:block/rotten_fence_gate/toggle3"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
+	},
+	"block.rotten_wood_fence_gate.open": {
+		"sounds": [
+			"spawn:block/rotten_fence_gate/toggle1",
+			"spawn:block/rotten_fence_gate/toggle2",
+			"spawn:block/rotten_fence_gate/toggle3"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
+	},
+	"block.cracked_rotten_wood.break": {
+		"sounds": [
+			"spawn:block/rotten_wood/dig1",
+			"spawn:block/rotten_wood/dig2",
+			"spawn:block/rotten_wood/dig3",
+			"spawn:block/rotten_wood/dig4"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.cracked_rotten_wood.fall": {
+		"sounds": [
+			"spawn:block/cracked_rotten_wood/step1",
+			"spawn:block/cracked_rotten_wood/step2",
+			"spawn:block/cracked_rotten_wood/step3",
+			"spawn:block/cracked_rotten_wood/step4",
+			"spawn:block/cracked_rotten_wood/step5",
+			"spawn:block/cracked_rotten_wood/step6"
+		]
+	},
+	"block.cracked_rotten_wood.hit": {
+		"sounds": [
+			"spawn:block/cracked_rotten_wood/step1",
+			"spawn:block/cracked_rotten_wood/step2",
+			"spawn:block/cracked_rotten_wood/step3",
+			"spawn:block/cracked_rotten_wood/step4",
+			"spawn:block/cracked_rotten_wood/step5",
+			"spawn:block/cracked_rotten_wood/step6"
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.cracked_rotten_wood.place": {
+		"sounds": [
+			"spawn:block/rotten_wood/dig1",
+			"spawn:block/rotten_wood/dig2",
+			"spawn:block/rotten_wood/dig3",
+			"spawn:block/rotten_wood/dig4"
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.cracked_rotten_wood.step": {
+		"sounds": [
+			"spawn:block/cracked_rotten_wood/step1",
+			"spawn:block/cracked_rotten_wood/step2",
+			"spawn:block/cracked_rotten_wood/step3",
+			"spawn:block/cracked_rotten_wood/step4",
+			"spawn:block/cracked_rotten_wood/step5",
+			"spawn:block/cracked_rotten_wood/step6"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	},
+	"block.sunflower.seed_pickup": {
+		"sounds": [
+			{
+				"name": "block.sweet_berry_bush.pick_berries",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.sunflower.seed_pickup"
+	},
+	"music_disc.rot": {
+		"sounds": [
+			{
+				"name": "spawn:records/music_disc_rot",
+				"stream": true
+			}
+		]
+	},
+	"entity.ant.idle": {
+		"sounds": [
+			"spawn:entity/ant/idle1",
+			"spawn:entity/ant/idle2",
+			"spawn:entity/ant/idle3",
+			"spawn:entity/ant/idle4",
+			"spawn:entity/ant/idle5",
+			"spawn:entity/ant/idle6",
+			"spawn:entity/ant/idle7"
+		],
+		"subtitle": "subtitles.entity.ant.idle"
+	},
+	"entity.ant.step": {
+		"sounds": [
+			"spawn:entity/ant/step1",
+			"spawn:entity/ant/step2",
+			"spawn:entity/ant/step3",
+			"spawn:entity/ant/step4",
+			"spawn:entity/ant/step5"
+		],
+		"subtitle": "subtitles.entity.ant.step"
+	},
+	"entity.ant.hurt": {
+		"sounds": [
+			"spawn:entity/ant/hurt1",
+			"spawn:entity/ant/hurt2",
+			"spawn:entity/ant/hurt3"
+		],
+		"subtitle": "subtitles.entity.ant.hurt"
+	},
+	"entity.ant.eat": {
+		"sounds": [
+			"spawn:entity/ant/eat1",
+			"spawn:entity/ant/eat2",
+			"spawn:entity/ant/eat3"
+		],
+		"subtitle": "subtitles.entity.ant.eat"
+	},
+	"entity.ant.death": {
+		"sounds": [
+			"spawn:entity/ant/death1",
+			"spawn:entity/ant/death2",
+			"spawn:entity/ant/death3"
+		],
+		"subtitle": "subtitles.entity.ant.death"
+	},
+	"entity.ant.collect_resource": {
+		"sounds": [
+			"spawn:entity/ant/collect_resource1",
+			"spawn:entity/ant/collect_resource2",
+			"spawn:entity/ant/collect_resource3"
+		],
+		"subtitle": "subtitles.entity.ant.collect_resource"
+	},
+	"entity.ant.hatch": {
+		"sounds": [
+			"spawn:entity/ant/hatch1",
+			"spawn:entity/ant/hatch2"
+		],
+		"subtitle": "subtitles.entity.ant.hatch"
+	},
+	"block.anthill.enter": {
+		"sounds": [
+			"spawn:block/anthill/enter1",
+			"spawn:block/anthill/enter2"
+		],
+		"subtitle": "subtitles.block.anthill.enter"
+	},
+	"block.anthill.exit": {
+		"sounds": [
+			"spawn:block/anthill/exit1",
+			"spawn:block/anthill/exit2"
+		],
+		"subtitle": "subtitles.block.anthill.exit"
+	},
+	"block.anthill.work": {
+		"sounds": [
+			"spawn:block/anthill/work1",
+			"spawn:block/anthill/work2",
+			"spawn:block/anthill/work3",
+			"spawn:block/anthill/work4"
+		],
+		"subtitle": "subtitles.block.anthill.work"
+	},
+	"block.anthill.resource": {
+		"sounds": [
+			"spawn:block/anthill/resource1",
+			"spawn:block/anthill/resource2",
+			"spawn:block/anthill/resource3"
+		],
+		"subtitle": "subtitles.block.anthill.resource"
+	},
+	"block.rotten_wood.crack": {
+		"sounds": [
+			"spawn:block/rotten_wood/crack1",
+			"spawn:block/rotten_wood/crack2"
+		],
+		"subtitle": "subtitles.block.rotten_wood.crack"
+	},
+	"block.fallen_leaves.break": {
+		"sounds": [
+			"spawn:block/fallen_leaves/heavy1",
+			"spawn:block/fallen_leaves/heavy2",
+			"spawn:block/fallen_leaves/heavy3",
+			"spawn:block/fallen_leaves/heavy4"
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.fallen_leaves.fall": {
+		"sounds": [
+			{
+				"name": "spawn:block.fallen_leaves.break",
+				"type": "event"
+			}
+		]
+	},
+	"block.fallen_leaves.hit": {
+		"sounds": [
+			{
+				"name": "spawn:block.fallen_leaves.step",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.fallen_leaves.place": {
+		"sounds": [
+			{
+				"name": "spawn:block.fallen_leaves.break",
+				"type": "event"
+			}
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.fallen_leaves.step": {
+		"sounds": [
+			"spawn:block/fallen_leaves/light1",
+			"spawn:block/fallen_leaves/light2",
+			"spawn:block/fallen_leaves/light3",
+			"spawn:block/fallen_leaves/light4"
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
+	}
+}

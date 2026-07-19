@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=true": { "model": "redeco:block/lime_paper_lantern" },
+    "hanging=false": { "model": "redeco:block/lime_paper_lantern_floor"}
+  }
+}

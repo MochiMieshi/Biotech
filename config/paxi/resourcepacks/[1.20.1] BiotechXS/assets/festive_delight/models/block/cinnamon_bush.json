@@ -1,0 +1,11 @@
+{
+  "parent": "festive_delight:custom/cinnamon_bush",
+  "textures": {
+    "all": "festive_delight:block/cinnamon_bush_inside",
+    "particle": "festive_delight:block/cinnamon_bush_top",
+    "1": "festive_delight:block/cinnamon_bush_side",
+    "2": "festive_delight:block/cinnamon_bush_top",
+    "3": "festive_delight:block/cinnamon_bush_side2"
+  },
+  "render_type": "cutout"
+}

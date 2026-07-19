@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,open=false": { "model": "redeco:block/crimson_drawers" },
+    "facing=east,open=false": { "model": "redeco:block/crimson_drawers", "y": 90 },
+    "facing=south,open=false": { "model": "redeco:block/crimson_drawers", "y": 180 },
+    "facing=west,open=false": { "model": "redeco:block/crimson_drawers", "y": 270 },
+    "facing=north,open=true": { "model": "redeco:block/crimson_drawers_open" },
+    "facing=east,open=true": { "model": "redeco:block/crimson_drawers_open", "y": 90 },
+    "facing=south,open=true": { "model": "redeco:block/crimson_drawers_open", "y": 180 },
+    "facing=west,open=true": { "model": "redeco:block/crimson_drawers_open", "y": 270 }
+  }
+}

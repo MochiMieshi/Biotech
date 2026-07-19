@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/lattice_leaves",
+  "textures": {
+    "0": "redeco:block/lattice/spruce_lattice",
+    "1": "redeco:block/lattice/flowering_azalea_lattice_leaves",
+    "particle": "redeco:block/lattice/spruce_lattice"
+  }
+}

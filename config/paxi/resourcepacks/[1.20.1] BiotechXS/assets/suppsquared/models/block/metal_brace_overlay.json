@@ -1,0 +1,7 @@
+{
+	"parent": "supplementaries:block/timber_frame_overlay",
+	"textures": {
+		"1": "suppsquared:block/metal_brace",
+		"2": "suppsquared:block/metal_brace_f"
+	}
+}

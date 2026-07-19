@@ -1,0 +1,7 @@
+{
+	"parent": "block/white_wool",
+	"textures": {
+		"side": "block/green_wool",
+		"end": "block/green_wool_"
+	}
+}

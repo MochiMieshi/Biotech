@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cell:block/antimatter",
+    "up": "cell:block/antimatter",
+    "north": "cell:block/antimatter",
+    "east": "cell:block/antimatter",
+    "south": "cell:block/antimatter",
+    "west": "cell:block/antimatter",
+    "particle": "cell:block/antimatter"
+  },
+  "render_type": "solid"
+}

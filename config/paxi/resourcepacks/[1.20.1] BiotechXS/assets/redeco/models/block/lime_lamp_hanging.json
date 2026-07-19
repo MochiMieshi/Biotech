@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/lamp_hanging",
+  "textures": {
+    "0": "redeco:block/lamp/lime_lamp",
+    "particle": "redeco:block/lamp/lime_lamp"
+  }
+}

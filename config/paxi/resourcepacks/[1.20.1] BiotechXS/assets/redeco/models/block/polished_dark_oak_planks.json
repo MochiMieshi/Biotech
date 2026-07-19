@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "redeco:block/polishedplanks/polished_dark_oak_planks"
+  }
+}

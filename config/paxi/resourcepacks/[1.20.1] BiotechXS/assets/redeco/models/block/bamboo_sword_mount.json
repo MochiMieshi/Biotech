@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/sword_mount",
+  "textures": {
+    "0": "redeco:block/swordmount/bamboo_sword_mount",
+    "particle": "redeco:block/swordmount/bamboo_sword_mount"
+  }
+}

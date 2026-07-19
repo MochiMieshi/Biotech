@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "faunify:textures/entity/fennec1.png": "outlined_sprite:faunify/fennec1.png",
+        "faunify:textures/entity/fennec2.png": "outlined_sprite:faunify/fennec2.png",
+        "faunify:textures/entity/sleep/fennec1.png": "outlined_sprite:faunify/fennec1.png",
+        "faunify:textures/entity/sleep/fennec2.png": "outlined_sprite:faunify/fennec2.png",
+        "default": "outlined_sprite:faunify/fennec1.png"
+    }
+}

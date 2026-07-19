@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/plank_gate_open_east",
+  "textures": {
+    "0": "redeco:block/plankfence/acacia_plank_fence",
+    "1": "minecraft:block/acacia_log",
+    "particle": "redeco:block/plankfence/acacia_plank_fence"
+  }
+}

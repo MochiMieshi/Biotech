@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "redeco:block/paperdoor/paper_door_side",
+		"particle": "redeco:block/paperdoor/paper_trapdoor_bamboo",
+		"texture": "redeco:block/paperdoor/paper_trapdoor_bamboo"
+	},
+	"elements": [
+		{
+			"from": [0, 14, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [9, 0, 7, 16], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [9, 0, 7, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [9, 0, 7, 16], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [9, 0, 7, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#texture"}
+			}
+		}
+	]
+}

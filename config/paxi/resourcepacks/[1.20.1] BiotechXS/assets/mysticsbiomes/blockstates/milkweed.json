@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "mysticsbiomes:block/milkweed_bottom",
+        "weight": 1
+      },
+      {
+        "model": "mysticsbiomes:block/milkweed_bottom_variant",
+        "weight": 1
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "mysticsbiomes:block/milkweed_top",
+        "weight": 1
+      },
+      {
+        "model": "mysticsbiomes:block/milkweed_top_variant",
+        "weight": 1
+      }
+    ]
+  }
+}

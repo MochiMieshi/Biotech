@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "enchance:item/crossbow_burrow_pulling_1"
+  }
+}

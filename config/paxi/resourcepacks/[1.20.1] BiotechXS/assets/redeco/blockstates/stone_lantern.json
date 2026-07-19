@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "mossing=0,waxed=0,legs=1": [
+      { "model": "redeco:block/stone_lantern" },
+      { "model": "redeco:block/stone_lantern", "y": 90 },
+      { "model": "redeco:block/stone_lantern", "y": 180 },
+      { "model": "redeco:block/stone_lantern", "y": 270 }
+    ],
+    "mossing=1,waxed=0,legs=1": [
+      { "model": "redeco:block/stone_lantern_sprouting" },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 90 },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 180 },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 270 }
+    ],
+    "mossing=2,waxed=0,legs=1": [
+      { "model": "redeco:block/stone_lantern_mossy" },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 90 },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 180 },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 270 }
+    ],
+    "mossing=3,waxed=0,legs=1": [
+      { "model": "redeco:block/stone_lantern_overgrown" },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 90 },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 180 },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 270 }
+    ],
+    "mossing=0,waxed=1,legs=1": [
+      { "model": "redeco:block/stone_lantern" },
+      { "model": "redeco:block/stone_lantern", "y": 90 },
+      { "model": "redeco:block/stone_lantern", "y": 180 },
+      { "model": "redeco:block/stone_lantern", "y": 270 }
+    ],
+    "mossing=1,waxed=1,legs=1": [
+      { "model": "redeco:block/stone_lantern_sprouting" },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 90 },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 180 },
+      { "model": "redeco:block/stone_lantern_sprouting", "y": 270 }
+    ],
+    "mossing=2,waxed=1,legs=1": [
+      { "model": "redeco:block/stone_lantern_mossy" },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 90 },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 180 },
+      { "model": "redeco:block/stone_lantern_mossy", "y": 270 }
+    ],
+    "mossing=3,waxed=1,legs=1": [
+      { "model": "redeco:block/stone_lantern_overgrown" },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 90 },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 180 },
+      { "model": "redeco:block/stone_lantern_overgrown", "y": 270 }
+    ],
+    "mossing=0,waxed=0,legs=0": [
+      { "model": "redeco:block/stone_lantern_legless" },
+      { "model": "redeco:block/stone_lantern_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_legless", "y": 270 }
+    ],
+    "mossing=1,waxed=0,legs=0": [
+      { "model": "redeco:block/stone_lantern_sprouting_legless" },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 270 }
+    ],
+    "mossing=2,waxed=0,legs=0": [
+      { "model": "redeco:block/stone_lantern_mossy_legless" },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 270 }
+    ],
+    "mossing=3,waxed=0,legs=0": [
+      { "model": "redeco:block/stone_lantern_overgrown_legless" },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 270 }
+    ],
+    "mossing=0,waxed=1,legs=0": [
+      { "model": "redeco:block/stone_lantern_legless" },
+      { "model": "redeco:block/stone_lantern_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_legless", "y": 270 }
+    ],
+    "mossing=1,waxed=1,legs=0": [
+      { "model": "redeco:block/stone_lantern_sprouting_legless" },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_sprouting_legless", "y": 270 }
+    ],
+    "mossing=2,waxed=1,legs=0": [
+      { "model": "redeco:block/stone_lantern_mossy_legless" },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_mossy_legless", "y": 270 }
+    ],
+    "mossing=3,waxed=1,legs=0": [
+      { "model": "redeco:block/stone_lantern_overgrown_legless" },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 90 },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 180 },
+      { "model": "redeco:block/stone_lantern_overgrown_legless", "y": 270 }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/upholstered_bench",
+  "textures": {
+    "0": "redeco:block/bench/warped_bench",
+    "1": "redeco:block/bench/light_blue_bench_upholstery",
+    "particle": "redeco:block/bench/warped_bench"
+  }
+}

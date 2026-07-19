@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/crate",
+  "textures": {
+    "0": "redeco:block/crate/oak_crate",
+    "particle": "redeco:block/crate/oak_crate"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redeco:block/polished_birch_slab"
+    },
+    "type=double": {
+      "model": "redeco:block/polished_birch_planks"
+    },
+    "type=top": {
+      "model": "redeco:block/polished_birch_slab_top"
+    }
+  }
+}

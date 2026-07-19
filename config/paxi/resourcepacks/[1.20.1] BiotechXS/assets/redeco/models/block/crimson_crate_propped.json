@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/crate_propped",
+  "textures": {
+    "0": "redeco:block/crate/crimson_crate",
+    "particle": "redeco:block/crate/crimson_crate"
+  }
+}

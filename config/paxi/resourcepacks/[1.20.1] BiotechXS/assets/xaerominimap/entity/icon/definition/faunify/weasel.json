@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "faunify:textures/entity/weasel1.png": "outlined_sprite:faunify/weasel1.png",
+        "faunify:textures/entity/weasel2.png": "outlined_sprite:faunify/weasel2.png",
+        "faunify:textures/entity/weasel3.png": "outlined_sprite:faunify/weasel3.png",
+        "faunify:textures/entity/weasel4.png": "outlined_sprite:faunify/weasel4.png",
+        "faunify:textures/entity/weasel5.png": "outlined_sprite:faunify/weasel5.png",
+        "faunify:textures/entity/weasel_snowy.png": "outlined_sprite:faunify/weasel_snowy.png",
+        "faunify:textures/entity/ferret1.png": "outlined_sprite:faunify/ferret1.png",
+        "faunify:textures/entity/ferret2.png": "outlined_sprite:faunify/ferret2.png",
+        "faunify:textures/entity/sleep/weasel1.png": "outlined_sprite:faunify/weasel1.png",
+        "faunify:textures/entity/sleep/weasel2.png": "outlined_sprite:faunify/weasel2.png",
+        "faunify:textures/entity/sleep/weasel3.png": "outlined_sprite:faunify/weasel3.png",
+        "faunify:textures/entity/sleep/weasel4.png": "outlined_sprite:faunify/weasel4.png",
+        "faunify:textures/entity/sleep/weasel5.png": "outlined_sprite:faunify/weasel5.png",
+        "faunify:textures/entity/sleep/weasel_snowy.png": "outlined_sprite:faunify/weasel_snowy.png",
+        "faunify:textures/entity/sleep/ferret1.png": "outlined_sprite:faunify/ferret1.png",
+        "faunify:textures/entity/sleep/ferret2.png": "outlined_sprite:faunify/ferret2.png",
+        "default": "outlined_sprite:faunify/weasel1.png"
+    }
+}

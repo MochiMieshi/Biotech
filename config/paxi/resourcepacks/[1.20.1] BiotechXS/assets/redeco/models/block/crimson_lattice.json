@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/lattice",
+  "textures": {
+    "0": "redeco:block/lattice/crimson_lattice",
+    "1": "redeco:block/lattice/lattice_leaves_none",
+    "particle": "redeco:block/lattice/crimson_lattice"
+  }
+}

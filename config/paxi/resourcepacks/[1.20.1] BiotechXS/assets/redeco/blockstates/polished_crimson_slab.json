@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redeco:block/polished_crimson_slab"
+    },
+    "type=double": {
+      "model": "redeco:block/polished_crimson_planks"
+    },
+    "type=top": {
+      "model": "redeco:block/polished_crimson_slab_top"
+    }
+  }
+}

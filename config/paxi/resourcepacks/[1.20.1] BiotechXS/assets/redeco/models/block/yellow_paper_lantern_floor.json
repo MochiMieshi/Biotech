@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/paper_lantern_floor",
+  "textures": {
+    "1": "redeco:block/paperlantern/yellow_paper_lantern",
+    "particle": "redeco:block/paperlantern/yellow_paper_lantern"
+  }
+}

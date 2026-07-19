@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/drawers",
+  "textures": {
+    "0": "redeco:block/drawers/spruce_drawers",
+    "1": "redeco:block/drawer_spruce",
+    "particle": "redeco:block/drawers/spruce_drawers"
+  }
+}

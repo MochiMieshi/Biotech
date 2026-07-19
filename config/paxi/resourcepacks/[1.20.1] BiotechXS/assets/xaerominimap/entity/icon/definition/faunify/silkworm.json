@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "faunify:textures/entity/silkworm.png": "outlined_sprite:faunify/silkworm.png",
+        "faunify:textures/entity/caterpillar_hungry.png": "outlined_sprite:faunify/caterpillar_hungry.png",
+        "default": "outlined_sprite:faunify/silkworm.png"
+    }
+}

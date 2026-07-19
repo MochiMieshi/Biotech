@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "faunify:textures/entity/bigbeetle_atlas.png": "outlined_sprite:faunify/bigbeetle_atlas.png",
+        "faunify:textures/entity/bigbeetle_dynastid.png": "outlined_sprite:faunify/bigbeetle_dynastid.png",
+        "faunify:textures/entity/bigbeetle_elephant.png": "outlined_sprite:faunify/bigbeetle_elephant.png",
+        "faunify:textures/entity/bigbeetle_goliath.png": "outlined_sprite:faunify/bigbeetle_goliath.png",
+        "faunify:textures/entity/bigbeetle_hercules.png": "outlined_sprite:faunify/bigbeetle_hercules.png",
+        "faunify:textures/entity/smallbeetle_cyclommatus.png": "outlined_sprite:faunify/smallbeetle_cyclommatus.png",
+        "faunify:textures/entity/smallbeetle_giant.png": "outlined_sprite:faunify/smallbeetle_giant.png",
+        "faunify:textures/entity/smallbeetle_giraffe.png": "outlined_sprite:faunify/smallbeetle_giraffe.png",
+        "faunify:textures/entity/smallbeetle_golden.png": "outlined_sprite:faunify/smallbeetle_golden.png",
+        "faunify:textures/entity/smallbeetle_miyama.png": "outlined_sprite:faunify/smallbeetle_miyama.png",
+        "faunify:textures/entity/smallbeetle_rainbow.png": "outlined_sprite:faunify/smallbeetle_rainbow.png",
+        "faunify:textures/entity/smallbeetle_saw.png": "outlined_sprite:faunify/smallbeetle_saw.png",
+        "faunify:textures/entity/bigbeetle_pest.png": "outlined_sprite:faunify/bigbeetle_pest.png",
+        "default": "outlined_sprite:faunify/smallbeetle_giraffe.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redeco:block/polished_warped_slab"
+    },
+    "type=double": {
+      "model": "redeco:block/polished_warped_planks"
+    },
+    "type=top": {
+      "model": "redeco:block/polished_warped_slab_top"
+    }
+  }
+}

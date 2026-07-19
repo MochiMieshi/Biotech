@@ -1,0 +1,7 @@
+{
+  "parent": "festive_delight:custom/rolling_pin",
+  "textures": {
+    "1": "festive_delight:block/rolling_pin",
+    "particle": "festive_delight:item/festive_chicken_block"
+  }
+}

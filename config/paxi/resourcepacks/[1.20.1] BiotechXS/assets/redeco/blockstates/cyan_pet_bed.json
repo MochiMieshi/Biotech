@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "redeco:block/cyan_pet_bed" },
+    "facing=east": { "model": "redeco:block/cyan_pet_bed", "y": 90 },
+    "facing=south": { "model": "redeco:block/cyan_pet_bed", "y": 180 },
+    "facing=west": { "model": "redeco:block/cyan_pet_bed", "y": 270 }
+  }
+}

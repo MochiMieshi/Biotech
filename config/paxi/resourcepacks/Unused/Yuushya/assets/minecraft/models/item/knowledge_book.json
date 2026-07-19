@@ -1,0 +1,9 @@
+{
+	"credit": "Yuushya",
+	"parent":"minecraft:item/written_book",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "entity/bookl",
+		"particle": "entity/bookl"
+	}
+}

@@ -1,0 +1,88 @@
+{
+  "variants": {
+    "facing=north,upholstery=none": { "model": "redeco:block/warped_bench" },
+    "facing=east,upholstery=none": { "model": "redeco:block/warped_bench", "y": 90 },
+    "facing=south,upholstery=none": { "model": "redeco:block/warped_bench", "y": 180 },
+    "facing=west,upholstery=none": { "model": "redeco:block/warped_bench", "y": 270 },
+
+    "facing=north,upholstery=white": { "model": "redeco:block/white_upholstered_warped_bench" },
+    "facing=east,upholstery=white": { "model": "redeco:block/white_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=white": { "model": "redeco:block/white_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=white": { "model": "redeco:block/white_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_warped_bench" },
+    "facing=east,upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=light_gray": { "model": "redeco:block/light_gray_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=gray": { "model": "redeco:block/gray_upholstered_warped_bench" },
+    "facing=east,upholstery=gray": { "model": "redeco:block/gray_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=gray": { "model": "redeco:block/gray_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=gray": { "model": "redeco:block/gray_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=black": { "model": "redeco:block/black_upholstered_warped_bench" },
+    "facing=east,upholstery=black": { "model": "redeco:block/black_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=black": { "model": "redeco:block/black_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=black": { "model": "redeco:block/black_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=lime": { "model": "redeco:block/lime_upholstered_warped_bench" },
+    "facing=east,upholstery=lime": { "model": "redeco:block/lime_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=lime": { "model": "redeco:block/lime_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=lime": { "model": "redeco:block/lime_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=green": { "model": "redeco:block/green_upholstered_warped_bench" },
+    "facing=east,upholstery=green": { "model": "redeco:block/green_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=green": { "model": "redeco:block/green_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=green": { "model": "redeco:block/green_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=cyan": { "model": "redeco:block/cyan_upholstered_warped_bench" },
+    "facing=east,upholstery=cyan": { "model": "redeco:block/cyan_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=cyan": { "model": "redeco:block/cyan_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=cyan": { "model": "redeco:block/cyan_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_warped_bench" },
+    "facing=east,upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=light_blue": { "model": "redeco:block/light_blue_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=blue": { "model": "redeco:block/blue_upholstered_warped_bench" },
+    "facing=east,upholstery=blue": { "model": "redeco:block/blue_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=blue": { "model": "redeco:block/blue_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=blue": { "model": "redeco:block/blue_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=purple": { "model": "redeco:block/purple_upholstered_warped_bench" },
+    "facing=east,upholstery=purple": { "model": "redeco:block/purple_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=purple": { "model": "redeco:block/purple_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=purple": { "model": "redeco:block/purple_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=magenta": { "model": "redeco:block/magenta_upholstered_warped_bench" },
+    "facing=east,upholstery=magenta": { "model": "redeco:block/magenta_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=magenta": { "model": "redeco:block/magenta_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=magenta": { "model": "redeco:block/magenta_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=pink": { "model": "redeco:block/pink_upholstered_warped_bench" },
+    "facing=east,upholstery=pink": { "model": "redeco:block/pink_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=pink": { "model": "redeco:block/pink_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=pink": { "model": "redeco:block/pink_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=red": { "model": "redeco:block/red_upholstered_warped_bench" },
+    "facing=east,upholstery=red": { "model": "redeco:block/red_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=red": { "model": "redeco:block/red_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=red": { "model": "redeco:block/red_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=orange": { "model": "redeco:block/orange_upholstered_warped_bench" },
+    "facing=east,upholstery=orange": { "model": "redeco:block/orange_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=orange": { "model": "redeco:block/orange_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=orange": { "model": "redeco:block/orange_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=yellow": { "model": "redeco:block/yellow_upholstered_warped_bench" },
+    "facing=east,upholstery=yellow": { "model": "redeco:block/yellow_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=yellow": { "model": "redeco:block/yellow_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=yellow": { "model": "redeco:block/yellow_upholstered_warped_bench", "y": 270 },
+
+    "facing=north,upholstery=brown": { "model": "redeco:block/brown_upholstered_warped_bench" },
+    "facing=east,upholstery=brown": { "model": "redeco:block/brown_upholstered_warped_bench", "y": 90 },
+    "facing=south,upholstery=brown": { "model": "redeco:block/brown_upholstered_warped_bench", "y": 180 },
+    "facing=west,upholstery=brown": { "model": "redeco:block/brown_upholstered_warped_bench", "y": 270 }
+  }
+}

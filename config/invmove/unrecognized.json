@@ -5,9 +5,28 @@
     "fudge.notenoughcrashes.gui.CrashScreen": true,
     "dev.huskuraft.effortless.fabric.gui.MinecraftProxyScreen": true,
     "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
-    "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true
+    "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true,
+    "net.minecraft.class_433": true,
+    "net.minecraft.class_429": true,
+    "me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
+    "com.terraformersmc.modmenu.gui.ModsScreen": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "com.gitlab.cdagaming.craftpresence.config.gui.MainGui": true,
+    "net.minecraft.class_458": true,
+    "com.blamejared.controlling.client.NewKeyBindsScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen": true,
+    "de.maxhenkel.voicechat.gui.CreateGroupScreen": true,
+    "de.maxhenkel.voicechat.gui.group.GroupScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "de.maxhenkel.voicechat.gui.volume.AdjustVolumesScreen": true,
+    "de.maxhenkel.voicechat.gui.audiodevice.SelectMicrophoneScreen": true
   },
   "hideBackground": {
-    "io.wispforest.accessories.client.gui.AccessoriesScreen": true
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
   }
 }

@@ -1,0 +1,13 @@
+{
+  "global_conditions": [
+    {
+      "modid": "supplementaries",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "match": {
+    "items": "#supplementaries:candle_holders"
+  },
+  "luminance": 8,
+  "water_sensitive": true
+}

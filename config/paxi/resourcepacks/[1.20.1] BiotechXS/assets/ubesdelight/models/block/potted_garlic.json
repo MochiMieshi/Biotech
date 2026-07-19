@@ -1,0 +1,6 @@
+{
+  "parent": "ubesdelight:block/template_potted_flower",
+  "textures": {
+    "plant": "ubesdelight:block/wild_garlic"
+  }
+}

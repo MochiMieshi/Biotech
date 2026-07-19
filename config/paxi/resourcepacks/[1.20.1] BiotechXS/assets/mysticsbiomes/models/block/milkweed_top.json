@@ -1,0 +1,85 @@
+{
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"top": "mysticsbiomes:block/milkweed_top",
+		"flower": "mysticsbiomes:block/milkweed_flower_side",
+		"particle": "mysticsbiomes:block/milkweed_flower_side"
+	},
+	"elements": [
+		{
+			"from": [-2, 0, 8],
+			"to": [18, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"from": [8, 0, -2],
+			"to": [8, 16, 18],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"from": [4, 1, 5],
+			"to": [12, 9, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 4]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "texture": "#flower"},
+				"south": {"uv": [4, 4, 12, 12], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [5, 1, 4],
+			"to": [5, 9, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 4]},
+			"faces": {
+				"east": {"uv": [4, 4, 12, 12], "texture": "#flower"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [11, 1, 4],
+			"to": [11, 9, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 10]},
+			"faces": {
+				"east": {"uv": [4, 4, 12, 12], "texture": "#flower"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [4, 1, 11],
+			"to": [12, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 12]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "texture": "#flower"},
+				"south": {"uv": [4, 4, 12, 12], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [4, 8, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 7, 10]},
+			"faces": {
+				"up": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#flower"},
+				"down": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#flower"}
+			}
+		},
+		{
+			"from": [4, 2, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 10]},
+			"faces": {
+				"up": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#flower"},
+				"down": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#flower"}
+			}
+		}
+	]
+}

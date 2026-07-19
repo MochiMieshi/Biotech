@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/plank_fence_east_west",
+  "textures": {
+    "0": "redeco:block/plankfence/oak_plank_fence",
+    "3": "minecraft:block/oak_log",
+    "particle": "redeco:block/plankfence/oak_plank_fence"
+  }
+}

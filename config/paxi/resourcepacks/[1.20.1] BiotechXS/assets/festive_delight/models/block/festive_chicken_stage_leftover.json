@@ -1,0 +1,11 @@
+{
+  "parent": "festive_delight:custom/festive_chicken_block_leftover",
+  "textures": {
+    "all": "festive_delight:block/festive_chicken_body",
+    "particle": "festive_delight:block/tray_rice_berry_leftover",
+    "gibs": "festive_delight:block/festive_chicken_gibs",
+    "tray_top": "festive_delight:block/tray_rice_berry_leftover",
+    "tray_bottom": "festive_delight:block/tray_bottom"
+  },
+  "render_type": "translucent"
+}

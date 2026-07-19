@@ -1,0 +1,9 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"ctm",
+        "textures":[
+            "minecraft:block/dark_oak_planks_vertical_ctm"
+        ]
+    }
+}

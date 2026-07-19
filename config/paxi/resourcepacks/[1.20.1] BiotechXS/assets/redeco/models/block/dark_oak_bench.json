@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/bench",
+  "textures": {
+    "0": "redeco:block/bench/dark_oak_bench",
+    "particle": "redeco:block/bench/dark_oak_bench"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter_open",
+  "textures": {
+    "0": "redeco:block/counters/bamboo_counters",
+    "1": "redeco:block/drawer_bamboo",
+    "2": "minecraft:block/bamboo_block",
+    "particle": "redeco:block/polishedplanks/polished_bamboo_planks"
+  }
+}

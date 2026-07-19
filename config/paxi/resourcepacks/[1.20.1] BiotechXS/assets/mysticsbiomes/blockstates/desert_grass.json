@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mysticsbiomes:block/desert_grass",
+        "weight": 1
+      },
+      {
+        "model": "mysticsbiomes:block/desert_grass_variant",
+        "weight": 1
+      }
+    ]
+  }
+}

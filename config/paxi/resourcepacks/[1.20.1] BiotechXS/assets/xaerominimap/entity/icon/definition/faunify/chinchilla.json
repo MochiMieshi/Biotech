@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "faunify:textures/entity/chinchilla1.png": "outlined_sprite:faunify/chinchilla1.png",
+        "faunify:textures/entity/chinchilla2.png": "outlined_sprite:faunify/chinchilla2.png",
+        "faunify:textures/entity/chinchilla3.png": "outlined_sprite:faunify/chinchilla3.png",
+        "faunify:textures/entity/chinchilla4.png": "outlined_sprite:faunify/chinchilla4.png",
+        "faunify:textures/entity/chinchilla_chowder.png": "outlined_sprite:faunify/chinchilla_chowder.png",
+        "faunify:textures/entity/chinchilla1_clown.png": "outlined_sprite:faunify/chinchilla1_clown.png",
+        "faunify:textures/entity/chinchilla2_clown.png": "outlined_sprite:faunify/chinchilla2_clown.png",
+        "faunify:textures/entity/chinchilla3_clown.png": "outlined_sprite:faunify/chinchilla3_clown.png",
+        "faunify:textures/entity/chinchilla4_clown.png": "outlined_sprite:faunify/chinchilla4_clown.png",
+        "faunify:textures/entity/sleep/chinchilla1.png": "outlined_sprite:faunify/chinchilla1.png",
+        "faunify:textures/entity/sleep/chinchilla2.png": "outlined_sprite:faunify/chinchilla2.png",
+        "faunify:textures/entity/sleep/chinchilla3.png": "outlined_sprite:faunify/chinchilla3.png",
+        "faunify:textures/entity/sleep/chinchilla4.png": "outlined_sprite:faunify/chinchilla4.png",
+        "faunify:textures/entity/sleep/chinchilla_chowder.png": "outlined_sprite:faunify/chinchilla_chowder.png",
+        "faunify:textures/entity/sleep/chinchilla1_clown.png": "outlined_sprite:faunify/chinchilla1_clown.png",
+        "faunify:textures/entity/sleep/chinchilla2_clown.png": "outlined_sprite:faunify/chinchilla2_clown.png",
+        "faunify:textures/entity/sleep/chinchilla3_clown.png": "outlined_sprite:faunify/chinchilla3_clown.png",
+        "faunify:textures/entity/sleep/chinchilla4_clown.png": "outlined_sprite:faunify/chinchilla4_clown.png",
+        "default": "outlined_sprite:faunify/chinchilla1.png"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "states": [
+    {
+      "name": "minecraft:soul_fire"
+    }
+  ],
+  "options": {
+    "preset": "fire",
+    "color": {
+      "type": "subtle_effects:preset",
+      "preset": "soul_sparks"
+    }
+  }
+}

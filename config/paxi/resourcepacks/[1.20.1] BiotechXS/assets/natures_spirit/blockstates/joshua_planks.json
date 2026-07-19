@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "natures_spirit:block/joshua_planks"},
+			{"model": "natures_spirit:block/joshua_planks1"},
+			{"model": "natures_spirit:block/joshua_planks2"}
+		]
+	}
+}

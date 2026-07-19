@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "minecraft:block/warped_nylium","uvlock": true},
+      {"model": "minecraft:block/warped_nylium","uvlock": true, "y": 90},
+      {"model": "minecraft:block/warped_nylium","uvlock": true, "y": 180},
+      {"model": "minecraft:block/warped_nylium","uvlock": true, "y": 270}
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,half=lower": { "model": "plushie_buddies:block/workbench" },
+    "facing=east,half=lower":  { "model": "plushie_buddies:block/workbench", "y": 90 },
+    "facing=south,half=lower": { "model": "plushie_buddies:block/workbench", "y": 180 },
+    "facing=west,half=lower":  { "model": "plushie_buddies:block/workbench", "y": 270 },
+
+    "facing=north,half=upper": { "model": "plushie_buddies:block/workbench_upper_empty" },
+    "facing=east,half=upper":  { "model": "plushie_buddies:block/workbench_upper_empty", "y": 90 },
+    "facing=south,half=upper": { "model": "plushie_buddies:block/workbench_upper_empty", "y": 180 },
+    "facing=west,half=upper":  { "model": "plushie_buddies:block/workbench_upper_empty", "y": 270 }
+  }
+}

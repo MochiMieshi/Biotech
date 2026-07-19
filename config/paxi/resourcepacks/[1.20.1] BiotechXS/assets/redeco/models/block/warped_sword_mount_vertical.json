@@ -1,0 +1,7 @@
+{
+  "parent": "redeco:block/sword_mount_vertical",
+  "textures": {
+    "0": "redeco:block/swordmount/warped_sword_mount",
+    "particle": "redeco:block/swordmount/warped_sword_mount"
+  }
+}

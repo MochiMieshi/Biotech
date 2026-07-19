@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:block/leaves",
+	"render_type": "minecraft:cutout_mipped",
+	"textures": {
+		"top": "mysticsbiomes:block/strawberry_blossoms",
+		"side": "mysticsbiomes:block/strawberry_blossom_leaves_side",
+		"bottom": "mysticsbiomes:block/strawberry_blossom_leaves",
+		"particle": "mysticsbiomes:block/strawberry_blossom_leaves_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

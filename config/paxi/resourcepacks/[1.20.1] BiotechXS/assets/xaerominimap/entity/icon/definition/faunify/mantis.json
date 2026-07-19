@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "faunify:textures/entity/mantis_green.png": "outlined_sprite:faunify/mantis_green.png",
+        "faunify:textures/entity/mantis_orchid.png": "outlined_sprite:faunify/mantis_orchid.png",
+        "default": "outlined_sprite:faunify/mantis_green.png"
+    }
+}

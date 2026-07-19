@@ -1,0 +1,71 @@
+{
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"plant": "mysticsbiomes:block/strawberry_bush_stage0",
+		"layer": "mysticsbiomes:block/strawberry_bush_layer",
+		"particle": "mysticsbiomes:block/strawberry_bush_stage0"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 8],
+			"to": [17, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [8, 0, -1],
+			"to": [8, 16, 17],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#plant"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [6, 1, 3],
+			"to": [10, 1, 6],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 1, 4]},
+			"faces": {
+				"up": {"uv": [6, 3, 10, 6], "rotation": 180, "texture": "#layer"},
+				"down": {"uv": [6, 6, 10, 3], "rotation": 180, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [3, 1, 6],
+			"to": [6, 1, 10],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, 1, 8]},
+			"faces": {
+				"up": {"uv": [6, 3, 10, 6], "rotation": 90, "texture": "#layer"},
+				"down": {"uv": [6, 6, 10, 3], "rotation": 270, "texture": "#layer"}
+			}
+		},
+		{
+			"from": [6, 1, 10],
+			"to": [10, 1, 13],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 1, 12]},
+			"faces": {
+				"up": {"uv": [6, 3, 10, 6], "texture": "#layer"},
+				"down": {"uv": [6, 6, 10, 3], "texture": "#layer"}
+			}
+		},
+		{
+			"from": [10, 1, 6],
+			"to": [13, 1, 10],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [12, 1, 8]},
+			"faces": {
+				"up": {"uv": [6, 3, 10, 6], "rotation": 270, "texture": "#layer"},
+				"down": {"uv": [6, 6, 10, 3], "rotation": 90, "texture": "#layer"}
+			}
+		}
+	]
+}

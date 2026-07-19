@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter_open",
+  "textures": {
+    "0": "redeco:block/counters/spruce_counters",
+    "1": "redeco:block/drawer_spruce",
+    "2": "minecraft:block/spruce_log",
+    "particle": "redeco:block/polishedplanks/polished_spruce_planks"
+  }
+}

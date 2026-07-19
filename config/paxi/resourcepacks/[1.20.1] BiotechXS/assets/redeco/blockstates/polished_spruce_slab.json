@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redeco:block/polished_spruce_slab"
+    },
+    "type=double": {
+      "model": "redeco:block/polished_spruce_planks"
+    },
+    "type=top": {
+      "model": "redeco:block/polished_spruce_slab_top"
+    }
+  }
+}

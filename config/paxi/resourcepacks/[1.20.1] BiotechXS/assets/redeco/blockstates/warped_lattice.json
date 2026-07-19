@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,leaves=0": { "model": "redeco:block/warped_lattice" },
+    "facing=east,leaves=0": { "model": "redeco:block/warped_lattice", "y": 90 },
+    "facing=south,leaves=0": { "model": "redeco:block/warped_lattice", "y": 180 },
+    "facing=west,leaves=0": { "model": "redeco:block/warped_lattice", "y": 270 },
+
+    "facing=north,leaves=1": { "model": "redeco:block/azalea_warped_lattice" },
+    "facing=east,leaves=1": { "model": "redeco:block/azalea_warped_lattice", "y": 90 },
+    "facing=south,leaves=1": { "model": "redeco:block/azalea_warped_lattice", "y": 180 },
+    "facing=west,leaves=1": { "model": "redeco:block/azalea_warped_lattice", "y": 270 },
+
+    "facing=north,leaves=2": { "model": "redeco:block/flowering_azalea_warped_lattice" },
+    "facing=east,leaves=2": { "model": "redeco:block/flowering_azalea_warped_lattice", "y": 90 },
+    "facing=south,leaves=2": { "model": "redeco:block/flowering_azalea_warped_lattice", "y": 180 },
+    "facing=west,leaves=2": { "model": "redeco:block/flowering_azalea_warped_lattice", "y": 270 },
+
+    "facing=north,leaves=3": { "model": "redeco:block/cherry_warped_lattice" },
+    "facing=east,leaves=3": { "model": "redeco:block/cherry_warped_lattice", "y": 90 },
+    "facing=south,leaves=3": { "model": "redeco:block/cherry_warped_lattice", "y": 180 },
+    "facing=west,leaves=3": { "model": "redeco:block/cherry_warped_lattice", "y": 270 }
+  }
+}

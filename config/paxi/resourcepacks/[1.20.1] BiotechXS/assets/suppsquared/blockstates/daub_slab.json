@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "type=bottom": {
+      "model": "suppsquared:block/daub_slab"
+    },
+    "type=double": {
+      "model": "supplementaries:block/daub"
+    },
+    "type=top": {
+      "model": "suppsquared:block/daub_slab_top"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "natures_spirit:block/aspen_planks"},
+			{"model": "natures_spirit:block/aspen_planks1"},
+			{"model": "natures_spirit:block/aspen_planks2"}
+		]
+	}
+}

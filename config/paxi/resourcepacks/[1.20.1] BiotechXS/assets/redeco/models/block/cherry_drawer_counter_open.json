@@ -1,0 +1,9 @@
+{
+  "parent": "redeco:block/drawer_counter_open",
+  "textures": {
+    "0": "redeco:block/counters/cherry_counters",
+    "1": "redeco:block/drawer_cherry",
+    "2": "minecraft:block/cherry_log",
+    "particle": "redeco:block/polishedplanks/polished_cherry_planks"
+  }
+}

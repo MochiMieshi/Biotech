@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/plank_gate_open_west",
+  "textures": {
+    "0": "redeco:block/plankfence/warped_plank_fence",
+    "1": "minecraft:block/warped_stem",
+    "particle": "redeco:block/plankfence/warped_plank_fence"
+  }
+}

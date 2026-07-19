@@ -1,0 +1,8 @@
+{
+  "parent": "redeco:block/side_table_open",
+  "textures": {
+    "0": "redeco:block/sidetable/jungle_side_table",
+    "1": "redeco:block/drawer_jungle",
+    "particle": "redeco:block/sidetable/jungle_side_table"
+  }
+}

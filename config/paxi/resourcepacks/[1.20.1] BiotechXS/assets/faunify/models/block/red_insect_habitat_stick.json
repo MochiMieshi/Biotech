@@ -1,0 +1,6 @@
+{
+  "parent": "faunify:block/insect_habitat",
+  "textures": {
+    "texture": "faunify:block/habitats/red_insect_habitat_stick"
+  }
+}

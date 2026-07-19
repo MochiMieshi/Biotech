@@ -1,0 +1,9 @@
+{
+  "parent": "festive_delight:custom/spread_dough_block3",
+  "textures": {
+    "all": "festive_delight:block/dough_block",
+    "particle": "festive_delight:block/doughparticles",
+    "1": "festive_delight:block/spread_dough_block"
+  },
+  "render_type": "solid"
+}

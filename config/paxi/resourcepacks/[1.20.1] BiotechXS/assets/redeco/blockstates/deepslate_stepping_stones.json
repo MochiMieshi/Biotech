@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "stones=1": [
+      {"model": "redeco:block/deepslate_stepping_stones_one"},
+      {"model": "redeco:block/deepslate_stepping_stones_one", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_one", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_one", "y": 270}
+    ],
+    "stones=2": [
+      {"model": "redeco:block/deepslate_stepping_stones_two_a"},
+      {"model": "redeco:block/deepslate_stepping_stones_two_a", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_two_a", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_two_a", "y": 270},
+      {"model": "redeco:block/deepslate_stepping_stones_two_b"},
+      {"model": "redeco:block/deepslate_stepping_stones_two_b", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_two_b", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_two_b", "y": 270}
+    ],
+    "stones=3": [
+      {"model": "redeco:block/deepslate_stepping_stones_three_a"},
+      {"model": "redeco:block/deepslate_stepping_stones_three_a", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_three_a", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_three_a", "y": 270},
+      {"model": "redeco:block/deepslate_stepping_stones_three_b"},
+      {"model": "redeco:block/deepslate_stepping_stones_three_b", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_three_b", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_three_b", "y": 270}
+    ],
+    "stones=4": [
+      {"model": "redeco:block/deepslate_stepping_stones_four_a"},
+      {"model": "redeco:block/deepslate_stepping_stones_four_a", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_four_a", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_four_a", "y": 270},
+      {"model": "redeco:block/deepslate_stepping_stones_four_b"},
+      {"model": "redeco:block/deepslate_stepping_stones_four_b", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_four_b", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_four_b", "y": 270}
+    ],
+    "stones=5": [
+      {"model": "redeco:block/deepslate_stepping_stones_five"},
+      {"model": "redeco:block/deepslate_stepping_stones_five", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_five", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_five", "y": 270}
+    ],
+    "stones=6": [
+      {"model": "redeco:block/deepslate_stepping_stones_six"},
+      {"model": "redeco:block/deepslate_stepping_stones_six", "y": 90},
+      {"model": "redeco:block/deepslate_stepping_stones_six", "y": 180},
+      {"model": "redeco:block/deepslate_stepping_stones_six", "y": 270}
+    ]
+  }
+}

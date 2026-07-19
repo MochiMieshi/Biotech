@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "faunify:textures/entity/dragonfly_damsel.png": "outlined_sprite:faunify/dragonfly_damsel.png",
+        "faunify:textures/entity/dragonfly_darner.png": "outlined_sprite:faunify/dragonfly_darner.png",
+        "faunify:textures/entity/dragonfly_petaltail.png": "outlined_sprite:faunify/dragonfly_petaltail.png",
+        "faunify:textures/entity/dragonfly_skimmer.png": "outlined_sprite:faunify/dragonfly_skimmer.png",
+        "faunify:textures/entity/dragonfly_whitetail.png": "outlined_sprite:faunify/dragonfly_whitetail.png",
+        "default": "outlined_sprite:faunify/dragonfly_damsel.png"
+    }
+}

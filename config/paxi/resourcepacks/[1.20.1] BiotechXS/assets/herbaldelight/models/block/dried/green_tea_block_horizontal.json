@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "herbaldelight:block/dried_green_tea_block_top",
+    "side": "herbaldelight:block/dried_green_tea_block_side"
+  }
+}

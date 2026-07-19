@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "decoration=empty,facing=north": {
+      "model": "faunify:block/brown_insect_habitat_empty"
+    },
+    "decoration=empty,facing=east": {
+      "model": "faunify:block/brown_insect_habitat_empty",
+      "y": 90
+    },
+    "decoration=empty,facing=south": {
+      "model": "faunify:block/brown_insect_habitat_empty",
+      "y": 180
+    },
+    "decoration=empty,facing=west": {
+      "model": "faunify:block/brown_insect_habitat_empty",
+      "y": 270
+    },
+    "decoration=dirt,facing=north": {
+      "model": "faunify:block/brown_insect_habitat_dirt"
+    },
+    "decoration=dirt,facing=east": {
+      "model": "faunify:block/brown_insect_habitat_dirt",
+      "y": 90
+    },
+    "decoration=dirt,facing=south": {
+      "model": "faunify:block/brown_insect_habitat_dirt",
+      "y": 180
+    },
+    "decoration=dirt,facing=west": {
+      "model": "faunify:block/brown_insect_habitat_dirt",
+      "y": 270
+    },
+    "decoration=leaves,facing=north": {
+      "model": "faunify:block/brown_insect_habitat_leaves"
+    },
+    "decoration=leaves,facing=east": {
+      "model": "faunify:block/brown_insect_habitat_leaves",
+      "y": 90
+    },
+    "decoration=leaves,facing=south": {
+      "model": "faunify:block/brown_insect_habitat_leaves",
+      "y": 180
+    },
+    "decoration=leaves,facing=west": {
+      "model": "faunify:block/brown_insect_habitat_leaves",
+      "y": 270
+    },
+    "decoration=stick,facing=north": {
+      "model": "faunify:block/brown_insect_habitat_stick"
+    },
+    "decoration=stick,facing=east": {
+      "model": "faunify:block/brown_insect_habitat_stick",
+      "y": 90
+    },
+    "decoration=stick,facing=south": {
+      "model": "faunify:block/brown_insect_habitat_stick",
+      "y": 180
+    },
+    "decoration=stick,facing=west": {
+      "model": "faunify:block/brown_insect_habitat_stick",
+      "y": 270
+    },
+    "decoration=stickleaves,facing=north": {
+      "model": "faunify:block/brown_insect_habitat_stickleaves"
+    },
+    "decoration=stickleaves,facing=east": {
+      "model": "faunify:block/brown_insect_habitat_stickleaves",
+      "y": 90
+    },
+    "decoration=stickleaves,facing=south": {
+      "model": "faunify:block/brown_insect_habitat_stickleaves",
+      "y": 180
+    },
+    "decoration=stickleaves,facing=west": {
+      "model": "faunify:block/brown_insect_habitat_stickleaves",
+      "y": 270
+    }
+  }
+}

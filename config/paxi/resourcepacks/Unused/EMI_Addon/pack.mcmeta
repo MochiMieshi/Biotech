@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": {"min_inclusive": 9, "max_inclusive": 32},
+		"description": "EMI compatibility for Ashen 16x. For Minecraft 1.19.x - 1.21.x."
+	}
+}
