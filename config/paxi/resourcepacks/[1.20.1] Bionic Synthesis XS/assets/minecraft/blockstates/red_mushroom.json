@@ -1,0 +1,25 @@
+{
+    "variants": {
+        "": [
+            {"model": "block/variated/red_mushroom/red_mushroom_0","weight":2},
+            {"model": "block/variated/red_mushroom/red_mushroom_1","weight":2},
+            {"model": "block/variated/red_mushroom/red_mushroom_2","weight":2},
+            {"model": "block/variated/red_mushroom/red_mushroom_3","weight":2},
+            
+            {"model": "block/variated/red_mushroom/red_mushroom_0","weight":2,"y":90},
+            {"model": "block/variated/red_mushroom/red_mushroom_1","weight":2,"y":90},
+            {"model": "block/variated/red_mushroom/red_mushroom_2","weight":2,"y":90},
+            {"model": "block/variated/red_mushroom/red_mushroom_3","weight":2,"y":90},
+            
+            {"model": "block/variated/red_mushroom/red_mushroom_0","weight":2,"y":180},
+            {"model": "block/variated/red_mushroom/red_mushroom_1","weight":2,"y":180},
+            {"model": "block/variated/red_mushroom/red_mushroom_2","weight":2,"y":180},
+            {"model": "block/variated/red_mushroom/red_mushroom_3","weight":2,"y":180},
+
+            {"model": "block/variated/red_mushroom/red_mushroom_0","weight":2,"y":270},
+            {"model": "block/variated/red_mushroom/red_mushroom_1","weight":2,"y":270},
+            {"model": "block/variated/red_mushroom/red_mushroom_2","weight":2,"y":270},
+            {"model": "block/variated/red_mushroom/red_mushroom_3","weight":3,"y":270}
+        ]
+    }
+}

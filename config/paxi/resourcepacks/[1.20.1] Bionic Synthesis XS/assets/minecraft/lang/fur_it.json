@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aDetaiadis",
+  "options.clouds.fast": "§eSemplicis",
+  "options.difficulty.easy": "§aFacile",
+  "options.difficulty.hard": "§cDificile",
+  "options.difficulty.normal": "§eNormâl",
+  "options.difficulty.peaceful": "§bPacifiche",
+  "options.graphics.fabulous": "§dMaraveose!",
+  "options.graphics.fancy": "§aDetaiade",
+  "options.graphics.fast": "§eSvelte",
+  "options.narrator.all": "§aAl conte dut",
+  "options.narrator.chat": "§aAl conte la chat",
+  "options.narrator.notavailable": "§aNo disponibil",
+  "options.narrator.off": "§cNo",
+  "options.narrator.system": "§aAl conte il sisteme",
+  "options.off": "§cNo",
+  "options.on": "§aSì"
+}

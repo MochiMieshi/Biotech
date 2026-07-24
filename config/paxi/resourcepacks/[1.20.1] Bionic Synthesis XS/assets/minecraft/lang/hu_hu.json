@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSzép",
+  "options.clouds.fast": "§eGyors",
+  "options.difficulty.easy": "§aKönnyű",
+  "options.difficulty.hard": "§cNehéz",
+  "options.difficulty.normal": "§eNormál",
+  "options.difficulty.peaceful": "§bBékés",
+  "options.graphics.fabulous": "§dGyönyörű!",
+  "options.graphics.fancy": "§aSzép",
+  "options.graphics.fast": "§eGyors",
+  "options.narrator.all": "§aMinden",
+  "options.narrator.chat": "§aChat",
+  "options.narrator.notavailable": "§aNem elérhető",
+  "options.narrator.off": "§cKI",
+  "options.narrator.system": "§aRendszer",
+  "options.off": "§cKI",
+  "options.on": "§aBE"
+}

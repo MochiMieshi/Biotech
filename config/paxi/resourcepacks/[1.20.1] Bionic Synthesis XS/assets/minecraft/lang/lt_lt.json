@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aprašmatnūs",
+  "options.clouds.fast": "§egreiti",
+  "options.difficulty.easy": "§alengvas",
+  "options.difficulty.hard": "§csudėtingas",
+  "options.difficulty.normal": "§enormalus",
+  "options.difficulty.peaceful": "§btaikus",
+  "options.graphics.fabulous": "§dpasakiška!",
+  "options.graphics.fancy": "§aKokybiška",
+  "options.graphics.fast": "§eGreita",
+  "options.narrator.all": "§aĮgarsina viską",
+  "options.narrator.chat": "§aĮgarsina pokalbius",
+  "options.narrator.notavailable": "§aNepasiekiama",
+  "options.narrator.off": "§cišj.",
+  "options.narrator.system": "§aĮgarsina sistemą",
+  "options.off": "§cišj.",
+  "options.on": "§aįj."
+}

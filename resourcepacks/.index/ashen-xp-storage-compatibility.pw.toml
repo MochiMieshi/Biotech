@@ -1,0 +1,40 @@
+filename = 'XP_Storage_Addon.zip'
+name = 'Ashen + XP Storage Compatibility'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '0327b841242589f3a3608ae41d0e3f5fed9e6cb1ede2bbc29738d37419f5f73f89094f5a7d0ae6ea7b6a0a056f2bc8881a30b66540f0ae24aa0424d73a72fc98'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pWhV330p/versions/zDO62Rcb/XP_Storage_Addon.zip'
+
+[update.modrinth]
+mod-id = 'pWhV330p'
+version = 'zDO62Rcb'

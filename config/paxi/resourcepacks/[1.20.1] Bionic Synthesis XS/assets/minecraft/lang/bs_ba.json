@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aLijepo",
+  "options.clouds.fast": "§eBrzo",
+  "options.difficulty.easy": "§aLagano",
+  "options.difficulty.hard": "§cTeško",
+  "options.difficulty.normal": "§eNormalno",
+  "options.difficulty.peaceful": "§bMirno",
+  "options.graphics.fabulous": "§dFenomenalno!",
+  "options.graphics.fancy": "§aLijepo",
+  "options.graphics.fast": "§eBrzo",
+  "options.narrator.all": "§aPripovijedanje svega",
+  "options.narrator.chat": "§aPripovijedanje razgovora",
+  "options.narrator.notavailable": "§aNije dostupno",
+  "options.narrator.off": "§cIsključeno",
+  "options.narrator.system": "§aSistem pripovijedanja",
+  "options.off": "§cISKLJUČENO",
+  "options.on": "§aUKLJUČENO"
+}

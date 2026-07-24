@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSofistegada",
+  "options.clouds.fast": "§eStiłizà",
+  "options.difficulty.easy": "§aFàsiłe",
+  "options.difficulty.hard": "§cDifìsiłe",
+  "options.difficulty.normal": "§eNormae",
+  "options.difficulty.peaceful": "§bPaxìfega",
+  "options.graphics.fabulous": "§dFavołoza!",
+  "options.graphics.fancy": "§aSofistegada",
+  "options.graphics.fast": "§eStiłizà",
+  "options.narrator.all": "§aŁezi tuto",
+  "options.narrator.chat": "§aŁezi chat",
+  "options.narrator.notavailable": "§aMìa disponìbile",
+  "options.narrator.off": "§cStuà",
+  "options.narrator.system": "§aŁezi sistema",
+  "options.off": "§cOFF",
+  "options.on": "§aON"
+}

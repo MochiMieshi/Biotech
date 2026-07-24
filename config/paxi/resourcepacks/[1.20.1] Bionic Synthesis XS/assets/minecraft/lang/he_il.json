@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aמפואר",
+  "options.clouds.fast": "§eמהיר",
+  "options.difficulty.easy": "§aקל",
+  "options.difficulty.hard": "§cקשה",
+  "options.difficulty.normal": "§eרגיל",
+  "options.difficulty.peaceful": "§bשלו",
+  "options.graphics.fabulous": "§dמהמם!",
+  "options.graphics.fancy": "§aמפואר",
+  "options.graphics.fast": "§eמהיר",
+  "options.narrator.all": "§aקריינות להכל",
+  "options.narrator.chat": "§aקריינות לצ'אט",
+  "options.narrator.notavailable": "§aלא זמין",
+  "options.narrator.off": "§cכבוי",
+  "options.narrator.system": "§aקריינות להודעות מערכת",
+  "options.off": "§cכבוי",
+  "options.on": "§aפעיל"
+}

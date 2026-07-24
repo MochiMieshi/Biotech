@@ -1,0 +1,56 @@
+graph LR
+
+subgraph Inputs
+    copperDust[Copper dust]
+    tinDust[Tin dust]
+    graniteSlurry[Granite slurry]
+    sand[Sand]
+    fuels[Fuels]
+end
+
+craftBronzeDust{Craft}
+copperDust & tinDust & graniteSlurry --> craftBronzeDust --> bronzeDust
+
+subgraph Workstations
+    furnace[Furnace]
+    forgeHammer[Forge hammer]
+end
+
+subgraph Worktools
+    hammers[Hammers]
+end
+
+smiteBronzePlate{Smite}
+forgeHammer & hammers & bronze --> smiteBronzePlate --> bronzePlate & bronzeBolt & bronzeCurvedPlate & bronzeDoubleIngot & bronzeRing & bronzeRod
+
+subgraph Bronze
+    bronzeDust[Bronze dust]
+    bronze[Bronze]
+    bronzePlate[Bronze plate]
+    bronzeBolt[Bronze bolt]
+    bronzeCurvedPlate[Bronze curved plate]
+    bronzeDoubleIngot[Bronze double ingot]
+    bronzeRing[Bronze ring]
+    bronzeRod[Bronze rod]
+    bronzeGear[Bronze gear]
+    bronzeTank[Bronze tank]
+    bronzeMachineCasing[Bronze machine casing]
+
+    craftBronzeGear{Craft}
+    bronzePlate & bronzeBolt & bronzeRing --> craftBronzeGear --> bronzeGear
+    craftBronzeMachineCasing{Craft}
+    bronzeGear & bronzePlate --> craftBronzeMachineCasing --> bronzeMachineCasing
+end
+
+craftBronzeTank{Craft}
+bronzePlate & glass --> craftBronzeTank --> bronzeTank
+
+smeltBronze{Smelt}
+bronzeDust & furnace & fuels --> smeltBronze --> bronze
+
+subgraph Glass
+    glass[Glass]
+end
+
+smeltGlass{Smelt}
+sand & furnace & fuels --> smeltGlass --> glass

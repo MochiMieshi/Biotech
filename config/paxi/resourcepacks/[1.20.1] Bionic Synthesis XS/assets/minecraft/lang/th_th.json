@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aสวยงาม",
+  "options.clouds.fast": "§eเร็ว",
+  "options.difficulty.easy": "§aง่าย",
+  "options.difficulty.hard": "§cยาก",
+  "options.difficulty.normal": "§eปกติ",
+  "options.difficulty.peaceful": "§bปลอดภัย",
+  "options.graphics.fabulous": "§dงามเลิศ!",
+  "options.graphics.fancy": "§aสวยงาม",
+  "options.graphics.fast": "§eเร็ว",
+  "options.narrator.all": "§aบรรยายทั้งหมด",
+  "options.narrator.chat": "§aบรรยายแชต",
+  "options.narrator.notavailable": "§aไม่พร้อมใช้งาน",
+  "options.narrator.off": "§cปิด",
+  "options.narrator.system": "§aบรรยายระบบ",
+  "options.off": "§cปิด",
+  "options.on": "§aเปิด"
+}

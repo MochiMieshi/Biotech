@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aDashin'",
+  "options.clouds.fast": "§eQuick",
+  "options.difficulty.easy": "§aDeckswab",
+  "options.difficulty.hard": "§c'Ard",
+  "options.difficulty.normal": "§eUsual",
+  "options.difficulty.peaceful": "§bWuss",
+  "options.graphics.fabulous": "§dShiny!",
+  "options.graphics.fancy": "§aDashin'",
+  "options.graphics.fast": "§eQuick",
+  "options.narrator.all": "§aTells all tales",
+  "options.narrator.chat": "§aSings chattery",
+  "options.narrator.notavailable": "§aNot aboard",
+  "options.narrator.off": "§cNay",
+  "options.narrator.system": "§aReads manifest",
+  "options.off": "§cNay",
+  "options.on": "§aAye"
+}

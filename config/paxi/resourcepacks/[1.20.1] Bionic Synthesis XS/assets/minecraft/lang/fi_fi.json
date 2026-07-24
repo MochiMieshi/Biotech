@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aHieno",
+  "options.clouds.fast": "§eNopea",
+  "options.difficulty.easy": "§aHelppo",
+  "options.difficulty.hard": "§cVaikea",
+  "options.difficulty.normal": "§eNormaali",
+  "options.difficulty.peaceful": "§bRauhallinen",
+  "options.graphics.fabulous": "§dUpea!",
+  "options.graphics.fancy": "§aHieno",
+  "options.graphics.fast": "§eNopea",
+  "options.narrator.all": "§aSelostaa kaiken",
+  "options.narrator.chat": "§aSelostaa keskustelun",
+  "options.narrator.notavailable": "§aEi saatavilla",
+  "options.narrator.off": "§cPois",
+  "options.narrator.system": "§aSelostaa järjestelmän",
+  "options.off": "§cPois",
+  "options.on": "§aPäällä"
+}

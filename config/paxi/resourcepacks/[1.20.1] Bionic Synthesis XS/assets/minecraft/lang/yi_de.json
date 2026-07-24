@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aשיין",
+  "options.clouds.fast": "§eשנעל",
+  "options.difficulty.easy": "§aאיינפֿאך",
+  "options.difficulty.hard": "§cשווער",
+  "options.difficulty.normal": "§eנארמאל",
+  "options.difficulty.peaceful": "§bפֿרידלעך",
+  "options.graphics.fabulous": "§dפֿאַנטאַסטיש!",
+  "options.graphics.fancy": "§aשיין",
+  "options.graphics.fast": "§eשנעל",
+  "options.narrator.all": "§aליינט אלעס פאר",
+  "options.narrator.chat": "§aלייענט פאר דעם שמועס",
+  "options.narrator.notavailable": "§aנישט פאראן",
+  "options.narrator.off": "§cאויס",
+  "options.narrator.system": "§aלייענט פאר די סיסטעם",
+  "options.off": "§cאויס",
+  "options.on": "§aאן"
+}

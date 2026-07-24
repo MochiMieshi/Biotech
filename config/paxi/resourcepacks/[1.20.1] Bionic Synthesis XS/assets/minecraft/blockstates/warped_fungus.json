@@ -1,0 +1,29 @@
+{
+    "variants": {
+        "": [
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_0","weight":2},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_1","weight":2},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_2","weight":2},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_3","weight":2},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_4","weight":2},
+            
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_0","weight":2,"y":90},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_1","weight":2,"y":90},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_2","weight":2,"y":90},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_3","weight":2,"y":90},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_4","weight":2,"y":90},
+            
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_0","weight":2,"y":180},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_1","weight":2,"y":180},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_2","weight":2,"y":180},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_3","weight":2,"y":180},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_4","weight":2,"y":180},
+
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_0","weight":2,"y":270},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_1","weight":2,"y":270},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_2","weight":2,"y":270},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_3","weight":3,"y":270},
+            {"model": "block/variated/fungi/warped_fungus/warped_fungus_4","weight":3,"y":270}
+        ]
+    }
+}

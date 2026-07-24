@@ -1,0 +1,25 @@
+filename = 'Ashen + Lootr 1.20-1.21.1.zip'
+name = 'Ashen + Lootr Compat'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = '9119de6f4a73920df51fbbf58cc657079cf2b12eb1d88a14288758d5ecf5ee6ebea1ea0986652a17b2b3b8ebc77da8b6af046efa727703b65769153f1efaf94d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EHN2k9Ih/versions/IYqqpSsk/Ashen %2B Lootr 1.20-1.21.1.zip'
+
+[update.modrinth]
+mod-id = 'EHN2k9Ih'
+version = 'IYqqpSsk'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'EltpO5cN'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LSmohupN'
+type = 'REQUIRED'

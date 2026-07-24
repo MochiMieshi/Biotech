@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aMewah",
+  "options.clouds.fast": "§ePantas",
+  "options.difficulty.easy": "§aSenang",
+  "options.difficulty.hard": "§cSukar",
+  "options.difficulty.normal": "§eBiasa",
+  "options.difficulty.peaceful": "§bAman",
+  "options.graphics.fabulous": "§dMenawan!",
+  "options.graphics.fancy": "§aMewah",
+  "options.graphics.fast": "§ePantas",
+  "options.narrator.all": "§aMenyebutkan Semua",
+  "options.narrator.chat": "§aMenyebutkan Perbualan",
+  "options.narrator.notavailable": "§aTidak Tersedia",
+  "options.narrator.off": "§cTUTUP",
+  "options.narrator.system": "§aMenyebutkan Sistem",
+  "options.off": "§cTUTUP",
+  "options.on": "§aBUKA"
+}

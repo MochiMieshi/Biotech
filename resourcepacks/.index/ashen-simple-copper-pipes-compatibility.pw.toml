@@ -1,0 +1,40 @@
+filename = 'Simple_Copper_Pipes_Addon.zip'
+name = 'Ashen + Simple Copper Pipes Compatibility'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = 'cd35b30f5da53483acf785d7734f770b151f53c63690978fee083b69110965c0b1289386626c26b77f1d44b1fd0009fc8be109518bde633ad24523358514f1b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/26BfLu2u/versions/AQYryZF6/Simple_Copper_Pipes_Addon.zip'
+
+[update.modrinth]
+mod-id = '26BfLu2u'
+version = 'AQYryZF6'

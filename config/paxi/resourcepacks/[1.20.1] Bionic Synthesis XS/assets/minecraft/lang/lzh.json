@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§a佳",
+  "options.clouds.fast": "§e暢",
+  "options.difficulty.easy": "§a易",
+  "options.difficulty.hard": "§c難",
+  "options.difficulty.normal": "§e凡",
+  "options.difficulty.peaceful": "§b和",
+  "options.graphics.fabulous": "§d華美！",
+  "options.graphics.fancy": "§a佳",
+  "options.graphics.fast": "§e暢",
+  "options.narrator.all": "§a咸敘",
+  "options.narrator.chat": "§a敘議言",
+  "options.narrator.notavailable": "§a未可使",
+  "options.narrator.off": "§c閉",
+  "options.narrator.system": "§a敘其所詔於其條",
+  "options.off": "§c關",
+  "options.on": "§a開"
+}

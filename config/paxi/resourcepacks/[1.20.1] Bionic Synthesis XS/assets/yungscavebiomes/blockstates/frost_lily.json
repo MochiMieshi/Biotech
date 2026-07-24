@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "yungscavebiomes:block/frost_lily_1"
+      },
+      {
+        "model": "yungscavebiomes:block/frost_lily_2"
+      },
+      {
+        "model": "yungscavebiomes:block/frost_lily_3"
+      },
+      {
+        "model": "yungscavebiomes:block/frost_lily_4"
+      }
+    ]
+  }
+}

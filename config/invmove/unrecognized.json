@@ -22,11 +22,18 @@
     "dev.emi.emi.screen.RecipeScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
     "de.maxhenkel.voicechat.gui.volume.AdjustVolumesScreen": true,
-    "de.maxhenkel.voicechat.gui.audiodevice.SelectMicrophoneScreen": true
+    "de.maxhenkel.voicechat.gui.audiodevice.SelectMicrophoneScreen": true,
+    "slimeknights.mantle.client.screen.book.BookScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true,
+    "aztech.modern_industrialization.blocks.forgehammer.ForgeHammerScreen": true
   },
   "hideBackground": {
     "io.wispforest.accessories.client.gui.AccessoriesScreen": true,
     "dev.emi.emi.screen.RecipeScreen": true,
-    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true,
+    "aztech.modern_industrialization.blocks.forgehammer.ForgeHammerScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookIndex": true
   }
 }

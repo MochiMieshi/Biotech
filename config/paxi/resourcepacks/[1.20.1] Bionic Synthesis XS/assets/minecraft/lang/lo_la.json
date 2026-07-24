@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aງົດງາມ",
+  "options.clouds.fast": "§eໄວ",
+  "options.difficulty.easy": "§aງ່າຍ",
+  "options.difficulty.hard": "§cຍາກ",
+  "options.difficulty.normal": "§eປົກກະຕິ",
+  "options.difficulty.peaceful": "§bປອດໄພ",
+  "options.graphics.fabulous": "§dງາມເລີດ!",
+  "options.graphics.fancy": "§aງົດງາມ",
+  "options.graphics.fast": "§eໄວ",
+  "options.narrator.all": "§aບັນຍາຍທັງໝົດ",
+  "options.narrator.chat": "§aບັນຍາຍແຊັດ",
+  "options.narrator.notavailable": "§aບໍ່ພ້ອມໃຊ້ງານ",
+  "options.narrator.off": "§cປິດ",
+  "options.narrator.system": "§aລະບົບບັນຍາຍ",
+  "options.off": "§cປິດ",
+  "options.on": "§aເປີດ"
+}

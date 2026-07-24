@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aĐẹp",
+  "options.clouds.fast": "§eNhanh",
+  "options.difficulty.easy": "§aDễ",
+  "options.difficulty.hard": "§cKhó",
+  "options.difficulty.normal": "§eBình thường",
+  "options.difficulty.peaceful": "§bBình yên",
+  "options.graphics.fabulous": "§dTuyệt đỉnh!",
+  "options.graphics.fancy": "§aĐẹp",
+  "options.graphics.fast": "§eNhanh",
+  "options.narrator.all": "§aTất cả",
+  "options.narrator.chat": "§aTrò chuyện",
+  "options.narrator.notavailable": "§aKhông có sẵn",
+  "options.narrator.off": "§cTắt",
+  "options.narrator.system": "§aHệ thống",
+  "options.off": "§cTắt",
+  "options.on": "§aBật"
+}

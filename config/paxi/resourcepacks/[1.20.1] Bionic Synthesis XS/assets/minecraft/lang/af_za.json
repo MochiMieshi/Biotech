@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFancy",
+  "options.clouds.fast": "§eVinnig",
+  "options.difficulty.easy": "§aMaklik",
+  "options.difficulty.hard": "§cMoelik",
+  "options.difficulty.normal": "§eNormaal",
+  "options.difficulty.peaceful": "§bVreedsaam",
+  "options.graphics.fabulous": "§dFantasties!",
+  "options.graphics.fancy": "§aFraai",
+  "options.graphics.fast": "§eVinnig",
+  "options.narrator.all": "§aVertolk Almal",
+  "options.narrator.chat": "§aVertolk Klets",
+  "options.narrator.notavailable": "§aNie Beskikbaar Nie",
+  "options.narrator.off": "§cAF",
+  "options.narrator.system": "§aVertolk Systeem",
+  "options.off": "§cAF",
+  "options.on": "§aAAN"
+}

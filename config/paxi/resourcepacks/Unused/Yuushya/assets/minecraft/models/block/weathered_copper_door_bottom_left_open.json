@@ -1,8 +1,0 @@
-{
-	"parent":"minecraft:block/copper_door_bottom_left_open",
-	"textures": {
-		"0": "block/weathered_copper",
-		"1": "block/weathered_chiseled_copper",
-		"particle": "block/weathered_copper"
-	}
-}

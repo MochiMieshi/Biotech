@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aDetalhats",
+  "options.clouds.fast": "§eRapides",
+  "options.difficulty.easy": "§aAisida",
+  "options.difficulty.hard": "§cMalaisida",
+  "options.difficulty.normal": "§eNormau",
+  "options.difficulty.peaceful": "§bPacifica",
+  "options.graphics.fabulous": "§dFabuloses!",
+  "options.graphics.fancy": "§aDetalhats",
+  "options.graphics.fast": "§eRapides",
+  "options.narrator.all": "§aConta tot",
+  "options.narrator.chat": "§aConta la discussion",
+  "options.narrator.notavailable": "§aDisponible pas",
+  "options.narrator.off": "§cDesactivat",
+  "options.narrator.system": "§aConta lo sistèma",
+  "options.off": "§cDesactivat",
+  "options.on": "§aActivat"
+}

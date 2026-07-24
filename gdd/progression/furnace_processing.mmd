@@ -1,0 +1,42 @@
+graph LR
+
+subgraph Tools
+    stoneTools[Stone tools]
+end
+
+mineOres{Mine}
+
+stoneTools --> mineOres
+mineOres --> cobblestone & coal & rawIron & rawCopper
+
+subgraph Inputs
+    cobblestone[Cobblestone]
+    coal[Coal]
+    lithicSlurry[Lithic Slurry]
+    
+    rawIron[Raw Iron]
+    rawCopper[Raw Copper]
+end
+
+subgraph FurnaceConstruction
+    furnaceAssembly{Assemble}
+    cobblestone --> furnaceAssembly
+    coal --> furnaceAssembly
+    lithicSlurry --> furnaceAssembly
+    
+    furnace[Furnace]
+    furnaceAssembly --> furnace
+end
+
+subgraph Smelting
+    ironSmelt{Smelt}
+    copperSmelt{Smelt}
+
+    furnace --> ironSmelt
+    rawIron --> ironSmelt
+    ironSmelt --> ironIngot[Iron Ingot]
+
+    furnace --> copperSmelt
+    rawCopper --> copperSmelt
+    copperSmelt --> copperIngot[Copper Ingot]
+end

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFínn",
+  "options.clouds.fast": "§eHratt",
+  "options.difficulty.easy": "§aLétt",
+  "options.difficulty.hard": "§cErfitt",
+  "options.difficulty.normal": "§eVenjulegt",
+  "options.difficulty.peaceful": "§bFriðsælt",
+  "options.graphics.fabulous": "§dStórkostleg!",
+  "options.graphics.fancy": "§aFlott",
+  "options.graphics.fast": "§eHröð",
+  "options.narrator.all": "§aLes allt",
+  "options.narrator.chat": "§aLes upp spjallið",
+  "options.narrator.notavailable": "§aEkki í boði",
+  "options.narrator.off": "§cSlökkt",
+  "options.narrator.system": "§aLes kerfisskilaboð",
+  "options.off": "§cNei",
+  "options.on": "§aJá"
+}

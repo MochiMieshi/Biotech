@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFancy",
+  "options.clouds.fast": "§eFast",
+  "options.difficulty.easy": "§asampu",
+  "options.difficulty.hard": "§cnandu",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bpanpi",
+  "options.graphics.fabulous": "§dzabna",
+  "options.graphics.fancy": "§amelbi",
+  "options.graphics.fast": "§esutra",
+  "options.narrator.all": "§abacru ro da",
+  "options.narrator.chat": "§abacru lo se samsku",
+  "options.narrator.notavailable": "§ana jai cumki",
+  "options.narrator.off": "§cOFF",
+  "options.narrator.system": "§abacru lo notci",
+  "options.off": "§cna selpli",
+  "options.on": "§aselpli"
+}

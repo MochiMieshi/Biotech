@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aPryhožyja",
+  "options.clouds.fast": "§eSproščanyja",
+  "options.difficulty.easy": "§aLohkaja",
+  "options.difficulty.hard": "§cCiažkaja",
+  "options.difficulty.normal": "§eNarmalnaja",
+  "options.difficulty.peaceful": "§bMirnaja",
+  "options.graphics.fabulous": "§dFantastyčnaja!",
+  "options.graphics.fancy": "§aPryhožaja",
+  "options.graphics.fast": "§eChutkaja",
+  "options.narrator.all": "§aAhučvać usio",
+  "options.narrator.chat": "§aAhučvać čat",
+  "options.narrator.notavailable": "§aNiedastupna",
+  "options.narrator.off": "§cVYKŁ",
+  "options.narrator.system": "§aAhučvać sistemu",
+  "options.off": "§cVYKŁ",
+  "options.on": "§aUKŁ"
+}

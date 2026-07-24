@@ -1,0 +1,6 @@
+{
+    condition: "appaGhasts.bisonSpawnCondition.default",
+    fallbacks: [
+      "assets/minecraft/optifine/random/entity/equipment/happy_ghast_body/magenta_harness_rename.properties"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aVanima",
+  "options.clouds.fast": "§eLinta",
+  "options.difficulty.easy": "§aAstyalima",
+  "options.difficulty.hard": "§cUrda",
+  "options.difficulty.normal": "§eSanya",
+  "options.difficulty.peaceful": "§bSérenqua",
+  "options.graphics.fabulous": "§dElmendëa!",
+  "options.graphics.fancy": "§aVanima",
+  "options.graphics.fast": "§eLinta",
+  "options.narrator.all": "§aEthenta ilqua",
+  "options.narrator.chat": "§aNarrates Chat",
+  "options.narrator.notavailable": "§aAlaférima",
+  "options.narrator.off": "§cLÁ",
+  "options.narrator.system": "§aNarrates System",
+  "options.off": "§cLÁ",
+  "options.on": "§aNÁ"
+}

@@ -1,0 +1,34 @@
+graph LR
+
+subgraph Inputs
+    forgeHammer[Forge hammer]
+
+    subgraph Bronze
+        bronzeMachineCasing[Bronze machine casing]
+        bronzeCurvedPlate[Bronze curved plate]
+    end
+
+    subgraph Copper
+        copperRod[Copper rod]
+        copperGear[Copper gear]
+        copperRotor[Copper rotor]
+    end
+
+    subgraph Glass
+        glassPane[Glass pane]
+    end
+end
+
+subgraph Fluid pipe
+    fluidPipe[Fluid pipe]
+end
+
+craftFluidPipe{Craft}
+glassPane & copperRotor & bronzeCurvedPlate --> craftFluidPipe --> fluidPipe
+
+subgraph Bronze compressor
+    bronzeCompressor[Bronze compressor]
+end
+
+craftBronzeCompressor{Craft}
+copperRod & copperGear & fluidPipe & forgeHammer & bronzeMachineCasing --> craftBronzeCompressor --> bronzeCompressor

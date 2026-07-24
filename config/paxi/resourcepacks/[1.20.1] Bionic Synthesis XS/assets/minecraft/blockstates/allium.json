@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/variated/flowers/allium/allium_0","weight":1},
+      {"model": "block/variated/flowers/allium/allium_2","weight":1},
+      {"model": "block/variated/flowers/allium/allium_3","weight":1},
+      {"model": "block/variated/flowers/allium/allium_1","weight":1},
+      {"model": "block/variated/flowers/allium/allium_4","weight":1}, 
+      {"model": "block/variated/flowers/allium/allium_5","weight":1},
+      {"model": "block/variated/flowers/allium/allium_6","weight":1},
+      {"model": "block/variated/flowers/allium/allium_7","weight":1} 
+    ]
+  }
+}

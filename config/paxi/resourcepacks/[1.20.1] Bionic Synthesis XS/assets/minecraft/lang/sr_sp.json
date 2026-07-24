@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aОтмени",
+  "options.clouds.fast": "§eБрзи",
+  "options.difficulty.easy": "§aЛако",
+  "options.difficulty.hard": "§cТешко",
+  "options.difficulty.normal": "§eНормално",
+  "options.difficulty.peaceful": "§bМирно",
+  "options.graphics.fabulous": "§dБожанствено!",
+  "options.graphics.fancy": "§aОтмена",
+  "options.graphics.fast": "§eБрза",
+  "options.narrator.all": "§aПриповеда све",
+  "options.narrator.chat": "§aПриповеда чет",
+  "options.narrator.notavailable": "§aНије доступан",
+  "options.narrator.off": "§cНЕ",
+  "options.narrator.system": "§aПриповеда Систем",
+  "options.off": "§cНЕ",
+  "options.on": "§aДА"
+}

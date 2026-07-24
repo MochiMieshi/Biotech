@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aΦανταχτερά",
+  "options.clouds.fast": "§eΓρήγορα",
+  "options.difficulty.easy": "§aΕύκολη",
+  "options.difficulty.hard": "§cΔύσκολη",
+  "options.difficulty.normal": "§eΚανονική",
+  "options.difficulty.peaceful": "§bΕιρηνική",
+  "options.graphics.fabulous": "§dΥπέροχα!",
+  "options.graphics.fancy": "§aΦανταχτερά",
+  "options.graphics.fast": "§eΓρήγορα",
+  "options.narrator.all": "§aΑφήγηση Όλων",
+  "options.narrator.chat": "§aΑφήγηση Συνομιλίας",
+  "options.narrator.notavailable": "§aΜη Διαθέσιμος",
+  "options.narrator.off": "§cΟΧΙ",
+  "options.narrator.system": "§aΑφήγηση Συστήματος",
+  "options.off": "§cΟΧΙ",
+  "options.on": "§aΝΑΙ"
+}

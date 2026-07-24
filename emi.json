@@ -26,6 +26,24 @@
     }
   ],
   "lookup_history": [
+    "item:modern_industrialization:steam_mining_drill{Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}",
+    "item:modern_industrialization:copper_drill_head",
+    "item:modern_industrialization:copper_gear",
+    {
+      "type": "item",
+      "id": "modern_industrialization:copper_drill",
+      "amount": 4
+    },
+    "#item:modern_industrialization:item_pipes",
+    "#item:modern_industrialization:fluid_pipes",
+    "item:modern_industrialization:forge_hammer",
+    "item:modern_industrialization:copper_plate",
+    "item:modern_industrialization:copper_double_ingot",
+    "item:modern_industrialization:copper_bolt",
+    "item:modern_industrialization:copper_curved_plate",
+    "item:modern_industrialization:copper_rod",
+    "item:modern_industrialization:iron_large_plate",
+    "item:modern_industrialization:iron_plate",
     "item:minecraft:torch",
     "item:minecraft:coal",
     "item:minecraft:dirt",

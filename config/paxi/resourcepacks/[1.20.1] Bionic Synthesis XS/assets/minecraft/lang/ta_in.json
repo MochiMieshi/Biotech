@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aஃபேன்ஸி",
+  "options.clouds.fast": "§eவிரைவு",
+  "options.difficulty.easy": "§aஎளிதாக",
+  "options.difficulty.hard": "§cஹார்ட்",
+  "options.difficulty.normal": "§eஇயல்பான",
+  "options.difficulty.peaceful": "§bஅமைதியான",
+  "options.graphics.fabulous": "§dஅற்புதமானது!",
+  "options.graphics.fancy": "§aஃபேன்ஸி",
+  "options.graphics.fast": "§eவிரைவு",
+  "options.narrator.all": "§aஅனைத்தையும் விவரிக்கிறது",
+  "options.narrator.chat": "§aஅரட்டை விவரிக்கிறது",
+  "options.narrator.notavailable": "§aகிடைக்கவில்லை",
+  "options.narrator.off": "§cஆஃப்",
+  "options.narrator.system": "§aகணினி விவரிக்கிறது",
+  "options.off": "§cநிறுத்தவும்",
+  "options.on": "§aமீது"
+}

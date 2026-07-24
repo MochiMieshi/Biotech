@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_0", "y":0, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_0", "y":90, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_0", "y":180, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_0", "y":270, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_1", "y":0, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_1", "y":90, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_1", "y":180, "weight":1},
+      {"model": "block/variated/flowers/lily_of_the_valley/lily_of_the_valley_1", "y":270, "weight":1}
+    ]
+  }
+}

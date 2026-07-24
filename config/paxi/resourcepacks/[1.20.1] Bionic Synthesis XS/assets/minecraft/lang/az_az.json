@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aXülya",
+  "options.clouds.fast": "§eTez",
+  "options.difficulty.easy": "§aAsan",
+  "options.difficulty.hard": "§cZor",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bSülhsevər",
+  "options.graphics.fabulous": "§dİnanılmaz!",
+  "options.graphics.fancy": "§aHəqiqi",
+  "options.graphics.fast": "§eSürətli",
+  "options.narrator.all": "§aHamısını oxuyur",
+  "options.narrator.chat": "§aÇatı Oxuyur",
+  "options.narrator.notavailable": "§aMövcud deyil",
+  "options.narrator.off": "§cSönük",
+  "options.narrator.system": "§aSistemi oxuyur",
+  "options.off": "§cQapalı",
+  "options.on": "§aAçıq"
+}

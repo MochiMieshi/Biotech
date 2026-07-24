@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFfansi",
+  "options.clouds.fast": "§eCyflym",
+  "options.difficulty.easy": "§aHawdd",
+  "options.difficulty.hard": "§cAnodd",
+  "options.difficulty.normal": "§eArferol",
+  "options.difficulty.peaceful": "§bHeddychlon",
+  "options.graphics.fabulous": "§dBendigedig!",
+  "options.graphics.fancy": "§aFfansi",
+  "options.graphics.fast": "§eCyflym",
+  "options.narrator.all": "§aYn Adrodd Popeth",
+  "options.narrator.chat": "§aYn Adrodd Sgwrs",
+  "options.narrator.notavailable": "§aDim Ar Gael",
+  "options.narrator.off": "§cNA",
+  "options.narrator.system": "§aYn Adrodd y System",
+  "options.off": "§cNA",
+  "options.on": "§aIe"
+}

@@ -1,0 +1,61 @@
+graph LR
+
+subgraph Tooling
+    stoneTools[Stone tools]
+end
+
+mineCopper{Mine}
+stoneTools --> mineCopper
+mineCopper --> rawCopper
+
+subgraph Smelting
+    rawCopper[Raw Copper]
+    rawCopper--> smeltingProcess{Smelt}
+    smeltingProcess --> copperIngot[Copper Ingot]
+end
+
+subgraph Components
+    %% Tools (Pill shape)
+    forgeHammer([Forge Hammer])
+    ironHammer([Iron Hammer])
+
+    %% Intermediary Process Node to prevent line spaghetti
+    hammerCrafting{Hammering}
+
+    forgeHammer & copperIngot --> hammerCrafting
+    ironHammer -.-> hammerCrafting
+
+    %% Component Outputs
+    hammerCrafting --> copperDust[Copper Dust] & copperDoubleIngot[Copper Double Ingot] & copperBolt[Copper Bolt] & copperRod[Copper Rod] & copperPlate[Copper Plate] & copperCurvedPlate[Copper Curved Plate] & copperRing[Copper Ring]
+
+    copperDust --> smeltingProcess
+end
+
+subgraph MechanicalParts
+    copperGear[Copper Gear]
+    copperDrillHead[Copper Drill Head]
+    craftCopperBlade{Craft}
+    copperBlade[Copper blade]
+
+    copperCurvedPlate & copperRod --> craftCopperBlade --> copperBlade
+
+    craftCopperRotor{Craft}
+    copperRotor[Copper rotor]
+    
+    copperBolt & copperRing & copperBlade --> craftCopperRotor --> copperRotor
+
+    copperRing & copperBolt & copperPlate --> gearCrafting{Craft} --> copperGear
+    copperGear & copperBolt & copperRod & copperPlate & copperCurvedPlate --> drillHeadCrafting{Craft} --> copperDrillHead
+end
+
+subgraph Machines
+    bucket[Bucket]
+    furnace[Furnace]
+    dioriteAlloy[Diorite Alloy]
+    ironLargePlate[Iron Large Plate]
+
+    %% Final Machine (Subroutine shape)
+    steamMiningDrill[[Steam Mining Drill]]
+
+    copperDrillHead & bucket & furnace & dioriteAlloy & ironLargePlate --> finalAssembly{Assemble} --> steamMiningDrill
+end

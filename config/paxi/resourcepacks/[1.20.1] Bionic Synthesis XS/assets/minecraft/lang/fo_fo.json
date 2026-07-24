@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFlott",
+  "options.clouds.fast": "§eSkjót",
+  "options.difficulty.easy": "§aLætt",
+  "options.difficulty.hard": "§cTorført",
+  "options.difficulty.normal": "§eVanligt",
+  "options.difficulty.peaceful": "§bFriðsælt",
+  "options.graphics.fabulous": "§dVakurt!",
+  "options.graphics.fancy": "§aFlott",
+  "options.graphics.fast": "§eSkjótt",
+  "options.narrator.all": "§aLesur upp alt",
+  "options.narrator.chat": "§aLesur upp kjatt",
+  "options.narrator.notavailable": "§aIkki tøkt",
+  "options.narrator.off": "§cSLØKT",
+  "options.narrator.system": "§aLesur upp kervi",
+  "options.off": "§cSLØKT",
+  "options.on": "§aTENDRAÐ"
+}

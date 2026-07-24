@@ -1,0 +1,25 @@
+filename = "Ashen + Nature's Spirit 1.21.1.zip"
+name = "Ashen + Nature's Spirit"
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '6bb5655424ae931cdb6f0ff7e0b35c16858f651c3aa42835e69d9f7ff14392ddfe99892de7547a17d3bbe955be0a81724d9efdd43e2ab00a8d2823858743c879'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MDaXvAUb/versions/j5hEVfUl/Ashen %2B Nature%27s Spirit 1.21.1.zip'
+
+[update.modrinth]
+mod-id = 'MDaXvAUb'
+version = 'j5hEVfUl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'WBvnqHfV'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LSmohupN'
+type = 'REQUIRED'

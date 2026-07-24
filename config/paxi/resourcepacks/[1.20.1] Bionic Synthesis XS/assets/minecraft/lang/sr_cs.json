@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aOtmeni",
+  "options.clouds.fast": "§eBrzi",
+  "options.difficulty.easy": "§aLako",
+  "options.difficulty.hard": "§cTeško",
+  "options.difficulty.normal": "§eNormalno",
+  "options.difficulty.peaceful": "§bMirno",
+  "options.graphics.fabulous": "§dBožanstveno!",
+  "options.graphics.fancy": "§aOtmena",
+  "options.graphics.fast": "§eBrza",
+  "options.narrator.all": "§aPripoveda sve",
+  "options.narrator.chat": "§aPripoveda Čet",
+  "options.narrator.notavailable": "§aNije dostupan",
+  "options.narrator.off": "§cNE",
+  "options.narrator.system": "§aPripoveda Sistem",
+  "options.off": "§cNE",
+  "options.on": "§aDA"
+}

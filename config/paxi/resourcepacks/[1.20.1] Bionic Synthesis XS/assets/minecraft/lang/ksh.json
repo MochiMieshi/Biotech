@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSchön",
+  "options.clouds.fast": "§eSchnell",
+  "options.difficulty.easy": "§aEnfach",
+  "options.difficulty.hard": "§cHat",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bFredlich",
+  "options.graphics.fabulous": "§dRappelköppich!",
+  "options.graphics.fancy": "§aStaats",
+  "options.graphics.fast": "§eFlöck",
+  "options.narrator.all": "§aVerzällt alles",
+  "options.narrator.chat": "§aVerzällt blos Tschät",
+  "options.narrator.notavailable": "§aNit verföchbar",
+  "options.narrator.off": "§cAus",
+  "options.narrator.system": "§aVerzällt blos Süstem",
+  "options.off": "§cUs",
+  "options.on": "§aAn"
+}

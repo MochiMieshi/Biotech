@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aUrodne",
+  "options.clouds.fast": "§eGibke",
+  "options.difficulty.easy": "§aSnadnŏ",
+  "options.difficulty.hard": "§cCiynżkŏ",
+  "options.difficulty.normal": "§eNormalnŏ",
+  "options.difficulty.peaceful": "§bPokojowŏ",
+  "options.graphics.fabulous": "§dBŏjkowy!",
+  "options.graphics.fancy": "§aUrodny",
+  "options.graphics.fast": "§eGibki",
+  "options.narrator.all": "§aWyczytuje wszycko",
+  "options.narrator.chat": "§aWyczytuje czat",
+  "options.narrator.notavailable": "§aNiydostympny",
+  "options.narrator.off": "§cWył.",
+  "options.narrator.system": "§aWyczytuje systymowe wiadōmości",
+  "options.off": "§cWył.",
+  "options.on": "§aZał."
+}

@@ -1,0 +1,99 @@
+{
+  "music.overworld.ice_caves": {
+    "sounds": [
+      {
+        "name": "yungscavebiomes:sloping_mountains",
+        "stream": true,
+        "volume": 1
+      }
+    ]
+  },
+  "music.overworld.lost_caves": {
+    "sounds": [
+      {
+        "name": "yungscavebiomes:antique",
+        "stream": true,
+        "volume": 1
+      }
+    ]
+  },
+  "block.rare_ice.ambient": {
+    "subtitle": "subtitles.yungscavebiomes.block.rare_ice.ambient",
+    "sounds": [
+      {
+        "name": "yungscavebiomes:rare_ice_ambient_1",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "yungscavebiomes:rare_ice_ambient_2",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "yungscavebiomes:rare_ice_ambient_3",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "yungscavebiomes:rare_ice_ambient_4",
+        "attenuation_distance": 16
+      },
+      {
+        "name": "yungscavebiomes:rare_ice_ambient_5",
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "ambient.lost_caves.loop": {
+    "sounds": [
+      {
+        "name": "yungscavebiomes:lost_caves_ambient",
+        "stream": true,
+        "volume": 0.3
+      }
+    ]
+  },
+  "ambient.lost_caves.sandstorm_loop": {
+    "sounds": [
+      {
+        "name": "yungscavebiomes:lost_caves_sandstorm",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "entity.sand_snapper.digging": {
+    "sounds": [
+      {
+        "name": "yungscavebiomes:entity/sand_snapper_digging",
+        "stream": false,
+        "volume": 1.0
+      }
+    ]
+  },
+  "entity.sand_snapper.death": {
+    "sounds": [
+      "yungscavebiomes:entity/sand_snapper_death"
+    ]
+  },
+  "entity.sand_snapper.hurt": {
+    "sounds": [
+      "yungscavebiomes:entity/sand_snapper_hurt_1",
+      "yungscavebiomes:entity/sand_snapper_hurt_2",
+      "yungscavebiomes:entity/sand_snapper_hurt_3"
+    ]
+  },
+  "entity.sand_snapper.panic": {
+    "sounds": [
+      "yungscavebiomes:entity/sand_snapper_panic"
+    ]
+  },
+  "entity.sand_snapper.happy": {
+    "sounds": [
+      "yungscavebiomes:entity/sand_snapper_happy"
+    ]
+  },
+  "entity.sand_snapper.emerge": {
+    "sounds": [
+      "yungscavebiomes:entity/sand_snapper_emerge"
+    ]
+  }
+}

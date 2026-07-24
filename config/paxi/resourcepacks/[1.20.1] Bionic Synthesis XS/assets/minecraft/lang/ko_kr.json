@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§a화려하게",
+  "options.clouds.fast": "§e빠르게",
+  "options.difficulty.easy": "§a쉬움",
+  "options.difficulty.hard": "§c어려움",
+  "options.difficulty.normal": "§e보통",
+  "options.difficulty.peaceful": "§b평화로움",
+  "options.graphics.fabulous": "§d기막히게!",
+  "options.graphics.fancy": "§a화려하게",
+  "options.graphics.fast": "§e빠르게",
+  "options.narrator.all": "§a모두 읽기",
+  "options.narrator.chat": "§a대화만 읽기",
+  "options.narrator.notavailable": "§a사용 불가",
+  "options.narrator.off": "§c꺼짐",
+  "options.narrator.system": "§a시스템 메시지만 읽기",
+  "options.off": "§c꺼짐",
+  "options.on": "§a켜짐"
+}

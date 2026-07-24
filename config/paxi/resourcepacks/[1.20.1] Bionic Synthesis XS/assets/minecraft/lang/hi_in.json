@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aकल्पना",
+  "options.clouds.fast": "§eतेज",
+  "options.difficulty.easy": "§aआसान",
+  "options.difficulty.hard": "§cकठिन",
+  "options.difficulty.normal": "§eसामान्य",
+  "options.difficulty.peaceful": "§bशांतिपूर्ण",
+  "options.graphics.fabulous": "§dशानदार!",
+  "options.graphics.fancy": "§aसुंदर",
+  "options.graphics.fast": "§eतेज",
+  "options.narrator.all": "§aसभी को बताता है",
+  "options.narrator.chat": "§aवार्ता बोले",
+  "options.narrator.notavailable": "§aउपलब्ध नहीं है",
+  "options.narrator.off": "§cबंद",
+  "options.narrator.system": "§aसिस्टम बताता है",
+  "options.off": "§cबंद",
+  "options.on": "§aचालू"
+}

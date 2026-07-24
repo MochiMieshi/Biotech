@@ -1,0 +1,65 @@
+filename = 'mcwregionsunexplored-fabric-1.20.1-1.6.jar'
+name = "Macaw's Regions Unexplored"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.6'
+
+[download]
+hash = '5fcaeb8e63153c97011a84dd1233d6286cfe68b5c937b7731ae10ce4bc5c01896bb8dfdf3fe9f2edeaa5e3d8c6ed2440f58bf20458c50295af2e37733bb30258'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4d7eGKIA/versions/2ePDU1IY/mcwregionsunexplored-fabric-1.20.1-1.6.jar'
+
+[update.modrinth]
+mod-id = '4d7eGKIA'
+version = '2ePDU1IY'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'n2fvCDlM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kNxa8z3e'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cl5ec0Qm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'dtWC90iB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GmwLse2I'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iP3wH1ha'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VRLhWB91'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tkikq67H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'C7I0BCni'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'B8jaH3P1'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GURcjz8O'
+type = 'OPTIONAL'

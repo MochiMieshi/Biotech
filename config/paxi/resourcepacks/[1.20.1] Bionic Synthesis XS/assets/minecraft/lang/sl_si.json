@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aPrelepo",
+  "options.clouds.fast": "§eHitro",
+  "options.difficulty.easy": "§aLahka",
+  "options.difficulty.hard": "§cTežka",
+  "options.difficulty.normal": "§eSrednja",
+  "options.difficulty.peaceful": "§bMiroljubna",
+  "options.graphics.fabulous": "§dNeverjetno!",
+  "options.graphics.fancy": "§aLepa",
+  "options.graphics.fast": "§eHitra",
+  "options.narrator.all": "§aPripoveduje vse",
+  "options.narrator.chat": "§aPripoveduje pogovor",
+  "options.narrator.notavailable": "§aNi na voljo",
+  "options.narrator.off": "§cNE",
+  "options.narrator.system": "§aPripoveduje sistem",
+  "options.off": "§cNE",
+  "options.on": "§aDA"
+}

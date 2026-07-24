@@ -1,0 +1,8 @@
+{
+    condition: "appaGhasts.bisonSpawnCondition.default & appaGhasts.freshAnimationsSupport.off",
+    fallbacks: [
+      "assets/minecraft/optifine/cem/happy_ghast_harness/happy_ghast_harness_rename.properties",
+      "assets/minecraft/optifine/cem/happy_ghast_harness/fa_happy_ghast_harness.properties",
+      "assets/minecraft/optifine/cem/happy_ghast_harness/fa_happy_ghast_harness_rename.properties"
+    ]
+}

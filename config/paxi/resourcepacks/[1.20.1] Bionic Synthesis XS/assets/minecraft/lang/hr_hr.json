@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aŠminkerski",
+  "options.clouds.fast": "§eBrzi",
+  "options.difficulty.easy": "§aLagano",
+  "options.difficulty.hard": "§cTeško",
+  "options.difficulty.normal": "§eNormalno",
+  "options.difficulty.peaceful": "§bMiroljubivo",
+  "options.graphics.fabulous": "§dFantastična!",
+  "options.graphics.fancy": "§aŠminkerska",
+  "options.graphics.fast": "§eBrza",
+  "options.narrator.all": "§aZa sve",
+  "options.narrator.chat": "§aSamo razgovori",
+  "options.narrator.notavailable": "§aNije dostupan",
+  "options.narrator.off": "§cIsključen",
+  "options.narrator.system": "§aSamo sustav",
+  "options.off": "§cNe",
+  "options.on": "§aDa"
+}

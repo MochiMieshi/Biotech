@@ -1,0 +1,169 @@
+{
+  "crafting_bowl_stirring": {
+    "subtitle": "sound.doapi.crafting_bowl_stirring",
+    "sounds": [
+      "doapi:crafting_bowl_stirring"
+    ]
+  },
+  "mincer_cranking": {
+    "subtitle": "sound.doapi.mincer_cranking",
+    "sounds": [
+      "doapi:mincer_cranking"
+    ]
+  },
+  "water_sprinkler": {
+    "subtitle": "sound.doapi.water_sprinkler",
+    "sounds": [
+      "doapi:water_sprinkler"
+    ]
+  },
+  "roaster_cooking": {
+    "subtitle": "sound.doapi.roaster_cooking",
+    "sounds": [
+      "doapi:roaster_cooking"
+    ]
+  },
+  "cooking_pot_boiling": {
+    "subtitle": "sound.doapi.cooking_pot_boiling",
+    "sounds": [
+      "doapi:cooking_pot_boiling"
+    ]
+  },
+  "stove_crackling": {
+    "subtitle": "sound.doapi.stove_crackling",
+    "sounds": [
+      "doapi:stove_crackling"
+    ]
+  },
+  "cart_moving": {
+    "subtitle": "sound.doapi.cart_moving",
+    "sounds": [
+      "doapi:cart_moving"
+    ]
+  },
+  "cooking_pot_hit": {
+    "subtitle": "sound.doapi.cooking_pot_hit",
+    "sounds": [
+      "doapi:cooking_pot_hit"
+    ]
+  },
+  "drawer_open": {
+    "subtitle": "sound.doapi.drawer_open",
+    "sounds": [
+      "doapi:drawer_open"
+    ]
+  },
+  "drawer_close": {
+    "subtitle": "sound.doapi.drawer_close",
+    "sounds": [
+      "doapi:drawer_close"
+    ]
+  },
+  "cabinet_open": {
+    "subtitle": "sound.doapi.cabinet_open",
+    "sounds": [
+      "doapi:cabinet_open"
+    ]
+  },
+  "cabinet_close": {
+    "subtitle": "sound.doapi.cabinet_close",
+    "sounds": [
+      "doapi:cabinet_close"
+    ]
+  },
+  "cake_cut": {
+    "subtitle": "sound.doapi.cake_cut",
+    "sounds": [
+      "doapi:cake_cut"
+    ]
+  },
+  "typewriter": {
+    "subtitle": "sound.doapi.typewriter",
+    "sounds": [
+      "doapi:typewriter"
+    ]
+  },
+  "dinner_bell": {
+    "subtitle": "sound.doapi.dinner_bell",
+    "sounds": [
+      "doapi:dinner_bell"
+    ]
+  },
+  "breath": {
+    "subtitle": "doapi.sound.breath",
+    "sounds": [
+      "doapi:breath"
+    ]
+  },
+  "beer_elemental_ambient": {
+    "subtitle": "doapi.sound.beer_elemental_ambient",
+    "sounds": [
+      "doapi:beer_elemental_ambient1",
+      "doapi:beer_elemental_ambient2",
+      "doapi:beer_elemental_ambient3"
+    ]
+  },
+  "beer_elemental_hurt": {
+    "subtitle": "doapi.sound.beer_elemental_hurt",
+    "sounds": [
+      "doapi:beer_elemental_hurt1",
+      "doapi:beer_elemental_hurt2",
+      "doapi:beer_elemental_hurt3"
+    ]
+  },
+  "beer_elemental_death": {
+    "subtitle": "doapi.sound.beer_elemental_death",
+    "sounds": [
+      "doapi:beer_elemental_death1",
+      "doapi:beer_elemental_death2",
+      "doapi:beer_elemental_death3"
+    ]
+  },
+  "beer_elemental_attack": {
+    "subtitle": "doapi.sound.beer_elemental_attack",
+    "sounds": [
+      "doapi:beer_elemental_attack1",
+      "doapi:beer_elemental_attack2",
+      "doapi:beer_elemental_attack3",
+      "doapi:beer_elemental_attack4"
+    ]
+  },
+  "brewstation_timer": {
+    "subtitle": "doapi.sound.brewstation_timer",
+    "sounds": [
+      "doapi:brewstation_timer_loop"
+    ]
+  },
+  "brewstation_whistle": {
+    "subtitle": "doapi.sound.brewstation_whistle",
+    "sounds": [
+      "doapi:brewstation_whistle1",
+      "doapi:brewstation_whistle2",
+      "doapi:brewstation_whistle3"
+    ]
+  },
+  "brewstation_ambient": {
+    "subtitle": "doapi.sound.brewstation_ambient",
+    "sounds": [
+      "doapi:brewstation_ambient"
+    ]
+  },
+  "brewstation_kettle": {
+    "subtitle": "doapi.sound.brewstation_kettle",
+    "sounds": [
+      "doapi:brewstation_kettle"
+    ]
+  },
+  "brewstation_oven": {
+    "subtitle": "doapi.sound.brewstation_oven",
+    "sounds": [
+      "doapi:brewstation_oven"
+    ]
+  },
+  "brewstation_process_failed": {
+    "subtitle": "doapi.sound.brewstation_process_failed",
+    "sounds": [
+      "doapi:brewstation_process_failed"
+    ]
+  }
+}

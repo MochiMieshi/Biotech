@@ -1,0 +1,25 @@
+filename = 'sodiumoptionsmodcompat-fabric-1.0.0-1.20.1.jar'
+name = 'Sodium Options Mod Compat'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.20.1-1.0.0'
+
+[download]
+hash = '200d4e76d57eb4abe1d388e21ee99d7e07a18462f51f3499f4476699fa5b09e9dff98ed8f0af79ffa4f29a51789db83a1d3320af464e83c66b8f52da4dca4542'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yg1VT27P/versions/GMKAHmdc/sodiumoptionsmodcompat-fabric-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Yg1VT27P'
+version = 'GMKAHmdc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Es5v4eyq'
+type = 'REQUIRED'

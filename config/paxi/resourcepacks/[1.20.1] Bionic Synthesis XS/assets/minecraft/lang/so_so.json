@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aQurux badan",
+  "options.clouds.fast": "§eFast",
+  "options.difficulty.easy": "§aFudud",
+  "options.difficulty.hard": "§cAdag",
+  "options.difficulty.normal": "§eCaadi ah",
+  "options.difficulty.peaceful": "§bTabiyo",
+  "options.graphics.fabulous": "§dCajiib!\n",
+  "options.graphics.fancy": "§aMalana",
+  "options.graphics.fast": "§eSoon",
+  "options.narrator.all": "§aDhamaan dhamaantood",
+  "options.narrator.chat": "§aCodka hadalka",
+  "options.narrator.notavailable": "§aLama helin",
+  "options.narrator.off": "§cOFF",
+  "options.narrator.system": "§aNidaamka codka",
+  "options.off": "§cOFF",
+  "options.on": "§aKarti"
+}

@@ -1,0 +1,53 @@
+graph LR
+
+subgraph MortarTool
+    cobblestone[Cobblestone]
+    
+    %% Pill shape for the tool
+    mortar([Mortar])
+
+    craftMortar{Craft}
+    
+    cobblestone --> craftMortar --> mortar
+end
+
+subgraph StoneProcessing
+    granite[Granite]
+    mud[Mud]
+    clay[Clay]
+
+    graniteSlurry[Granite Slurry]
+    stoneSlurry[Stone Slurry]
+    lithicSlurry[Lithic Slurry]
+
+    craftGraniteSlurry{Craft}
+    craftStoneSlurry{Craft}
+    craftLithicSlurry{Craft}
+
+    %% Funneling multiple inputs into process hubs
+    mortar & granite & mud --> craftGraniteSlurry --> graniteSlurry
+    mortar & cobblestone & mud --> craftStoneSlurry --> stoneSlurry
+    
+    graniteSlurry & stoneSlurry & clay & mud --> craftLithicSlurry --> lithicSlurry
+end
+
+subgraph OrganicProcessing
+    seeds[Seeds]
+    flowers[Flowers]
+    saplings[Saplings]
+    leaves[Leaves]
+
+    %% Pill shape for the tool
+    knifes([Knifes])
+
+    fiber[Fiber]
+    paper[Paper]
+
+    craftFiber{Craft}
+    craftPaper{Craft}
+
+    %% Funneling 6 inputs into a single crafting action
+    seeds & flowers & saplings & leaves & mortar & knife --> craftFiber --> fiber
+
+    fiber --> craftPaper --> paper
+end

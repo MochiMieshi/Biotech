@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSpaideil",
+  "options.clouds.fast": "§eLuath",
+  "options.difficulty.easy": "§aFurasta",
+  "options.difficulty.hard": "§cDoirbh",
+  "options.difficulty.normal": "§eMeadhanach",
+  "options.difficulty.peaceful": "§bSìtheil",
+  "options.graphics.fabulous": "§dIongantach!",
+  "options.graphics.fancy": "§aSnasail",
+  "options.graphics.fast": "§eLuath",
+  "options.narrator.all": "§aAithris a h-uile rud",
+  "options.narrator.chat": "§aAithris a' chabadaich",
+  "options.narrator.notavailable": "§aChan eil neach-aithris ri fhaighinn",
+  "options.narrator.off": "§cAIRSON",
+  "options.narrator.system": "§aAithris an siostam",
+  "options.off": "§cDHETH",
+  "options.on": "§aAIR"
+}

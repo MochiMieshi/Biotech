@@ -1,0 +1,79 @@
+graph LR
+
+subgraph Smelting
+    rawIron[Raw Iron]
+    furnace[Furnace]
+    
+    smeltIron{Smelt}
+    
+    rawIron & furnace --> smeltIron
+    smeltIron --> ironIngot[Iron Ingot]
+end
+
+subgraph Alloying
+    andesite[Andesite]
+    diorite[Diorite]
+
+    andesiteAlloy[Andesite Alloy]
+    dioriteAlloy[Diorite Alloy]
+
+    craftAndesiteAlloy{Craft}
+    craftDioriteAlloy{Craft}
+
+    ironIngot & andesite --> craftAndesiteAlloy --> andesiteAlloy
+    ironIngot & diorite --> craftDioriteAlloy --> dioriteAlloy
+end
+
+subgraph Blacksmithing
+    lithicSlurry[Lithic Slurry]
+    stick[Stick]
+    
+    %% Pill shapes for tools
+    forgeHammer([Forge Hammer])
+    ironHammer([Iron Hammer])
+
+    ironPlate[Iron Plate]
+    bucket[Bucket]
+    waterBucket[Water bucket]
+
+    craftForgeHammer{Craft}
+    craftBucket{Craft}
+    acquireWaterBucket{Acquire}
+    craftIronPlate{Craft}
+    craftIronHammer{Craft}
+
+    andesiteAlloy & lithicSlurry --> craftForgeHammer --> forgeHammer
+    dioriteAlloy --> craftBucket --> bucket --> acquireWaterBucket --> waterBucket
+
+    ironIngot & forgeHammer --> craftIronPlate --> ironPlate
+    ironPlate & stick --> craftIronHammer --> ironHammer
+end
+
+subgraph Components
+    ironDust[Iron Dust]
+    ironDoubleIngot[Iron Double Ingot]
+    ironBolt[Iron Bolt]
+    ironRod[Iron Rod]
+    ironCurvedPlate[Iron Curved Plate]
+    ironLargePlate[Iron Large Plate]
+    ironRing[Iron Ring]
+
+    %% Central hub for hammer crafting
+    hammerCrafting{Hammering}
+
+    forgeHammer & ironIngot --> hammerCrafting
+    ironHammer -.-> hammerCrafting
+
+    %% Output routing
+    hammerCrafting --> ironDust & ironDoubleIngot & ironBolt & ironRod & ironCurvedPlate & ironPlate & ironLargePlate & ironRing
+
+    %% Recycling dust back to ingots
+    ironDust --> smeltDust{Smelt} --> ironIngot
+end
+
+subgraph Tools
+    ironTools[Iron Tools]
+    craftTools{Craft}
+    
+    ironIngot --> craftTools --> ironTools
+end

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSnygga",
+  "options.clouds.fast": "§eSnabba",
+  "options.difficulty.easy": "§aLätt",
+  "options.difficulty.hard": "§cSvår",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bFredlig",
+  "options.graphics.fabulous": "§dFabulös!",
+  "options.graphics.fancy": "§aSnygg",
+  "options.graphics.fast": "§eSnabb",
+  "options.narrator.all": "§aLäser upp allting",
+  "options.narrator.chat": "§aLäser upp chatt",
+  "options.narrator.notavailable": "§aInte tillgänglig",
+  "options.narrator.off": "§cAV",
+  "options.narrator.system": "§aLäser upp system",
+  "options.off": "§cAV",
+  "options.on": "§aPÅ"
+}

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aKreas",
+  "options.clouds.fast": "§eFluch",
+  "options.difficulty.easy": "§aMaklik",
+  "options.difficulty.hard": "§cDreech",
+  "options.difficulty.normal": "§eNormaal",
+  "options.difficulty.peaceful": "§bFredich",
+  "options.graphics.fabulous": "§dPrachtich!",
+  "options.graphics.fancy": "§aKreas",
+  "options.graphics.fast": "§eRap",
+  "options.narrator.all": "§aFertelt Alles",
+  "options.narrator.chat": "§aFertelt chatberjochten",
+  "options.narrator.notavailable": "§aNet beskikber",
+  "options.narrator.off": "§cÚT",
+  "options.narrator.system": "§aFertelt systeemberjochten",
+  "options.off": "§cÚT",
+  "options.on": "§aOAN"
+}

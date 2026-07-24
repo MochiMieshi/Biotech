@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aĈika",
+  "options.clouds.fast": "§eRapida",
+  "options.difficulty.easy": "§aFacila",
+  "options.difficulty.hard": "§cArdua",
+  "options.difficulty.normal": "§eNormala",
+  "options.difficulty.peaceful": "§bPacoza",
+  "options.graphics.fabulous": "§dFablatra!",
+  "options.graphics.fancy": "§aDetaloza",
+  "options.graphics.fast": "§eRapida",
+  "options.narrator.all": "§aNaracas omno",
+  "options.narrator.chat": "§aNaracas konverso",
+  "options.narrator.notavailable": "§aNedisponebla",
+  "options.narrator.off": "§cNO",
+  "options.narrator.system": "§aNaracas sistemo",
+  "options.off": "§cNo",
+  "options.on": "§aYes"
+}

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aКүләмле",
+  "options.clouds.fast": "§eТиҙ",
+  "options.difficulty.easy": "§aЕңел",
+  "options.difficulty.hard": "§cҠыйын",
+  "options.difficulty.normal": "§eҒәҙәти",
+  "options.difficulty.peaceful": "§bТыныс",
+  "options.graphics.fabulous": "§dТаң ҡалырлыҡлы!",
+  "options.graphics.fancy": "§aБәйнә-бәйнә",
+  "options.graphics.fast": "§eТиҙ",
+  "options.narrator.all": "§aБарлығын әйтә",
+  "options.narrator.chat": "§aСөхбәтте хикәйәләй",
+  "options.narrator.notavailable": "§aҠатмарлы",
+  "options.narrator.off": "§cҺүнек",
+  "options.narrator.system": "§aСистеманың хәбәрҙәре",
+  "options.off": "§cҺүн",
+  "options.on": "§aҠаб"
+}

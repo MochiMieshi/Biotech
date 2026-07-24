@@ -1,0 +1,3 @@
+{
+    condition: "appaGhasts.bisonSpawnCondition.renameOnly & !appaGhasts.freshAnimationsSupport.off"
+}

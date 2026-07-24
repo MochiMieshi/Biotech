@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aDetaliați",
+  "options.clouds.fast": "§eRapizi",
+  "options.difficulty.easy": "§aUșoară",
+  "options.difficulty.hard": "§cGrea",
+  "options.difficulty.normal": "§eNormală",
+  "options.difficulty.peaceful": "§bPașnică",
+  "options.graphics.fabulous": "§dFabuloasă!",
+  "options.graphics.fancy": "§aDetaliată",
+  "options.graphics.fast": "§eRapidă",
+  "options.narrator.all": "§aNarează tot",
+  "options.narrator.chat": "§aNarează chatul",
+  "options.narrator.notavailable": "§aIndisponibil",
+  "options.narrator.off": "§cNu",
+  "options.narrator.system": "§aNarează sistemul",
+  "options.off": "§cNu",
+  "options.on": "§aDa"
+}

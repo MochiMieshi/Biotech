@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFein",
+  "options.clouds.fast": "§eGau",
+  "options.difficulty.easy": "§aEenfak",
+  "options.difficulty.hard": "§cSwaor",
+  "options.difficulty.normal": "§eNormaal",
+  "options.difficulty.peaceful": "§bFraidlik",
+  "options.graphics.fabulous": "§dFabelachtig!",
+  "options.graphics.fancy": "§aSchöön",
+  "options.graphics.fast": "§eGau",
+  "options.narrator.all": "§aLest allens",
+  "options.narrator.chat": "§aLest Klöönsnak",
+  "options.narrator.notavailable": "§aNich verfügbor",
+  "options.narrator.off": "§cOFF",
+  "options.narrator.system": "§aLest Systeem",
+  "options.off": "§cUt",
+  "options.on": "§aAn"
+}

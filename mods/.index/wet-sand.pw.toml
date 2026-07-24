@@ -1,0 +1,18 @@
+filename = 'wet-sand-beta-0.0.4-1.20.1.jar'
+name = 'Wet sand'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'beta-0.0.4-1.20.1'
+
+[download]
+hash = '4052ffa885bd8807276cb306d9bb10e744f6578f54cbc4e12a93f59167d8f7515444bc2cbc392023c76e5583938aab5c0ccd0927d0126c34182612ba83b8c2c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aCchvKq6/versions/1GLK4Jot/wet-sand-beta-0.0.4-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'aCchvKq6'
+version = '1GLK4Jot'

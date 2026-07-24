@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aČáppa",
+  "options.clouds.fast": "§eDohkálaš",
+  "options.difficulty.easy": "§aÁlki",
+  "options.difficulty.hard": "§cVáttis",
+  "options.difficulty.normal": "§eDábálaš",
+  "options.difficulty.peaceful": "§bRáfálaš",
+  "options.graphics.fabulous": "§dRámálmas!",
+  "options.graphics.fancy": "§aČáppa",
+  "options.graphics.fast": "§eDohkálaš",
+  "options.narrator.all": "§aLohká buot",
+  "options.narrator.chat": "§aLoga Chátta Jitnosit",
+  "options.narrator.notavailable": "§aIi leat olámuttos",
+  "options.narrator.off": "§cIi alde",
+  "options.narrator.system": "§aLohká systema",
+  "options.off": "§cII ALDE",
+  "options.on": "§aALDE"
+}

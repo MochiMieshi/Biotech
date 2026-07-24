@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§auhked",
+  "options.clouds.fast": "§ekiired",
+  "options.difficulty.easy": "§akerge",
+  "options.difficulty.hard": "§craske",
+  "options.difficulty.normal": "§ekeskmine",
+  "options.difficulty.peaceful": "§brahulik",
+  "options.graphics.fabulous": "§dvapustav!",
+  "options.graphics.fancy": "§auhke",
+  "options.graphics.fast": "§ekiire",
+  "options.narrator.all": "§ajutustab kõike",
+  "options.narrator.chat": "§ajutustab vestlust",
+  "options.narrator.notavailable": "§apole saadaval",
+  "options.narrator.off": "§cVÄLJAS",
+  "options.narrator.system": "§ajutustab süsteemi",
+  "options.off": "§cVÄLJAS",
+  "options.on": "§aSEES"
+}

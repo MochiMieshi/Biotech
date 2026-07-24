@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aმოცულობითი",
+  "options.clouds.fast": "§eბრტყელი",
+  "options.difficulty.easy": "§aადვილი",
+  "options.difficulty.hard": "§cრთული",
+  "options.difficulty.normal": "§eჩვეულებრივი",
+  "options.difficulty.peaceful": "§bმშვიდი",
+  "options.graphics.fabulous": "§dშესანიშნავია!",
+  "options.graphics.fancy": "§aლამაზი",
+  "options.graphics.fast": "§eსწრაფი",
+  "options.narrator.all": "§aახმოვანებს ყველაფერს",
+  "options.narrator.chat": "§aახმოვანებს სასაუბროს",
+  "options.narrator.notavailable": "§aხელმიუწვდომელია",
+  "options.narrator.off": "§cგამორთულია",
+  "options.narrator.system": "§aახმოვანებს სისტემას",
+  "options.off": "§cარა",
+  "options.on": "§aკი"
+}

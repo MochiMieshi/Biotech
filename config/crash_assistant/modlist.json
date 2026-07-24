@@ -221,6 +221,14 @@
     "curseForgeHash": 1991398078,
     "modrinthHash": "5a511ce0f2afd297787a7b356d7f5e8682fc0b97"
   },
+  "better-clouds-1.3.37+1.20.1-fabric.jar": {
+    "jarName": "better-clouds-1.3.37+1.20.1-fabric.jar",
+    "modId": "betterclouds",
+    "name": "Better Clouds",
+    "version": "1.3.37+1.20.1-fabric",
+    "curseForgeHash": 2646813023,
+    "modrinthHash": "c6e4c7b4cfe98410a046dcc08923e998aa199679"
+  },
   "betterbeds-1.3.0-1.19.3.jar": {
     "jarName": "betterbeds-1.3.0-1.19.3.jar",
     "modId": "betterbeds",
@@ -653,6 +661,14 @@
     "curseForgeHash": 2671775891,
     "modrinthHash": "ca859180ad2b57856fbcc8db4995c1871a7d556c"
   },
+  "dense-flowers-0.2.1+mc1.20.1.jar": {
+    "jarName": "dense-flowers-0.2.1+mc1.20.1.jar",
+    "modId": "dense-flowers",
+    "name": "Dense Flowers",
+    "version": "0.2.1+mc1.20.1",
+    "curseForgeHash": 3191057755,
+    "modrinthHash": "ddc62d89e42cc8b9c8dee23ec96389183b813433"
+  },
   "diggusmaximus-1.5.9-1.20.jar": {
     "jarName": "diggusmaximus-1.5.9-1.20.jar",
     "modId": "diggusmaximus",
@@ -684,6 +700,14 @@
     "version": "3.11.4",
     "curseForgeHash": 3117500222,
     "modrinthHash": "38196ee5bcfb3605f9bb9e52a45916b250216313"
+  },
+  "e4mc-fabric-6.2.0.jar": {
+    "jarName": "e4mc-fabric-6.2.0.jar",
+    "modId": "e4mc",
+    "name": "e4mc",
+    "version": "6.2.0",
+    "curseForgeHash": 3013662745,
+    "modrinthHash": "66eeb81d539623947921c0019a0d6fbea997464c"
   },
   "earth-and-water-1.0.3-1.20.1-hotfix-4.jar": {
     "jarName": "earth-and-water-1.0.3-1.20.1-hotfix-4.jar",
@@ -1116,6 +1140,14 @@
     "curseForgeHash": 1475278951,
     "modrinthHash": "5f743c3d00ec738c88ac5e8ae07b3c659ac9a2dd"
   },
+  "footprint-particles-3.jar": {
+    "jarName": "footprint-particles-3.jar",
+    "modId": "mr_footprint_particles",
+    "name": "Footprint Particles",
+    "version": "3",
+    "curseForgeHash": 298462426,
+    "modrinthHash": "afebb73f2653c015693be18143ea3c47f8204330"
+  },
   "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar": {
     "jarName": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
     "modId": "forgeconfigapiport",
@@ -1147,14 +1179,6 @@
     "version": "4.4",
     "curseForgeHash": 709672017,
     "modrinthHash": "1a2b5334bc9ca96ab7ebc977c777ecb1dacc6d03"
-  },
-  "fullyenchanced-1.1-1.20.1.jar": {
-    "jarName": "fullyenchanced-1.1-1.20.1.jar",
-    "modId": "fullyenchanced",
-    "name": "Fully Enchanced",
-    "version": "1.1-1.20.1",
-    "curseForgeHash": 1442246166,
-    "modrinthHash": "1de5c0dd3b30b1f05e4697a9d298594466fa243e"
   },
   "fzzy_config-0.7.6+1.20.1.jar": {
     "jarName": "fzzy_config-0.7.6+1.20.1.jar",
@@ -1308,6 +1332,14 @@
     "curseForgeHash": 3354140996,
     "modrinthHash": "bb9e7a507bb7a442cba451d79b5c1fde74aea07c"
   },
+  "immersive-hotbar-1.1.2-1.20-1.20.4.jar": {
+    "jarName": "immersive-hotbar-1.1.2-1.20-1.20.4.jar",
+    "modId": "immersive-hotbar",
+    "name": "Immersive Hotbar",
+    "version": "1.1.2-1.20-1.20.4",
+    "curseForgeHash": 1136313601,
+    "modrinthHash": "4d9f6738b6a24773c2290ad209ad1f4593bc10f5"
+  },
   "immersive_optimization-fabric-1.20.1-0.1.6.jar": {
     "jarName": "immersive_optimization-fabric-1.20.1-0.1.6.jar",
     "modId": "immersive_optimization",
@@ -1420,14 +1452,6 @@
     "curseForgeHash": 697446026,
     "modrinthHash": "8ffb72d369fd7679309613b21f179443ba199daf"
   },
-  "krypton-0.2.3.jar": {
-    "jarName": "krypton-0.2.3.jar",
-    "modId": "krypton",
-    "name": "Krypton",
-    "version": "0.2.3",
-    "curseForgeHash": 2515349463,
-    "modrinthHash": "4d499819effd8afe811e5d93952fcc46765a00df"
-  },
   "Ksyxis-1.4.3.jar": {
     "jarName": "Ksyxis-1.4.3.jar",
     "modId": "ksyxis",
@@ -1435,6 +1459,14 @@
     "version": "1.4.3",
     "curseForgeHash": 122658441,
     "modrinthHash": "6f4b2ea7827da8136bdf436457a2ba3fcdb2120e"
+  },
+  "kubejs-fabric-2001.6.5-build.26.jar": {
+    "jarName": "kubejs-fabric-2001.6.5-build.26.jar",
+    "modId": "kubejs",
+    "name": "KubeJS",
+    "version": "2001.6.5-build.26",
+    "curseForgeHash": 4223452969,
+    "modrinthHash": "08d70c86bb9501eeaf936722784c09de18f0e32f"
   },
   "lambdynamiclights-4.4.0+1.20.1.jar": {
     "jarName": "lambdynamiclights-4.4.0+1.20.1.jar",
@@ -1507,14 +1539,6 @@
     "version": "1.0.14",
     "curseForgeHash": 2186642929,
     "modrinthHash": "bbb387d12c3b6e14dee74062bf84a99d2a7047da"
-  },
-  "letsdo-furniture-fabric-1.0.4.jar": {
-    "jarName": "letsdo-furniture-fabric-1.0.4.jar",
-    "modId": "furniture",
-    "name": "[Let\u0027s Do] Furniture",
-    "version": "1.0.4",
-    "curseForgeHash": 1432888167,
-    "modrinthHash": "aad9dff156a6f263986306b4591460c282fb53aa"
   },
   "letsdo-herbalbrews-fabric-1.0.12.jar": {
     "jarName": "letsdo-herbalbrews-fabric-1.0.12.jar",
@@ -2012,6 +2036,14 @@
     "curseForgeHash": 1678799689,
     "modrinthHash": "79ebc5e66a5ee3ce92afb340e693d506e97361a0"
   },
+  "particlerain-4.0.0-beta.10+1.20.1-fabric.jar": {
+    "jarName": "particlerain-4.0.0-beta.10+1.20.1-fabric.jar",
+    "modId": "particlerain",
+    "name": "Particle Rain",
+    "version": "4.0.0-beta.10",
+    "curseForgeHash": 4124734342,
+    "modrinthHash": "9ecf8b5f3f1392d96de06186efb9fa8d01baf6c9"
+  },
   "Paxi-1.20-Fabric-4.0.jar": {
     "jarName": "Paxi-1.20-Fabric-4.0.jar",
     "modId": "paxi",
@@ -2068,6 +2100,14 @@
     "curseForgeHash": 238070028,
     "modrinthHash": "e2e420fbc95058bfd939960818871abd6a799ba7"
   },
+  "PresenceFootsteps-1.10.1+1.20.1.jar": {
+    "jarName": "PresenceFootsteps-1.10.1+1.20.1.jar",
+    "modId": "presencefootsteps",
+    "name": "Presence Footsteps",
+    "version": "1.10.1+1.20.1",
+    "curseForgeHash": 4215778409,
+    "modrinthHash": "8f88195dea52509564fabc3dfac966b09290d905"
+  },
   "Prism-1.20.1-fabric-1.0.5.jar": {
     "jarName": "Prism-1.20.1-fabric-1.0.5.jar",
     "modId": "prism",
@@ -2075,6 +2115,14 @@
     "version": "1.0.5",
     "curseForgeHash": 2829393832,
     "modrinthHash": "cd169ef91788fed7e1025e5d2273d61978898e52"
+  },
+  "probejs-6.0.0-fabric.jar": {
+    "jarName": "probejs-6.0.0-fabric.jar",
+    "modId": "probejs",
+    "name": "ProbeJS",
+    "version": "6.0.0",
+    "curseForgeHash": 702565429,
+    "modrinthHash": "8cfcbc17c7ffafb5558f5e78c3b1fd9105d4f847"
   },
   "puzzle-fabric-2.3.0+1.20.1.jar": {
     "jarName": "puzzle-fabric-2.3.0+1.20.1.jar",
@@ -2171,6 +2219,14 @@
     "version": "1.20-1",
     "curseForgeHash": 1924826819,
     "modrinthHash": "122365680f10fa208a77dbc26309830c4da83e4f"
+  },
+  "rhino-fabric-2001.2.3-build.10.jar": {
+    "jarName": "rhino-fabric-2001.2.3-build.10.jar",
+    "modId": "rhino",
+    "name": "Rhino",
+    "version": "2001.2.3-build.10",
+    "curseForgeHash": 1370570636,
+    "modrinthHash": "a1fd74cf31c0bf959803870c1ac3d918ae66fc1e"
   },
   "rightclickharvest-fabric-4.6.1+1.20.1.jar": {
     "jarName": "rightclickharvest-fabric-4.6.1+1.20.1.jar",
@@ -2300,6 +2356,14 @@
     "curseForgeHash": 3728602792,
     "modrinthHash": "e9f9793aff2a2d2c370b8c7d6f7f53c0f6dc30c6"
   },
+  "smooththirdpersoncamera-1.0.0-mc1.20x.jar": {
+    "jarName": "smooththirdpersoncamera-1.0.0-mc1.20x.jar",
+    "modId": "smooththirdpersoncamera",
+    "name": "Smooth Third Person Camera",
+    "version": "1.0.0-mc1.20x-only",
+    "curseForgeHash": 1302119152,
+    "modrinthHash": "d31dad91e52090219545d663c5814f652931d94d"
+  },
   "SnowUnderTrees-2.5.4+1.20.1.jar": {
     "jarName": "SnowUnderTrees-2.5.4+1.20.1.jar",
     "modId": "snowundertrees",
@@ -2403,14 +2467,6 @@
     "version": "1.0.3-fabric",
     "curseForgeHash": 2768272574,
     "modrinthHash": "14b097ed2774dfb119f3397a754e59e34333d344"
-  },
-  "spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar": {
-    "jarName": "spawnanimations-v1.11.5-mc1.17-26.2.9-mod.jar",
-    "modId": "spawnanimations",
-    "name": "Spawn Animations",
-    "version": "1.11.5+mod",
-    "curseForgeHash": 2849032587,
-    "modrinthHash": "fae7ffdaf86635ff651b036d124bc40361ba33f4"
   },
   "starlight-1.1.2+fabric.dbc156f.jar": {
     "jarName": "starlight-1.1.2+fabric.dbc156f.jar",

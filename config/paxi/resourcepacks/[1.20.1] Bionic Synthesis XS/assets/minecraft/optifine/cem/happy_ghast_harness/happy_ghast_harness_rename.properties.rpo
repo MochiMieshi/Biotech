@@ -1,0 +1,3 @@
+{
+    condition: "!appaGhasts.bisonSpawnCondition.default & appaGhasts.freshAnimationsSupport.off"
+}

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aAnethek",
+  "options.clouds.fast": "§eUskis",
+  "options.difficulty.easy": "§aEs",
+  "options.difficulty.hard": "§cKales",
+  "options.difficulty.normal": "§eKemmyn",
+  "options.difficulty.peaceful": "§bHebask",
+  "options.graphics.fabulous": "§dSplann!",
+  "options.graphics.fancy": "§aAnethek",
+  "options.graphics.fast": "§eUskis",
+  "options.narrator.all": "§aHwedhla Pub Tra",
+  "options.narrator.chat": "§aHwedhla Keskows",
+  "options.narrator.notavailable": "§aDisgavadow",
+  "options.narrator.off": "§cMAROW",
+  "options.narrator.system": "§aHwedhla an System",
+  "options.off": "§cMAROW",
+  "options.on": "§aBYW"
+}

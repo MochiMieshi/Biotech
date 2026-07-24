@@ -1,0 +1,18 @@
+filename = 'Ashen_Lets_Do_Support_1.0.zip'
+name = "Ashen + Let's Do Support"
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '02c61891d33f52d3b306a39509bb938fa41d1f3df260f5bf94f01411058ee1fffe8fb4c09fac75aedaec9c1a96625c01801b9bd79392edb2eef29828168c144a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LxWe8vLh/versions/Ab2CIzJJ/Ashen_Lets_Do_Support_1.0.zip'
+
+[update.modrinth]
+mod-id = 'LxWe8vLh'
+version = 'Ab2CIzJJ'

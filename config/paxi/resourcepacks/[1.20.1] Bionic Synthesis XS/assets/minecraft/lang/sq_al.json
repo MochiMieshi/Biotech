@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aDetajuar",
+  "options.clouds.fast": "§eShpejtë",
+  "options.difficulty.easy": "§aE lehtë",
+  "options.difficulty.hard": "§cE vështirë",
+  "options.difficulty.normal": "§eNormale",
+  "options.difficulty.peaceful": "§bPaqësore",
+  "options.graphics.fabulous": "§dE mrekullueshme !",
+  "options.graphics.fancy": "§aDetajuar",
+  "options.graphics.fast": "§eShpejtë",
+  "options.narrator.all": "§aTregon të gjitha",
+  "options.narrator.chat": "§aTregon bisedën",
+  "options.narrator.notavailable": "§aI padisponueshëm",
+  "options.narrator.off": "§cI çaktivizuar",
+  "options.narrator.system": "§aTregon sistemin",
+  "options.off": "§cJo",
+  "options.on": "§aPo"
+}

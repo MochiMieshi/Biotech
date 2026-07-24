@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§a精緻",
+  "options.clouds.fast": "§e流暢",
+  "options.difficulty.easy": "§a簡單",
+  "options.difficulty.hard": "§c困難",
+  "options.difficulty.normal": "§e普通",
+  "options.difficulty.peaceful": "§b和平",
+  "options.graphics.fabulous": "§d極致！",
+  "options.graphics.fancy": "§a精緻",
+  "options.graphics.fast": "§e流暢",
+  "options.narrator.all": "§a朗讀全部",
+  "options.narrator.chat": "§a朗讀聊天欄",
+  "options.narrator.notavailable": "§a無法使用",
+  "options.narrator.off": "§c關閉",
+  "options.narrator.system": "§a朗讀系統訊息",
+  "options.off": "§c關閉",
+  "options.on": "§a開啟"
+}

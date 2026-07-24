@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aКэрэтик",
+  "options.clouds.fast": "§eТүргэнник",
+  "options.difficulty.easy": "§aЧэпчэки",
+  "options.difficulty.hard": "§cЫарахан",
+  "options.difficulty.normal": "§eКөннөрү",
+  "options.difficulty.peaceful": "§bХолку",
+  "options.graphics.fabulous": "§dОлус үчүгэй!",
+  "options.graphics.fancy": "§aКэрэтик",
+  "options.graphics.fast": "§eТүргэнник",
+  "options.narrator.all": "§aБарытын ааҕан иһитиннэрэр",
+  "options.narrator.chat": "§aКэпсэтиини ааҕан иһитиннэрэр",
+  "options.narrator.notavailable": "§aКыаллыбат",
+  "options.narrator.off": "§cАрахсыбыт",
+  "options.narrator.system": "§aСистиэмэ суругун ааҕар",
+  "options.off": "§cАрахсыбыт",
+  "options.on": "§aХолбоммут"
+}

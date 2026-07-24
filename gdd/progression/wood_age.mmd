@@ -1,0 +1,31 @@
+graph LR
+
+subgraph Materials
+    wood[Wood]
+    planks[Planks]
+    craftPlanks{Craft}
+    stick[Stick]
+    craftStick{Craft}
+end
+
+subgraph Crafting
+    %% Standard box for placeable stations
+    craftingTable[Crafting Table]
+end
+
+subgraph Tools
+    %% Pill shape for reusable tools
+    woodenTools([Wooden Tools])
+end
+
+%% Process Hubs
+buildTable{Craft}
+craftTools{Craft}
+
+%% Connections routed through hubs
+wood & stick --> craftPlanks --> planks
+
+planks --> craftStick --> stick
+planks --> buildTable --> craftingTable
+
+craftingTable --> craftTools --> woodenTools

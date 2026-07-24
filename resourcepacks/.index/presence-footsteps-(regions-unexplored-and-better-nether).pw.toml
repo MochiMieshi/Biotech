@@ -1,0 +1,18 @@
+filename = 'presence footsteps (modded).zip'
+name = 'presence footsteps (regions unexplored and better nether)'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '5f2927228ae28d3092c3b6fcfca9d64cea9b20912d09a6059077a23a7bc46d185a96948f03b2bd2816cd43620b9d751babaffc18057cf37805155bad7a38039f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pYSXM5rm/versions/LIwW0p6Z/presence footsteps %28modded%29.zip'
+
+[update.modrinth]
+mod-id = 'pYSXM5rm'
+version = 'LIwW0p6Z'

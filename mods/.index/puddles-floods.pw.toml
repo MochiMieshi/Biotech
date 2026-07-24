@@ -1,0 +1,25 @@
+filename = 'puddleflood-1.1.5+1.20.1-fabric.jar'
+name = 'Puddles & Floods'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.1.5+1.20.1-fabric'
+
+[download]
+hash = 'fbabcb54c015c6e93e1b03548297802ac4f708d5b29986255d786d5148aa9880bee52a615d0b058aa7032948bb8900c4cd4c883a75fe81892d645dff850e2952'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xeRVd78z/versions/QneU0Aw2/puddleflood-1.1.5%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'xeRVd78z'
+version = 'QneU0Aw2'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

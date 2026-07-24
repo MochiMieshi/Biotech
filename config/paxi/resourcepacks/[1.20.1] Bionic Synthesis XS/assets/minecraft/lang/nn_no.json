@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aStaseleg",
+  "options.clouds.fast": "§eSnøgg",
+  "options.difficulty.easy": "§aLett",
+  "options.difficulty.hard": "§cVandt",
+  "options.difficulty.normal": "§eVanleg",
+  "options.difficulty.peaceful": "§bFred på jord",
+  "options.graphics.fabulous": "§dFramifrå!",
+  "options.graphics.fancy": "§aStaseleg",
+  "options.graphics.fast": "§eSnøgt",
+  "options.narrator.all": "§aLes opp alt",
+  "options.narrator.chat": "§aLes opp nettpraten",
+  "options.narrator.notavailable": "§aIkkje tilgjengeleg",
+  "options.narrator.off": "§cAV",
+  "options.narrator.system": "§aFortel om systemet",
+  "options.off": "§cAV",
+  "options.on": "§aPÅ"
+}

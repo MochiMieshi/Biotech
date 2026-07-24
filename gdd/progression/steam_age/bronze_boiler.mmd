@@ -1,0 +1,29 @@
+graph LR
+
+subgraph Inputs
+    fuels[Fuels]
+    lithicSlurry[Lithic slurry]
+
+    subgraph Bronze
+        bronzePlate[Bronze plate]
+        bronzeTank[Bronze tank]
+    end
+end
+
+subgraph Workstations
+    furnace[Furnace]
+end
+
+subgraph Fire clay brick
+    fireClayBrick[Fire clay brick]
+end
+
+smeltFireClayBrick{Smelt}
+furnace & lithicSlurry & fuels --> smeltFireClayBrick --> fireClayBrick
+
+subgraph Bronze boiler
+    bronzeBoiler[Bronze boiler]
+end
+
+craftBronzeBoiler{Craft}
+fireClayBrick & bronzePlate & furnace & bronzeTank --> craftBronzeBoiler --> bronzeBoiler

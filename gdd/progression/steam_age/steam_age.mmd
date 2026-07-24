@@ -1,0 +1,69 @@
+graph LR
+
+subgraph Inputs
+    fuels[Fuels]
+    waterBucket[Water bucket]
+    forgeHammer[Forge hammer]
+
+    subgraph Bronze
+        bronzePlate[Bronze plate]
+        bronzeMachineCasing[Bronze machine casing]
+        bronzeCurvedPlate[Bronze curved plate]
+        bronzeTank[Bronze tank]
+    end
+
+    subgraph Copper
+        copperRing[Copper ring]
+        copperBolt[Copper bolt]
+        copperCurvedPlate[Copper curved plate]
+        copperRod[Copper rod]
+        copperGear[Copper gear]
+        copperRotor[Copper rotor]
+    end
+
+    lithicSlurry[Lithic slurry]
+
+    subgraph Glass
+        glassPane[Glass pane]
+    end
+end
+
+subgraph Workstations
+    furnace[Furnace]
+end
+
+subgraph Steam bucket
+    steamBucket[Steam bucket]
+end
+
+smeltSteamBucket{Smelt}
+furnace & waterBucket & fuels --> smeltSteamBucket --> steamBucket
+
+subgraph Fire clay brick
+    fireClayBrick[Fire clay brick]
+end
+
+smeltFireClayBrick{Smelt}
+furnace & lithicSlurry & fuels --> smeltFireClayBrick --> fireClayBrick
+
+subgraph Bronze boiler
+    bronzeBoiler[Bronze boiler]
+end
+
+craftBronzeBoiler{Craft}
+fireClayBrick & bronzePlate & furnace & bronzeTank --> craftBronzeBoiler --> bronzeBoiler
+
+subgraph Fluid pipe
+    fluidPipe[Fluid pipe]
+end
+
+craftFluidPipe{Craft}
+glassPane & copperRotor & bronzeCurvedPlate --> craftFluidPipe --> fluidPipe
+
+subgraph Bronze compressor
+    bronzeCompressor[Bronze compressor]
+end
+
+craftBronzeCompressor{Craft}
+
+copperRod & copperGear & fluidPipe & forgeHammer & bronzeMachineCasing --> craftBronzeCompressor --> bronzeCompressor

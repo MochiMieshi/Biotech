@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFraai",
+  "options.clouds.fast": "§eSnel",
+  "options.difficulty.easy": "§aMakkelijk",
+  "options.difficulty.hard": "§cMoeilijk",
+  "options.difficulty.normal": "§eNormaal",
+  "options.difficulty.peaceful": "§bVredig",
+  "options.graphics.fabulous": "§dFantastisch!",
+  "options.graphics.fancy": "§aFraai",
+  "options.graphics.fast": "§eSnel",
+  "options.narrator.all": "§aVertelt alles",
+  "options.narrator.chat": "§aVertelt chatberichten",
+  "options.narrator.notavailable": "§aNiet beschikbaar",
+  "options.narrator.off": "§cUIT",
+  "options.narrator.system": "§aVertelt systeemberichten",
+  "options.off": "§cUIT",
+  "options.on": "§aAAN"
+}

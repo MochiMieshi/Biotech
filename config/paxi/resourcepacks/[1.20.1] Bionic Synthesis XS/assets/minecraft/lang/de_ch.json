@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aSchön",
+  "options.clouds.fast": "§eSchnell",
+  "options.difficulty.easy": "§aEifach",
+  "options.difficulty.hard": "§cSchwer",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bFriedlich",
+  "options.graphics.fabulous": "§dSagehaft!",
+  "options.graphics.fancy": "§aSchön",
+  "options.graphics.fast": "§eSchnell",
+  "options.narrator.all": "§aLest alles",
+  "options.narrator.chat": "§aLest Chat",
+  "options.narrator.notavailable": "§aN. verfüegbar",
+  "options.narrator.off": "§cUs",
+  "options.narrator.system": "§aLest System",
+  "options.off": "§cUs",
+  "options.on": "§aA"
+}

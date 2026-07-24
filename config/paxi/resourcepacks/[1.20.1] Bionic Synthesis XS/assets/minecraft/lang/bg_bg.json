@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aКрасиви",
+  "options.clouds.fast": "§eБързи",
+  "options.difficulty.easy": "§aЛесно",
+  "options.difficulty.hard": "§cТрудно",
+  "options.difficulty.normal": "§eНормално",
+  "options.difficulty.peaceful": "§bМирно",
+  "options.graphics.fabulous": "§dПрекрасно!",
+  "options.graphics.fancy": "§aКрасива",
+  "options.graphics.fast": "§eБърза",
+  "options.narrator.all": "§aОзвучава всичко",
+  "options.narrator.chat": "§aОзвучаване на чата",
+  "options.narrator.notavailable": "§aНе е налично",
+  "options.narrator.off": "§cИзкл.",
+  "options.narrator.system": "§aОзвучава системните съобщения",
+  "options.off": "§cИзкл.",
+  "options.on": "§aВкл."
+}

@@ -1,8 +1,0 @@
-{
-	"credit": "Yuushya",
-	"parent":"block/redstone_lamp",
-	"textures": {
-		"0": "block/redstone_lamp_on",
-		"particle": "block/redstone_lamp_on"
-	}
-}

@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aBela",
+  "options.clouds.fast": "§eRapida",
+  "options.difficulty.easy": "§aFacila",
+  "options.difficulty.hard": "§cMalfacila",
+  "options.difficulty.normal": "§eNormala",
+  "options.difficulty.peaceful": "§bPaca",
+  "options.graphics.fabulous": "§dFabela!",
+  "options.graphics.fancy": "§aBela",
+  "options.graphics.fast": "§eRapida",
+  "options.narrator.all": "§aRakonti ĉion",
+  "options.narrator.chat": "§aRakonti babilejojn",
+  "options.narrator.notavailable": "§aNe uzebla",
+  "options.narrator.off": "§cNE",
+  "options.narrator.system": "§aRakonti sistemon",
+  "options.off": "§cNe",
+  "options.on": "§aJes"
+}

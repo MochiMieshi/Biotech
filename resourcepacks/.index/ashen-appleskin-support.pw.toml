@@ -1,0 +1,18 @@
+filename = 'Ashen_Appleskin_Support_1.1.zip'
+name = 'Ashen + Appleskin Support'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = '447ac642af2efc046b35c19e5fe0da56f4cc25d61aacf5b7d24710d8376ccf141152e0ca9dec1c16021431399cd8dc80a4bac58357a508f57110d4b47687019c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DWUyH6Mk/versions/C52k5USq/Ashen_Appleskin_Support_1.1.zip'
+
+[update.modrinth]
+mod-id = 'DWUyH6Mk'
+version = 'C52k5USq'

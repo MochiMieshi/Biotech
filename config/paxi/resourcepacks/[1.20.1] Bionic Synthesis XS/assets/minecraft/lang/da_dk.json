@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aFlot",
+  "options.clouds.fast": "§eHurtig",
+  "options.difficulty.easy": "§aLet",
+  "options.difficulty.hard": "§cSvær",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.peaceful": "§bFredelig",
+  "options.graphics.fabulous": "§dFabelagtig!",
+  "options.graphics.fancy": "§aFlot",
+  "options.graphics.fast": "§eHurtig",
+  "options.narrator.all": "§aLæs alt højt",
+  "options.narrator.chat": "§aLæs chat højt",
+  "options.narrator.notavailable": "§aIkke tilgængelig",
+  "options.narrator.off": "§cFRA",
+  "options.narrator.system": "§aOplæs system",
+  "options.off": "§cFRA",
+  "options.on": "§aTIL"
+}

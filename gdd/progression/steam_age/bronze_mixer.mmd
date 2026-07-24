@@ -1,0 +1,32 @@
+graph LR
+
+subgraph Inputs
+    subgraph Bronze
+        bronzeMachineCasing[Bronze machine casing]
+        bronzeCurvedPlate[Bronze curved plate]
+    end
+
+    subgraph Copper
+        copperGear[Copper gear]
+        copperRotor[Copper rotor]
+    end
+
+    subgraph Glass
+        glass[Glass]
+        glassPane[Glass pane]
+    end
+end
+
+subgraph Fluid pipe
+    fluidPipe[Fluid pipe]
+end
+
+craftFluidPipe{Craft}
+glassPane & copperRotor & bronzeCurvedPlate --> craftFluidPipe --> fluidPipe
+
+subgraph Bronze mixer
+    bronzeMixer[Bronze mixer]
+end
+
+craftBronzeMixer{Craft}
+glass & copperGear & copperRotor & bronzeMachineCasing & fluidPipe --> craftBronzeMixer --> bronzeMixer

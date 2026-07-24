@@ -1,0 +1,241 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "flying_lemur.png",
+	"models": [
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [1.5, -7.06, 2.76]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1, -2, 1.05]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, -2.93, -1.16]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -7.06, 2.76]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -8.31, 2.76]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -7.5, 3],
+			"submodels": [
+				{
+					"id": "lemur",
+					"invertAxis": "xy",
+					"translate": [0, 6, 0],
+					"boxes": [
+						{"coordinates": [-2, -6, -1.5, 4, 8, 3], "textureOffset": [0, 0], "sizeAdd": 0.01}
+					],
+					"submodels": [
+						{
+							"id": "lemurtail1",
+							"invertAxis": "xy",
+							"translate": [0, -5.5, 1.5],
+							"boxes": [
+								{"coordinates": [-0.5, -0.5, 0, 1, 1, 4], "textureOffset": [24, 8]}
+							],
+							"submodels": [
+								{
+									"id": "lemurtail2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 4],
+									"boxes": [
+										{"coordinates": [-0.5, -0.5, 0, 1, 1, 3], "textureOffset": [24, 21], "sizeAdd": -0.01}
+									],
+									"submodels": [
+										{
+											"id": "lemurtail3",
+											"invertAxis": "xy",
+											"translate": [0, 0, 3],
+											"boxes": [
+												{"coordinates": [-0.5, -0.5, 0, 1, 1, 3], "textureOffset": [24, 13], "sizeAdd": -0.02}
+											],
+											"submodels": [
+												{
+													"id": "lemurtail4",
+													"invertAxis": "xy",
+													"translate": [0, 0, 3],
+													"boxes": [
+														{"coordinates": [-0.5, -0.5, 0, 1, 1, 3], "textureOffset": [24, 17]}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "lemurhead",
+							"invertAxis": "xy",
+							"translate": [0, 4, 0],
+							"boxes": [
+								{"coordinates": [-2, -2, -2, 4, 4, 4], "textureOffset": [0, 11], "sizeAdd": 0.02}
+							],
+							"submodels": [
+								{
+									"id": "right_ear",
+									"invertAxis": "xy",
+									"translate": [2, 1, 0],
+									"boxes": [
+										{
+											"coordinates": [-2, -3, 0, 4, 10, 0],
+											"uvNorth": [16, 10, 20, 20],
+											"uvSouth": [20, 10, 24, 20],
+											"sizeAdd": 0.01
+										}
+									]
+								},
+								{
+									"id": "left_ear",
+									"invertAxis": "xy",
+									"translate": [-2, 1, 0],
+									"boxes": [
+										{
+											"coordinates": [-2, -3, 0, 4, 10, 0],
+											"uvNorth": [14, 0, 18, 10],
+											"uvSouth": [18, 0, 22, 10],
+											"sizeAdd": 0.01
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "lemur_rightarm",
+							"invertAxis": "xy",
+							"translate": [3, 1, 0],
+							"rotate": [0, 0, 90],
+							"boxes": [
+								{"coordinates": [-1, -5, -1, 2, 6, 2], "textureOffset": [8, 19]}
+							],
+							"submodels": [
+								{
+									"id": "rwing",
+									"invertAxis": "xy",
+									"translate": [1, -5.5, 0],
+									"boxes": [
+										{
+											"coordinates": [-6, -6.5, 0, 6, 13, 0],
+											"uvNorth": [12, 29, 18, 42],
+											"uvSouth": [18, 29, 24, 42],
+											"sizeAdd": 0.01
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "lemur_leftarm",
+							"invertAxis": "xy",
+							"translate": [-3, 1, 0],
+							"rotate": [0, 0, -90],
+							"boxes": [
+								{"coordinates": [-1, -5, -1, 2, 6, 2], "textureOffset": [16, 20]}
+							],
+							"submodels": [
+								{
+									"id": "lwing",
+									"invertAxis": "xy",
+									"translate": [-1, -5.5, 0],
+									"boxes": [
+										{
+											"coordinates": [0, -6.5, 0, 6, 13, 0],
+											"uvNorth": [0, 29, 6, 42],
+											"uvSouth": [6, 29, 12, 42],
+											"sizeAdd": 0.01
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "lemur_rightleg",
+							"invertAxis": "xy",
+							"translate": [2.5, -5, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -6, -1, 2, 6, 2], "textureOffset": [0, 19]}
+							]
+						},
+						{
+							"id": "lemur_leftleg",
+							"invertAxis": "xy",
+							"translate": [-1.5, -5, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -6, -1, 2, 6, 2], "textureOffset": [22, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body.rx": "0",
+					"rwing.visible": "ifb(is_on_ground, false, true)",
+					"lwing.visible": "ifb(is_on_ground, false, true)",
+					"lemur.rx": "if(is_on_ground, if(is_sitting, 0, torad(90)), torad(90))",
+					"lemur.ty": "if(is_sitting, -6, 0)",
+					"lemurhead.rx": "if(is_on_ground, if(is_sitting, head.rx, head.rx+torad(-90)), head.rx+torad(-90))",
+					"lemurhead.ry": "head.rz",
+					"lemurhead.rz": "head.ry",
+					"right_ear.ry": "if(is_on_ground, 0, torad(180))",
+					"left_ear.ry": "if(is_on_ground, 0, torad(180))",
+					"right_ear.rx": "if(is_on_ground, 0, -sin(time*1.5)/70+torad(55))",
+					"left_ear.rx": "if(is_on_ground, 0, -sin(time*1.5)/70+torad(55))",
+					"right_ear.rz": "if(is_on_ground, torad(-7.5), torad(-10))",
+					"left_ear.rz": "if(is_on_ground, torad(7.5), torad(10))",
+					"rwing.ry": "sin(time*1.5)/70",
+					"lwing.ry": "-sin(time*1.5)/70",
+					"lemur_rightarm.rx": "if(is_on_ground, if(is_sitting, 0, torad(-90)), if((((sin((time+(random(id)*100))/10))*50)-40.45085)>0, (-sin(time))/3, 0))",
+					"lemur_leftarm.rx": "if(is_on_ground, if(is_sitting, 0, torad(-90)), if((((sin((time+(random(id)*100))/10))*50)-40.45085)>0, (-sin(time))/3, 0))",
+					"lemur_rightarm.tz": "if(is_on_ground, if(is_sitting, 0, -1), 0)",
+					"lemur_leftarm.tz": "if(is_on_ground, if(is_sitting, 0, -1), 0)",
+					"lemur_rightarm.tx": "if(is_on_ground, if(is_sitting, 0, 2), -3)",
+					"lemur_leftarm.tx": "if(is_on_ground, if(is_sitting, 0, -2), 3)",
+					"lemur_rightarm.ry": "if(is_on_ground, if(is_sitting, 0, if(limb_speed>0.5, sin(time/3)/3, 0)), 0)",
+					"lemur_leftarm.ry": "if(is_on_ground, if(is_sitting, 0, if(limb_speed>0.5, sin(time/3)/3, 0)), 0)",
+					"lemur_rightleg.rx": "if(is_on_ground, if(is_sitting && is_on_ground, torad(-40), if(limb_speed>0.5, -sin(time/3)/3+torad(-90), torad(-90))), 0)",
+					"lemur_leftleg.rx": "if(is_on_ground, if(is_sitting && is_on_ground, torad(-40), if(limb_speed>0.5, sin(time/3)/3+torad(-90), torad(-90))), 0)",
+					"lemur_rightleg.ty": "if(is_sitting && is_on_ground, 3, 5)",
+					"lemur_leftleg.ty": "if(is_sitting && is_on_ground, 3, 5)",
+					"lemur_rightleg.tx": "if(is_sitting && is_on_ground, -4, -2.5)",
+					"lemur_leftleg.tx": "if(is_sitting && is_on_ground, 3, 1.5)",
+					"lemur_rightleg.tz": "if(is_sitting && is_on_ground, 1, 0)",
+					"lemur_leftleg.tz": "if(is_sitting && is_on_ground, 1, 0)",
+					"lemur_rightleg.rz": "if(is_sitting && is_on_ground, torad(-30), 0)",
+					"lemur_leftleg.rz": "if(is_sitting && is_on_ground, torad(30), 0)",
+					"lemurtail1.rx": "if(is_on_ground, torad(-60), torad(-90))",
+					"lemurtail2.rx": "if(is_on_ground, torad(30), torad(0))",
+					"lemurtail3.rx": "if(is_on_ground, torad(-80), torad(0))",
+					"lemurtail4.rx": "if(is_on_ground, torad(-110), torad(0))"
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1, -2, 1.05]
+		}
+	]
+}

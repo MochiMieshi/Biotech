@@ -1,0 +1,46 @@
+graph LR
+
+subgraph Terrain
+    dirt[Dirt]
+    mud[Mud]
+    craftMud{Craft}
+    
+    dirt --> craftMud --> mud
+
+    granite[Granite]
+    andesite[Andesite]
+    diorite[Diorite]
+    cobblestone[Cobblestone]
+    cobblestones[Cobblestones]
+    stones[Stones]
+end
+
+subgraph Tooling
+    stick[Stick]
+    
+    %% Pill shapes for tools
+    woodenTools([Wooden Tools])
+    stoneTools([Stone Tools])
+    
+    craftStoneTools{Craft}
+end
+
+subgraph Mining
+    clay[Clay]
+    coal[Coal]
+    rawIron[Raw Iron]
+    rawCopper[Raw Copper]
+end
+
+%% Process Nodes for Gathering/Mining
+gatherStone{Mine}
+mineOres{Mine}
+
+%% Wooden tools gathering stone
+woodenTools --> gatherStone --> granite & andesite & diorite & cobblestone & cobblestones & stones
+
+%% Crafting Stone Tools (8 inputs funneled into one hub)
+granite & andesite & diorite & cobblestone & cobblestones & stones & mud & stick --> craftStoneTools --> stoneTools
+
+%% Stone tools mining advanced resources
+stoneTools --> mineOres --> clay & coal & rawIron & rawCopper

@@ -1,0 +1,15 @@
+graph LR
+
+woodAge["<b>Wood Age</b><br>The basic starting tier"]
+stoneAge["<b>Stone Age</b><br>Unlocks mortar and furnace processing"]
+mortarProcessing["<b>Mortar Processing</b><br>Material preparation"]
+furnaceProcessing["<b>Furnace Processing</b><br>Gateway to metallurgy"]
+ironAge["<b>Iron Age</b><br>Unlocks item & fluid pipes<br>for storage systems"]
+copperAge["<b>Copper Age</b><br>Unlocks the drill (use with<br>forge hammer to double ore rate)"]
+bronzeAge[Bronze Age]
+steamAge[Steam Age]
+
+woodAge --> stoneAge --> mortarProcessing --> furnaceProcessing
+furnaceProcessing --> ironAge --> copperAge & bronzeAge
+furnaceProcessing --> copperAge --> bronzeAge
+bronzeAge --> steamAge

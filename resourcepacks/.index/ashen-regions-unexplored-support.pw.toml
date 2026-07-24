@@ -1,0 +1,18 @@
+filename = 'Ashen_Regions_Unexplored_Support_1.0.zip'
+name = 'Ashen + Regions Unexplored Support'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '3bd0d11370bc7ad3aaa87f41169b4e9cac8ec43530f57e88b2b6a4ec688d36239adcba6e19bd545125f651de643840b094d4a56e84761ba88999a96092729565'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Bw7Oyi0i/versions/KXFR8npK/Ashen_Regions_Unexplored_Support_1.0.zip'
+
+[update.modrinth]
+mod-id = 'Bw7Oyi0i'
+version = 'KXFR8npK'

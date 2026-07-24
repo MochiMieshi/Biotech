@@ -1,0 +1,18 @@
+{
+  "options.clouds.fancy": "§aMarangya",
+  "options.clouds.fast": "§eMabilis",
+  "options.difficulty.easy": "§aMadali",
+  "options.difficulty.hard": "§cMahirap",
+  "options.difficulty.normal": "§eKatamtaman",
+  "options.difficulty.peaceful": "§bMapayapa",
+  "options.graphics.fabulous": "§dMaganda!",
+  "options.graphics.fancy": "§aSosyal",
+  "options.graphics.fast": "§eMabilis",
+  "options.narrator.all": "§aSinasabi Lahat",
+  "options.narrator.chat": "§aSinasabi ang Chat",
+  "options.narrator.notavailable": "§aHindi Magamit",
+  "options.narrator.off": "§cNAKAPATAY",
+  "options.narrator.system": "§aSinasabi ang System",
+  "options.off": "§cNAKAPATAY",
+  "options.on": "§aBUKAS"
+}

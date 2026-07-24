@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_0", "y":0, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_0", "y":90, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_0", "y":180, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_0", "y":270, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_1", "y":0, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_1", "y":90, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_1", "y":180, "weight":1},
+      {"model": "block/variated/flowers/blue_orchid/blue_orchid_1", "y":270, "weight":1}
+    ]
+  }
+}
